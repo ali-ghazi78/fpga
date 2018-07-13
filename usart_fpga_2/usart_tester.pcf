@@ -1,10 +1,10 @@
 //! **************************************************************************
-// Written by: Map P.20131013 on Fri Jul 13 18:16:25 2018
+// Written by: Map P.20131013 on Fri Jul 13 19:01:47 2018
 //! **************************************************************************
 
 SCHEMATIC START;
+COMP "led1" LOCATE = SITE "P131" LEVEL 1;
 COMP "led2" LOCATE = SITE "P133" LEVEL 1;
-COMP "k" LOCATE = SITE "P131" LEVEL 1;
 COMP "tx" LOCATE = SITE "P51" LEVEL 1;
 COMP "clock" LOCATE = SITE "P84" LEVEL 1;
 COMP "reset" LOCATE = SITE "P38" LEVEL 1;

@@ -18,17 +18,24 @@
 // Additional Comments: 
 //
 //////////////////////////////////////////////////////////////////////////////////
+
+
 //--------------------------reset is active low---------------------------------
 //-------------------(8bit data) (no parity) (1 stop bit)-----------------------
 //transmit input is always 1 .when loading data finished and you wanted to send data make transmit low 
-module my_usart(k,reset,clock,prescaler[15:0],data[7:0],rx_pin,tx_pin,transmit,uart_busy);
+
+
+
+module my_usart(led,reset,clock,prescaler[15:0],data[7:0],rx_pin,tx_pin,transmit,uart_busy);
+	`define not_busy 1
+   `define busy 0
 	input reset;
 	input clock;
 	input [7:0] data;
 	input rx_pin;
 	input transmit;
 	input [15:0] prescaler;
-	output k;
+	output led;
 	output reg uart_busy;
 	output tx_pin;
 	wire clock_devided;
@@ -37,18 +44,18 @@ module my_usart(k,reset,clock,prescaler[15:0],data[7:0],rx_pin,tx_pin,transmit,u
 	reg[15:0] clock_counter;
 	reg finished;
 	reg [7:0] data_temp;
-	reg k;
+	reg led;
 	reg [31:0]p;
 	reg flag_wait;
 	initial begin
-		uart_busy=1;//1 means not busy 
+		uart_busy=`not_busy;		//1 means not busy 
 		finished=1;
 		counter=0;
 		tx_pin=1;
 		data_temp=data;
 		flag_wait=0;
 		p=0;
-		k=1;
+		led=1;
 	end
 	always @(posedge clock ) begin
 		clock_counter=clock_counter+1;
@@ -58,7 +65,7 @@ module my_usart(k,reset,clock,prescaler[15:0],data[7:0],rx_pin,tx_pin,transmit,u
 			finished=1;
 			flag_wait=0;
 			clock_counter=0;
-			uart_busy=1;
+			uart_busy=`not_busy;
 		end
 		if(transmit==1)
 			flag_wait=0;
@@ -68,12 +75,12 @@ module my_usart(k,reset,clock,prescaler[15:0],data[7:0],rx_pin,tx_pin,transmit,u
 				counter=counter+1;
 				finished =0;
 				if(counter==1)begin
-					uart_busy=0;//is busy
+					uart_busy=`busy;//is busy
 					tx_pin=0;										//start		
 					data_temp=data;
 				end 
 				else if(counter>=10)begin
-					uart_busy=1;//not busy .sending data finished
+					uart_busy=`not_busy;//not busy .sending data finished
 					tx_pin=1;				//stop
 					counter=0;
 					finished =1;
@@ -81,7 +88,7 @@ module my_usart(k,reset,clock,prescaler[15:0],data[7:0],rx_pin,tx_pin,transmit,u
 						flag_wait=1;
 					else
 						flag_wait=0;
-					k=~k;
+					led=~led;
 
 				end
 				else begin
@@ -91,7 +98,6 @@ module my_usart(k,reset,clock,prescaler[15:0],data[7:0],rx_pin,tx_pin,transmit,u
 			end
 		end
 	end
-
 endmodule
 
 

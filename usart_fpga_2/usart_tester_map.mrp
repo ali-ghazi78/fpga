@@ -11,7 +11,7 @@ Target Device  : xc6slx9
 Target Package : tqg144
 Target Speed   : -2
 Mapper Version : spartan6 -- $Revision: 1.55 $
-Mapped Date    : Fri Jul 13 18:16:17 2018
+Mapped Date    : Fri Jul 13 19:01:40 2018
 
 Design Summary
 --------------
@@ -143,7 +143,7 @@ Section 6 - IOB Properties
 |                                    |                  |           |                      | Term  | Strength | Rate |              |          | Delay    |
 +---------------------------------------------------------------------------------------------------------------------------------------------------------+
 | clock                              | IOB              | INPUT     | LVCMOS33             |       |          |      |              |          |          |
-| k                                  | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          |          |
+| led1                               | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          |          |
 | led2                               | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          |          |
 | reset                              | IOB              | INPUT     | LVCMOS33             |       |          |      |              |          |          |
 | tx                                 | IOB              | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          |          |

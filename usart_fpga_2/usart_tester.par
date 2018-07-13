@@ -1,7 +1,7 @@
 Release 14.7 par P.20131013 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-DESKTOP-2HEV61A::  Fri Jul 13 18:16:28 2018
+DESKTOP-2HEV61A::  Fri Jul 13 19:01:51 2018
 
 par -w -intstyle ise -ol high -mt off usart_tester_map.ncd usart_tester.ncd
 usart_tester.pcf 

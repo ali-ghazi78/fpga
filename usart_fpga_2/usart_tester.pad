@@ -1,7 +1,7 @@
 Release 14.7 - par P.20131013 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-Fri Jul 13 18:16:34 2018
+Fri Jul 13 19:01:57 2018
 
 
 # NOTE: This file is designed to be imported into a spreadsheet program
@@ -149,7 +149,7 @@ P127||IOBM|IO_L36P_GCLK15_0|UNUSED||0|||||||||
 P128|||VCCINT||||||||1.2||||
 P129|||VCCAUX||||||||2.5||||
 P130|||GND||||||||||||
-P131|k|IOB|IO_L35N_GCLK16_0|OUTPUT|LVCMOS33|0|12|SLOW||||LOCATED|NO|NONE|
+P131|led1|IOB|IO_L35N_GCLK16_0|OUTPUT|LVCMOS33|0|12|SLOW||||LOCATED|NO|NONE|
 P132||IOBM|IO_L35P_GCLK17_0|UNUSED||0|||||||||
 P133|led2|IOB|IO_L34N_GCLK18_0|OUTPUT|LVCMOS33|0|12|SLOW||||LOCATED|NO|NONE|
 P134||IOBM|IO_L34P_GCLK19_0|UNUSED||0|||||||||

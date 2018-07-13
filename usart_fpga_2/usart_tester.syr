@@ -4,13 +4,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.09 secs
+Total CPU time to Xst completion: 0.36 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.09 secs
+Total CPU time to Xst completion: 0.36 secs
  
 --> Reading design: usart_tester.prj
 
@@ -120,14 +120,14 @@ WARNING:HDLCompiler:1439 - "D:\fpga_project\usart_fpga_2\usart_tester.v" Line 22
 Elaborating module <usart_tester>.
 
 Elaborating module <my_usart>.
-WARNING:HDLCompiler:413 - "D:\fpga_project\usart_fpga_2\usart_module.v" Line 54: Result of 17-bit expression is truncated to fit in 16-bit target.
-WARNING:HDLCompiler:413 - "D:\fpga_project\usart_fpga_2\usart_module.v" Line 68: Result of 9-bit expression is truncated to fit in 8-bit target.
+WARNING:HDLCompiler:413 - "D:\fpga_project\usart_fpga_2\usart_module.v" Line 61: Result of 17-bit expression is truncated to fit in 16-bit target.
+WARNING:HDLCompiler:413 - "D:\fpga_project\usart_fpga_2\usart_module.v" Line 75: Result of 9-bit expression is truncated to fit in 8-bit target.
 
 Elaborating module <clock_devider>.
 WARNING:HDLCompiler:413 - "D:\fpga_project\usart_fpga_2\clock_devider.v" Line 38: Result of 17-bit expression is truncated to fit in 16-bit target.
 WARNING:HDLCompiler:1127 - "D:\fpga_project\usart_fpga_2\usart_tester.v" Line 35: Assignment to wi ignored, since the identifier is never used
 WARNING:HDLCompiler:413 - "D:\fpga_project\usart_fpga_2\usart_tester.v" Line 38: Result of 17-bit expression is truncated to fit in 16-bit target.
-WARNING:HDLCompiler:413 - "D:\fpga_project\usart_fpga_2\usart_tester.v" Line 45: Result of 2-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "D:\fpga_project\usart_fpga_2\usart_tester.v" Line 44: Result of 2-bit expression is truncated to fit in 1-bit target.
 WARNING:Xst:2972 - "D:\fpga_project\usart_fpga_2\usart_tester.v" line 35. All outputs of instance <d2> of block <clock_devider> are unconnected in block <usart_tester>. Underlying logic will be removed.
 
 =========================================================================
@@ -139,7 +139,7 @@ Synthesizing Unit <usart_tester>.
 INFO:Xst:3210 - "D:\fpga_project\usart_fpga_2\usart_tester.v" line 35: Output port <output_clk> of the instance <d2> is unconnected or connected to loadless signal.
     Found 8-bit register for signal <data>.
     Found 1-bit register for signal <transmit>.
-    Found 1-bit register for signal <k>.
+    Found 1-bit register for signal <led1>.
     Summary:
 	inferred  10 D-type flip-flop(s).
 Unit <usart_tester> synthesized.
@@ -153,12 +153,12 @@ WARNING:Xst:647 - Input <rx_pin> is never used. This port will be preserved and 
     Found 1-bit register for signal <flag_wait>.
     Found 1-bit register for signal <uart_busy>.
     Found 8-bit register for signal <data_temp>.
-    Found 1-bit register for signal <k>.
+    Found 1-bit register for signal <led>.
     Found 16-bit register for signal <clock_counter>.
-    Found 16-bit adder for signal <clock_counter[15]_GND_2_o_add_1_OUT> created at line 54.
-    Found 8-bit adder for signal <_n0096> created at line 68.
-    Found 17-bit comparator greater for signal <n0010> created at line 65
-    Found 8-bit comparator greater for signal <n0019> created at line 75
+    Found 16-bit adder for signal <clock_counter[15]_GND_2_o_add_1_OUT> created at line 61.
+    Found 8-bit adder for signal <_n0096> created at line 75.
+    Found 17-bit comparator greater for signal <n0010> created at line 72
+    Found 8-bit comparator greater for signal <n0019> created at line 82
     Summary:
 	inferred   2 Adder/Subtractor(s).
 	inferred  37 D-type flip-flop(s).
@@ -251,7 +251,7 @@ WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <u1/counter_7> has a
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <u1/counter_6> has a constant value of 0 in block <usart_tester>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <u1/counter_5> has a constant value of 0 in block <usart_tester>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <u1/counter_4> has a constant value of 0 in block <usart_tester>. This FF/Latch will be trimmed during the optimization process.
-INFO:Xst:2261 - The FF/Latch <transmit> in Unit <usart_tester> is equivalent to the following FF/Latch, which will be removed : <k> 
+INFO:Xst:2261 - The FF/Latch <transmit> in Unit <usart_tester> is equivalent to the following FF/Latch, which will be removed : <led1> 
 INFO:Xst:2261 - The FF/Latch <u1/finished> in Unit <usart_tester> is equivalent to the following FF/Latch, which will be removed : <u1/uart_busy> 
 
 Mapping all equations...
@@ -431,15 +431,15 @@ Timing constraint: Default OFFSET OUT AFTER for Clock 'clock'
 -------------------------------------------------------------------------
 Offset:              4.563ns (Levels of Logic = 1)
   Source:            transmit (FF)
-  Destination:       k (PAD)
+  Destination:       led1 (PAD)
   Source Clock:      clock rising
 
-  Data Path: transmit to k
+  Data Path: transmit to led1
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
      FD:C->Q              14   0.525   1.126  transmit (transmit)
-     OBUF:I->O                 2.912          k_OBUF (k)
+     OBUF:I->O                 2.912          led1_OBUF (led1)
     ----------------------------------------
     Total                      4.563ns (3.437ns logic, 1.126ns route)
                                        (75.3% logic, 24.7% route)
@@ -461,7 +461,7 @@ clock          |    6.044|         |         |         |
 
 
 Total REAL time to Xst completion: 8.00 secs
-Total CPU time to Xst completion: 7.49 secs
+Total CPU time to Xst completion: 8.08 secs
  
 --> 
 

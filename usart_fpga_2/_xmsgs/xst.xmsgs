@@ -8,10 +8,10 @@
 <msg type="warning" file="HDLCompiler" num="1439" delta="new" >"D:\fpga_project\usart_fpga_2\usart_tester.v" Line 22: Multiple packed dimensions are not allowed in this mode of verilog
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="new" >"D:\fpga_project\usart_fpga_2\usart_module.v" Line 54: Result of <arg fmt="%d" index="1">17</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">16</arg>-bit target.
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"D:\fpga_project\usart_fpga_2\usart_module.v" Line 61: Result of <arg fmt="%d" index="1">17</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">16</arg>-bit target.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="new" >"D:\fpga_project\usart_fpga_2\usart_module.v" Line 68: Result of <arg fmt="%d" index="1">9</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"D:\fpga_project\usart_fpga_2\usart_module.v" Line 75: Result of <arg fmt="%d" index="1">9</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
 </msg>
 
 <msg type="warning" file="HDLCompiler" num="413" delta="new" >"D:\fpga_project\usart_fpga_2\clock_devider.v" Line 38: Result of <arg fmt="%d" index="1">17</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">16</arg>-bit target.
@@ -23,7 +23,7 @@
 <msg type="warning" file="HDLCompiler" num="413" delta="new" >"D:\fpga_project\usart_fpga_2\usart_tester.v" Line 38: Result of <arg fmt="%d" index="1">17</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">16</arg>-bit target.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="new" >"D:\fpga_project\usart_fpga_2\usart_tester.v" Line 45: Result of <arg fmt="%d" index="1">2</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">1</arg>-bit target.
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"D:\fpga_project\usart_fpga_2\usart_tester.v" Line 44: Result of <arg fmt="%d" index="1">2</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">1</arg>-bit target.
 </msg>
 
 <msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">D:\fpga_project\usart_fpga_2\usart_tester.v</arg>&quot; line <arg fmt="%d" index="2">35</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">d2</arg>&gt; of block &lt;<arg fmt="%s" index="4">clock_devider</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">usart_tester</arg>&gt;. Underlying logic will be removed.
@@ -116,7 +116,7 @@
 <msg type="warning" file="Xst" num="1896" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">u1/counter_4</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">usart_tester</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">transmit</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">usart_tester</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;k&gt; </arg>
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">transmit</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">usart_tester</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;led1&gt; </arg>
 </msg>
 
 <msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">u1/finished</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">usart_tester</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;u1/uart_busy&gt; </arg>
