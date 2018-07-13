@@ -1,7 +1,7 @@
 Release 14.7 par P.20131013 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-DESKTOP-2HEV61A::  Fri Jul 13 19:01:51 2018
+DESKTOP-2HEV61A::  Fri Jul 13 21:22:15 2018
 
 par -w -intstyle ise -ol high -mt off usart_tester_map.ncd usart_tester.ncd
 usart_tester.pcf 
@@ -41,7 +41,7 @@ Slice Logic Utilization:
     Number used as Memory:                       0 out of   1,440    0%
 
 Slice Logic Distribution:
-  Number of occupied Slices:                    20 out of   1,430    1%
+  Number of occupied Slices:                    19 out of   1,430    1%
   Number of MUXCYs used:                        24 out of   2,860    1%
   Number of LUT Flip Flop pairs used:           72
     Number with an unused Flip Flop:            46 out of      72   63%
@@ -95,13 +95,13 @@ Finished initial Timing Analysis.  REAL time: 4 secs
 Starting Router
 
 
-Phase  1  : 294 unrouted;      REAL time: 4 secs 
+Phase  1  : 294 unrouted;      REAL time: 5 secs 
 
-Phase  2  : 258 unrouted;      REAL time: 4 secs 
+Phase  2  : 258 unrouted;      REAL time: 5 secs 
 
-Phase  3  : 78 unrouted;      REAL time: 4 secs 
+Phase  3  : 100 unrouted;      REAL time: 5 secs 
 
-Phase  4  : 78 unrouted; (Par is working to improve performance)     REAL time: 5 secs 
+Phase  4  : 100 unrouted; (Par is working to improve performance)     REAL time: 5 secs 
 
 Updating file: usart_tester.ncd with current fully routed design.
 
@@ -137,7 +137,7 @@ Asterisk (*) preceding a constraint indicates it was not met.
   Constraint                                |    Check    | Worst Case |  Best Case | Timing |   Timing   
                                             |             |    Slack   | Achievable | Errors |    Score   
 ----------------------------------------------------------------------------------------------------------
-  Autotimespec constraint for clock net clo | SETUP       |         N/A|     5.724ns|     N/A|           0
+  Autotimespec constraint for clock net clo | SETUP       |         N/A|     5.366ns|     N/A|           0
   ck_BUFGP                                  | HOLD        |     0.438ns|            |       0|           0
 ----------------------------------------------------------------------------------------------------------
 

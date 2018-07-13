@@ -24,11 +24,11 @@
 //-------------------(8bit data) (no parity) (1 stop bit)-----------------------
 //transmit input is always 1 .when loading data finished and you wanted to send data make transmit low 
 
-
+`define not_busy 1
+`define busy 0
 
 module my_usart(led,reset,clock,prescaler[15:0],data[7:0],rx_pin,tx_pin,transmit,uart_busy);
-	`define not_busy 1
-   `define busy 0
+
 	input reset;
 	input clock;
 	input [7:0] data;
@@ -69,7 +69,7 @@ module my_usart(led,reset,clock,prescaler[15:0],data[7:0],rx_pin,tx_pin,transmit
 		end
 		if(transmit==1)
 			flag_wait=0;
-		if(clock_counter*2>=prescaler) begin
+		if(clock_counter>=prescaler) begin
 			clock_counter=0;
 			if((flag_wait==0)&&(transmit==0||finished==0)) begin
 				counter=counter+1;

@@ -1,3 +1,2 @@
 verilog work "usart_module.v"
-verilog work "clock_devider.v"
 verilog work "usart_tester.v"

@@ -11,7 +11,7 @@ Target Device  : xc6slx9
 Target Package : tqg144
 Target Speed   : -2
 Mapper Version : spartan6 -- $Revision: 1.55 $
-Mapped Date    : Fri Jul 13 19:01:40 2018
+Mapped Date    : Fri Jul 13 21:22:05 2018
 
 Mapping design into LUTs...
 Running directed packing...
@@ -20,8 +20,8 @@ Updating timing models...
 INFO:Map:215 - The Interim Design Summary has been generated in the MAP Report
    (.mrp).
 Running timing-driven placement...
-Total REAL time at the beginning of Placer: 4 secs 
-Total CPU  time at the beginning of Placer: 4 secs 
+Total REAL time at the beginning of Placer: 5 secs 
+Total CPU  time at the beginning of Placer: 5 secs 
 
 Phase 1.1  Initial Placement Analysis
 Phase 1.1  Initial Placement Analysis (Checksum:ead4ce74) REAL time: 5 secs 
@@ -52,19 +52,19 @@ Phase 8.5  Local Placement Optimization (Checksum:3dbbde34) REAL time: 7 secs
 Phase 9.8  Global Placement
 ........
 ........
-Phase 9.8  Global Placement (Checksum:7b502276) REAL time: 7 secs 
+Phase 9.8  Global Placement (Checksum:574101a6) REAL time: 7 secs 
 
 Phase 10.5  Local Placement Optimization
-Phase 10.5  Local Placement Optimization (Checksum:7b502276) REAL time: 7 secs 
+Phase 10.5  Local Placement Optimization (Checksum:574101a6) REAL time: 7 secs 
 
 Phase 11.18  Placement Optimization
-Phase 11.18  Placement Optimization (Checksum:bbeb2496) REAL time: 7 secs 
+Phase 11.18  Placement Optimization (Checksum:cd7f2b6e) REAL time: 7 secs 
 
 Phase 12.5  Local Placement Optimization
-Phase 12.5  Local Placement Optimization (Checksum:bbeb2496) REAL time: 7 secs 
+Phase 12.5  Local Placement Optimization (Checksum:cd7f2b6e) REAL time: 7 secs 
 
 Phase 13.34  Placement Validation
-Phase 13.34  Placement Validation (Checksum:bbeb2496) REAL time: 7 secs 
+Phase 13.34  Placement Validation (Checksum:cd7f2b6e) REAL time: 7 secs 
 
 Total REAL time to Placer completion: 7 secs 
 Total CPU  time to Placer completion: 7 secs 
@@ -92,7 +92,7 @@ Slice Logic Utilization:
     Number used as Memory:                       0 out of   1,440    0%
 
 Slice Logic Distribution:
-  Number of occupied Slices:                    20 out of   1,430    1%
+  Number of occupied Slices:                    19 out of   1,430    1%
   Number of MUXCYs used:                        24 out of   2,860    1%
   Number of LUT Flip Flop pairs used:           72
     Number with an unused Flip Flop:            46 out of      72   63%

@@ -19,31 +19,18 @@
 //
 //////////////////////////////////////////////////////////////////////////////////
 module usart_tester(input reset,input clock,input rx,output tx,output reg led1,output led2);
-	reg[59:0][7:0] data_;
 	reg [7:0] data;
-	initial data_="ll h e l l o  w o r l d  w i t h  f p g a ";
 	reg transmit;
-	wire wi;
 	wire busy;
-	reg [15:0]counter;
-	initial counter=0;
 	initial transmit=1;
 	initial led1=1;
-	reg i;
-	initial i=0;
-	my_usart u1( led2,reset,clock,16'd2500,data,rx,tx,transmit,busy);
-	clock_devider d2(clock,16'd12000,wi);
-	
+	initial data=67;
+	my_usart u1( led2,reset,clock,16'd1250,data,rx,tx,transmit,busy);	
 	always @(posedge clock) begin
-		counter=counter+1;
 		if(busy==1)begin//if the device is not busy 
 			data=67;
 			transmit=0;	
 			led1=0;
-			counter=0;
-			i=i+1;
-			if(i>=20)
-				i=0;
 		end
 		if(busy==0)begin
 			transmit=1;
