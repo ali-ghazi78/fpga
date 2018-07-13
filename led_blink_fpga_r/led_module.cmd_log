@@ -1,0 +1,147 @@
+xst -intstyle ise -ifn "D:/fpga_project/led_blink_fpga_r/led_module.xst" -ofn "D:/fpga_project/led_blink_fpga_r/led_module.syr" 
+xst -intstyle ise -ifn "D:/fpga_project/led_blink_fpga_r/led_module.xst" -ofn "D:/fpga_project/led_blink_fpga_r/led_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pininig.ucf -p xc6slx9-tqg144-2 led_module.ngc led_module.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o led_module_map.ncd led_module.ngd led_module.pcf 
+xst -intstyle ise -ifn "D:/fpga_project/led_blink_fpga_r/led_module.xst" -ofn "D:/fpga_project/led_blink_fpga_r/led_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pininig.ucf -p xc6slx9-tqg144-2 led_module.ngc led_module.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o led_module_map.ncd led_module.ngd led_module.pcf 
+par -w -intstyle ise -ol high -mt off led_module_map.ncd led_module.ncd led_module.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml led_module.twx led_module.ncd -o led_module.twr led_module.pcf -ucf pininig.ucf 
+bitgen -intstyle ise -f led_module.ut led_module.ncd 
+xst -intstyle ise -ifn "D:/fpga_project/led_blink_fpga_r/led_module.xst" -ofn "D:/fpga_project/led_blink_fpga_r/led_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pininig.ucf -p xc6slx9-tqg144-2 led_module.ngc led_module.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o led_module_map.ncd led_module.ngd led_module.pcf 
+xst -intstyle ise -ifn "D:/fpga_project/led_blink_fpga_r/led_module.xst" -ofn "D:/fpga_project/led_blink_fpga_r/led_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pininig.ucf -p xc6slx9-tqg144-2 led_module.ngc led_module.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o led_module_map.ncd led_module.ngd led_module.pcf 
+par -w -intstyle ise -ol high -mt off led_module_map.ncd led_module.ncd led_module.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml led_module.twx led_module.ncd -o led_module.twr led_module.pcf -ucf pininig.ucf 
+bitgen -intstyle ise -f led_module.ut led_module.ncd 
+xst -intstyle ise -ifn "D:/fpga_project/led_blink_fpga_r/led_module.xst" -ofn "D:/fpga_project/led_blink_fpga_r/led_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pininig.ucf -p xc6slx9-tqg144-2 led_module.ngc led_module.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o led_module_map.ncd led_module.ngd led_module.pcf 
+par -w -intstyle ise -ol high -mt off led_module_map.ncd led_module.ncd led_module.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml led_module.twx led_module.ncd -o led_module.twr led_module.pcf -ucf pininig.ucf 
+bitgen -intstyle ise -f led_module.ut led_module.ncd 
+xst -intstyle ise -ifn "D:/fpga_project/led_blink_fpga_r/led_module.xst" -ofn "D:/fpga_project/led_blink_fpga_r/led_module.syr" 
+xst -intstyle ise -ifn "D:/fpga_project/led_blink_fpga_r/led_module.xst" -ofn "D:/fpga_project/led_blink_fpga_r/led_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pininig.ucf -p xc6slx9-tqg144-2 led_module.ngc led_module.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o led_module_map.ncd led_module.ngd led_module.pcf 
+par -w -intstyle ise -ol high -mt off led_module_map.ncd led_module.ncd led_module.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml led_module.twx led_module.ncd -o led_module.twr led_module.pcf -ucf pininig.ucf 
+bitgen -intstyle ise -f led_module.ut led_module.ncd 
+xst -intstyle ise -ifn "D:/fpga_project/led_blink_fpga_r/led_module.xst" -ofn "D:/fpga_project/led_blink_fpga_r/led_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pininig.ucf -p xc6slx9-tqg144-2 led_module.ngc led_module.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o led_module_map.ncd led_module.ngd led_module.pcf 
+par -w -intstyle ise -ol high -mt off led_module_map.ncd led_module.ncd led_module.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml led_module.twx led_module.ncd -o led_module.twr led_module.pcf -ucf pininig.ucf 
+bitgen -intstyle ise -f led_module.ut led_module.ncd 
+xst -intstyle ise -ifn "D:/fpga_project/led_blink_fpga_r/led_module.xst" -ofn "D:/fpga_project/led_blink_fpga_r/led_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pininig.ucf -p xc6slx9-tqg144-2 led_module.ngc led_module.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o led_module_map.ncd led_module.ngd led_module.pcf 
+par -w -intstyle ise -ol high -mt off led_module_map.ncd led_module.ncd led_module.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml led_module.twx led_module.ncd -o led_module.twr led_module.pcf -ucf pininig.ucf 
+bitgen -intstyle ise -f led_module.ut led_module.ncd 
+xst -intstyle ise -ifn "D:/fpga_project/led_blink_fpga_r/led_module.xst" -ofn "D:/fpga_project/led_blink_fpga_r/led_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pininig.ucf -p xc6slx9-tqg144-2 led_module.ngc led_module.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o led_module_map.ncd led_module.ngd led_module.pcf 
+par -w -intstyle ise -ol high -mt off led_module_map.ncd led_module.ncd led_module.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml led_module.twx led_module.ncd -o led_module.twr led_module.pcf -ucf pininig.ucf 
+bitgen -intstyle ise -f led_module.ut led_module.ncd 
+xst -intstyle ise -ifn "D:/fpga_project/led_blink_fpga_r/led_module.xst" -ofn "D:/fpga_project/led_blink_fpga_r/led_module.syr" 
+xst -intstyle ise -ifn "D:/fpga_project/led_blink_fpga_r/led_module.xst" -ofn "D:/fpga_project/led_blink_fpga_r/led_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pininig.ucf -p xc6slx9-tqg144-2 led_module.ngc led_module.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o led_module_map.ncd led_module.ngd led_module.pcf 
+par -w -intstyle ise -ol high -mt off led_module_map.ncd led_module.ncd led_module.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml led_module.twx led_module.ncd -o led_module.twr led_module.pcf -ucf pininig.ucf 
+bitgen -intstyle ise -f led_module.ut led_module.ncd 
+xst -intstyle ise -ifn "D:/fpga_project/led_blink_fpga_r/led_module.xst" -ofn "D:/fpga_project/led_blink_fpga_r/led_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pininig.ucf -p xc6slx9-tqg144-2 led_module.ngc led_module.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o led_module_map.ncd led_module.ngd led_module.pcf 
+par -w -intstyle ise -ol high -mt off led_module_map.ncd led_module.ncd led_module.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml led_module.twx led_module.ncd -o led_module.twr led_module.pcf -ucf pininig.ucf 
+bitgen -intstyle ise -f led_module.ut led_module.ncd 
+xst -intstyle ise -ifn "D:/fpga_project/led_blink_fpga_r/led_module.xst" -ofn "D:/fpga_project/led_blink_fpga_r/led_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pininig.ucf -p xc6slx9-tqg144-2 led_module.ngc led_module.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o led_module_map.ncd led_module.ngd led_module.pcf 
+par -w -intstyle ise -ol high -mt off led_module_map.ncd led_module.ncd led_module.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml led_module.twx led_module.ncd -o led_module.twr led_module.pcf -ucf pininig.ucf 
+bitgen -intstyle ise -f led_module.ut led_module.ncd 
+xst -intstyle ise -ifn "D:/fpga_project/led_blink_fpga_r/led_module.xst" -ofn "D:/fpga_project/led_blink_fpga_r/led_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pininig.ucf -p xc6slx9-tqg144-2 led_module.ngc led_module.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o led_module_map.ncd led_module.ngd led_module.pcf 
+par -w -intstyle ise -ol high -mt off led_module_map.ncd led_module.ncd led_module.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml led_module.twx led_module.ncd -o led_module.twr led_module.pcf -ucf pininig.ucf 
+bitgen -intstyle ise -f led_module.ut led_module.ncd 
+xst -intstyle ise -ifn "D:/fpga_project/led_blink_fpga_r/led_module.xst" -ofn "D:/fpga_project/led_blink_fpga_r/led_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pininig.ucf -p xc6slx9-tqg144-2 led_module.ngc led_module.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o led_module_map.ncd led_module.ngd led_module.pcf 
+par -w -intstyle ise -ol high -mt off led_module_map.ncd led_module.ncd led_module.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml led_module.twx led_module.ncd -o led_module.twr led_module.pcf -ucf pininig.ucf 
+bitgen -intstyle ise -f led_module.ut led_module.ncd 
+xst -intstyle ise -ifn "D:/fpga_project/led_blink_fpga_r/led_module.xst" -ofn "D:/fpga_project/led_blink_fpga_r/led_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pininig.ucf -p xc6slx9-tqg144-2 led_module.ngc led_module.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o led_module_map.ncd led_module.ngd led_module.pcf 
+par -w -intstyle ise -ol high -mt off led_module_map.ncd led_module.ncd led_module.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml led_module.twx led_module.ncd -o led_module.twr led_module.pcf -ucf pininig.ucf 
+bitgen -intstyle ise -f led_module.ut led_module.ncd 
+xst -intstyle ise -ifn "D:/fpga_project/led_blink_fpga_r/led_module.xst" -ofn "D:/fpga_project/led_blink_fpga_r/led_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pininig.ucf -p xc6slx9-tqg144-2 led_module.ngc led_module.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o led_module_map.ncd led_module.ngd led_module.pcf 
+par -w -intstyle ise -ol high -mt off led_module_map.ncd led_module.ncd led_module.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml led_module.twx led_module.ncd -o led_module.twr led_module.pcf -ucf pininig.ucf 
+bitgen -intstyle ise -f led_module.ut led_module.ncd 
+xst -intstyle ise -ifn "D:/fpga_project/led_blink_fpga_r/led_module.xst" -ofn "D:/fpga_project/led_blink_fpga_r/led_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pininig.ucf -p xc6slx9-tqg144-2 led_module.ngc led_module.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o led_module_map.ncd led_module.ngd led_module.pcf 
+par -w -intstyle ise -ol high -mt off led_module_map.ncd led_module.ncd led_module.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml led_module.twx led_module.ncd -o led_module.twr led_module.pcf -ucf pininig.ucf 
+bitgen -intstyle ise -f led_module.ut led_module.ncd 
+xst -intstyle ise -ifn "D:/fpga_project/led_blink_fpga_r/led_module.xst" -ofn "D:/fpga_project/led_blink_fpga_r/led_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pininig.ucf -p xc6slx9-tqg144-2 led_module.ngc led_module.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o led_module_map.ncd led_module.ngd led_module.pcf 
+par -w -intstyle ise -ol high -mt off led_module_map.ncd led_module.ncd led_module.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml led_module.twx led_module.ncd -o led_module.twr led_module.pcf -ucf pininig.ucf 
+bitgen -intstyle ise -f led_module.ut led_module.ncd 
+xst -intstyle ise -ifn "D:/fpga_project/led_blink_fpga_r/led_module.xst" -ofn "D:/fpga_project/led_blink_fpga_r/led_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pininig.ucf -p xc6slx9-tqg144-2 led_module.ngc led_module.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o led_module_map.ncd led_module.ngd led_module.pcf 
+par -w -intstyle ise -ol high -mt off led_module_map.ncd led_module.ncd led_module.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml led_module.twx led_module.ncd -o led_module.twr led_module.pcf -ucf pininig.ucf 
+bitgen -intstyle ise -f led_module.ut led_module.ncd 
+xst -intstyle ise -ifn "D:/fpga_project/led_blink_fpga_r/led_module.xst" -ofn "D:/fpga_project/led_blink_fpga_r/led_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pininig.ucf -p xc6slx9-tqg144-2 led_module.ngc led_module.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o led_module_map.ncd led_module.ngd led_module.pcf 
+par -w -intstyle ise -ol high -mt off led_module_map.ncd led_module.ncd led_module.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml led_module.twx led_module.ncd -o led_module.twr led_module.pcf -ucf pininig.ucf 
+bitgen -intstyle ise -f led_module.ut led_module.ncd 
+xst -intstyle ise -ifn "D:/fpga_project/led_blink_fpga_r/led_module.xst" -ofn "D:/fpga_project/led_blink_fpga_r/led_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pininig.ucf -p xc6slx9-tqg144-2 led_module.ngc led_module.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o led_module_map.ncd led_module.ngd led_module.pcf 
+par -w -intstyle ise -ol high -mt off led_module_map.ncd led_module.ncd led_module.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml led_module.twx led_module.ncd -o led_module.twr led_module.pcf -ucf pininig.ucf 
+bitgen -intstyle ise -f led_module.ut led_module.ncd 
+xst -intstyle ise -ifn "D:/fpga_project/led_blink_fpga_r/led_module.xst" -ofn "D:/fpga_project/led_blink_fpga_r/led_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pininig.ucf -p xc6slx9-tqg144-2 led_module.ngc led_module.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o led_module_map.ncd led_module.ngd led_module.pcf 
+par -w -intstyle ise -ol high -mt off led_module_map.ncd led_module.ncd led_module.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml led_module.twx led_module.ncd -o led_module.twr led_module.pcf -ucf pininig.ucf 
+bitgen -intstyle ise -f led_module.ut led_module.ncd 
+xst -intstyle ise -ifn "D:/fpga_project/led_blink_fpga_r/led_module.xst" -ofn "D:/fpga_project/led_blink_fpga_r/led_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pininig.ucf -p xc6slx9-tqg144-2 led_module.ngc led_module.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o led_module_map.ncd led_module.ngd led_module.pcf 
+par -w -intstyle ise -ol high -mt off led_module_map.ncd led_module.ncd led_module.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml led_module.twx led_module.ncd -o led_module.twr led_module.pcf -ucf pininig.ucf 
+bitgen -intstyle ise -f led_module.ut led_module.ncd 
+xst -intstyle ise -ifn "D:/fpga_project/led_blink_fpga_r/led_module.xst" -ofn "D:/fpga_project/led_blink_fpga_r/led_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pininig.ucf -p xc6slx9-tqg144-2 led_module.ngc led_module.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o led_module_map.ncd led_module.ngd led_module.pcf 
+par -w -intstyle ise -ol high -mt off led_module_map.ncd led_module.ncd led_module.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml led_module.twx led_module.ncd -o led_module.twr led_module.pcf -ucf pininig.ucf 
+bitgen -intstyle ise -f led_module.ut led_module.ncd 
+xst -intstyle ise -ifn "D:/fpga_project/led_blink_fpga_r/led_module.xst" -ofn "D:/fpga_project/led_blink_fpga_r/led_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pininig.ucf -p xc6slx9-tqg144-2 led_module.ngc led_module.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o led_module_map.ncd led_module.ngd led_module.pcf 
+par -w -intstyle ise -ol high -mt off led_module_map.ncd led_module.ncd led_module.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml led_module.twx led_module.ncd -o led_module.twr led_module.pcf -ucf pininig.ucf 
+bitgen -intstyle ise -f led_module.ut led_module.ncd 

@@ -1,0 +1,209 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter xsthdpdir set to ./tmp/_cg/can_v3_2_cantop_1_xsd
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.44 secs
+ 
+--> WARNING:Xst:3164 - Option "-iobuf" found multiple times in the command line. Only the first occurence is considered.
+Reading design: ./tmp/_cg/_bbx/can_v3_2_cantop_1.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "./tmp/_cg/_bbx/can_v3_2_cantop_1.prj"
+Input Format                       : vhdl
+
+---- Target Parameters
+Output Format                      : NGC
+Output File Name                   : "./tmp/_cg/can_v3_2_cantop_1.ngc"
+Target Device                      : xc6slx4-3-tqg144
+
+---- Source Options
+Work Library                       : can_v3_2
+Entity Name                        : can_v3_2_cantop_1
+Architecture Name                  : spartan6
+Resource Sharing                   : NO
+
+---- Target Options
+Add IO Buffers                     : NO
+
+---- General Options
+Bus Delimiter                      : <>
+
+=========================================================================
+
+WARNING:Xst:29 - Optimization Effort not specified
+The following parameters have been added:
+Optimization Goal                  : SPEED
+
+=========================================================================
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "D:\fpga_project\pwm_fpga\ipcore_dir\tmp\_cg\_bbx\can_v3_2\can_ip_pkg.vhd" into library can_v3_2
+Parsing package <can_ip_pkg>.
+Parsing package body <can_ip_pkg>.
+Parsing VHDL file "D:\fpga_project\pwm_fpga\ipcore_dir\tmp\_cg\_bbx\can_v3_2\can_bram.vhd" into library can_v3_2
+Parsing entity <can_bram>.
+Parsing architecture <rtl> of entity <can_bram>.
+Parsing VHDL file "D:\fpga_project\pwm_fpga\ipcore_dir\tmp\_cg\_bbx\can_v3_2\can_tl_arbchk.vhd" into library can_v3_2
+Parsing entity <can_tl_arbchk>.
+Parsing architecture <RTL> of entity <can_tl_arbchk>.
+Parsing VHDL file "D:\fpga_project\pwm_fpga\ipcore_dir\tmp\_cg\_bbx\can_v3_2\can_tl_arbit.vhd" into library can_v3_2
+Parsing entity <can_tl_arbit>.
+Parsing architecture <RTL> of entity <can_tl_arbit>.
+Parsing VHDL file "D:\fpga_project\pwm_fpga\ipcore_dir\tmp\_cg\_bbx\can_v3_2\can_ol_fifopriority.vhd" into library can_v3_2
+Parsing entity <can_ol_fifopriority>.
+Parsing architecture <RTL> of entity <can_ol_fifopriority>.
+Parsing VHDL file "D:\fpga_project\pwm_fpga\ipcore_dir\tmp\_cg\_bbx\can_v3_2\can_ic_main.vhd" into library can_v3_2
+Parsing entity <CAN_IC_MAIN>.
+Parsing architecture <rtl> of entity <can_ic_main>.
+Parsing VHDL file "D:\fpga_project\pwm_fpga\ipcore_dir\tmp\_cg\_bbx\can_v3_2\can_ol_synch.vhd" into library can_v3_2
+Parsing entity <CAN_OL_SYNCH>.
+Parsing architecture <rtl> of entity <can_ol_synch>.
+Parsing VHDL file "D:\fpga_project\pwm_fpga\ipcore_dir\tmp\_cg\_bbx\can_v3_2\can_rxfifo_cntl_gen.vhd" into library can_v3_2
+Parsing entity <CAN_RXFIFO_CNTL_GEN>.
+Parsing architecture <rtl> of entity <can_rxfifo_cntl_gen>.
+Parsing VHDL file "D:\fpga_project\pwm_fpga\ipcore_dir\tmp\_cg\_bbx\can_v3_2\can_txfifo_cntl_gen.vhd" into library can_v3_2
+Parsing entity <CAN_TXFIFO_CNTL_GEN>.
+Parsing architecture <rtl> of entity <can_txfifo_cntl_gen>.
+Parsing VHDL file "D:\fpga_project\pwm_fpga\ipcore_dir\tmp\_cg\_bbx\can_v3_2\can_ol_top.vhd" into library can_v3_2
+Parsing entity <CAN_OL_TOP>.
+Parsing architecture <rtl> of entity <can_ol_top>.
+Parsing VHDL file "D:\fpga_project\pwm_fpga\ipcore_dir\tmp\_cg\_bbx\can_v3_2\can_tl_acf.vhd" into library can_v3_2
+Parsing entity <CAN_TL_ACF>.
+Parsing architecture <rtl> of entity <can_tl_acf>.
+Parsing VHDL file "D:\fpga_project\pwm_fpga\ipcore_dir\tmp\_cg\_bbx\can_v3_2\can_tl_bsp.vhd" into library can_v3_2
+Parsing entity <CAN_TL_BSP>.
+Parsing architecture <rtl> of entity <can_tl_bsp>.
+Parsing VHDL file "D:\fpga_project\pwm_fpga\ipcore_dir\tmp\_cg\_bbx\can_v3_2\can_tl_btl.vhd" into library can_v3_2
+Parsing entity <CAN_TL_BTL>.
+Parsing architecture <rtl> of entity <can_tl_btl>.
+Parsing VHDL file "D:\fpga_project\pwm_fpga\ipcore_dir\tmp\_cg\_bbx\can_v3_2\can_tl_clkdiv.vhd" into library can_v3_2
+Parsing entity <CAN_TL_CLKDIV>.
+Parsing architecture <rtl> of entity <can_tl_clkdiv>.
+Parsing VHDL file "D:\fpga_project\pwm_fpga\ipcore_dir\tmp\_cg\_bbx\can_v3_2\can_tl_om.vhd" into library can_v3_2
+Parsing entity <CAN_TL_OM>.
+Parsing architecture <rtl> of entity <can_tl_om>.
+Parsing VHDL file "D:\fpga_project\pwm_fpga\ipcore_dir\tmp\_cg\_bbx\can_v3_2\can_tl_synch.vhd" into library can_v3_2
+Parsing entity <CAN_TL_SYNCH>.
+Parsing architecture <rtl> of entity <can_tl_synch>.
+Parsing VHDL file "D:\fpga_project\pwm_fpga\ipcore_dir\tmp\_cg\_bbx\can_v3_2\can_tl_top.vhd" into library can_v3_2
+Parsing entity <CAN_TL_TOP>.
+Parsing architecture <rtl> of entity <can_tl_top>.
+Parsing VHDL file "D:\fpga_project\pwm_fpga\ipcore_dir\tmp\_cg\_bbx\can_v3_2\cantop.vhd" into library can_v3_2
+Parsing entity <cantop>.
+Parsing architecture <rtl> of entity <cantop>.
+Parsing VHDL file "D:\fpga_project\pwm_fpga\ipcore_dir\tmp\_cg\_bbx\can_v3_2_cantop_1.vhd" into library can_v3_2
+Parsing entity <can_v3_2_cantop_1>.
+Parsing architecture <spartan6> of entity <can_v3_2_cantop_1>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <can_v3_2_cantop_1> (architecture <spartan6>) from library <can_v3_2>.
+
+Elaborating entity <cantop> (architecture <rtl>) with generics from library <can_v3_2>.
+
+Elaborating entity <CAN_OL_TOP> (architecture <rtl>) with generics from library <can_v3_2>.
+
+Elaborating entity <CAN_OL_SYNCH> (architecture <rtl>) with generics from library <can_v3_2>.
+
+Elaborating entity <can_bram> (architecture <rtl>) with generics from library <can_v3_2>.
+WARNING:HDLCompiler:321 - "D:\fpga_project\pwm_fpga\ipcore_dir\tmp\_cg\_bbx\can_v3_2\can_bram.vhd" Line 868: Comparison between arrays of unequal length always returns FALSE.
+WARNING:HDLCompiler:89 - "D:\fpga_project\pwm_fpga\ipcore_dir\tmp\_cg\_bbx\can_v3_2\can_bram.vhd" Line 569: <ramb16bwer> remains a black-box since it has no binding entity.
+
+Elaborating entity <CAN_TXFIFO_CNTL_GEN> (architecture <rtl>) with generics from library <can_v3_2>.
+
+Elaborating entity <can_ol_fifopriority> (architecture <RTL>) with generics from library <can_v3_2>.
+
+Elaborating entity <can_tl_arbchk> (architecture <RTL>) from library <can_v3_2>.
+
+Elaborating entity <CAN_RXFIFO_CNTL_GEN> (architecture <rtl>) with generics from library <can_v3_2>.
+
+Elaborating entity <CAN_IC_MAIN> (architecture <rtl>) with generics from library <can_v3_2>.
+WARNING:HDLCompiler:634 - "D:\fpga_project\pwm_fpga\ipcore_dir\tmp\_cg\_bbx\can_v3_2\can_ic_main.vhd" Line 233: Net <IC_REG_AFR_I[0]> does not have a driver.
+
+Elaborating entity <CAN_TL_TOP> (architecture <rtl>) with generics from library <can_v3_2>.
+
+Elaborating entity <CAN_TL_CLKDIV> (architecture <rtl>) from library <can_v3_2>.
+
+Elaborating entity <CAN_TL_SYNCH> (architecture <rtl>) with generics from library <can_v3_2>.
+
+Elaborating entity <CAN_TL_BTL> (architecture <rtl>) from library <can_v3_2>.
+
+Elaborating entity <CAN_TL_OM> (architecture <rtl>) with generics from library <can_v3_2>.
+
+Elaborating entity <CAN_TL_BSP> (architecture <rtl>) with generics from library <can_v3_2>.
+INFO:HDLCompiler:679 - "D:\fpga_project\pwm_fpga\ipcore_dir\tmp\_cg\_bbx\can_v3_2\can_tl_bsp.vhd" Line 1703. Case statement is complete. others clause is never selected
+INFO:HDLCompiler:679 - "D:\fpga_project\pwm_fpga\ipcore_dir\tmp\_cg\_bbx\can_v3_2\can_tl_bsp.vhd" Line 2148. Case statement is complete. others clause is never selected
+
+Elaborating entity <can_tl_arbit> (architecture <RTL>) with generics from library <can_v3_2>.
+INFO:coreutil - Design Linking license for component <can> found. This license does not allow you to generate bitstreams for designs that incorporate this component. You may generate functional simulation netlists, but you may not evaluate this component in hardware.
+   For ordering information, please refer to the product page for this component on: www.xilinx.com
+INFO:coreutil - Design Linking license for component <can> found. This license does not allow you to generate bitstreams for designs that incorporate this component. You may generate functional simulation netlists, but you may not evaluate this component in hardware.
+   For ordering information, please refer to the product page for this component on: www.xilinx.com
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <can_v3_2_cantop_1>.
+    Related source file is "D:\fpga_project\pwm_fpga\ipcore_dir\tmp\_cg\_bbx\can_v3_2_cantop_1.vhd".
+    Summary:
+	no macro.
+Unit <can_v3_2_cantop_1> synthesized.
+
+Synthesizing Secure Unit <cantop>.
+Secure Unit <cantop> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <can_v3_2_cantop_1> ...
+INFO:Xst:2261 - The FF/Latch <RXF_RGPTR_1> in Unit <CAN_RXFIFO_CNTL_GEN> is equivalent to the following FF/Latch, which will be removed : <RXF_READ_ADDR_1> 

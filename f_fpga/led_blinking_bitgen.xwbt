@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\fpga_project\f_fpga\led_blinking.ncd
+OUTFILE=D:\fpga_project\f_fpga\led_blinking.bit
+FAMILY=Automotive Spartan6
+PART=xa6slx4-3csg225
+WORKINGDIR=D:\fpga_project\f_fpga
+LICENSE=WebPack
+USER_INFO=_

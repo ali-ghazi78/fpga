@@ -1,0 +1,62 @@
+xst -intstyle ise -ifn "D:/fpga_project/usart_fpga_2/usart_tester.xst" -ofn "D:/fpga_project/usart_fpga_2/usart_tester.syr" 
+xst -intstyle ise -ifn "D:/fpga_project/usart_fpga_2/usart_tester.xst" -ofn "D:/fpga_project/usart_fpga_2/usart_tester.syr" 
+xst -intstyle ise -ifn "D:/fpga_project/usart_fpga_2/usart_tester.xst" -ofn "D:/fpga_project/usart_fpga_2/usart_tester.syr" 
+xst -intstyle ise -ifn "D:/fpga_project/usart_fpga_2/usart_tester.xst" -ofn "D:/fpga_project/usart_fpga_2/usart_tester.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-2 usart_tester.ngc usart_tester.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o usart_tester_map.ncd usart_tester.ngd usart_tester.pcf 
+par -w -intstyle ise -ol high -mt off usart_tester_map.ncd usart_tester.ncd usart_tester.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml usart_tester.twx usart_tester.ncd -o usart_tester.twr usart_tester.pcf 
+bitgen -intstyle ise -f usart_tester.ut usart_tester.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinning.ucf -p xc6slx9-tqg144-2 usart_tester.ngc usart_tester.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o usart_tester_map.ncd usart_tester.ngd usart_tester.pcf 
+par -w -intstyle ise -ol high -mt off usart_tester_map.ncd usart_tester.ncd usart_tester.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml usart_tester.twx usart_tester.ncd -o usart_tester.twr usart_tester.pcf -ucf pinning.ucf 
+bitgen -intstyle ise -f usart_tester.ut usart_tester.ncd 
+xst -intstyle ise -ifn "D:/fpga_project/usart_fpga_2/usart_tester.xst" -ofn "D:/fpga_project/usart_fpga_2/usart_tester.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinning.ucf -p xc6slx9-tqg144-2 usart_tester.ngc usart_tester.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o usart_tester_map.ncd usart_tester.ngd usart_tester.pcf 
+par -w -intstyle ise -ol high -mt off usart_tester_map.ncd usart_tester.ncd usart_tester.pcf 
+bitgen -intstyle ise -f usart_tester.ut usart_tester.ncd 
+xst -intstyle ise -ifn "D:/fpga_project/usart_fpga_2/usart_tester.xst" -ofn "D:/fpga_project/usart_fpga_2/usart_tester.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinning.ucf -p xc6slx9-tqg144-2 usart_tester.ngc usart_tester.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinning.ucf -p xc6slx9-tqg144-2 usart_tester.ngc usart_tester.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o usart_tester_map.ncd usart_tester.ngd usart_tester.pcf 
+par -w -intstyle ise -ol high -mt off usart_tester_map.ncd usart_tester.ncd usart_tester.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml usart_tester.twx usart_tester.ncd -o usart_tester.twr usart_tester.pcf -ucf pinning.ucf 
+bitgen -intstyle ise -f usart_tester.ut usart_tester.ncd 
+xst -intstyle ise -ifn "D:/fpga_project/usart_fpga_2/usart_tester.xst" -ofn "D:/fpga_project/usart_fpga_2/usart_tester.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinning.ucf -p xc6slx9-tqg144-2 usart_tester.ngc usart_tester.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o usart_tester_map.ncd usart_tester.ngd usart_tester.pcf 
+par -w -intstyle ise -ol high -mt off usart_tester_map.ncd usart_tester.ncd usart_tester.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml usart_tester.twx usart_tester.ncd -o usart_tester.twr usart_tester.pcf -ucf pinning.ucf 
+bitgen -intstyle ise -f usart_tester.ut usart_tester.ncd 
+xst -intstyle ise -ifn "D:/fpga_project/usart_fpga_2/usart_tester.xst" -ofn "D:/fpga_project/usart_fpga_2/usart_tester.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinning.ucf -p xc6slx9-tqg144-2 usart_tester.ngc usart_tester.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o usart_tester_map.ncd usart_tester.ngd usart_tester.pcf 
+par -w -intstyle ise -ol high -mt off usart_tester_map.ncd usart_tester.ncd usart_tester.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml usart_tester.twx usart_tester.ncd -o usart_tester.twr usart_tester.pcf -ucf pinning.ucf 
+bitgen -intstyle ise -f usart_tester.ut usart_tester.ncd 
+xst -intstyle ise -ifn "D:/fpga_project/usart_fpga_2/usart_tester.xst" -ofn "D:/fpga_project/usart_fpga_2/usart_tester.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinning.ucf -p xc6slx9-tqg144-2 usart_tester.ngc usart_tester.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o usart_tester_map.ncd usart_tester.ngd usart_tester.pcf 
+par -w -intstyle ise -ol high -mt off usart_tester_map.ncd usart_tester.ncd usart_tester.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml usart_tester.twx usart_tester.ncd -o usart_tester.twr usart_tester.pcf -ucf pinning.ucf 
+bitgen -intstyle ise -f usart_tester.ut usart_tester.ncd 
+xst -intstyle ise -ifn "D:/fpga_project/usart_fpga_2/usart_tester.xst" -ofn "D:/fpga_project/usart_fpga_2/usart_tester.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinning.ucf -p xc6slx9-tqg144-2 usart_tester.ngc usart_tester.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o usart_tester_map.ncd usart_tester.ngd usart_tester.pcf 
+par -w -intstyle ise -ol high -mt off usart_tester_map.ncd usart_tester.ncd usart_tester.pcf 
+bitgen -intstyle ise -f usart_tester.ut usart_tester.ncd 
+xst -intstyle ise -ifn "D:/fpga_project/usart_fpga_2/usart_tester.xst" -ofn "D:/fpga_project/usart_fpga_2/usart_tester.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinning.ucf -p xc6slx9-tqg144-2 usart_tester.ngc usart_tester.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o usart_tester_map.ncd usart_tester.ngd usart_tester.pcf 
+par -w -intstyle ise -ol high -mt off usart_tester_map.ncd usart_tester.ncd usart_tester.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml usart_tester.twx usart_tester.ncd -o usart_tester.twr usart_tester.pcf -ucf pinning.ucf 
+bitgen -intstyle ise -f usart_tester.ut usart_tester.ncd 
+xst -intstyle ise -ifn "D:/fpga_project/usart_fpga_2/usart_tester.xst" -ofn "D:/fpga_project/usart_fpga_2/usart_tester.syr" 
+xst -intstyle ise -ifn "D:/fpga_project/usart_fpga_2/usart_tester.xst" -ofn "D:/fpga_project/usart_fpga_2/usart_tester.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinning.ucf -p xc6slx9-tqg144-2 usart_tester.ngc usart_tester.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o usart_tester_map.ncd usart_tester.ngd usart_tester.pcf 
+par -w -intstyle ise -ol high -mt off usart_tester_map.ncd usart_tester.ncd usart_tester.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml usart_tester.twx usart_tester.ncd -o usart_tester.twr usart_tester.pcf -ucf pinning.ucf 
+bitgen -intstyle ise -f usart_tester.ut usart_tester.ncd 

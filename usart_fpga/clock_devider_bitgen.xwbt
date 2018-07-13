@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\fpga_project\usart_fpga\clock_devider.ncd
+OUTFILE=D:\fpga_project\usart_fpga\clock_devider.bit
+FAMILY=Spartan6
+PART=xc6slx9-2tqg144
+WORKINGDIR=D:\fpga_project\usart_fpga
+LICENSE=WebPack
+USER_INFO=_

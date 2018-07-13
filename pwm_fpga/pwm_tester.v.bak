@@ -1,0 +1,49 @@
+`timescale 1ns / 1ps
+//////////////////////////////////////////////////////////////////////////////////
+// Company: 
+// Engineer: 
+// 
+// Create Date:    02:31:44 07/09/2018 
+// Design Name: 
+// Module Name:    pwm_tester 
+// Project Name: 
+// Target Devices: 
+// Tool versions: 
+// Description: 
+//
+// Dependencies: 
+//
+// Revision: 
+// Revision 0.01 - File Created
+// Additional Comments: 
+//
+//////////////////////////////////////////////////////////////////////////////////
+module pwm_tester(output pwm_out,input clock,input key,output led2);
+reg[31:0] prescaler;
+reg[9:0] max;
+reg key_holder;
+reg led2_p;
+initial begin 
+	prescaler = 1;
+	key_holder=0;
+	max=0;
+	led2_p=led2;
+end 
+always@(posedge clock) begin
+	if(key==0) begin
+		if(key_holder==0) begin
+			max=max+50;
+			led2=0;
+		end
+		key_holder=1;
+	end
+	else begin
+		key_holder=0;
+		led2=1;
+	end 
+	if(max>=1023)
+		max=1;
+end
+pwm p1(clock,prescaler,max,pwm_out);
+
+endmodule

@@ -1,0 +1,20 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "D:/fpga_project/pwm_fpga/pwm_tester_isim_beh.exe" -prj "D:/fpga_project/pwm_fpga/pwm_tester_beh.prj" "work.pwm_tester" "work.glbl" 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "D:/fpga_project/pwm_fpga/pwm.v" into library work
+Analyzing Verilog file "D:/fpga_project/pwm_fpga/pwm_tester.v" into library work
+WARNING:HDLCompiler:751 - "D:/fpga_project/pwm_fpga/pwm_tester.v" Line 25: Redeclaration of ansi port led2 is not allowed
+Analyzing Verilog file "F:/xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module pwm
+Compiling module pwm_tester
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 3 Verilog Units
+Built simulation executable D:/fpga_project/pwm_fpga/pwm_tester_isim_beh.exe
+Fuse Memory Usage: 27692 KB
+Fuse CPU Usage: 421 ms

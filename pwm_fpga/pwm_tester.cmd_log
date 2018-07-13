@@ -1,0 +1,248 @@
+xst -intstyle ise -ifn "D:/fpga_project/pwm_fpga/pwm_tester.xst" -ofn "D:/fpga_project/pwm_fpga/pwm_tester.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pininig.ucf -p xc6slx9-tqg144-2 pwm_tester.ngc pwm_tester.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o pwm_tester_map.ncd pwm_tester.ngd pwm_tester.pcf 
+par -w -intstyle ise -ol high -mt off pwm_tester_map.ncd pwm_tester.ncd pwm_tester.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml pwm_tester.twx pwm_tester.ncd -o pwm_tester.twr pwm_tester.pcf -ucf pininig.ucf 
+bitgen -intstyle ise -f pwm_tester.ut pwm_tester.ncd 
+xst -intstyle ise -ifn "D:/fpga_project/pwm_fpga/pwm_tester.xst" -ofn "D:/fpga_project/pwm_fpga/pwm_tester.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pininig.ucf -p xc6slx9-tqg144-2 pwm_tester.ngc pwm_tester.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o pwm_tester_map.ncd pwm_tester.ngd pwm_tester.pcf 
+par -w -intstyle ise -ol high -mt off pwm_tester_map.ncd pwm_tester.ncd pwm_tester.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml pwm_tester.twx pwm_tester.ncd -o pwm_tester.twr pwm_tester.pcf -ucf pininig.ucf 
+bitgen -intstyle ise -f pwm_tester.ut pwm_tester.ncd 
+xst -intstyle ise -ifn "D:/fpga_project/pwm_fpga/pwm_tester.xst" -ofn "D:/fpga_project/pwm_fpga/pwm_tester.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pininig.ucf -p xc6slx9-tqg144-2 pwm_tester.ngc pwm_tester.ngd  
+xst -intstyle ise -ifn "D:/fpga_project/pwm_fpga/pwm_tester.xst" -ofn "D:/fpga_project/pwm_fpga/pwm_tester.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pininig.ucf -p xc6slx9-tqg144-2 pwm_tester.ngc pwm_tester.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o pwm_tester_map.ncd pwm_tester.ngd pwm_tester.pcf 
+xst -intstyle ise -ifn "D:/fpga_project/pwm_fpga/pwm_tester.xst" -ofn "D:/fpga_project/pwm_fpga/pwm_tester.syr" 
+xst -intstyle ise -ifn "D:/fpga_project/pwm_fpga/pwm_tester.xst" -ofn "D:/fpga_project/pwm_fpga/pwm_tester.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pininig.ucf -p xc6slx9-tqg144-2 pwm_tester.ngc pwm_tester.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o pwm_tester_map.ncd pwm_tester.ngd pwm_tester.pcf 
+par -w -intstyle ise -ol high -mt off pwm_tester_map.ncd pwm_tester.ncd pwm_tester.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml pwm_tester.twx pwm_tester.ncd -o pwm_tester.twr pwm_tester.pcf -ucf pininig.ucf 
+bitgen -intstyle ise -f pwm_tester.ut pwm_tester.ncd 
+xst -intstyle ise -ifn "D:/fpga_project/pwm_fpga/pwm_tester.xst" -ofn "D:/fpga_project/pwm_fpga/pwm_tester.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pininig.ucf -p xc6slx9-tqg144-2 pwm_tester.ngc pwm_tester.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o pwm_tester_map.ncd pwm_tester.ngd pwm_tester.pcf 
+par -w -intstyle ise -ol high -mt off pwm_tester_map.ncd pwm_tester.ncd pwm_tester.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml pwm_tester.twx pwm_tester.ncd -o pwm_tester.twr pwm_tester.pcf -ucf pininig.ucf 
+bitgen -intstyle ise -f pwm_tester.ut pwm_tester.ncd 
+xst -intstyle ise -ifn "D:/fpga_project/pwm_fpga/pwm_tester.xst" -ofn "D:/fpga_project/pwm_fpga/pwm_tester.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pininig.ucf -p xc6slx9-tqg144-2 pwm_tester.ngc pwm_tester.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o pwm_tester_map.ncd pwm_tester.ngd pwm_tester.pcf 
+par -w -intstyle ise -ol high -mt off pwm_tester_map.ncd pwm_tester.ncd pwm_tester.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml pwm_tester.twx pwm_tester.ncd -o pwm_tester.twr pwm_tester.pcf -ucf pininig.ucf 
+bitgen -intstyle ise -f pwm_tester.ut pwm_tester.ncd 
+xst -intstyle ise -ifn "D:/fpga_project/pwm_fpga/pwm_tester.xst" -ofn "D:/fpga_project/pwm_fpga/pwm_tester.syr" 
+xst -intstyle ise -ifn "D:/fpga_project/pwm_fpga/pwm_tester.xst" -ofn "D:/fpga_project/pwm_fpga/pwm_tester.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pininig.ucf -p xc6slx9-tqg144-2 pwm_tester.ngc pwm_tester.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o pwm_tester_map.ncd pwm_tester.ngd pwm_tester.pcf 
+par -w -intstyle ise -ol high -mt off pwm_tester_map.ncd pwm_tester.ncd pwm_tester.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml pwm_tester.twx pwm_tester.ncd -o pwm_tester.twr pwm_tester.pcf -ucf pininig.ucf 
+bitgen -intstyle ise -f pwm_tester.ut pwm_tester.ncd 
+xst -intstyle ise -ifn "D:/fpga_project/pwm_fpga/pwm_tester.xst" -ofn "D:/fpga_project/pwm_fpga/pwm_tester.syr" 
+xst -intstyle ise -ifn "D:/fpga_project/pwm_fpga/pwm_tester.xst" -ofn "D:/fpga_project/pwm_fpga/pwm_tester.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pininig.ucf -p xc6slx9-tqg144-2 pwm_tester.ngc pwm_tester.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o pwm_tester_map.ncd pwm_tester.ngd pwm_tester.pcf 
+par -w -intstyle ise -ol high -mt off pwm_tester_map.ncd pwm_tester.ncd pwm_tester.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml pwm_tester.twx pwm_tester.ncd -o pwm_tester.twr pwm_tester.pcf -ucf pininig.ucf 
+bitgen -intstyle ise -f pwm_tester.ut pwm_tester.ncd 
+xst -intstyle ise -ifn "D:/fpga_project/pwm_fpga/pwm_tester.xst" -ofn "D:/fpga_project/pwm_fpga/pwm_tester.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pininig.ucf -p xc6slx9-tqg144-2 pwm_tester.ngc pwm_tester.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o pwm_tester_map.ncd pwm_tester.ngd pwm_tester.pcf 
+par -w -intstyle ise -ol high -mt off pwm_tester_map.ncd pwm_tester.ncd pwm_tester.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml pwm_tester.twx pwm_tester.ncd -o pwm_tester.twr pwm_tester.pcf -ucf pininig.ucf 
+bitgen -intstyle ise -f pwm_tester.ut pwm_tester.ncd 
+xst -intstyle ise -ifn "D:/fpga_project/pwm_fpga/pwm_tester.xst" -ofn "D:/fpga_project/pwm_fpga/pwm_tester.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pininig.ucf -p xc6slx9-tqg144-2 pwm_tester.ngc pwm_tester.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o pwm_tester_map.ncd pwm_tester.ngd pwm_tester.pcf 
+par -w -intstyle ise -ol high -mt off pwm_tester_map.ncd pwm_tester.ncd pwm_tester.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml pwm_tester.twx pwm_tester.ncd -o pwm_tester.twr pwm_tester.pcf -ucf pininig.ucf 
+bitgen -intstyle ise -f pwm_tester.ut pwm_tester.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pininig.ucf -p xc6slx9-tqg144-2 pwm_tester.ngc pwm_tester.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o pwm_tester_map.ncd pwm_tester.ngd pwm_tester.pcf 
+par -w -intstyle ise -ol high -mt off pwm_tester_map.ncd pwm_tester.ncd pwm_tester.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml pwm_tester.twx pwm_tester.ncd -o pwm_tester.twr pwm_tester.pcf -ucf pininig.ucf 
+bitgen -intstyle ise -f pwm_tester.ut pwm_tester.ncd 
+xst -intstyle ise -ifn "D:/fpga_project/pwm_fpga/pwm_tester.xst" -ofn "D:/fpga_project/pwm_fpga/pwm_tester.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pininig.ucf -p xc6slx9-tqg144-2 pwm_tester.ngc pwm_tester.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o pwm_tester_map.ncd pwm_tester.ngd pwm_tester.pcf 
+par -w -intstyle ise -ol high -mt off pwm_tester_map.ncd pwm_tester.ncd pwm_tester.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml pwm_tester.twx pwm_tester.ncd -o pwm_tester.twr pwm_tester.pcf -ucf pininig.ucf 
+bitgen -intstyle ise -f pwm_tester.ut pwm_tester.ncd 
+xst -intstyle ise -ifn "D:/fpga_project/pwm_fpga/pwm_tester.xst" -ofn "D:/fpga_project/pwm_fpga/pwm_tester.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pininig.ucf -p xc6slx9-tqg144-2 pwm_tester.ngc pwm_tester.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o pwm_tester_map.ncd pwm_tester.ngd pwm_tester.pcf 
+par -w -intstyle ise -ol high -mt off pwm_tester_map.ncd pwm_tester.ncd pwm_tester.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml pwm_tester.twx pwm_tester.ncd -o pwm_tester.twr pwm_tester.pcf -ucf pininig.ucf 
+bitgen -intstyle ise -f pwm_tester.ut pwm_tester.ncd 
+xst -intstyle ise -ifn "D:/fpga_project/pwm_fpga/pwm_tester.xst" -ofn "D:/fpga_project/pwm_fpga/pwm_tester.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pininig.ucf -p xc6slx9-tqg144-2 pwm_tester.ngc pwm_tester.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o pwm_tester_map.ncd pwm_tester.ngd pwm_tester.pcf 
+par -w -intstyle ise -ol high -mt off pwm_tester_map.ncd pwm_tester.ncd pwm_tester.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml pwm_tester.twx pwm_tester.ncd -o pwm_tester.twr pwm_tester.pcf -ucf pininig.ucf 
+bitgen -intstyle ise -f pwm_tester.ut pwm_tester.ncd 
+xst -intstyle ise -ifn "D:/fpga_project/pwm_fpga/pwm_tester.xst" -ofn "D:/fpga_project/pwm_fpga/pwm_tester.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pininig.ucf -p xc6slx9-tqg144-2 pwm_tester.ngc pwm_tester.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o pwm_tester_map.ncd pwm_tester.ngd pwm_tester.pcf 
+par -w -intstyle ise -ol high -mt off pwm_tester_map.ncd pwm_tester.ncd pwm_tester.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml pwm_tester.twx pwm_tester.ncd -o pwm_tester.twr pwm_tester.pcf -ucf pininig.ucf 
+bitgen -intstyle ise -f pwm_tester.ut pwm_tester.ncd 
+xst -intstyle ise -ifn "D:/fpga_project/pwm_fpga/pwm_tester.xst" -ofn "D:/fpga_project/pwm_fpga/pwm_tester.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pininig.ucf -p xc6slx9-tqg144-2 pwm_tester.ngc pwm_tester.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o pwm_tester_map.ncd pwm_tester.ngd pwm_tester.pcf 
+par -w -intstyle ise -ol high -mt off pwm_tester_map.ncd pwm_tester.ncd pwm_tester.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml pwm_tester.twx pwm_tester.ncd -o pwm_tester.twr pwm_tester.pcf -ucf pininig.ucf 
+bitgen -intstyle ise -f pwm_tester.ut pwm_tester.ncd 
+xst -intstyle ise -ifn "D:/fpga_project/pwm_fpga/pwm_tester.xst" -ofn "D:/fpga_project/pwm_fpga/pwm_tester.syr" 
+xst -intstyle ise -ifn "D:/fpga_project/pwm_fpga/pwm_tester.xst" -ofn "D:/fpga_project/pwm_fpga/pwm_tester.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pininig.ucf -p xc6slx9-tqg144-2 pwm_tester.ngc pwm_tester.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o pwm_tester_map.ncd pwm_tester.ngd pwm_tester.pcf 
+par -w -intstyle ise -ol high -mt off pwm_tester_map.ncd pwm_tester.ncd pwm_tester.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml pwm_tester.twx pwm_tester.ncd -o pwm_tester.twr pwm_tester.pcf -ucf pininig.ucf 
+bitgen -intstyle ise -f pwm_tester.ut pwm_tester.ncd 
+xst -intstyle ise -ifn "D:/fpga_project/pwm_fpga/pwm_tester.xst" -ofn "D:/fpga_project/pwm_fpga/pwm_tester.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pininig.ucf -p xc6slx9-tqg144-2 pwm_tester.ngc pwm_tester.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o pwm_tester_map.ncd pwm_tester.ngd pwm_tester.pcf 
+par -w -intstyle ise -ol high -mt off pwm_tester_map.ncd pwm_tester.ncd pwm_tester.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml pwm_tester.twx pwm_tester.ncd -o pwm_tester.twr pwm_tester.pcf -ucf pininig.ucf 
+bitgen -intstyle ise -f pwm_tester.ut pwm_tester.ncd 
+xst -intstyle ise -ifn "D:/fpga_project/pwm_fpga/pwm_tester.xst" -ofn "D:/fpga_project/pwm_fpga/pwm_tester.syr" 
+xst -intstyle ise -ifn "D:/fpga_project/pwm_fpga/pwm_tester.xst" -ofn "D:/fpga_project/pwm_fpga/pwm_tester.syr" 
+xst -intstyle ise -ifn "D:/fpga_project/pwm_fpga/pwm_tester.xst" -ofn "D:/fpga_project/pwm_fpga/pwm_tester.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pininig.ucf -p xc6slx9-tqg144-2 pwm_tester.ngc pwm_tester.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o pwm_tester_map.ncd pwm_tester.ngd pwm_tester.pcf 
+par -w -intstyle ise -ol high -mt off pwm_tester_map.ncd pwm_tester.ncd pwm_tester.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml pwm_tester.twx pwm_tester.ncd -o pwm_tester.twr pwm_tester.pcf -ucf pininig.ucf 
+bitgen -intstyle ise -f pwm_tester.ut pwm_tester.ncd 
+xst -intstyle ise -ifn "D:/fpga_project/pwm_fpga/pwm_tester.xst" -ofn "D:/fpga_project/pwm_fpga/pwm_tester.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pininig.ucf -p xc6slx9-tqg144-2 pwm_tester.ngc pwm_tester.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o pwm_tester_map.ncd pwm_tester.ngd pwm_tester.pcf 
+par -w -intstyle ise -ol high -mt off pwm_tester_map.ncd pwm_tester.ncd pwm_tester.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml pwm_tester.twx pwm_tester.ncd -o pwm_tester.twr pwm_tester.pcf -ucf pininig.ucf 
+bitgen -intstyle ise -f pwm_tester.ut pwm_tester.ncd 
+xst -intstyle ise -ifn "D:/fpga_project/pwm_fpga/pwm_tester.xst" -ofn "D:/fpga_project/pwm_fpga/pwm_tester.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pininig.ucf -p xc6slx9-tqg144-2 pwm_tester.ngc pwm_tester.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o pwm_tester_map.ncd pwm_tester.ngd pwm_tester.pcf 
+par -w -intstyle ise -ol high -mt off pwm_tester_map.ncd pwm_tester.ncd pwm_tester.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml pwm_tester.twx pwm_tester.ncd -o pwm_tester.twr pwm_tester.pcf -ucf pininig.ucf 
+bitgen -intstyle ise -f pwm_tester.ut pwm_tester.ncd 
+xst -intstyle ise -ifn "D:/fpga_project/pwm_fpga/pwm_tester.xst" -ofn "D:/fpga_project/pwm_fpga/pwm_tester.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pininig.ucf -p xc6slx9-tqg144-2 pwm_tester.ngc pwm_tester.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o pwm_tester_map.ncd pwm_tester.ngd pwm_tester.pcf 
+par -w -intstyle ise -ol high -mt off pwm_tester_map.ncd pwm_tester.ncd pwm_tester.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml pwm_tester.twx pwm_tester.ncd -o pwm_tester.twr pwm_tester.pcf -ucf pininig.ucf 
+bitgen -intstyle ise -f pwm_tester.ut pwm_tester.ncd 
+xst -intstyle ise -ifn "D:/fpga_project/pwm_fpga/pwm_tester.xst" -ofn "D:/fpga_project/pwm_fpga/pwm_tester.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pininig.ucf -p xc6slx9-tqg144-2 pwm_tester.ngc pwm_tester.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o pwm_tester_map.ncd pwm_tester.ngd pwm_tester.pcf 
+par -w -intstyle ise -ol high -mt off pwm_tester_map.ncd pwm_tester.ncd pwm_tester.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml pwm_tester.twx pwm_tester.ncd -o pwm_tester.twr pwm_tester.pcf -ucf pininig.ucf 
+bitgen -intstyle ise -f pwm_tester.ut pwm_tester.ncd 
+xst -intstyle ise -ifn "D:/fpga_project/pwm_fpga/pwm_tester.xst" -ofn "D:/fpga_project/pwm_fpga/pwm_tester.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pininig.ucf -p xc6slx9-tqg144-2 pwm_tester.ngc pwm_tester.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o pwm_tester_map.ncd pwm_tester.ngd pwm_tester.pcf 
+par -w -intstyle ise -ol high -mt off pwm_tester_map.ncd pwm_tester.ncd pwm_tester.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml pwm_tester.twx pwm_tester.ncd -o pwm_tester.twr pwm_tester.pcf -ucf pininig.ucf 
+bitgen -intstyle ise -f pwm_tester.ut pwm_tester.ncd 
+xst -intstyle ise -ifn "D:/fpga_project/pwm_fpga/pwm_tester.xst" -ofn "D:/fpga_project/pwm_fpga/pwm_tester.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pininig.ucf -p xc6slx9-tqg144-2 pwm_tester.ngc pwm_tester.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o pwm_tester_map.ncd pwm_tester.ngd pwm_tester.pcf 
+par -w -intstyle ise -ol high -mt off pwm_tester_map.ncd pwm_tester.ncd pwm_tester.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml pwm_tester.twx pwm_tester.ncd -o pwm_tester.twr pwm_tester.pcf -ucf pininig.ucf 
+bitgen -intstyle ise -f pwm_tester.ut pwm_tester.ncd 
+xst -intstyle ise -ifn "D:/fpga_project/pwm_fpga/pwm_tester.xst" -ofn "D:/fpga_project/pwm_fpga/pwm_tester.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pininig.ucf -p xc6slx9-tqg144-2 pwm_tester.ngc pwm_tester.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o pwm_tester_map.ncd pwm_tester.ngd pwm_tester.pcf 
+par -w -intstyle ise -ol high -mt off pwm_tester_map.ncd pwm_tester.ncd pwm_tester.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml pwm_tester.twx pwm_tester.ncd -o pwm_tester.twr pwm_tester.pcf -ucf pininig.ucf 
+bitgen -intstyle ise -f pwm_tester.ut pwm_tester.ncd 
+xst -intstyle ise -ifn "D:/fpga_project/pwm_fpga/pwm_tester.xst" -ofn "D:/fpga_project/pwm_fpga/pwm_tester.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pininig.ucf -p xc6slx9-tqg144-2 pwm_tester.ngc pwm_tester.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o pwm_tester_map.ncd pwm_tester.ngd pwm_tester.pcf 
+par -w -intstyle ise -ol high -mt off pwm_tester_map.ncd pwm_tester.ncd pwm_tester.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml pwm_tester.twx pwm_tester.ncd -o pwm_tester.twr pwm_tester.pcf -ucf pininig.ucf 
+bitgen -intstyle ise -f pwm_tester.ut pwm_tester.ncd 
+xst -intstyle ise -ifn "D:/fpga_project/pwm_fpga/pwm_tester.xst" -ofn "D:/fpga_project/pwm_fpga/pwm_tester.syr" 
+xst -intstyle ise -ifn "D:/fpga_project/pwm_fpga/pwm_tester.xst" -ofn "D:/fpga_project/pwm_fpga/pwm_tester.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pininig.ucf -p xc6slx9-tqg144-2 pwm_tester.ngc pwm_tester.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o pwm_tester_map.ncd pwm_tester.ngd pwm_tester.pcf 
+par -w -intstyle ise -ol high -mt off pwm_tester_map.ncd pwm_tester.ncd pwm_tester.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml pwm_tester.twx pwm_tester.ncd -o pwm_tester.twr pwm_tester.pcf -ucf pininig.ucf 
+bitgen -intstyle ise -f pwm_tester.ut pwm_tester.ncd 
+xst -intstyle ise -ifn "D:/fpga_project/pwm_fpga/pwm_tester.xst" -ofn "D:/fpga_project/pwm_fpga/pwm_tester.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pininig.ucf -p xc6slx9-tqg144-2 pwm_tester.ngc pwm_tester.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o pwm_tester_map.ncd pwm_tester.ngd pwm_tester.pcf 
+par -w -intstyle ise -ol high -mt off pwm_tester_map.ncd pwm_tester.ncd pwm_tester.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml pwm_tester.twx pwm_tester.ncd -o pwm_tester.twr pwm_tester.pcf -ucf pininig.ucf 
+bitgen -intstyle ise -f pwm_tester.ut pwm_tester.ncd 
+xst -intstyle ise -ifn "D:/fpga_project/pwm_fpga/pwm_tester.xst" -ofn "D:/fpga_project/pwm_fpga/pwm_tester.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pininig.ucf -p xc6slx9-tqg144-2 pwm_tester.ngc pwm_tester.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o pwm_tester_map.ncd pwm_tester.ngd pwm_tester.pcf 
+par -w -intstyle ise -ol high -mt off pwm_tester_map.ncd pwm_tester.ncd pwm_tester.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml pwm_tester.twx pwm_tester.ncd -o pwm_tester.twr pwm_tester.pcf -ucf pininig.ucf 
+bitgen -intstyle ise -f pwm_tester.ut pwm_tester.ncd 
+xst -intstyle ise -ifn "D:/fpga_project/pwm_fpga/pwm_tester.xst" -ofn "D:/fpga_project/pwm_fpga/pwm_tester.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pininig.ucf -p xc6slx9-tqg144-2 pwm_tester.ngc pwm_tester.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o pwm_tester_map.ncd pwm_tester.ngd pwm_tester.pcf 
+par -w -intstyle ise -ol high -mt off pwm_tester_map.ncd pwm_tester.ncd pwm_tester.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml pwm_tester.twx pwm_tester.ncd -o pwm_tester.twr pwm_tester.pcf -ucf pininig.ucf 
+bitgen -intstyle ise -f pwm_tester.ut pwm_tester.ncd 
+xst -intstyle ise -ifn "D:/fpga_project/pwm_fpga/pwm_tester.xst" -ofn "D:/fpga_project/pwm_fpga/pwm_tester.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pininig.ucf -p xc6slx9-tqg144-2 pwm_tester.ngc pwm_tester.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o pwm_tester_map.ncd pwm_tester.ngd pwm_tester.pcf 
+par -w -intstyle ise -ol high -mt off pwm_tester_map.ncd pwm_tester.ncd pwm_tester.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml pwm_tester.twx pwm_tester.ncd -o pwm_tester.twr pwm_tester.pcf -ucf pininig.ucf 
+bitgen -intstyle ise -f pwm_tester.ut pwm_tester.ncd 
+xst -intstyle ise -ifn "D:/fpga_project/pwm_fpga/pwm_tester.xst" -ofn "D:/fpga_project/pwm_fpga/pwm_tester.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pininig.ucf -p xc6slx9-tqg144-2 pwm_tester.ngc pwm_tester.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o pwm_tester_map.ncd pwm_tester.ngd pwm_tester.pcf 
+par -w -intstyle ise -ol high -mt off pwm_tester_map.ncd pwm_tester.ncd pwm_tester.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml pwm_tester.twx pwm_tester.ncd -o pwm_tester.twr pwm_tester.pcf -ucf pininig.ucf 
+bitgen -intstyle ise -f pwm_tester.ut pwm_tester.ncd 
+xst -intstyle ise -ifn "D:/fpga_project/pwm_fpga/pwm_tester.xst" -ofn "D:/fpga_project/pwm_fpga/pwm_tester.syr" 
+xst -intstyle ise -ifn "D:/fpga_project/pwm_fpga/pwm_tester.xst" -ofn "D:/fpga_project/pwm_fpga/pwm_tester.syr" 
+xst -intstyle ise -ifn "D:/fpga_project/pwm_fpga/pwm_tester.xst" -ofn "D:/fpga_project/pwm_fpga/pwm_tester.syr" 
+xst -intstyle ise -ifn "D:/fpga_project/pwm_fpga/pwm_tester.xst" -ofn "D:/fpga_project/pwm_fpga/pwm_tester.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pininig.ucf -p xc6slx9-tqg144-2 pwm_tester.ngc pwm_tester.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o pwm_tester_map.ncd pwm_tester.ngd pwm_tester.pcf 
+par -w -intstyle ise -ol high -mt off pwm_tester_map.ncd pwm_tester.ncd pwm_tester.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml pwm_tester.twx pwm_tester.ncd -o pwm_tester.twr pwm_tester.pcf -ucf pininig.ucf 
+bitgen -intstyle ise -f pwm_tester.ut pwm_tester.ncd 
+xst -intstyle ise -ifn "D:/fpga_project/pwm_fpga/pwm_tester.xst" -ofn "D:/fpga_project/pwm_fpga/pwm_tester.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pininig.ucf -p xc6slx9-tqg144-2 pwm_tester.ngc pwm_tester.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o pwm_tester_map.ncd pwm_tester.ngd pwm_tester.pcf 
+par -w -intstyle ise -ol high -mt off pwm_tester_map.ncd pwm_tester.ncd pwm_tester.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml pwm_tester.twx pwm_tester.ncd -o pwm_tester.twr pwm_tester.pcf -ucf pininig.ucf 
+bitgen -intstyle ise -f pwm_tester.ut pwm_tester.ncd 
+xst -intstyle ise -ifn "D:/fpga_project/pwm_fpga/pwm_tester.xst" -ofn "D:/fpga_project/pwm_fpga/pwm_tester.syr" 
+xst -intstyle ise -ifn "D:/fpga_project/pwm_fpga/pwm_tester.xst" -ofn "D:/fpga_project/pwm_fpga/pwm_tester.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pininig.ucf -p xc6slx9-tqg144-2 pwm_tester.ngc pwm_tester.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o pwm_tester_map.ncd pwm_tester.ngd pwm_tester.pcf 
+par -w -intstyle ise -ol high -mt off pwm_tester_map.ncd pwm_tester.ncd pwm_tester.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml pwm_tester.twx pwm_tester.ncd -o pwm_tester.twr pwm_tester.pcf -ucf pininig.ucf 
+bitgen -intstyle ise -f pwm_tester.ut pwm_tester.ncd 
+xst -intstyle ise -ifn "D:/fpga_project/pwm_fpga/pwm_tester.xst" -ofn "D:/fpga_project/pwm_fpga/pwm_tester.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pininig.ucf -p xc6slx9-tqg144-2 pwm_tester.ngc pwm_tester.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o pwm_tester_map.ncd pwm_tester.ngd pwm_tester.pcf 
+par -w -intstyle ise -ol high -mt off pwm_tester_map.ncd pwm_tester.ncd pwm_tester.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml pwm_tester.twx pwm_tester.ncd -o pwm_tester.twr pwm_tester.pcf -ucf pininig.ucf 
+bitgen -intstyle ise -f pwm_tester.ut pwm_tester.ncd 
+xst -intstyle ise -ifn "D:/fpga_project/pwm_fpga/pwm_tester.xst" -ofn "D:/fpga_project/pwm_fpga/pwm_tester.syr" 
+xst -intstyle ise -ifn "D:/fpga_project/pwm_fpga/pwm_tester.xst" -ofn "D:/fpga_project/pwm_fpga/pwm_tester.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pininig.ucf -p xc6slx9-tqg144-2 pwm_tester.ngc pwm_tester.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o pwm_tester_map.ncd pwm_tester.ngd pwm_tester.pcf 
+par -w -intstyle ise -ol high -mt off pwm_tester_map.ncd pwm_tester.ncd pwm_tester.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml pwm_tester.twx pwm_tester.ncd -o pwm_tester.twr pwm_tester.pcf -ucf pininig.ucf 
+bitgen -intstyle ise -f pwm_tester.ut pwm_tester.ncd 
+xst -intstyle ise -ifn "D:/fpga_project/pwm_fpga/pwm_tester.xst" -ofn "D:/fpga_project/pwm_fpga/pwm_tester.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pininig.ucf -p xc6slx9-tqg144-2 pwm_tester.ngc pwm_tester.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o pwm_tester_map.ncd pwm_tester.ngd pwm_tester.pcf 
+par -w -intstyle ise -ol high -mt off pwm_tester_map.ncd pwm_tester.ncd pwm_tester.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml pwm_tester.twx pwm_tester.ncd -o pwm_tester.twr pwm_tester.pcf -ucf pininig.ucf 
+bitgen -intstyle ise -f pwm_tester.ut pwm_tester.ncd 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml pwm_tester_preroute.twx pwm_tester_map.ncd -o pwm_tester_preroute.twr pwm_tester.pcf -ucf pininig.ucf 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim pwm_tester.ngc pwm_tester_synthesis.v 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim pwm_tester.ngc pwm_tester_synthesis.v 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/translate -ofmt verilog -sim pwm_tester.ngd pwm_tester_translate.v 

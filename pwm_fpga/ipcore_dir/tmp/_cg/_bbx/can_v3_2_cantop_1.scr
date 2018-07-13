@@ -1,0 +1,14 @@
+set -xsthdpdir "./tmp/_cg/can_v3_2_cantop_1_xsd"
+run
+-ifn "./tmp/_cg/_bbx/can_v3_2_cantop_1.prj"
+-ifmt vhdl
+-ofmt NGC
+-ofn "./tmp/_cg/can_v3_2_cantop_1.ngc"
+-p xc6slx4-3-tqg144
+-iobuf NO
+-work_lib can_v3_2
+-ent can_v3_2_cantop_1
+-arch spartan6
+-bus_delimiter <>
+-iobuf NO
+-resource_sharing NO

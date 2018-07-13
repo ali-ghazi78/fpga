@@ -1,0 +1,495 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> Reading design: my_usart.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "my_usart.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "my_usart"
+Output Format                      : NGC
+Target Device                      : xc6slx9-2-tqg144
+
+---- Source Options
+Top Module Name                    : my_usart
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "D:\fpga_project\usart_fpga\clock_devider.v" into library work
+Parsing module <clock_devider>.
+Analyzing Verilog file "D:\fpga_project\usart_fpga\usart.v" into library work
+Parsing module <my_usart>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <my_usart>.
+
+Elaborating module <clock_devider>.
+WARNING:HDLCompiler:413 - "D:\fpga_project\usart_fpga\clock_devider.v" Line 43: Result of 17-bit expression is truncated to fit in 16-bit target.
+WARNING:HDLCompiler:413 - "D:\fpga_project\usart_fpga\usart.v" Line 54: Result of 9-bit expression is truncated to fit in 8-bit target.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <my_usart>.
+    Related source file is "D:\fpga_project\usart_fpga\usart.v".
+WARNING:Xst:647 - Input <rx_pin> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:653 - Signal <prescaler> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+    Found 8-bit register for signal <counter>.
+    Found 1-bit register for signal <finished>.
+    Found 1-bit register for signal <tx_pin>.
+    Found 1-bit register for signal <flag_transmit_wait>.
+    Found 8-bit adder for signal <counter[7]_GND_1_o_add_5_OUT> created at line 54.
+    Found 8-bit comparator greater for signal <n0011> created at line 66
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  11 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+	inferred   3 Multiplexer(s).
+Unit <my_usart> synthesized.
+
+Synthesizing Unit <clock_devider>.
+    Related source file is "D:\fpga_project\usart_fpga\clock_devider.v".
+    Found 16-bit register for signal <counter>.
+    Found 1-bit register for signal <output_clk>.
+    Found 16-bit adder for signal <counter[15]_GND_2_o_add_1_OUT> created at line 43.
+    Found 16-bit comparator greater for signal <n0002> created at line 44
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  17 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+Unit <clock_devider> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 2
+ 16-bit adder                                          : 1
+ 8-bit adder                                           : 1
+# Registers                                            : 6
+ 1-bit register                                        : 4
+ 16-bit register                                       : 1
+ 8-bit register                                        : 1
+# Comparators                                          : 2
+ 16-bit comparator greater                             : 1
+ 8-bit comparator greater                              : 1
+# Multiplexers                                         : 3
+ 1-bit 2-to-1 multiplexer                              : 2
+ 8-bit 2-to-1 multiplexer                              : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <clock_devider>.
+The following registers are absorbed into counter <counter>: 1 register on signal <counter>.
+Unit <clock_devider> synthesized (advanced).
+
+Synthesizing (advanced) Unit <my_usart>.
+The following registers are absorbed into counter <counter>: 1 register on signal <counter>.
+Unit <my_usart> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 2
+ 16-bit adder                                          : 1
+ 8-bit adder                                           : 1
+# Counters                                             : 2
+ 16-bit up counter                                     : 1
+ 8-bit up counter                                      : 1
+# Registers                                            : 4
+ Flip-Flops                                            : 4
+# Comparators                                          : 2
+ 16-bit comparator greater                             : 1
+ 8-bit comparator greater                              : 1
+# Multiplexers                                         : 3
+ 1-bit 2-to-1 multiplexer                              : 2
+ 8-bit 2-to-1 multiplexer                              : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:2677 - Node <d1/counter_3> of sequential type is unconnected in block <my_usart>.
+WARNING:Xst:2677 - Node <d1/counter_1> of sequential type is unconnected in block <my_usart>.
+WARNING:Xst:2677 - Node <d1/counter_2> of sequential type is unconnected in block <my_usart>.
+WARNING:Xst:2677 - Node <d1/counter_6> of sequential type is unconnected in block <my_usart>.
+WARNING:Xst:2677 - Node <d1/counter_4> of sequential type is unconnected in block <my_usart>.
+WARNING:Xst:2677 - Node <d1/counter_5> of sequential type is unconnected in block <my_usart>.
+WARNING:Xst:2677 - Node <d1/counter_9> of sequential type is unconnected in block <my_usart>.
+WARNING:Xst:2677 - Node <d1/counter_7> of sequential type is unconnected in block <my_usart>.
+WARNING:Xst:2677 - Node <d1/counter_8> of sequential type is unconnected in block <my_usart>.
+WARNING:Xst:2677 - Node <d1/counter_12> of sequential type is unconnected in block <my_usart>.
+WARNING:Xst:2677 - Node <d1/counter_10> of sequential type is unconnected in block <my_usart>.
+WARNING:Xst:2677 - Node <d1/counter_11> of sequential type is unconnected in block <my_usart>.
+WARNING:Xst:2677 - Node <d1/counter_15> of sequential type is unconnected in block <my_usart>.
+WARNING:Xst:2677 - Node <d1/counter_13> of sequential type is unconnected in block <my_usart>.
+WARNING:Xst:2677 - Node <d1/counter_14> of sequential type is unconnected in block <my_usart>.
+WARNING:Xst:2677 - Node <d1/counter_0> of sequential type is unconnected in block <my_usart>.
+
+Optimizing unit <my_usart> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block my_usart, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 12
+ Flip-Flops                                            : 12
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : my_usart.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 47
+#      GND                         : 1
+#      INV                         : 2
+#      LUT2                        : 10
+#      LUT3                        : 3
+#      LUT6                        : 15
+#      MUXCY                       : 7
+#      VCC                         : 1
+#      XORCY                       : 8
+# FlipFlops/Latches                : 12
+#      FD                          : 10
+#      FDE                         : 1
+#      FDRE                        : 1
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 20
+#      IBUF                        : 3
+#      OBUF                        : 17
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx9tqg144-2 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:              12  out of  11440     0%  
+ Number of Slice LUTs:                   30  out of   5720     0%  
+    Number used as Logic:                30  out of   5720     0%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:     30
+   Number with an unused Flip Flop:      18  out of     30    60%  
+   Number with an unused LUT:             0  out of     30     0%  
+   Number of fully used LUT-FF pairs:    12  out of     30    40%  
+   Number of unique control sets:         3
+
+IO Utilization: 
+ Number of IOs:                          29
+ Number of bonded IOBs:                  21  out of    102    20%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     16     6%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 1     |
+d1/output_clk                      | NONE(tx_pin)           | 11    |
+-----------------------------------+------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -2
+
+   Minimum period: 5.062ns (Maximum Frequency: 197.550MHz)
+   Minimum input arrival time before clock: 5.648ns
+   Maximum output required time after clock: 4.118ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 2.603ns (frequency: 384.172MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               2.603ns (Levels of Logic = 1)
+  Source:            d1/output_clk (FF)
+  Destination:       d1/output_clk (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: d1/output_clk to d1/output_clk
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q            12   0.525   1.068  d1/output_clk (d1/output_clk)
+     INV:I->O              1   0.255   0.681  d1/output_clk_INV_2_o1_INV_0 (d1/output_clk_INV_2_o)
+     FDRE:D                    0.074          d1/output_clk
+    ----------------------------------------
+    Total                      2.603ns (0.854ns logic, 1.749ns route)
+                                       (32.8% logic, 67.2% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'd1/output_clk'
+  Clock period: 5.062ns (frequency: 197.550MHz)
+  Total number of paths / destination ports: 301 / 12
+-------------------------------------------------------------------------
+Delay:               5.062ns (Levels of Logic = 4)
+  Source:            counter_2 (FF)
+  Destination:       counter_1 (FF)
+  Source Clock:      d1/output_clk rising
+  Destination Clock: d1/output_clk rising
+
+  Data Path: counter_2 to counter_1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               7   0.525   1.018  counter_2 (counter_2)
+     LUT2:I0->O            1   0.250   0.682  n001111_SW0 (N0)
+     LUT6:I5->O            5   0.254   0.841  n001111 (n001111)
+     LUT6:I5->O            7   0.254   0.910  _n00581 (_n0058)
+     LUT6:I5->O            1   0.254   0.000  counter_1_rstpot (counter_1_rstpot)
+     FD:D                      0.074          counter_1
+    ----------------------------------------
+    Total                      5.062ns (1.611ns logic, 3.451ns route)
+                                       (31.8% logic, 68.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              3.791ns (Levels of Logic = 2)
+  Source:            reset (PAD)
+  Destination:       d1/output_clk (FF)
+  Destination Clock: clk rising
+
+  Data Path: reset to d1/output_clk
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            12   1.328   1.068  reset_IBUF (d1/reset_inv_inv)
+     INV:I->O              1   0.255   0.681  d1/reset_inv1_INV_0 (d1/reset_inv)
+     FDRE:R                    0.459          d1/output_clk
+    ----------------------------------------
+    Total                      3.791ns (2.042ns logic, 1.749ns route)
+                                       (53.9% logic, 46.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'd1/output_clk'
+  Total number of paths / destination ports: 75 / 12
+-------------------------------------------------------------------------
+Offset:              5.648ns (Levels of Logic = 4)
+  Source:            reset (PAD)
+  Destination:       counter_1 (FF)
+  Destination Clock: d1/output_clk rising
+
+  Data Path: reset to counter_1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            12   1.328   1.524  reset_IBUF (d1/reset_inv_inv)
+     LUT6:I0->O            5   0.254   1.069  n001112 (n00111)
+     LUT6:I3->O            7   0.235   0.910  _n00581 (_n0058)
+     LUT6:I5->O            1   0.254   0.000  counter_1_rstpot (counter_1_rstpot)
+     FD:D                      0.074          counter_1
+    ----------------------------------------
+    Total                      5.648ns (2.145ns logic, 3.503ns route)
+                                       (38.0% logic, 62.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'd1/output_clk'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              4.118ns (Levels of Logic = 1)
+  Source:            tx_pin (FF)
+  Destination:       tx_pin (PAD)
+  Source Clock:      d1/output_clk rising
+
+  Data Path: tx_pin to tx_pin
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              1   0.525   0.681  tx_pin (tx_pin_OBUF)
+     OBUF:I->O                 2.912          tx_pin_OBUF (tx_pin)
+    ----------------------------------------
+    Total                      4.118ns (3.437ns logic, 0.681ns route)
+                                       (83.5% logic, 16.5% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    2.603|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock d1/output_clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+d1/output_clk  |    5.062|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 4.00 secs
+Total CPU time to Xst completion: 4.77 secs
+ 
+--> 
+
+Total memory usage is 299296 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   20 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

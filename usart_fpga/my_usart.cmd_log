@@ -1,0 +1,37 @@
+xst -intstyle ise -ifn "D:/fpga_project/usart_fpga/my_usart.xst" -ofn "D:/fpga_project/usart_fpga/my_usart.syr" 
+xst -intstyle ise -ifn "D:/fpga_project/usart_fpga/my_usart.xst" -ofn "D:/fpga_project/usart_fpga/my_usart.syr" 
+xst -intstyle ise -ifn "D:/fpga_project/usart_fpga/my_usart.xst" -ofn "D:/fpga_project/usart_fpga/my_usart.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-2 my_usart.ngc my_usart.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o my_usart_map.ncd my_usart.ngd my_usart.pcf 
+par -w -intstyle ise -ol high -mt off my_usart_map.ncd my_usart.ncd my_usart.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml my_usart.twx my_usart.ncd -o my_usart.twr my_usart.pcf 
+bitgen -intstyle ise -f my_usart.ut my_usart.ncd 
+xst -intstyle ise -ifn "D:/fpga_project/usart_fpga/my_usart.xst" -ofn "D:/fpga_project/usart_fpga/my_usart.syr" 
+xst -intstyle ise -ifn "D:/fpga_project/usart_fpga/my_usart.xst" -ofn "D:/fpga_project/usart_fpga/my_usart.syr" 
+xst -intstyle ise -ifn "D:/fpga_project/usart_fpga/my_usart.xst" -ofn "D:/fpga_project/usart_fpga/my_usart.syr" 
+xst -intstyle ise -ifn "D:/fpga_project/usart_fpga/my_usart.xst" -ofn "D:/fpga_project/usart_fpga/my_usart.syr" 
+xst -intstyle ise -ifn "D:/fpga_project/usart_fpga/my_usart.xst" -ofn "D:/fpga_project/usart_fpga/my_usart.syr" 
+xst -intstyle ise -ifn "D:/fpga_project/usart_fpga/my_usart.xst" -ofn "D:/fpga_project/usart_fpga/my_usart.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-2 my_usart.ngc my_usart.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o my_usart_map.ncd my_usart.ngd my_usart.pcf 
+par -w -intstyle ise -ol high -mt off my_usart_map.ncd my_usart.ncd my_usart.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml my_usart.twx my_usart.ncd -o my_usart.twr my_usart.pcf 
+bitgen -intstyle ise -f my_usart.ut my_usart.ncd 
+xst -intstyle ise -ifn "D:/fpga_project/usart_fpga/my_usart.xst" -ofn "D:/fpga_project/usart_fpga/my_usart.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-2 my_usart.ngc my_usart.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o my_usart_map.ncd my_usart.ngd my_usart.pcf 
+par -w -intstyle ise -ol high -mt off my_usart_map.ncd my_usart.ncd my_usart.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml my_usart.twx my_usart.ncd -o my_usart.twr my_usart.pcf 
+bitgen -intstyle ise -f my_usart.ut my_usart.ncd 
+xst -intstyle ise -ifn "D:/fpga_project/usart_fpga/my_usart.xst" -ofn "D:/fpga_project/usart_fpga/my_usart.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-2 my_usart.ngc my_usart.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o my_usart_map.ncd my_usart.ngd my_usart.pcf 
+par -w -intstyle ise -ol high -mt off my_usart_map.ncd my_usart.ncd my_usart.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml my_usart.twx my_usart.ncd -o my_usart.twr my_usart.pcf 
+bitgen -intstyle ise -f my_usart.ut my_usart.ncd 
+xst -intstyle ise -ifn "D:/fpga_project/usart_fpga/my_usart.xst" -ofn "D:/fpga_project/usart_fpga/my_usart.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-2 my_usart.ngc my_usart.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o my_usart_map.ncd my_usart.ngd my_usart.pcf 
+par -w -intstyle ise -ol high -mt off my_usart_map.ncd my_usart.ncd my_usart.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml my_usart.twx my_usart.ncd -o my_usart.twr my_usart.pcf 
+bitgen -intstyle ise -f my_usart.ut my_usart.ncd 

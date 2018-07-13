@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="321" delta="new" >"D:\fpga_project\pwm_fpga\ipcore_dir\tmp\_cg\_bbx\can_v3_2\can_bram.vhd" Line 868: Comparison between arrays of unequal length always returns <arg fmt="%s" index="1">FALSE</arg>.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="89" delta="new" >"D:\fpga_project\pwm_fpga\ipcore_dir\tmp\_cg\_bbx\can_v3_2\can_bram.vhd" Line 569: &lt;<arg fmt="%s" index="1">ramb16bwer</arg>&gt; remains a black-box since it has no binding entity.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"D:\fpga_project\pwm_fpga\ipcore_dir\tmp\_cg\_bbx\can_v3_2\can_ic_main.vhd" Line 233: Net &lt;<arg fmt="%s" index="1">IC_REG_AFR_I[0]</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="info" file="coreutil" num="0" delta="new" ><arg fmt="%s" index="1">Design Linking license for component &lt;can&gt; found. This license does not allow you to generate bitstreams for designs that incorporate this component. You may generate functional simulation netlists, but you may not evaluate this component in hardware.
+For ordering information, please refer to the product page for this component on: www.xilinx.com</arg>
+</msg>
+
+<msg type="info" file="coreutil" num="0" delta="new" ><arg fmt="%s" index="1">Design Linking license for component &lt;can&gt; found. This license does not allow you to generate bitstreams for designs that incorporate this component. You may generate functional simulation netlists, but you may not evaluate this component in hardware.
+For ordering information, please refer to the product page for this component on: www.xilinx.com</arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">RXF_RGPTR_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">CAN_RXFIFO_CNTL_GEN</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;RXF_READ_ADDR_1&gt; </arg>
+</msg>
+
+</messages>

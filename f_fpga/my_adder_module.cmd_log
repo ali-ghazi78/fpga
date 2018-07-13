@@ -1,0 +1,14 @@
+xst -intstyle ise -ifn "D:/fpga_project/f_fpga/my_adder_module.xst" -ofn "D:/fpga_project/f_fpga/my_adder_module.syr" 
+xst -intstyle ise -ifn "D:/fpga_project/f_fpga/my_adder_module.xst" -ofn "D:/fpga_project/f_fpga/my_adder_module.syr" 
+xst -intstyle ise -ifn "D:/fpga_project/f_fpga/my_adder_module.xst" -ofn "D:/fpga_project/f_fpga/my_adder_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa6slx4-csg225-3 my_adder_module.ngc my_adder_module.ngd  
+map -intstyle ise -p xa6slx4-csg225-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o my_adder_module_map.ncd my_adder_module.ngd my_adder_module.pcf 
+par -w -intstyle ise -ol high -mt off my_adder_module_map.ncd my_adder_module.ncd my_adder_module.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml my_adder_module.twx my_adder_module.ncd -o my_adder_module.twr my_adder_module.pcf 
+bitgen -intstyle ise -f my_adder_module.ut my_adder_module.ncd 
+xst -intstyle ise -ifn "D:/fpga_project/f_fpga/my_adder_module.xst" -ofn "D:/fpga_project/f_fpga/my_adder_module.syr" 
+xst -intstyle ise -ifn "D:/fpga_project/f_fpga/my_adder_module.xst" -ofn "D:/fpga_project/f_fpga/my_adder_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa6slx4-csg225-3 my_adder_module.ngc my_adder_module.ngd  
+map -intstyle ise -p xa6slx4-csg225-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o my_adder_module_map.ncd my_adder_module.ngd my_adder_module.pcf 
+par -w -intstyle ise -ol high -mt off my_adder_module_map.ncd my_adder_module.ncd my_adder_module.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml my_adder_module.twx my_adder_module.ncd -o my_adder_module.twr my_adder_module.pcf 

@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\fpga_project\usart_fpga\my_usart.ncd
+OUTFILE=D:\fpga_project\usart_fpga\my_usart.bit
+FAMILY=Spartan6
+PART=xc6slx9-2tqg144
+WORKINGDIR=D:\fpga_project\usart_fpga
+LICENSE=WebPack
+USER_INFO=_

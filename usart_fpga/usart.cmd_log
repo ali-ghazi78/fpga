@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "D:/fpga_project/usart_fpga/usart.xst" -ofn "D:/fpga_project/usart_fpga/usart.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-2 usart.ngc usart.ngd  

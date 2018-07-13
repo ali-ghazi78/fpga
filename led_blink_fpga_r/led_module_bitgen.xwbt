@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\fpga_project\led_blink_fpga_r\led_module.ncd
+OUTFILE=D:\fpga_project\led_blink_fpga_r\led_module.bit
+FAMILY=Spartan6
+PART=xc6slx9-2tqg144
+WORKINGDIR=D:\fpga_project\led_blink_fpga_r
+LICENSE=WebPack
+USER_INFO=_

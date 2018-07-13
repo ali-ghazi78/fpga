@@ -1,0 +1,473 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> Reading design: usart_tester.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "usart_tester.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "usart_tester"
+Output Format                      : NGC
+Target Device                      : xc6slx9-2-tqg144
+
+---- Source Options
+Top Module Name                    : usart_tester
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "D:\fpga_project\usart_fpga_2\usart_module.v" into library work
+Parsing module <my_usart>.
+Analyzing Verilog file "D:\fpga_project\usart_fpga_2\clock_devider.v" into library work
+Parsing module <clock_devider>.
+Analyzing Verilog file "D:\fpga_project\usart_fpga_2\usart_tester.v" into library work
+Parsing module <usart_tester>.
+WARNING:HDLCompiler:1439 - "D:\fpga_project\usart_fpga_2\usart_tester.v" Line 22: Multiple packed dimensions are not allowed in this mode of verilog
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <usart_tester>.
+
+Elaborating module <my_usart>.
+WARNING:HDLCompiler:413 - "D:\fpga_project\usart_fpga_2\usart_module.v" Line 54: Result of 17-bit expression is truncated to fit in 16-bit target.
+WARNING:HDLCompiler:413 - "D:\fpga_project\usart_fpga_2\usart_module.v" Line 68: Result of 9-bit expression is truncated to fit in 8-bit target.
+
+Elaborating module <clock_devider>.
+WARNING:HDLCompiler:413 - "D:\fpga_project\usart_fpga_2\clock_devider.v" Line 38: Result of 17-bit expression is truncated to fit in 16-bit target.
+WARNING:HDLCompiler:1127 - "D:\fpga_project\usart_fpga_2\usart_tester.v" Line 35: Assignment to wi ignored, since the identifier is never used
+WARNING:HDLCompiler:413 - "D:\fpga_project\usart_fpga_2\usart_tester.v" Line 38: Result of 17-bit expression is truncated to fit in 16-bit target.
+WARNING:HDLCompiler:413 - "D:\fpga_project\usart_fpga_2\usart_tester.v" Line 45: Result of 2-bit expression is truncated to fit in 1-bit target.
+WARNING:Xst:2972 - "D:\fpga_project\usart_fpga_2\usart_tester.v" line 35. All outputs of instance <d2> of block <clock_devider> are unconnected in block <usart_tester>. Underlying logic will be removed.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <usart_tester>.
+    Related source file is "D:\fpga_project\usart_fpga_2\usart_tester.v".
+INFO:Xst:3210 - "D:\fpga_project\usart_fpga_2\usart_tester.v" line 35: Output port <output_clk> of the instance <d2> is unconnected or connected to loadless signal.
+    Found 8-bit register for signal <data>.
+    Found 1-bit register for signal <transmit>.
+    Found 1-bit register for signal <k>.
+    Summary:
+	inferred  10 D-type flip-flop(s).
+Unit <usart_tester> synthesized.
+
+Synthesizing Unit <my_usart>.
+    Related source file is "D:\fpga_project\usart_fpga_2\usart_module.v".
+WARNING:Xst:647 - Input <rx_pin> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 8-bit register for signal <counter>.
+    Found 1-bit register for signal <tx_pin>.
+    Found 1-bit register for signal <finished>.
+    Found 1-bit register for signal <flag_wait>.
+    Found 1-bit register for signal <uart_busy>.
+    Found 8-bit register for signal <data_temp>.
+    Found 1-bit register for signal <k>.
+    Found 16-bit register for signal <clock_counter>.
+    Found 16-bit adder for signal <clock_counter[15]_GND_2_o_add_1_OUT> created at line 54.
+    Found 8-bit adder for signal <_n0096> created at line 68.
+    Found 17-bit comparator greater for signal <n0010> created at line 65
+    Found 8-bit comparator greater for signal <n0019> created at line 75
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+	inferred  37 D-type flip-flop(s).
+	inferred   2 Comparator(s).
+	inferred  16 Multiplexer(s).
+Unit <my_usart> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 2
+ 16-bit adder                                          : 1
+ 8-bit adder                                           : 1
+# Registers                                            : 11
+ 1-bit register                                        : 7
+ 16-bit register                                       : 1
+ 8-bit register                                        : 3
+# Comparators                                          : 2
+ 17-bit comparator greater                             : 1
+ 8-bit comparator greater                              : 1
+# Multiplexers                                         : 16
+ 1-bit 2-to-1 multiplexer                              : 11
+ 16-bit 2-to-1 multiplexer                             : 1
+ 8-bit 2-to-1 multiplexer                              : 4
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+WARNING:Xst:1710 - FF/Latch <data_0> (without init value) has a constant value of 1 in block <usart_tester>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <data_1> (without init value) has a constant value of 1 in block <usart_tester>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <data_2> (without init value) has a constant value of 0 in block <usart_tester>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <data_3> (without init value) has a constant value of 0 in block <usart_tester>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <data_4> (without init value) has a constant value of 0 in block <usart_tester>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <data_5> (without init value) has a constant value of 0 in block <usart_tester>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <data_6> (without init value) has a constant value of 1 in block <usart_tester>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <data_7> (without init value) has a constant value of 0 in block <usart_tester>. This FF/Latch will be trimmed during the optimization process.
+
+Synthesizing (advanced) Unit <my_usart>.
+The following registers are absorbed into counter <clock_counter>: 1 register on signal <clock_counter>.
+Unit <my_usart> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 2
+ 16-bit adder                                          : 1
+ 8-bit adder                                           : 1
+# Counters                                             : 1
+ 16-bit up counter                                     : 1
+# Registers                                            : 31
+ Flip-Flops                                            : 31
+# Comparators                                          : 2
+ 17-bit comparator greater                             : 1
+ 8-bit comparator greater                              : 1
+# Multiplexers                                         : 16
+ 1-bit 2-to-1 multiplexer                              : 11
+ 16-bit 2-to-1 multiplexer                             : 1
+ 8-bit 2-to-1 multiplexer                              : 4
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1710 - FF/Latch <data_0> (without init value) has a constant value of 1 in block <usart_tester>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <data_1> (without init value) has a constant value of 1 in block <usart_tester>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <data_2> (without init value) has a constant value of 0 in block <usart_tester>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <data_3> (without init value) has a constant value of 0 in block <usart_tester>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <data_4> (without init value) has a constant value of 0 in block <usart_tester>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <data_5> (without init value) has a constant value of 0 in block <usart_tester>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <data_6> (without init value) has a constant value of 1 in block <usart_tester>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <data_7> (without init value) has a constant value of 0 in block <usart_tester>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <data_temp_7> (without init value) has a constant value of 0 in block <my_usart>. This FF/Latch will be trimmed during the optimization process.
+
+Optimizing unit <usart_tester> ...
+
+Optimizing unit <my_usart> ...
+WARNING:Xst:1710 - FF/Latch <u1/clock_counter_15> (without init value) has a constant value of 0 in block <usart_tester>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u1/clock_counter_14> (without init value) has a constant value of 0 in block <usart_tester>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u1/clock_counter_13> (without init value) has a constant value of 0 in block <usart_tester>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u1/clock_counter_12> (without init value) has a constant value of 0 in block <usart_tester>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <u1/clock_counter_11> (without init value) has a constant value of 0 in block <usart_tester>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <u1/flag_wait> has a constant value of 0 in block <usart_tester>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <u1/counter_7> has a constant value of 0 in block <usart_tester>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <u1/counter_6> has a constant value of 0 in block <usart_tester>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <u1/counter_5> has a constant value of 0 in block <usart_tester>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <u1/counter_4> has a constant value of 0 in block <usart_tester>. This FF/Latch will be trimmed during the optimization process.
+INFO:Xst:2261 - The FF/Latch <transmit> in Unit <usart_tester> is equivalent to the following FF/Latch, which will be removed : <k> 
+INFO:Xst:2261 - The FF/Latch <u1/finished> in Unit <usart_tester> is equivalent to the following FF/Latch, which will be removed : <u1/uart_busy> 
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block usart_tester, actual ratio is 1.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 26
+ Flip-Flops                                            : 26
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : usart_tester.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 120
+#      GND                         : 1
+#      INV                         : 2
+#      LUT1                        : 10
+#      LUT2                        : 26
+#      LUT3                        : 2
+#      LUT4                        : 2
+#      LUT5                        : 15
+#      LUT6                        : 18
+#      MUXCY                       : 21
+#      VCC                         : 1
+#      XORCY                       : 22
+# FlipFlops/Latches                : 26
+#      FD                          : 18
+#      FDE                         : 8
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 4
+#      IBUF                        : 1
+#      OBUF                        : 3
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx9tqg144-2 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:              26  out of  11440     0%  
+ Number of Slice LUTs:                   75  out of   5720     1%  
+    Number used as Logic:                75  out of   5720     1%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:     75
+   Number with an unused Flip Flop:      49  out of     75    65%  
+   Number with an unused LUT:             0  out of     75     0%  
+   Number of fully used LUT-FF pairs:    26  out of     75    34%  
+   Number of unique control sets:         3
+
+IO Utilization: 
+ Number of IOs:                           6
+ Number of bonded IOBs:                   5  out of    102     4%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     16     6%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clock                              | BUFGP                  | 26    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -2
+
+   Minimum period: 6.044ns (Maximum Frequency: 165.453MHz)
+   Minimum input arrival time before clock: 7.225ns
+   Maximum output required time after clock: 4.563ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clock'
+  Clock period: 6.044ns (frequency: 165.453MHz)
+  Total number of paths / destination ports: 2701 / 34
+-------------------------------------------------------------------------
+Delay:               6.044ns (Levels of Logic = 6)
+  Source:            u1/clock_counter_0 (FF)
+  Destination:       u1/clock_counter_10 (FF)
+  Source Clock:      clock rising
+  Destination Clock: clock rising
+
+  Data Path: u1/clock_counter_0 to u1/clock_counter_10
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               2   0.525   0.725  u1/clock_counter_0 (u1/clock_counter_0)
+     INV:I->O              1   0.255   0.000  u1/Madd_clock_counter[15]_GND_2_o_add_1_OUT_lut<0>_INV_0 (u1/Madd_clock_counter[15]_GND_2_o_add_1_OUT_lut<0>)
+     MUXCY:S->O            1   0.215   0.000  u1/Madd_clock_counter[15]_GND_2_o_add_1_OUT_cy<0> (u1/Madd_clock_counter[15]_GND_2_o_add_1_OUT_cy<0>)
+     XORCY:CI->O           1   0.206   1.137  u1/Madd_clock_counter[15]_GND_2_o_add_1_OUT_xor<1> (u1/clock_counter[15]_GND_2_o_add_1_OUT<1>)
+     LUT6:I0->O            7   0.254   0.910  u1/n001022 (u1/n001021)
+     LUT6:I5->O           18   0.254   1.235  u1/n0010_inv1 (u1/_n0129_inv1_cepot)
+     LUT2:I1->O            1   0.254   0.000  u1/clock_counter_10_rstpot (u1/clock_counter_10_rstpot)
+     FD:D                      0.074          u1/clock_counter_10
+    ----------------------------------------
+    Total                      6.044ns (2.037ns logic, 4.007ns route)
+                                       (33.7% logic, 66.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clock'
+  Total number of paths / destination ports: 167 / 33
+-------------------------------------------------------------------------
+Offset:              7.225ns (Levels of Logic = 5)
+  Source:            reset (PAD)
+  Destination:       u1/tx_pin (FF)
+  Destination Clock: clock rising
+
+  Data Path: reset to u1/tx_pin
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            35   1.328   2.000  reset_IBUF (reset_IBUF)
+     LUT5:I0->O           10   0.254   1.008  u1/n001911 (u1/n0019)
+     LUT4:I3->O            1   0.254   0.910  u1/Mmux_finished_finished_MUX_69_o111_SW2 (N16)
+     LUT6:I3->O            4   0.235   0.912  u1/Mmux_finished_finished_MUX_69_o111 (u1/Mmux_finished_finished_MUX_69_o11)
+     LUT6:I4->O            1   0.250   0.000  u1/tx_pin_glue_rst (u1/tx_pin_glue_rst)
+     FD:D                      0.074          u1/tx_pin
+    ----------------------------------------
+    Total                      7.225ns (2.395ns logic, 4.830ns route)
+                                       (33.1% logic, 66.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clock'
+  Total number of paths / destination ports: 3 / 3
+-------------------------------------------------------------------------
+Offset:              4.563ns (Levels of Logic = 1)
+  Source:            transmit (FF)
+  Destination:       k (PAD)
+  Source Clock:      clock rising
+
+  Data Path: transmit to k
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q              14   0.525   1.126  transmit (transmit)
+     OBUF:I->O                 2.912          k_OBUF (k)
+    ----------------------------------------
+    Total                      4.563ns (3.437ns logic, 1.126ns route)
+                                       (75.3% logic, 24.7% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock clock
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clock          |    6.044|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 8.00 secs
+Total CPU time to Xst completion: 7.49 secs
+ 
+--> 
+
+Total memory usage is 299296 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   36 (   0 filtered)
+Number of infos    :    3 (   0 filtered)
+
