@@ -27,13 +27,13 @@
 `define freq_i2c  
 `define not_busy	1
 `define busy	0
-//if value of  and scl is z it means they are both high
+`define finished 1
+`define not_finished 0
+//if value of  and scl is 1'bz it means they are both high
 //enable_send is high always when u make it low the transmition starts 
 module i2c_master_write_byte(clock,reset,led,sda,scl,slave_address,slave_register,slave_data,i2c_status,i2c_busy,enable_send);
 	input clock;
 	input reset;
-	inout sda;
-	inout scl;
 	input [0:7]slave_address;
 	input [0:7]slave_data;
 	input [0:7]slave_register;
@@ -41,47 +41,60 @@ module i2c_master_write_byte(clock,reset,led,sda,scl,slave_address,slave_registe
 	output reg [0:7]i2c_status;
 	output reg led;
 	output reg i2c_busy;
+	output  reg sda;
+	output reg  scl;
 	wire delay_ms;
 	wire delay_ns;
+	wire clock_i2c;
 	reg [0:7]counter_data;
+	reg [0:7]counter_i2c;
+	reg flag_finished;
 	
 
 	initial  begin
+		flag_finished=`not_finished;
 		i2c_busy=`not_busy;
 		led=0;
 		i2c_status=0;
+		counter_i2c=0;
 	end
-	always@(posedge i2c_clock) begin
+	
+	freq_maker freq_i2c(.freq_2_make(100),.freq_output(clock_i2c),.clock(clock),.reset(reset),.freq_in_mhz(50));
+		
+	always@(posedge clock_i2c) begin
 		if(!reset)begin
 			i2c_busy=`not_busy;
 			led=1;
 			i2c_status=0;
-			scl=z;
-			sda=z;
+			scl=1'bz;
+			sda=1'bz;
+			counter_i2c=0;
+			flag_finished=`not_finished;
 		end
-		else if(!enable_send)begin
+		else if((!enable_send)||(flag_finished==`not_finished))begin
 			if(counter_i2c==0)begin
 				led=1;
 				i2c_busy=`busy;
-				scl=z;
-				sda=z;
+				scl=1'bz;
+				sda=1'bz;
 				i2c_status=0;
 				counter_i2c=counter_i2c+1;
+				flag_finished=not_finished;
 			end
 			else if(counter_i2c==1)begin						//-----------------------------start_condition---------------
 				sda=0;
-				scl=z;		
+				scl=1'bz;		
 				counter_data=8;//because we avoided negative numbers
 				counter_i2c=counter_i2c+1;
 			end
 			else if(counter_i2c>=2&&counter_i2c<=17)begin//---------------------- address msb to lsb-------------------
 				if(counter_data>=1&&counter_i2c%2==0)begin//2-4-6-8-10-12-14-16
 					scl=0;
-					sda=((slave_address&(1<<(counter_data-1)))&&1)?z:0;
+					sda=((slave_address&(1<<(counter_data-1)))&&1)?1'bz:0;
 					counter_data=counter_data-1;
 				end
 				else if(counter_data%2==1)begin
-					scl=z;		
+					scl=1'bz;		
 				end
 				counter_i2c=counter_i2c+1;
 			end
@@ -95,59 +108,68 @@ module i2c_master_write_byte(clock,reset,led,sda,scl,slave_address,slave_registe
 				counter_i2c=counter_i2c+1;
 			end
 			else if(counter_i2c>=19&&counter_i2c<=34)begin//---------------------- register msb to lsb-------------------
-				if(counter_data>=1&&counter_i2c%2==0)begin//2-4-6-8-10-12-14-16
+				if(counter_data>=1&&counter_i2c%2==1)begin//3-5-7-9-11-13-15-17
 					scl=0;
-					sda=((slave_address&(1<<(counter_data-1)))&&1)?z:0;
+					sda=((slave_register&(1<<(counter_data-1)))&&1)?1'bz:0;
 					counter_data=counter_data-1;
 				end
-				else if(counter_data%2==1)begin
-					scl=z;		
+				else if(counter_data%2==0)begin
+					scl=1'bz;		
 				end
 				counter_i2c=counter_i2c+1;
 			end
-			counter_data=8;//because we avoided negative numbers
-			for(;counter_data>=1;counter_data=counter_data-1)begin
+			else if(counter_i2c==35)begin
+				if(sda==1)//no ack
+					i2c_status=i2c_status|4;		//register was sent but no ack
+				else
+					i2c_status=i2c_status|8;		//register was sent and ack received
 				scl=0;
-				sda=((slave_register&(1<<(counter_data-1)))&&1)?z:0;
-				#10_000;//100khz
-				scl=z;		
-				#10_000;//100khz			
+				counter_i2c=counter_i2c+1;
+				counter_data=8;
 			end
-			//------------------------------------------------------------
-			if(sda==1)//no ack
-				i2c_status=i2c_status|4;		//register was sent but no ack
-			else
-				i2c_status=i2c_status|8;		//register was sent and ack received
-			scl=0;
-			#10_000;//100khz			
-			//---------------------- data msb to lsb-------------------
-			counter_data=8;//because we avoided negative numbers
-			for(;counter_data>=1;counter_data=counter_data-1)begin
-				scl=0;
-				sda=((slave_data&(1<<(counter_data-1)))&&1)?z:0;
-				#10_000;//100khz
-				scl=z;		
-				#10_000;//100khz			
+			else if(counter_i2c>=36&&counter_i2c<=51)begin//---------------------- data msb to lsb-------------------
+				if(counter_data>=1&&counter_i2c%2==0)begin//3-5-7-9-11-13-15-17
+					scl=0;
+					sda=((slave_data&(1<<(counter_data-1)))&&1)?1'bz:0;
+					counter_data=counter_data-1;
+				end
+				else if(counter_data%2==1)begin
+					scl=1'bz;		
+				end
+				counter_i2c=counter_i2c+1;
 			end
-			//------------------------------------------------------------
-			if(sda==1)//no ack
-				i2c_status=i2c_status|16;		//data was sent but no ack
-			else
-				i2c_status=i2c_status|32;		//data was sent and ack received 
-			scl=0;
-			#10_000;//100khz
-				
-			//-----------------------------start_condition---------------
-			scl=0;		
-			#10_000;//100khz
-			sda=0;
-			#10_000;//100khz
-			scl=z;
-			#10;			
-			sda=z;
-			//-----------------------------------------------------------
-			i2c_busy=`not_busy;
-			led=0;
+			else if(counter_i2c==52)begin
+				if(sda==1)//no ack
+					i2c_status=i2c_status|16;		//data was sent but no ack
+				else
+					i2c_status=i2c_status|32;		//data was sent and ack received 
+				scl=0;			
+				counter_i2c=counter_i2c+1;
+			end
+			else if(counter_i2c==53)begin//-----------------------------stop condition---------------
+				scl=0;		
+				counter_i2c=counter_i2c+1;
+			end
+			else if(counter_i2c==54)begin
+				sda=0;
+				counter_i2c=counter_i2c+1;
+			end
+			else if(counter_i2c==55)begin
+				scl=1'bz;
+				sda=1'bz;
+				counter_i2c=counter_i2c+1;
+			end
+			else if(counter_i2c==56)begin
+				i2c_busy=`not_busy;
+				if(enable_send==0)begin//the master should leave enable_send
+					counter_i2c=56;
+				end
+				else begin
+					counter_i2c=0;
+					led=0;				  //the master left enable send
+					flag_finished=`finished;
+				end
+			end
 		end
 		else begin//nothing has happend
 			led=0;
@@ -157,8 +179,8 @@ endmodule
 
 
 
-//for example if u have 50mhz just pass 50 for freq_in_mhz 
-//for example if u have 50khz  kilooo not mega just pass 50 for freq_2_make  
+//for example if u have 50mh1'bz just pass 50 for freq_in_mh1'bz 
+//for example if u have 50kh1'bz  kilooo not mega just pass 50 for freq_2_make  
 
 
 //*2 be khater ine ke vati modul mikoni freq khoroji nesf mishe
@@ -168,7 +190,7 @@ module freq_maker(freq_2_make,freq_output,clock,reset,freq_in_mhz,led);
 	input clock;
 	input reset;
 	output reg led;
-	output freq_output;
+	output reg freq_output;
 	reg [0:31]counter_clock;
 	
 	initial begin
@@ -180,7 +202,7 @@ module freq_maker(freq_2_make,freq_output,clock,reset,freq_in_mhz,led);
 	always @(posedge clock)begin
 		if(!reset)begin
 			counter_clock=0;
-			delay_output=0;		
+			freq_output=0;		
 			led=0;
 		end
 		else begin	
