@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2018-07-13T21:09:49</DateModified>
+  <DateModified>2018-07-19T05:26:33</DateModified>
   <ModuleName>usart_tester</ModuleName>
   <SummaryTimeStamp>2018-07-13T21:09:07</SummaryTimeStamp>
   <SavedFilePath>D:/fpga_project/usart_fpga_2/iseconfig/usart_tester.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>D:/fpga_project/usart_fpga_2</ImplementationReportsDirectory>
+  <ImplementationReportsDirectory>D:/fpga_project/usart_fpga_2\</ImplementationReportsDirectory>
   <DateInitialized>2018-07-13T20:26:23</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>
@@ -22,8 +22,8 @@
    <view inputState="Translated" program="map" locator="MAP_IOB_TABLE" contextTags="FPGA_ONLY" type="IOBProperties" file="usart_tester_map.xrpt" label="IOB Properties" />
    <view inputState="Translated" program="map" contextTags="FPGA_ONLY" hidden="true" type="Control_Sets" file="usart_tester_map.xrpt" label="Control Set Information" />
    <view inputState="Translated" program="map" locator="MAP_MODULE_HIERARCHY" contextTags="FPGA_ONLY" type="Module_Utilization" file="usart_tester_map.xrpt" label="Module Level Utilization" />
-   <view inputState="Mapped" program="par" locator="CONSTRAINT_TABLE" contextTags="FPGA_ONLY" type="ConstraintsData" file="usart_tester.ptwx" label="Timing Constraints" translator="ptwxToTableXML.xslt" />
-   <view inputState="Mapped" program="par" locator="PAR_PINOUT_BY_PIN_NUMBER" contextTags="FPGA_ONLY" type="PinoutData" file="usart_tester_par.xrpt" label="Pinout Report" />
+   <view inputState="Mapped" program="par" locator="CONSTRAINT_TABLE" contextTags="FPGA_ONLY" type="ConstraintsData" file="usart_tester.ptwx" showConstraints="0" label="Timing Constraints" translator="ptwxToTableXML.xslt" />
+   <view inputState="Mapped" program="par" locator="PAR_PINOUT_BY_PIN_NUMBER" contextTags="FPGA_ONLY" type="PinoutData" file="usart_tester_par.xrpt" showConstraints="0" label="Pinout Report" />
    <view inputState="Mapped" program="par" locator="PAR_CLOCK_TABLE" contextTags="FPGA_ONLY" type="ClocksData" file="usart_tester_par.xrpt" label="Clock Report" />
    <view inputState="Mapped" program="par" contextTags="FPGA_ONLY,EDK_OFF" type="Timing_Analyzer" file="usart_tester.twx" label="Static Timing" />
    <view inputState="Translated" program="cpldfit" contextTags="CPLD_ONLY,EDK_OFF" hidden="true" type="EXTERNAL_HTML" file="usart_tester_html/fit/report.htm" label="CPLD Fitter Report" />

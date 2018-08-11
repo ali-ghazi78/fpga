@@ -1,5 +1,5 @@
 //! **************************************************************************
-// Written by: Map P.20131013 on Fri Jul 13 21:22:13 2018
+// Written by: Map P.20131013 on Sun Jul 15 02:29:12 2018
 //! **************************************************************************
 
 SCHEMATIC START;
@@ -8,5 +8,16 @@ COMP "led2" LOCATE = SITE "P133" LEVEL 1;
 COMP "tx" LOCATE = SITE "P51" LEVEL 1;
 COMP "clock" LOCATE = SITE "P84" LEVEL 1;
 COMP "reset" LOCATE = SITE "P38" LEVEL 1;
+TIMEGRP clock = BEL "u1/led" BEL "u1/data_temp_6" BEL "u1/data_temp_5" BEL
+        "u1/data_temp_4" BEL "u1/data_temp_3" BEL "u1/data_temp_2" BEL
+        "u1/data_temp_1" BEL "u1/data_temp_0" BEL "transmit" BEL "u1/tx_pin"
+        BEL "u1/finished" BEL "u1/counter_1" BEL "u1/counter_0" BEL
+        "u1/clock_counter_10" BEL "u1/clock_counter_9" BEL
+        "u1/clock_counter_8" BEL "u1/clock_counter_7" BEL "u1/clock_counter_6"
+        BEL "u1/clock_counter_5" BEL "u1/clock_counter_4" BEL
+        "u1/clock_counter_3" BEL "u1/clock_counter_2" BEL "u1/clock_counter_1"
+        BEL "u1/clock_counter_0" BEL "u1/counter_2" BEL "u1/counter_3" BEL
+        "clock_BUFGP/BUFG";
+TS_clock = PERIOD TIMEGRP "clock" 20 ns HIGH 50%;
 SCHEMATIC END;
 
