@@ -1,0 +1,10 @@
+[Inputs]
+tx_pin
+=GPI1[31:0]=
+[Outputs]
+led
+=GPO1[31:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel top_leve
+

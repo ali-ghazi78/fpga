@@ -1,0 +1,14 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Sat Jul 21 23:11:22 2018
+//! **************************************************************************
+
+SCHEMATIC START;
+NET
+        "my_micro/U0/microblaze_I/MicroBlaze_Core_I/Area.Data_Flow_I/PC_Module_I/Using_FPGA.pc_write_I"
+        USELOWSKEWLINES;
+COMP "tx" LOCATE = SITE "P51" LEVEL 1;
+COMP "led" LOCATE = SITE "P131" LEVEL 1;
+COMP "clock" LOCATE = SITE "P84" LEVEL 1;
+COMP "reset" LOCATE = SITE "P38" LEVEL 1;
+SCHEMATIC END;
+

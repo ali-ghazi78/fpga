@@ -1,0 +1,7 @@
+INFILE=D:\fpga_project\cpu\14\implementation\system.ncd
+OUTFILE=D:\fpga_project\cpu\14\implementation\system.bit
+FAMILY=Spartan6
+PART=xc6slx4-3tqg144
+WORKINGDIR=D:\fpga_project\cpu\14\implementation
+LICENSE=WebPack
+USER_INFO=_

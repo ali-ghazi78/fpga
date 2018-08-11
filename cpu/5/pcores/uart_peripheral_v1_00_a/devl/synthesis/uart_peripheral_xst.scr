@@ -1,0 +1,12 @@
+run
+-opt_level 2
+-opt_mode speed
+-ifmt mixed
+-ifn "D:\fpga_project\cpu\5\pcores\uart_peripheral_v1_00_a\devl\synthesis\uart_peripheral_xst.prj"
+-top uart_peripheral
+-p virtex6
+-ofn "D:\fpga_project\cpu\5\pcores\uart_peripheral_v1_00_a\devl\synthesis\uart_peripheral_xst.ngc"
+-iobuf NO
+-rtlview YES
+-hierarchy_separator /
+-work_lib uart_peripheral_v1_00_a

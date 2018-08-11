@@ -1,0 +1,771 @@
+Release 14.7 Map P.20131013 (nt64)
+Xilinx Map Application Log File for Design 'top_leve'
+
+Design Information
+------------------
+Command Line   : map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol
+high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off
+-pr off -lc off -power off -o top_leve_map.ncd top_leve.ngd top_leve.pcf 
+Target Device  : xc6slx9
+Target Package : tqg144
+Target Speed   : -2
+Mapper Version : spartan6 -- $Revision: 1.55 $
+Mapped Date    : Sun Jul 22 11:46:19 2018
+
+Mapping design into LUTs...
+ERROR:MapLib:979 - LUT6 symbol "my_micro/U0/dlmb/DBus_Oring.Res<0>" (output
+   signal=my_micro/U0/dlmb_LMB_ReadDBus<0>) has input signal "my_micro/N78"
+   which will be trimmed. See Section 5 of the Map Report File for details about
+   why the input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol "my_micro/U0/dlmb/DBus_Oring.Res<10>" (output
+   signal=my_micro/U0/dlmb_LMB_ReadDBus<10>) has input signal "my_micro/N58"
+   which will be trimmed. See Section 5 of the Map Report File for details about
+   why the input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol "my_micro/U0/dlmb/DBus_Oring.Res<11>" (output
+   signal=my_micro/U0/dlmb_LMB_ReadDBus<11>) has input signal "my_micro/N56"
+   which will be trimmed. See Section 5 of the Map Report File for details about
+   why the input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol "my_micro/U0/dlmb/DBus_Oring.Res<12>" (output
+   signal=my_micro/U0/dlmb_LMB_ReadDBus<12>) has input signal "my_micro/N54"
+   which will be trimmed. See Section 5 of the Map Report File for details about
+   why the input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol "my_micro/U0/dlmb/DBus_Oring.Res<13>" (output
+   signal=my_micro/U0/dlmb_LMB_ReadDBus<13>) has input signal "my_micro/N52"
+   which will be trimmed. See Section 5 of the Map Report File for details about
+   why the input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol "my_micro/U0/dlmb/DBus_Oring.Res<14>" (output
+   signal=my_micro/U0/dlmb_LMB_ReadDBus<14>) has input signal "my_micro/N50"
+   which will be trimmed. See Section 5 of the Map Report File for details about
+   why the input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol "my_micro/U0/dlmb/DBus_Oring.Res<15>" (output
+   signal=my_micro/U0/dlmb_LMB_ReadDBus<15>) has input signal "my_micro/N48"
+   which will be trimmed. See Section 5 of the Map Report File for details about
+   why the input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol "my_micro/U0/dlmb/DBus_Oring.Res<16>" (output
+   signal=my_micro/U0/dlmb_LMB_ReadDBus<16>) has input signal
+   "my_micro/U0/iomodule_0/io_bus_read_data<15>" which will be trimmed. See
+   Section 5 of the Map Report File for details about why the input signal will
+   become undriven.
+ERROR:MapLib:979 - LUT6 symbol "my_micro/U0/dlmb/DBus_Oring.Res<16>" (output
+   signal=my_micro/U0/dlmb_LMB_ReadDBus<16>) has input signal "my_micro/N46"
+   which will be trimmed. See Section 5 of the Map Report File for details about
+   why the input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol "my_micro/U0/dlmb/DBus_Oring.Res<17>" (output
+   signal=my_micro/U0/dlmb_LMB_ReadDBus<17>) has input signal
+   "my_micro/U0/iomodule_0/io_bus_read_data<14>" which will be trimmed. See
+   Section 5 of the Map Report File for details about why the input signal will
+   become undriven.
+ERROR:MapLib:979 - LUT6 symbol "my_micro/U0/dlmb/DBus_Oring.Res<17>" (output
+   signal=my_micro/U0/dlmb_LMB_ReadDBus<17>) has input signal "my_micro/N44"
+   which will be trimmed. See Section 5 of the Map Report File for details about
+   why the input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol "my_micro/U0/dlmb/DBus_Oring.Res<18>" (output
+   signal=my_micro/U0/dlmb_LMB_ReadDBus<18>) has input signal
+   "my_micro/U0/iomodule_0/io_bus_read_data<13>" which will be trimmed. See
+   Section 5 of the Map Report File for details about why the input signal will
+   become undriven.
+ERROR:MapLib:979 - LUT6 symbol "my_micro/U0/dlmb/DBus_Oring.Res<18>" (output
+   signal=my_micro/U0/dlmb_LMB_ReadDBus<18>) has input signal "my_micro/N42"
+   which will be trimmed. See Section 5 of the Map Report File for details about
+   why the input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol "my_micro/U0/dlmb/DBus_Oring.Res<19>" (output
+   signal=my_micro/U0/dlmb_LMB_ReadDBus<19>) has input signal
+   "my_micro/U0/iomodule_0/io_bus_read_data<12>" which will be trimmed. See
+   Section 5 of the Map Report File for details about why the input signal will
+   become undriven.
+ERROR:MapLib:979 - LUT6 symbol "my_micro/U0/dlmb/DBus_Oring.Res<19>" (output
+   signal=my_micro/U0/dlmb_LMB_ReadDBus<19>) has input signal "my_micro/N40"
+   which will be trimmed. See Section 5 of the Map Report File for details about
+   why the input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol "my_micro/U0/dlmb/DBus_Oring.Res<1>" (output
+   signal=my_micro/U0/dlmb_LMB_ReadDBus<1>) has input signal "my_micro/N76"
+   which will be trimmed. See Section 5 of the Map Report File for details about
+   why the input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol "my_micro/U0/dlmb/DBus_Oring.Res<20>" (output
+   signal=my_micro/U0/dlmb_LMB_ReadDBus<20>) has input signal
+   "my_micro/U0/iomodule_0/io_bus_read_data<11>" which will be trimmed. See
+   Section 5 of the Map Report File for details about why the input signal will
+   become undriven.
+ERROR:MapLib:979 - LUT6 symbol "my_micro/U0/dlmb/DBus_Oring.Res<20>" (output
+   signal=my_micro/U0/dlmb_LMB_ReadDBus<20>) has input signal "my_micro/N38"
+   which will be trimmed. See Section 5 of the Map Report File for details about
+   why the input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol "my_micro/U0/dlmb/DBus_Oring.Res<21>" (output
+   signal=my_micro/U0/dlmb_LMB_ReadDBus<21>) has input signal
+   "my_micro/U0/iomodule_0/io_bus_read_data<10>" which will be trimmed. See
+   Section 5 of the Map Report File for details about why the input signal will
+   become undriven.
+ERROR:MapLib:979 - LUT6 symbol "my_micro/U0/dlmb/DBus_Oring.Res<21>" (output
+   signal=my_micro/U0/dlmb_LMB_ReadDBus<21>) has input signal "my_micro/N36"
+   which will be trimmed. See Section 5 of the Map Report File for details about
+   why the input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol "my_micro/U0/dlmb/DBus_Oring.Res<22>" (output
+   signal=my_micro/U0/dlmb_LMB_ReadDBus<22>) has input signal
+   "my_micro/U0/iomodule_0/io_bus_read_data<9>" which will be trimmed. See
+   Section 5 of the Map Report File for details about why the input signal will
+   become undriven.
+ERROR:MapLib:979 - LUT6 symbol "my_micro/U0/dlmb/DBus_Oring.Res<22>" (output
+   signal=my_micro/U0/dlmb_LMB_ReadDBus<22>) has input signal "my_micro/N34"
+   which will be trimmed. See Section 5 of the Map Report File for details about
+   why the input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol "my_micro/U0/dlmb/DBus_Oring.Res<23>" (output
+   signal=my_micro/U0/dlmb_LMB_ReadDBus<23>) has input signal
+   "my_micro/U0/iomodule_0/io_bus_read_data<8>" which will be trimmed. See
+   Section 5 of the Map Report File for details about why the input signal will
+   become undriven.
+ERROR:MapLib:979 - LUT6 symbol "my_micro/U0/dlmb/DBus_Oring.Res<23>" (output
+   signal=my_micro/U0/dlmb_LMB_ReadDBus<23>) has input signal "my_micro/N32"
+   which will be trimmed. See Section 5 of the Map Report File for details about
+   why the input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol "my_micro/U0/dlmb/DBus_Oring.Res<24>" (output
+   signal=my_micro/U0/dlmb_LMB_ReadDBus<24>) has input signal
+   "my_micro/U0/iomodule_0/io_bus_read_data<7>" which will be trimmed. See
+   Section 5 of the Map Report File for details about why the input signal will
+   become undriven.
+ERROR:MapLib:979 - LUT6 symbol "my_micro/U0/dlmb/DBus_Oring.Res<24>" (output
+   signal=my_micro/U0/dlmb_LMB_ReadDBus<24>) has input signal "my_micro/N30"
+   which will be trimmed. See Section 5 of the Map Report File for details about
+   why the input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol "my_micro/U0/dlmb/DBus_Oring.Res<25>" (output
+   signal=my_micro/U0/dlmb_LMB_ReadDBus<25>) has input signal
+   "my_micro/U0/iomodule_0/io_bus_read_data<6>" which will be trimmed. See
+   Section 5 of the Map Report File for details about why the input signal will
+   become undriven.
+ERROR:MapLib:979 - LUT6 symbol "my_micro/U0/dlmb/DBus_Oring.Res<25>" (output
+   signal=my_micro/U0/dlmb_LMB_ReadDBus<25>) has input signal "my_micro/N28"
+   which will be trimmed. See Section 5 of the Map Report File for details about
+   why the input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol "my_micro/U0/dlmb/DBus_Oring.Res<26>" (output
+   signal=my_micro/U0/dlmb_LMB_ReadDBus<26>) has input signal
+   "my_micro/U0/iomodule_0/io_bus_read_data<5>" which will be trimmed. See
+   Section 5 of the Map Report File for details about why the input signal will
+   become undriven.
+ERROR:MapLib:979 - LUT6 symbol "my_micro/U0/dlmb/DBus_Oring.Res<26>" (output
+   signal=my_micro/U0/dlmb_LMB_ReadDBus<26>) has input signal "my_micro/N26"
+   which will be trimmed. See Section 5 of the Map Report File for details about
+   why the input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol "my_micro/U0/dlmb/DBus_Oring.Res<27>" (output
+   signal=my_micro/U0/dlmb_LMB_ReadDBus<27>) has input signal
+   "my_micro/U0/iomodule_0/io_bus_read_data<4>" which will be trimmed. See
+   Section 5 of the Map Report File for details about why the input signal will
+   become undriven.
+ERROR:MapLib:979 - LUT6 symbol "my_micro/U0/dlmb/DBus_Oring.Res<27>" (output
+   signal=my_micro/U0/dlmb_LMB_ReadDBus<27>) has input signal "my_micro/N24"
+   which will be trimmed. See Section 5 of the Map Report File for details about
+   why the input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol "my_micro/U0/dlmb/DBus_Oring.Res<28>" (output
+   signal=my_micro/U0/dlmb_LMB_ReadDBus<28>) has input signal
+   "my_micro/U0/iomodule_0/io_bus_read_data<3>" which will be trimmed. See
+   Section 5 of the Map Report File for details about why the input signal will
+   become undriven.
+ERROR:MapLib:979 - LUT6 symbol "my_micro/U0/dlmb/DBus_Oring.Res<28>" (output
+   signal=my_micro/U0/dlmb_LMB_ReadDBus<28>) has input signal "my_micro/N22"
+   which will be trimmed. See Section 5 of the Map Report File for details about
+   why the input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol "my_micro/U0/dlmb/DBus_Oring.Res<29>" (output
+   signal=my_micro/U0/dlmb_LMB_ReadDBus<29>) has input signal
+   "my_micro/U0/iomodule_0/io_bus_read_data<2>" which will be trimmed. See
+   Section 5 of the Map Report File for details about why the input signal will
+   become undriven.
+ERROR:MapLib:979 - LUT6 symbol "my_micro/U0/dlmb/DBus_Oring.Res<29>" (output
+   signal=my_micro/U0/dlmb_LMB_ReadDBus<29>) has input signal "my_micro/N20"
+   which will be trimmed. See Section 5 of the Map Report File for details about
+   why the input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol "my_micro/U0/dlmb/DBus_Oring.Res<2>" (output
+   signal=my_micro/U0/dlmb_LMB_ReadDBus<2>) has input signal "my_micro/N74"
+   which will be trimmed. See Section 5 of the Map Report File for details about
+   why the input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol "my_micro/U0/dlmb/DBus_Oring.Res<30>" (output
+   signal=my_micro/U0/dlmb_LMB_ReadDBus<30>) has input signal
+   "my_micro/U0/iomodule_0/io_bus_read_data<1>" which will be trimmed. See
+   Section 5 of the Map Report File for details about why the input signal will
+   become undriven.
+ERROR:MapLib:979 - LUT6 symbol "my_micro/U0/dlmb/DBus_Oring.Res<30>" (output
+   signal=my_micro/U0/dlmb_LMB_ReadDBus<30>) has input signal "my_micro/N18"
+   which will be trimmed. See Section 5 of the Map Report File for details about
+   why the input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol "my_micro/U0/dlmb/DBus_Oring.Res<3>" (output
+   signal=my_micro/U0/dlmb_LMB_ReadDBus<3>) has input signal "my_micro/N72"
+   which will be trimmed. See Section 5 of the Map Report File for details about
+   why the input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol "my_micro/U0/dlmb/DBus_Oring.Res<4>" (output
+   signal=my_micro/U0/dlmb_LMB_ReadDBus<4>) has input signal "my_micro/N70"
+   which will be trimmed. See Section 5 of the Map Report File for details about
+   why the input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol "my_micro/U0/dlmb/DBus_Oring.Res<5>" (output
+   signal=my_micro/U0/dlmb_LMB_ReadDBus<5>) has input signal "my_micro/N68"
+   which will be trimmed. See Section 5 of the Map Report File for details about
+   why the input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol "my_micro/U0/dlmb/DBus_Oring.Res<6>" (output
+   signal=my_micro/U0/dlmb_LMB_ReadDBus<6>) has input signal "my_micro/N66"
+   which will be trimmed. See Section 5 of the Map Report File for details about
+   why the input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol "my_micro/U0/dlmb/DBus_Oring.Res<7>" (output
+   signal=my_micro/U0/dlmb_LMB_ReadDBus<7>) has input signal "my_micro/N64"
+   which will be trimmed. See Section 5 of the Map Report File for details about
+   why the input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol "my_micro/U0/dlmb/DBus_Oring.Res<8>" (output
+   signal=my_micro/U0/dlmb_LMB_ReadDBus<8>) has input signal "my_micro/N62"
+   which will be trimmed. See Section 5 of the Map Report File for details about
+   why the input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol "my_micro/U0/dlmb/DBus_Oring.Res<9>" (output
+   signal=my_micro/U0/dlmb_LMB_ReadDBus<9>) has input signal "my_micro/N60"
+   which will be trimmed. See Section 5 of the Map Report File for details about
+   why the input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol "my_micro/U0/dlmb/DBus_Oring.tmp_or" (output
+   signal=my_micro/U0/dlmb_LMB_ReadDBus<31>) has input signal
+   "my_micro/U0/iomodule_0/io_bus_read_data<0>" which will be trimmed. See
+   Section 5 of the Map Report File for details about why the input signal will
+   become undriven.
+ERROR:MapLib:979 - LUT4 symbol "my_micro/U0/dlmb/DBus_Oring.tmp_or_SW0" (output
+   signal=my_micro/N16) has input signal
+   "my_micro/U0/iomodule_0/IOModule_Core_I1/GPI_I2/GPI_In<0>" which will be
+   trimmed. See Section 5 of the Map Report File for details about why the input
+   signal will become undriven.
+ERROR:MapLib:979 - LUT4 symbol "my_micro/U0/dlmb/DBus_Oring.tmp_or_SW0" (output
+   signal=my_micro/N16) has input signal
+   "my_micro/U0/iomodule_0/IOModule_Core_I1/GPI_I4/GPI_In<0>" which will be
+   trimmed. See Section 5 of the Map Report File for details about why the input
+   signal will become undriven.
+ERROR:MapLib:979 - LUT4 symbol "my_micro/U0/dlmb/DBus_Oring.tmp_or_SW0" (output
+   signal=my_micro/N16) has input signal
+   "my_micro/U0/iomodule_0/IOModule_Core_I1/GPI_I3/GPI_In<0>" which will be
+   trimmed. See Section 5 of the Map Report File for details about why the input
+   signal will become undriven.
+ERROR:MapLib:979 - LUT3 symbol
+   "my_micro/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_16_glue_set"
+   (output
+   signal=my_micro/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_16_glue_set)
+   has input signal
+   "my_micro/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/interrupt_16" which
+   will be trimmed. See Section 5 of the Map Report File for details about why
+   the input signal will become undriven.
+ERROR:MapLib:979 - LUT3 symbol
+   "my_micro/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_17_glue_set"
+   (output
+   signal=my_micro/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_17_glue_set)
+   has input signal
+   "my_micro/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/interrupt_17" which
+   will be trimmed. See Section 5 of the Map Report File for details about why
+   the input signal will become undriven.
+ERROR:MapLib:979 - LUT3 symbol
+   "my_micro/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_18_glue_set"
+   (output
+   signal=my_micro/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_18_glue_set)
+   has input signal
+   "my_micro/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/interrupt_18" which
+   will be trimmed. See Section 5 of the Map Report File for details about why
+   the input signal will become undriven.
+ERROR:MapLib:979 - LUT3 symbol
+   "my_micro/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_19_glue_set"
+   (output
+   signal=my_micro/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_19_glue_set)
+   has input signal
+   "my_micro/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/interrupt_19" which
+   will be trimmed. See Section 5 of the Map Report File for details about why
+   the input signal will become undriven.
+ERROR:MapLib:979 - LUT3 symbol
+   "my_micro/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_20_glue_set"
+   (output
+   signal=my_micro/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_20_glue_set)
+   has input signal
+   "my_micro/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/interrupt_20" which
+   will be trimmed. See Section 5 of the Map Report File for details about why
+   the input signal will become undriven.
+ERROR:MapLib:979 - LUT3 symbol
+   "my_micro/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_21_glue_set"
+   (output
+   signal=my_micro/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_21_glue_set)
+   has input signal
+   "my_micro/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/interrupt_21" which
+   will be trimmed. See Section 5 of the Map Report File for details about why
+   the input signal will become undriven.
+ERROR:MapLib:979 - LUT3 symbol
+   "my_micro/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_22_glue_set"
+   (output
+   signal=my_micro/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_22_glue_set)
+   has input signal
+   "my_micro/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/interrupt_22" which
+   will be trimmed. See Section 5 of the Map Report File for details about why
+   the input signal will become undriven.
+ERROR:MapLib:979 - LUT3 symbol
+   "my_micro/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_23_glue_set"
+   (output
+   signal=my_micro/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_23_glue_set)
+   has input signal
+   "my_micro/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/interrupt_23" which
+   will be trimmed. See Section 5 of the Map Report File for details about why
+   the input signal will become undriven.
+ERROR:MapLib:979 - LUT3 symbol
+   "my_micro/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_24_glue_set"
+   (output
+   signal=my_micro/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_24_glue_set)
+   has input signal
+   "my_micro/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/interrupt_24" which
+   will be trimmed. See Section 5 of the Map Report File for details about why
+   the input signal will become undriven.
+ERROR:MapLib:979 - LUT3 symbol
+   "my_micro/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_25_glue_set"
+   (output
+   signal=my_micro/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_25_glue_set)
+   has input signal
+   "my_micro/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/interrupt_25" which
+   will be trimmed. See Section 5 of the Map Report File for details about why
+   the input signal will become undriven.
+ERROR:MapLib:979 - LUT3 symbol
+   "my_micro/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_26_glue_set"
+   (output
+   signal=my_micro/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_26_glue_set)
+   has input signal
+   "my_micro/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/interrupt_26" which
+   will be trimmed. See Section 5 of the Map Report File for details about why
+   the input signal will become undriven.
+ERROR:MapLib:979 - LUT3 symbol
+   "my_micro/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_27_glue_set"
+   (output
+   signal=my_micro/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_27_glue_set)
+   has input signal
+   "my_micro/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/interrupt_27" which
+   will be trimmed. See Section 5 of the Map Report File for details about why
+   the input signal will become undriven.
+ERROR:MapLib:979 - LUT3 symbol
+   "my_micro/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_28_glue_set"
+   (output
+   signal=my_micro/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_28_glue_set)
+   has input signal
+   "my_micro/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/interrupt_28" which
+   will be trimmed. See Section 5 of the Map Report File for details about why
+   the input signal will become undriven.
+ERROR:MapLib:979 - LUT3 symbol
+   "my_micro/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_29_glue_set"
+   (output
+   signal=my_micro/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_29_glue_set)
+   has input signal
+   "my_micro/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/interrupt_29" which
+   will be trimmed. See Section 5 of the Map Report File for details about why
+   the input signal will become undriven.
+ERROR:MapLib:979 - LUT3 symbol
+   "my_micro/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_30_glue_set"
+   (output
+   signal=my_micro/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_30_glue_set)
+   has input signal
+   "my_micro/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/interrupt_30" which
+   will be trimmed. See Section 5 of the Map Report File for details about why
+   the input signal will become undriven.
+ERROR:MapLib:979 - LUT3 symbol
+   "my_micro/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_31_glue_set"
+   (output
+   signal=my_micro/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_31_glue_set)
+   has input signal
+   "my_micro/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/interrupt_31" which
+   will be trimmed. See Section 5 of the Map Report File for details about why
+   the input signal will become undriven.
+ERROR:MapLib:979 - LUT2 symbol "my_micro/U0/iomodule_0/io_ready_Q_rstpot"
+   (output signal=my_micro/U0/iomodule_0/io_ready_Q_rstpot) has input signal
+   "my_micro/IO_Ready" which will be trimmed. See Section 5 of the Map Report
+   File for details about why the input signal will become undriven.
+ERROR:MapLib:979 - LUT5 symbol
+   "my_micro/U0/iomodule_0/lmb_io_select_keep_glue_set" (output
+   signal=my_micro/U0/iomodule_0/lmb_io_select_keep_glue_set) has input signal
+   "my_micro/IO_Ready" which will be trimmed. See Section 5 of the Map Report
+   File for details about why the input signal will become undriven.
+ERROR:MapLib:978 - LUT6 symbol "my_micro/U0/dlmb/DBus_Oring.Res<0>" (output
+   signal=my_micro/U0/dlmb_LMB_ReadDBus<0>) has an equation that uses input pin
+   I2, which no longer has a connected signal. Please ensure that all the pins
+   used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol "my_micro/U0/dlmb/DBus_Oring.Res<10>" (output
+   signal=my_micro/U0/dlmb_LMB_ReadDBus<10>) has an equation that uses input pin
+   I2, which no longer has a connected signal. Please ensure that all the pins
+   used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol "my_micro/U0/dlmb/DBus_Oring.Res<11>" (output
+   signal=my_micro/U0/dlmb_LMB_ReadDBus<11>) has an equation that uses input pin
+   I2, which no longer has a connected signal. Please ensure that all the pins
+   used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol "my_micro/U0/dlmb/DBus_Oring.Res<12>" (output
+   signal=my_micro/U0/dlmb_LMB_ReadDBus<12>) has an equation that uses input pin
+   I2, which no longer has a connected signal. Please ensure that all the pins
+   used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol "my_micro/U0/dlmb/DBus_Oring.Res<13>" (output
+   signal=my_micro/U0/dlmb_LMB_ReadDBus<13>) has an equation that uses input pin
+   I2, which no longer has a connected signal. Please ensure that all the pins
+   used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol "my_micro/U0/dlmb/DBus_Oring.Res<14>" (output
+   signal=my_micro/U0/dlmb_LMB_ReadDBus<14>) has an equation that uses input pin
+   I2, which no longer has a connected signal. Please ensure that all the pins
+   used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol "my_micro/U0/dlmb/DBus_Oring.Res<15>" (output
+   signal=my_micro/U0/dlmb_LMB_ReadDBus<15>) has an equation that uses input pin
+   I2, which no longer has a connected signal. Please ensure that all the pins
+   used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol "my_micro/U0/dlmb/DBus_Oring.Res<16>" (output
+   signal=my_micro/U0/dlmb_LMB_ReadDBus<16>) has an equation that uses input pin
+   I0, which no longer has a connected signal. Please ensure that all the pins
+   used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol "my_micro/U0/dlmb/DBus_Oring.Res<16>" (output
+   signal=my_micro/U0/dlmb_LMB_ReadDBus<16>) has an equation that uses input pin
+   I1, which no longer has a connected signal. Please ensure that all the pins
+   used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol "my_micro/U0/dlmb/DBus_Oring.Res<17>" (output
+   signal=my_micro/U0/dlmb_LMB_ReadDBus<17>) has an equation that uses input pin
+   I0, which no longer has a connected signal. Please ensure that all the pins
+   used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol "my_micro/U0/dlmb/DBus_Oring.Res<17>" (output
+   signal=my_micro/U0/dlmb_LMB_ReadDBus<17>) has an equation that uses input pin
+   I1, which no longer has a connected signal. Please ensure that all the pins
+   used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol "my_micro/U0/dlmb/DBus_Oring.Res<18>" (output
+   signal=my_micro/U0/dlmb_LMB_ReadDBus<18>) has an equation that uses input pin
+   I0, which no longer has a connected signal. Please ensure that all the pins
+   used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol "my_micro/U0/dlmb/DBus_Oring.Res<18>" (output
+   signal=my_micro/U0/dlmb_LMB_ReadDBus<18>) has an equation that uses input pin
+   I1, which no longer has a connected signal. Please ensure that all the pins
+   used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol "my_micro/U0/dlmb/DBus_Oring.Res<19>" (output
+   signal=my_micro/U0/dlmb_LMB_ReadDBus<19>) has an equation that uses input pin
+   I0, which no longer has a connected signal. Please ensure that all the pins
+   used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol "my_micro/U0/dlmb/DBus_Oring.Res<19>" (output
+   signal=my_micro/U0/dlmb_LMB_ReadDBus<19>) has an equation that uses input pin
+   I1, which no longer has a connected signal. Please ensure that all the pins
+   used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol "my_micro/U0/dlmb/DBus_Oring.Res<1>" (output
+   signal=my_micro/U0/dlmb_LMB_ReadDBus<1>) has an equation that uses input pin
+   I2, which no longer has a connected signal. Please ensure that all the pins
+   used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol "my_micro/U0/dlmb/DBus_Oring.Res<20>" (output
+   signal=my_micro/U0/dlmb_LMB_ReadDBus<20>) has an equation that uses input pin
+   I0, which no longer has a connected signal. Please ensure that all the pins
+   used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol "my_micro/U0/dlmb/DBus_Oring.Res<20>" (output
+   signal=my_micro/U0/dlmb_LMB_ReadDBus<20>) has an equation that uses input pin
+   I1, which no longer has a connected signal. Please ensure that all the pins
+   used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol "my_micro/U0/dlmb/DBus_Oring.Res<21>" (output
+   signal=my_micro/U0/dlmb_LMB_ReadDBus<21>) has an equation that uses input pin
+   I0, which no longer has a connected signal. Please ensure that all the pins
+   used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol "my_micro/U0/dlmb/DBus_Oring.Res<21>" (output
+   signal=my_micro/U0/dlmb_LMB_ReadDBus<21>) has an equation that uses input pin
+   I1, which no longer has a connected signal. Please ensure that all the pins
+   used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol "my_micro/U0/dlmb/DBus_Oring.Res<22>" (output
+   signal=my_micro/U0/dlmb_LMB_ReadDBus<22>) has an equation that uses input pin
+   I0, which no longer has a connected signal. Please ensure that all the pins
+   used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol "my_micro/U0/dlmb/DBus_Oring.Res<22>" (output
+   signal=my_micro/U0/dlmb_LMB_ReadDBus<22>) has an equation that uses input pin
+   I1, which no longer has a connected signal. Please ensure that all the pins
+   used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol "my_micro/U0/dlmb/DBus_Oring.Res<23>" (output
+   signal=my_micro/U0/dlmb_LMB_ReadDBus<23>) has an equation that uses input pin
+   I0, which no longer has a connected signal. Please ensure that all the pins
+   used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol "my_micro/U0/dlmb/DBus_Oring.Res<23>" (output
+   signal=my_micro/U0/dlmb_LMB_ReadDBus<23>) has an equation that uses input pin
+   I1, which no longer has a connected signal. Please ensure that all the pins
+   used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol "my_micro/U0/dlmb/DBus_Oring.Res<24>" (output
+   signal=my_micro/U0/dlmb_LMB_ReadDBus<24>) has an equation that uses input pin
+   I0, which no longer has a connected signal. Please ensure that all the pins
+   used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol "my_micro/U0/dlmb/DBus_Oring.Res<24>" (output
+   signal=my_micro/U0/dlmb_LMB_ReadDBus<24>) has an equation that uses input pin
+   I1, which no longer has a connected signal. Please ensure that all the pins
+   used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol "my_micro/U0/dlmb/DBus_Oring.Res<25>" (output
+   signal=my_micro/U0/dlmb_LMB_ReadDBus<25>) has an equation that uses input pin
+   I0, which no longer has a connected signal. Please ensure that all the pins
+   used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol "my_micro/U0/dlmb/DBus_Oring.Res<25>" (output
+   signal=my_micro/U0/dlmb_LMB_ReadDBus<25>) has an equation that uses input pin
+   I1, which no longer has a connected signal. Please ensure that all the pins
+   used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol "my_micro/U0/dlmb/DBus_Oring.Res<26>" (output
+   signal=my_micro/U0/dlmb_LMB_ReadDBus<26>) has an equation that uses input pin
+   I0, which no longer has a connected signal. Please ensure that all the pins
+   used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol "my_micro/U0/dlmb/DBus_Oring.Res<26>" (output
+   signal=my_micro/U0/dlmb_LMB_ReadDBus<26>) has an equation that uses input pin
+   I1, which no longer has a connected signal. Please ensure that all the pins
+   used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol "my_micro/U0/dlmb/DBus_Oring.Res<27>" (output
+   signal=my_micro/U0/dlmb_LMB_ReadDBus<27>) has an equation that uses input pin
+   I0, which no longer has a connected signal. Please ensure that all the pins
+   used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol "my_micro/U0/dlmb/DBus_Oring.Res<27>" (output
+   signal=my_micro/U0/dlmb_LMB_ReadDBus<27>) has an equation that uses input pin
+   I1, which no longer has a connected signal. Please ensure that all the pins
+   used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol "my_micro/U0/dlmb/DBus_Oring.Res<28>" (output
+   signal=my_micro/U0/dlmb_LMB_ReadDBus<28>) has an equation that uses input pin
+   I0, which no longer has a connected signal. Please ensure that all the pins
+   used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol "my_micro/U0/dlmb/DBus_Oring.Res<28>" (output
+   signal=my_micro/U0/dlmb_LMB_ReadDBus<28>) has an equation that uses input pin
+   I1, which no longer has a connected signal. Please ensure that all the pins
+   used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol "my_micro/U0/dlmb/DBus_Oring.Res<29>" (output
+   signal=my_micro/U0/dlmb_LMB_ReadDBus<29>) has an equation that uses input pin
+   I0, which no longer has a connected signal. Please ensure that all the pins
+   used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol "my_micro/U0/dlmb/DBus_Oring.Res<29>" (output
+   signal=my_micro/U0/dlmb_LMB_ReadDBus<29>) has an equation that uses input pin
+   I1, which no longer has a connected signal. Please ensure that all the pins
+   used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol "my_micro/U0/dlmb/DBus_Oring.Res<2>" (output
+   signal=my_micro/U0/dlmb_LMB_ReadDBus<2>) has an equation that uses input pin
+   I2, which no longer has a connected signal. Please ensure that all the pins
+   used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol "my_micro/U0/dlmb/DBus_Oring.Res<30>" (output
+   signal=my_micro/U0/dlmb_LMB_ReadDBus<30>) has an equation that uses input pin
+   I0, which no longer has a connected signal. Please ensure that all the pins
+   used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol "my_micro/U0/dlmb/DBus_Oring.Res<30>" (output
+   signal=my_micro/U0/dlmb_LMB_ReadDBus<30>) has an equation that uses input pin
+   I1, which no longer has a connected signal. Please ensure that all the pins
+   used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol "my_micro/U0/dlmb/DBus_Oring.Res<3>" (output
+   signal=my_micro/U0/dlmb_LMB_ReadDBus<3>) has an equation that uses input pin
+   I2, which no longer has a connected signal. Please ensure that all the pins
+   used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol "my_micro/U0/dlmb/DBus_Oring.Res<4>" (output
+   signal=my_micro/U0/dlmb_LMB_ReadDBus<4>) has an equation that uses input pin
+   I2, which no longer has a connected signal. Please ensure that all the pins
+   used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol "my_micro/U0/dlmb/DBus_Oring.Res<5>" (output
+   signal=my_micro/U0/dlmb_LMB_ReadDBus<5>) has an equation that uses input pin
+   I2, which no longer has a connected signal. Please ensure that all the pins
+   used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol "my_micro/U0/dlmb/DBus_Oring.Res<6>" (output
+   signal=my_micro/U0/dlmb_LMB_ReadDBus<6>) has an equation that uses input pin
+   I2, which no longer has a connected signal. Please ensure that all the pins
+   used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol "my_micro/U0/dlmb/DBus_Oring.Res<7>" (output
+   signal=my_micro/U0/dlmb_LMB_ReadDBus<7>) has an equation that uses input pin
+   I2, which no longer has a connected signal. Please ensure that all the pins
+   used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol "my_micro/U0/dlmb/DBus_Oring.Res<8>" (output
+   signal=my_micro/U0/dlmb_LMB_ReadDBus<8>) has an equation that uses input pin
+   I2, which no longer has a connected signal. Please ensure that all the pins
+   used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol "my_micro/U0/dlmb/DBus_Oring.Res<9>" (output
+   signal=my_micro/U0/dlmb_LMB_ReadDBus<9>) has an equation that uses input pin
+   I2, which no longer has a connected signal. Please ensure that all the pins
+   used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol "my_micro/U0/dlmb/DBus_Oring.tmp_or" (output
+   signal=my_micro/U0/dlmb_LMB_ReadDBus<31>) has an equation that uses input pin
+   I0, which no longer has a connected signal. Please ensure that all the pins
+   used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT4 symbol "my_micro/U0/dlmb/DBus_Oring.tmp_or_SW0" (output
+   signal=my_micro/N16) has an equation that uses input pin I0, which no longer
+   has a connected signal. Please ensure that all the pins used in the equation
+   for this LUT have signals that are not trimmed (see Section 5 of the Map
+   Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT4 symbol "my_micro/U0/dlmb/DBus_Oring.tmp_or_SW0" (output
+   signal=my_micro/N16) has an equation that uses input pin I2, which no longer
+   has a connected signal. Please ensure that all the pins used in the equation
+   for this LUT have signals that are not trimmed (see Section 5 of the Map
+   Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT4 symbol "my_micro/U0/dlmb/DBus_Oring.tmp_or_SW0" (output
+   signal=my_micro/N16) has an equation that uses input pin I3, which no longer
+   has a connected signal. Please ensure that all the pins used in the equation
+   for this LUT have signals that are not trimmed (see Section 5 of the Map
+   Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT3 symbol
+   "my_micro/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_16_glue_set"
+   (output
+   signal=my_micro/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_16_glue_set)
+   has an equation that uses input pin I2, which no longer has a connected
+   signal. Please ensure that all the pins used in the equation for this LUT
+   have signals that are not trimmed (see Section 5 of the Map Report File for
+   details on which signals were trimmed).
+ERROR:MapLib:978 - LUT3 symbol
+   "my_micro/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_17_glue_set"
+   (output
+   signal=my_micro/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_17_glue_set)
+   has an equation that uses input pin I2, which no longer has a connected
+   signal. Please ensure that all the pins used in the equation for this LUT
+   have signals that are not trimmed (see Section 5 of the Map Report File for
+   details on which signals were trimmed).
+ERROR:MapLib:978 - LUT3 symbol
+   "my_micro/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_18_glue_set"
+   (output
+   signal=my_micro/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_18_glue_set)
+   has an equation that uses input pin I2, which no longer has a connected
+   signal. Please ensure that all the pins used in the equation for this LUT
+   have signals that are not trimmed (see Section 5 of the Map Report File for
+   details on which signals were trimmed).
+ERROR:MapLib:978 - LUT3 symbol
+   "my_micro/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_19_glue_set"
+   (output
+   signal=my_micro/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_19_glue_set)
+   has an equation that uses input pin I2, which no longer has a connected
+   signal. Please ensure that all the pins used in the equation for this LUT
+   have signals that are not trimmed (see Section 5 of the Map Report File for
+   details on which signals were trimmed).
+ERROR:MapLib:978 - LUT3 symbol
+   "my_micro/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_20_glue_set"
+   (output
+   signal=my_micro/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_20_glue_set)
+   has an equation that uses input pin I2, which no longer has a connected
+   signal. Please ensure that all the pins used in the equation for this LUT
+   have signals that are not trimmed (see Section 5 of the Map Report File for
+   details on which signals were trimmed).
+ERROR:MapLib:978 - LUT3 symbol
+   "my_micro/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_21_glue_set"
+   (output
+   signal=my_micro/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_21_glue_set)
+   has an equation that uses input pin I2, which no longer has a connected
+   signal. Please ensure that all the pins used in the equation for this LUT
+   have signals that are not trimmed (see Section 5 of the Map Report File for
+   details on which signals were trimmed).
+ERROR:MapLib:978 - LUT3 symbol
+   "my_micro/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_22_glue_set"
+   (output
+   signal=my_micro/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_22_glue_set)
+   has an equation that uses input pin I2, which no longer has a connected
+   signal. Please ensure that all the pins used in the equation for this LUT
+   have signals that are not trimmed (see Section 5 of the Map Report File for
+   details on which signals were trimmed).
+ERROR:MapLib:978 - LUT3 symbol
+   "my_micro/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_23_glue_set"
+   (output
+   signal=my_micro/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_23_glue_set)
+   has an equation that uses input pin I2, which no longer has a connected
+   signal. Please ensure that all the pins used in the equation for this LUT
+   have signals that are not trimmed (see Section 5 of the Map Report File for
+   details on which signals were trimmed).
+ERROR:MapLib:978 - LUT3 symbol
+   "my_micro/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_24_glue_set"
+   (output
+   signal=my_micro/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_24_glue_set)
+   has an equation that uses input pin I2, which no longer has a connected
+   signal. Please ensure that all the pins used in the equation for this LUT
+   have signals that are not trimmed (see Section 5 of the Map Report File for
+   details on which signals were trimmed).
+ERROR:MapLib:978 - LUT3 symbol
+   "my_micro/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_25_glue_set"
+   (output
+   signal=my_micro/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_25_glue_set)
+   has an equation that uses input pin I2, which no longer has a connected
+   signal. Please ensure that all the pins used in the equation for this LUT
+   have signals that are not trimmed (see Section 5 of the Map Report File for
+   details on which signals were trimmed).
+ERROR:MapLib:978 - LUT3 symbol
+   "my_micro/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_26_glue_set"
+   (output
+   signal=my_micro/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_26_glue_set)
+   has an equation that uses input pin I2, which no longer has a connected
+   signal. Please ensure that all the pins used in the equation for this LUT
+   have signals that are not trimmed (see Section 5 of the Map Report File for
+   details on which signals were trimmed).
+ERROR:MapLib:978 - LUT3 symbol
+   "my_micro/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_27_glue_set"
+   (output
+   signal=my_micro/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_27_glue_set)
+   has an equation that uses input pin I2, which no longer has a connected
+   signal. Please ensure that all the pins used in the equation for this LUT
+   have signals that are not trimmed (see Section 5 of the Map Report File for
+   details on which signals were trimmed).
+ERROR:MapLib:978 - LUT3 symbol
+   "my_micro/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_28_glue_set"
+   (output
+   signal=my_micro/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_28_glue_set)
+   has an equation that uses input pin I2, which no longer has a connected
+   signal. Please ensure that all the pins used in the equation for this LUT
+   have signals that are not trimmed (see Section 5 of the Map Report File for
+   details on which signals were trimmed).
+ERROR:MapLib:978 - LUT3 symbol
+   "my_micro/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_29_glue_set"
+   (output
+   signal=my_micro/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_29_glue_set)
+   has an equation that uses input pin I2, which no longer has a connected
+   signal. Please ensure that all the pins used in the equation for this LUT
+   have signals that are not trimmed (see Section 5 of the Map Report File for
+   details on which signals were trimmed).
+ERROR:MapLib:978 - LUT3 symbol
+   "my_micro/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_30_glue_set"
+   (output
+   signal=my_micro/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_30_glue_set)
+   has an equation that uses input pin I2, which no longer has a connected
+   signal. Please ensure that all the pins used in the equation for this LUT
+   have signals that are not trimmed (see Section 5 of the Map Report File for
+   details on which signals were trimmed).
+ERROR:MapLib:978 - LUT3 symbol
+   "my_micro/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_31_glue_set"
+   (output
+   signal=my_micro/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_31_glue_set)
+   has an equation that uses input pin I2, which no longer has a connected
+   signal. Please ensure that all the pins used in the equation for this LUT
+   have signals that are not trimmed (see Section 5 of the Map Report File for
+   details on which signals were trimmed).
+ERROR:MapLib:978 - LUT2 symbol "my_micro/U0/iomodule_0/io_ready_Q_rstpot"
+   (output signal=my_micro/U0/iomodule_0/io_ready_Q_rstpot) has an equation that
+   uses input pin I0, which no longer has a connected signal. Please ensure that
+   all the pins used in the equation for this LUT have signals that are not
+   trimmed (see Section 5 of the Map Report File for details on which signals
+   were trimmed).
+ERROR:MapLib:978 - LUT5 symbol
+   "my_micro/U0/iomodule_0/lmb_io_select_keep_glue_set" (output
+   signal=my_micro/U0/iomodule_0/lmb_io_select_keep_glue_set) has an equation
+   that uses input pin I0, which no longer has a connected signal. Please ensure
+   that all the pins used in the equation for this LUT have signals that are not
+   trimmed (see Section 5 of the Map Report File for details on which signals
+   were trimmed).
+
+Error found in mapping process, exiting...
+Errors found during the mapping phase.  Please see map report file for more
+details.  Output files will not be written.
+
+Design Summary
+--------------
+Number of errors   : 136
+Number of warnings :   0

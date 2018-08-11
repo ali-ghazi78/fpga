@@ -1,0 +1,16 @@
+
+
+
+// Instantiate the module
+usart_tx instance_name (
+    .led(led), 
+    .reset(reset), 
+    .clock(clock), 
+    .(), 
+    .(), 
+    .tx_pin(tx_pin), 
+    .transmit(transmit), 
+    .uart_busy(uart_busy)
+    );
+
+

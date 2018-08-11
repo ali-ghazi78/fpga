@@ -1,0 +1,7 @@
+xst -intstyle ise -ifn "D:/fpga_project/cpu_ise/cpu_wi/core_2/core_2/schematic_src_1.xst" -ofn "D:/fpga_project/cpu_ise/cpu_wi/core_2/core_2/schematic_src_1.syr" 
+xst -intstyle ise -ifn "D:/fpga_project/cpu_ise/cpu_wi/core_2/core_2/schematic_src_1.xst" -ofn "D:/fpga_project/cpu_ise/cpu_wi/core_2/core_2/schematic_src_1.syr" 
+xst -intstyle ise -ifn "D:/fpga_project/cpu_ise/cpu_wi/core_2/core_2/schematic_src_1.xst" -ofn "D:/fpga_project/cpu_ise/cpu_wi/core_2/core_2/schematic_src_1.syr" 
+xst -intstyle ise -ifn "D:/fpga_project/cpu_ise/cpu_wi/core_2/core_2/schematic_src_1.xst" -ofn "D:/fpga_project/cpu_ise/cpu_wi/core_2/core_2/schematic_src_1.syr" 
+xst -intstyle ise -ifn "D:/fpga_project/cpu_ise/cpu_wi/core_2/core_2/schematic_src_1.xst" -ofn "D:/fpga_project/cpu_ise/cpu_wi/core_2/core_2/schematic_src_1.syr" 
+xst -intstyle ise -ifn "D:/fpga_project/cpu_ise/cpu_wi/core_2/core_2/schematic_src_1.xst" -ofn "D:/fpga_project/cpu_ise/cpu_wi/core_2/core_2/schematic_src_1.syr" 
+xst -intstyle ise -ifn "D:/fpga_project/cpu_ise/cpu_wi/core_2/core_2/schematic_src_1.xst" -ofn "D:/fpga_project/cpu_ise/cpu_wi/core_2/core_2/schematic_src_1.syr" 

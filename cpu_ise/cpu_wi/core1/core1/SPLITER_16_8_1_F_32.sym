@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<symbol version="7" name="SPLITER_16_8_1_F_32">
+    <symboltype>BLOCK</symboltype>
+    <timestamp>2018-7-20T20:14:17</timestamp>
+    <attr value="SPLITER_16_8_1_F_32" name="VeriModel" />
+    <pin polarity="Input" x="0" y="32" name="in1" />
+    <graph>
+        <attrtext style="alignment:BCENTER;fontsize:56;fontname:Arial" attrname="SymbolName" x="192" y="-72" type="symbol" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="32" type="pin in1" />
+        <line x2="0" y1="32" y2="32" x1="64" />
+        <rect width="256" x="64" y="-64" height="128" />
+    </graph>
+</symbol>

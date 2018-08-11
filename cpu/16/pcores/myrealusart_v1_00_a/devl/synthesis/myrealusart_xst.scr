@@ -1,0 +1,12 @@
+run
+-opt_level 2
+-opt_mode speed
+-ifmt mixed
+-ifn "D:\fpga_project\cpu\16\pcores\myrealusart_v1_00_a\devl\synthesis\myrealusart_xst.prj"
+-top myrealusart
+-p virtex6
+-ofn "D:\fpga_project\cpu\16\pcores\myrealusart_v1_00_a\devl\synthesis\myrealusart_xst.ngc"
+-iobuf NO
+-rtlview YES
+-hierarchy_separator /
+-work_lib myrealusart_v1_00_a

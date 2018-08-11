@@ -1,0 +1,3 @@
+wire        [0 : 31]           my_wire;
+assign	led =my_wire[31];
+

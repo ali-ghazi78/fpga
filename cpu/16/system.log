@@ -1,0 +1,49 @@
+Xilinx Platform Studio (XPS)
+Xilinx EDK 14.7 Build EDK_P.20131013
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+WARNING:EDK:3605 - Use of the repository located at F:\xilinx\embeded_development_kit\14.7\ISE_DS\edk_user_repository\ 
+(equivalent of $XILINX_EDK/../edk_user_repository) is now deprecated. 
+It is recommended that you use Global SearchPath preference to specify search paths that apply to all the projects.
+WARNING:EDK:3605 - Use of the repository located at F:\xilinx\embeded_development_kit\14.7\ISE_DS\edk_user_repository\ 
+(equivalent of $XILINX_EDK/../edk_user_repository) is now deprecated. 
+It is recommended that you use Global SearchPath preference to specify search paths that apply to all the projects.
+Writing filter settings....
+Done writing filter settings to:
+	D:\fpga_project\cpu\16\etc\system.filters
+Done writing Tab View settings to:
+	D:\fpga_project\cpu\16\etc\system.gui
+Assigned Driver usart 1.00.a for instance usart_0
+usart_0 has been added to the project
+WARNING:EDK:2137 - Peripheral usart_0 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+WARNING:EDK:2137 - Peripheral usart_0 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+usart_0 has been deleted from the project
+Overriding Xilinx file <TextEditor.cfg> with local file <F:/xilinx/embeded_development_kit/14.7/ISE_DS/EDK/data/TextEditor.cfg>
+WARNING:EDK:3605 - Use of the repository located at F:\xilinx\embeded_development_kit\14.7\ISE_DS\edk_user_repository\ 
+(equivalent of $XILINX_EDK/../edk_user_repository) is now deprecated. 
+It is recommended that you use Global SearchPath preference to specify search paths that apply to all the projects.
+WARNING:EDK:3605 - Use of the repository located at F:\xilinx\embeded_development_kit\14.7\ISE_DS\edk_user_repository\ 
+(equivalent of $XILINX_EDK/../edk_user_repository) is now deprecated. 
+It is recommended that you use Global SearchPath preference to specify search paths that apply to all the projects.
+WARNING:EDK:3605 - Use of the repository located at F:\xilinx\embeded_development_kit\14.7\ISE_DS\edk_user_repository\ 
+(equivalent of $XILINX_EDK/../edk_user_repository) is now deprecated. 
+It is recommended that you use Global SearchPath preference to specify search paths that apply to all the projects.
+WARNING:EDK:3605 - Use of the repository located at F:\xilinx\embeded_development_kit\14.7\ISE_DS\edk_user_repository\ 
+(equivalent of $XILINX_EDK/../edk_user_repository) is now deprecated. 
+It is recommended that you use Global SearchPath preference to specify search paths that apply to all the projects.
+Writing filter settings....
+Done writing filter settings to:
+	D:\fpga_project\cpu\16\etc\system.filters
+Done writing Tab View settings to:
+	D:\fpga_project\cpu\16\etc\system.gui
+WARNING:EDK:3605 - Use of the repository located at F:\xilinx\embeded_development_kit\14.7\ISE_DS\edk_user_repository\ 
+(equivalent of $XILINX_EDK/../edk_user_repository) is now deprecated. 
+It is recommended that you use Global SearchPath preference to specify search paths that apply to all the projects.
+WARNING:EDK:3605 - Use of the repository located at F:\xilinx\embeded_development_kit\14.7\ISE_DS\edk_user_repository\ 
+(equivalent of $XILINX_EDK/../edk_user_repository) is now deprecated. 
+It is recommended that you use Global SearchPath preference to specify search paths that apply to all the projects.
+Writing filter settings....
+Done writing filter settings to:
+	D:\fpga_project\cpu\16\etc\system.filters
+Done writing Tab View settings to:
+	D:\fpga_project\cpu\16\etc\system.gui

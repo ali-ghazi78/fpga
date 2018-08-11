@@ -1,0 +1,4 @@
+vhdtdtfi -lib work D:/fpga_project/cpu_ise/cpu_wi/core3/core3/usart_module.v -lang verilog -prj core3 -o my_usart.spl -module my_usart -template F:/xilinx/embeded_development_kit/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 my_usart.spl D:/fpga_project/cpu_ise/cpu_wi/core3/core3/my_usart.sym 
+xst -intstyle ise -ifn "D:/fpga_project/cpu_ise/cpu_wi/core3/core3/my_usart.xst" -ofn "D:/fpga_project/cpu_ise/cpu_wi/core3/core3/my_usart.syr" 
+vhdtdtfi -lang verilog -prj core3 -o D:/fpga_project/cpu_ise/cpu_wi/core3/core3/my_usart.tfi -lib work D:/fpga_project/cpu_ise/cpu_wi/core3/core3//usart_module.v -module my_usart -template F:/xilinx/embeded_development_kit/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

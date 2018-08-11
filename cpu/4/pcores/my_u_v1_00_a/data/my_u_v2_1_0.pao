@@ -1,0 +1,10 @@
+##############################################################################
+## Filename:          D:/fpga_project/cpu/4/pcores/my_u_v1_00_a/data/my_u_v2_1_0.pao
+## Description:       Peripheral Analysis Order
+## Date:              Wed Jul 18 19:29:19 2018 (by Create and Import Peripheral Wizard)
+##############################################################################
+
+lib proc_common_v3_00_a  all 
+lib plbv46_slave_burst_v1_01_a  all 
+lib my_u_v1_00_a user_logic verilog
+lib my_u_v1_00_a my_u vhdl

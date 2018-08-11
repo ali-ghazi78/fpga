@@ -1,0 +1,15 @@
+[Inputs]
+reset
+clock
+rx_pin
+transmit
+=[15:0]=
+=[7:0]=
+[Outputs]
+led
+tx_pin
+uart_busy
+[BiDir]
+[ATTRIBUTES]
+VeriModel my_usart
+

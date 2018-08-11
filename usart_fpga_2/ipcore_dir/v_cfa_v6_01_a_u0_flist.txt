@@ -1,0 +1,11 @@
+# Output products list for <v_cfa_v6_01_a_u0>
+v_cfa_v6_01_a_u0.asy
+v_cfa_v6_01_a_u0.gise
+v_cfa_v6_01_a_u0.ngc
+v_cfa_v6_01_a_u0.v
+v_cfa_v6_01_a_u0.veo
+v_cfa_v6_01_a_u0.xco
+v_cfa_v6_01_a_u0.xise
+v_cfa_v6_01_a_u0_flist.txt
+v_cfa_v6_01_a_u0_readme.txt
+v_cfa_v6_01_a_u0_xmdf.tcl

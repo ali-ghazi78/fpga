@@ -1,0 +1,2 @@
+vhdtdtfi -lang verilog -prj usart_tx_rx -o D:/fpga_project/usart_tx_rx/usart_tx.tfi -lib work D:/fpga_project/usart_fpga_2//usart_module.v -module usart_tx -template F:/xilinx/embeded_development_kit/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+vhdtdtfi -lang verilog -prj usart_tx_rx -o D:/fpga_project/usart_tx_rx/usart_tx.tfi -lib work D:/fpga_project/usart_fpga_2//usart_module.v -module usart_tx -template F:/xilinx/embeded_development_kit/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

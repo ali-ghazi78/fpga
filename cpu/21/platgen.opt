@@ -1,0 +1,9 @@
+-p
+xc6slx4tqg144-3
+-lang
+verilog
+-intstyle
+default
+-msg
+__xps/ise/xmsgprops.lst
+system.mhs

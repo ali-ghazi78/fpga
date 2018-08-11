@@ -1,0 +1,356 @@
+Release 14.7 ngdbuild P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line:
+F:\xilinx\embeded_development_kit\14.7\ISE_DS\ISE\bin\nt64\unwrapped\ngdbuild.ex
+e -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc pinning.ucf -p
+xc6slx9-tqg144-2 top_leve.ngc top_leve.ngd
+
+Reading NGO file "D:/fpga_project/cpu_ise/cpu_wi/core3/core3/top_leve.ngc" ...
+Loading design module "ipcore_dir/microblaze_mcs_v1_4.ngc"...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file "pinning.ucf" ...
+Resolving constraint associations...
+Checking Constraint Associations...
+Done...
+
+Checking expanded design ...
+WARNING:NgdBuild:440 - FF primitive
+   'my_micro/U0/microblaze_I/MicroBlaze_Core_I/Area.Data_Flow_I/Result_Mux_I/Usi
+   ng_FPGA.Result_Mux_Bits[31].Result_Mux_Bit_I/EX_Result_DFF' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'my_micro/U0/microblaze_I/MicroBlaze_Core_I/Area.Data_Flow_I/Result_Mux_I/Usi
+   ng_FPGA.Result_Mux_Bits[30].Result_Mux_Bit_I/EX_Result_DFF' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'my_micro/U0/microblaze_I/MicroBlaze_Core_I/Area.Data_Flow_I/Result_Mux_I/Usi
+   ng_FPGA.Result_Mux_Bits[29].Result_Mux_Bit_I/EX_Result_DFF' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'my_micro/U0/microblaze_I/MicroBlaze_Core_I/Area.Data_Flow_I/Result_Mux_I/Usi
+   ng_FPGA.Result_Mux_Bits[28].Result_Mux_Bit_I/EX_Result_DFF' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'my_micro/U0/microblaze_I/MicroBlaze_Core_I/Area.Data_Flow_I/Result_Mux_I/Usi
+   ng_FPGA.Result_Mux_Bits[27].Result_Mux_Bit_I/EX_Result_DFF' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'my_micro/U0/microblaze_I/MicroBlaze_Core_I/Area.Data_Flow_I/Result_Mux_I/Usi
+   ng_FPGA.Result_Mux_Bits[26].Result_Mux_Bit_I/EX_Result_DFF' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'my_micro/U0/microblaze_I/MicroBlaze_Core_I/Area.Data_Flow_I/Result_Mux_I/Usi
+   ng_FPGA.Result_Mux_Bits[25].Result_Mux_Bit_I/EX_Result_DFF' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'my_micro/U0/microblaze_I/MicroBlaze_Core_I/Area.Data_Flow_I/Result_Mux_I/Usi
+   ng_FPGA.Result_Mux_Bits[24].Result_Mux_Bit_I/EX_Result_DFF' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'my_micro/U0/microblaze_I/MicroBlaze_Core_I/Area.Data_Flow_I/Result_Mux_I/Usi
+   ng_FPGA.Result_Mux_Bits[23].Result_Mux_Bit_I/EX_Result_DFF' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'my_micro/U0/microblaze_I/MicroBlaze_Core_I/Area.Data_Flow_I/Result_Mux_I/Usi
+   ng_FPGA.Result_Mux_Bits[22].Result_Mux_Bit_I/EX_Result_DFF' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'my_micro/U0/microblaze_I/MicroBlaze_Core_I/Area.Data_Flow_I/Result_Mux_I/Usi
+   ng_FPGA.Result_Mux_Bits[21].Result_Mux_Bit_I/EX_Result_DFF' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'my_micro/U0/microblaze_I/MicroBlaze_Core_I/Area.Data_Flow_I/Result_Mux_I/Usi
+   ng_FPGA.Result_Mux_Bits[20].Result_Mux_Bit_I/EX_Result_DFF' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'my_micro/U0/microblaze_I/MicroBlaze_Core_I/Area.Data_Flow_I/Result_Mux_I/Usi
+   ng_FPGA.Result_Mux_Bits[19].Result_Mux_Bit_I/EX_Result_DFF' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'my_micro/U0/microblaze_I/MicroBlaze_Core_I/Area.Data_Flow_I/Result_Mux_I/Usi
+   ng_FPGA.Result_Mux_Bits[18].Result_Mux_Bit_I/EX_Result_DFF' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'my_micro/U0/microblaze_I/MicroBlaze_Core_I/Area.Data_Flow_I/Result_Mux_I/Usi
+   ng_FPGA.Result_Mux_Bits[17].Result_Mux_Bit_I/EX_Result_DFF' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'my_micro/U0/microblaze_I/MicroBlaze_Core_I/Area.Data_Flow_I/Result_Mux_I/Usi
+   ng_FPGA.Result_Mux_Bits[16].Result_Mux_Bit_I/EX_Result_DFF' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'my_micro/U0/microblaze_I/MicroBlaze_Core_I/Area.Data_Flow_I/Result_Mux_I/Usi
+   ng_FPGA.Result_Mux_Bits[15].Result_Mux_Bit_I/EX_Result_DFF' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'my_micro/U0/microblaze_I/MicroBlaze_Core_I/Area.Data_Flow_I/Result_Mux_I/Usi
+   ng_FPGA.Result_Mux_Bits[14].Result_Mux_Bit_I/EX_Result_DFF' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'my_micro/U0/microblaze_I/MicroBlaze_Core_I/Area.Data_Flow_I/Result_Mux_I/Usi
+   ng_FPGA.Result_Mux_Bits[13].Result_Mux_Bit_I/EX_Result_DFF' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'my_micro/U0/microblaze_I/MicroBlaze_Core_I/Area.Data_Flow_I/Result_Mux_I/Usi
+   ng_FPGA.Result_Mux_Bits[12].Result_Mux_Bit_I/EX_Result_DFF' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'my_micro/U0/microblaze_I/MicroBlaze_Core_I/Area.Data_Flow_I/Result_Mux_I/Usi
+   ng_FPGA.Result_Mux_Bits[11].Result_Mux_Bit_I/EX_Result_DFF' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'my_micro/U0/microblaze_I/MicroBlaze_Core_I/Area.Data_Flow_I/Result_Mux_I/Usi
+   ng_FPGA.Result_Mux_Bits[10].Result_Mux_Bit_I/EX_Result_DFF' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'my_micro/U0/microblaze_I/MicroBlaze_Core_I/Area.Data_Flow_I/Result_Mux_I/Usi
+   ng_FPGA.Result_Mux_Bits[9].Result_Mux_Bit_I/EX_Result_DFF' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'my_micro/U0/microblaze_I/MicroBlaze_Core_I/Area.Data_Flow_I/Result_Mux_I/Usi
+   ng_FPGA.Result_Mux_Bits[8].Result_Mux_Bit_I/EX_Result_DFF' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'my_micro/U0/microblaze_I/MicroBlaze_Core_I/Area.Data_Flow_I/Result_Mux_I/Usi
+   ng_FPGA.Result_Mux_Bits[7].Result_Mux_Bit_I/EX_Result_DFF' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'my_micro/U0/microblaze_I/MicroBlaze_Core_I/Area.Data_Flow_I/Result_Mux_I/Usi
+   ng_FPGA.Result_Mux_Bits[6].Result_Mux_Bit_I/EX_Result_DFF' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'my_micro/U0/microblaze_I/MicroBlaze_Core_I/Area.Data_Flow_I/Result_Mux_I/Usi
+   ng_FPGA.Result_Mux_Bits[5].Result_Mux_Bit_I/EX_Result_DFF' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'my_micro/U0/microblaze_I/MicroBlaze_Core_I/Area.Data_Flow_I/Result_Mux_I/Usi
+   ng_FPGA.Result_Mux_Bits[4].Result_Mux_Bit_I/EX_Result_DFF' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'my_micro/U0/microblaze_I/MicroBlaze_Core_I/Area.Data_Flow_I/Result_Mux_I/Usi
+   ng_FPGA.Result_Mux_Bits[3].Result_Mux_Bit_I/EX_Result_DFF' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'my_micro/U0/microblaze_I/MicroBlaze_Core_I/Area.Data_Flow_I/Result_Mux_I/Usi
+   ng_FPGA.Result_Mux_Bits[2].Result_Mux_Bit_I/EX_Result_DFF' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'my_micro/U0/microblaze_I/MicroBlaze_Core_I/Area.Data_Flow_I/Result_Mux_I/Usi
+   ng_FPGA.Result_Mux_Bits[1].Result_Mux_Bit_I/EX_Result_DFF' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'my_micro/U0/microblaze_I/MicroBlaze_Core_I/Area.Data_Flow_I/Result_Mux_I/Usi
+   ng_FPGA.Result_Mux_Bits[0].Result_Mux_Bit_I/EX_Result_DFF' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive
+   'my_micro/U0/microblaze_I/MicroBlaze_Core_I/Area.Data_Flow_I/PC_Module_I/Usin
+   g_FPGA.Not_All_Bits.PC_GEN[29].PC_Bit_I/PC_EX_DFF' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'my_micro/U0/microblaze_I/MicroBlaze_Core_I/Area.Data_Flow_I/PC_Module_I/Usin
+   g_FPGA.Not_All_Bits.PC_GEN[28].PC_Bit_I/PC_EX_DFF' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'my_micro/U0/microblaze_I/MicroBlaze_Core_I/Area.Data_Flow_I/PC_Module_I/Usin
+   g_FPGA.Not_All_Bits.PC_GEN[27].PC_Bit_I/PC_EX_DFF' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'my_micro/U0/microblaze_I/MicroBlaze_Core_I/Area.Data_Flow_I/PC_Module_I/Usin
+   g_FPGA.Not_All_Bits.PC_GEN[26].PC_Bit_I/PC_EX_DFF' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'my_micro/U0/microblaze_I/MicroBlaze_Core_I/Area.Data_Flow_I/PC_Module_I/Usin
+   g_FPGA.Not_All_Bits.PC_GEN[25].PC_Bit_I/PC_EX_DFF' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'my_micro/U0/microblaze_I/MicroBlaze_Core_I/Area.Data_Flow_I/PC_Module_I/Usin
+   g_FPGA.Not_All_Bits.PC_GEN[24].PC_Bit_I/PC_EX_DFF' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'my_micro/U0/microblaze_I/MicroBlaze_Core_I/Area.Data_Flow_I/PC_Module_I/Usin
+   g_FPGA.Not_All_Bits.PC_GEN[23].PC_Bit_I/PC_EX_DFF' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'my_micro/U0/microblaze_I/MicroBlaze_Core_I/Area.Data_Flow_I/PC_Module_I/Usin
+   g_FPGA.Not_All_Bits.PC_GEN[22].PC_Bit_I/PC_EX_DFF' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'my_micro/U0/microblaze_I/MicroBlaze_Core_I/Area.Data_Flow_I/PC_Module_I/Usin
+   g_FPGA.Not_All_Bits.PC_GEN[21].PC_Bit_I/PC_EX_DFF' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'my_micro/U0/microblaze_I/MicroBlaze_Core_I/Area.Data_Flow_I/PC_Module_I/Usin
+   g_FPGA.Not_All_Bits.PC_GEN[20].PC_Bit_I/PC_EX_DFF' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'my_micro/U0/microblaze_I/MicroBlaze_Core_I/Area.Data_Flow_I/PC_Module_I/Usin
+   g_FPGA.Not_All_Bits.PC_GEN[19].PC_Bit_I/PC_EX_DFF' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'my_micro/U0/microblaze_I/MicroBlaze_Core_I/Area.Data_Flow_I/PC_Module_I/Usin
+   g_FPGA.Not_All_Bits.PC_GEN[18].PC_Bit_I/PC_EX_DFF' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'my_micro/U0/microblaze_I/MicroBlaze_Core_I/Area.Data_Flow_I/PC_Module_I/Usin
+   g_FPGA.Not_All_Bits.PC_GEN[17].PC_Bit_I/PC_EX_DFF' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'my_micro/U0/microblaze_I/MicroBlaze_Core_I/Area.Data_Flow_I/PC_Module_I/Usin
+   g_FPGA.Not_All_Bits.PC_GEN[16].PC_Bit_I/PC_EX_DFF' has unconnected output pin
+WARNING:NgdBuild:440 - FF primitive
+   'my_micro/U0/microblaze_I/MicroBlaze_Core_I/Area.Decode_I/Using_FPGA.Ext_NM_B
+   RK_FDRSE' has unconnected output pin
+WARNING:NgdBuild:452 - logical net 'my_micro/IO_Read_Data<31>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/IO_Read_Data<30>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/IO_Read_Data<29>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/IO_Read_Data<28>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/IO_Read_Data<27>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/IO_Read_Data<26>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/IO_Read_Data<25>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/IO_Read_Data<24>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/IO_Read_Data<23>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/IO_Read_Data<22>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/IO_Read_Data<21>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/IO_Read_Data<20>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/IO_Read_Data<19>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/IO_Read_Data<18>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/IO_Read_Data<17>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/IO_Read_Data<16>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/IO_Read_Data<15>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/IO_Read_Data<14>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/IO_Read_Data<13>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/IO_Read_Data<12>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/IO_Read_Data<11>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/IO_Read_Data<10>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/IO_Read_Data<9>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/IO_Read_Data<8>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/IO_Read_Data<7>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/IO_Read_Data<6>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/IO_Read_Data<5>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/IO_Read_Data<4>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/IO_Read_Data<3>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/IO_Read_Data<2>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/IO_Read_Data<1>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/IO_Read_Data<0>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/GPI2<31>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/GPI2<30>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/GPI2<29>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/GPI2<28>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/GPI2<27>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/GPI2<26>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/GPI2<25>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/GPI2<24>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/GPI2<23>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/GPI2<22>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/GPI2<21>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/GPI2<20>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/GPI2<19>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/GPI2<18>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/GPI2<17>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/GPI2<16>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/GPI2<15>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/GPI2<14>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/GPI2<13>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/GPI2<12>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/GPI2<11>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/GPI2<10>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/GPI2<9>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/GPI2<8>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/GPI2<7>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/GPI2<6>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/GPI2<5>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/GPI2<4>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/GPI2<3>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/GPI2<2>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/GPI2<1>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/GPI2<0>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/GPI3<31>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/GPI3<30>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/GPI3<29>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/GPI3<28>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/GPI3<27>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/GPI3<26>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/GPI3<25>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/GPI3<24>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/GPI3<23>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/GPI3<22>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/GPI3<21>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/GPI3<20>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/GPI3<19>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/GPI3<18>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/GPI3<17>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/GPI3<16>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/GPI3<15>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/GPI3<14>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/GPI3<13>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/GPI3<12>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/GPI3<11>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/GPI3<10>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/GPI3<9>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/GPI3<8>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/GPI3<7>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/GPI3<6>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/GPI3<5>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/GPI3<4>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/GPI3<3>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/GPI3<2>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/GPI3<1>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/GPI3<0>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/GPI4<31>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/GPI4<30>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/GPI4<29>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/GPI4<28>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/GPI4<27>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/GPI4<26>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/GPI4<25>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/GPI4<24>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/GPI4<23>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/GPI4<22>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/GPI4<21>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/GPI4<20>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/GPI4<19>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/GPI4<18>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/GPI4<17>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/GPI4<16>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/GPI4<15>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/GPI4<14>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/GPI4<13>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/GPI4<12>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/GPI4<11>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/GPI4<10>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/GPI4<9>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/GPI4<8>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/GPI4<7>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/GPI4<6>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/GPI4<5>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/GPI4<4>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/GPI4<3>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/GPI4<2>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/GPI4<1>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/GPI4<0>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/INTC_Interrupt<15>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/INTC_Interrupt<14>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/INTC_Interrupt<13>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/INTC_Interrupt<12>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/INTC_Interrupt<11>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/INTC_Interrupt<10>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/INTC_Interrupt<9>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/INTC_Interrupt<8>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/INTC_Interrupt<7>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/INTC_Interrupt<6>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/INTC_Interrupt<5>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/INTC_Interrupt<4>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/INTC_Interrupt<3>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/INTC_Interrupt<2>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/INTC_Interrupt<1>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/INTC_Interrupt<0>' has no driver
+WARNING:NgdBuild:452 - logical net 'my_micro/IO_Ready' has no driver
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings: 192
+
+Total memory usage is 211884 kilobytes
+
+Writing NGD file "top_leve.ngd" ...
+Total REAL time to NGDBUILD completion:  4 sec
+Total CPU time to NGDBUILD completion:   4 sec
+
+Writing NGDBUILD log file "top_leve.bld"...

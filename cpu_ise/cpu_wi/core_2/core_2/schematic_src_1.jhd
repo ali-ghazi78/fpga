@@ -1,0 +1,5 @@
+MODULE schematic_src_1
+	SUBMODULE microblaze_mcs_v1_4
+		INSTANCE XLXI_6
+	SUBMODULE my_usart
+		INSTANCE XLXI_5

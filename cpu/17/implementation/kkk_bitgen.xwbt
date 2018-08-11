@@ -1,0 +1,7 @@
+INFILE=D:\fpga_project\cpu\17\implementation\kkk.ncd
+OUTFILE=D:\fpga_project\cpu\17\implementation\kkk.bit
+FAMILY=Spartan6
+PART=xc6slx4-3tqg144
+WORKINGDIR=D:\fpga_project\cpu\17\implementation
+LICENSE=WebPack
+USER_INFO=_

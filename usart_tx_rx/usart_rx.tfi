@@ -1,0 +1,15 @@
+
+
+
+// Instantiate the module
+usart_rx instance_name (
+    .led(led), 
+    .reset(reset), 
+    .clock(clock), 
+    .(), 
+    .(), 
+    .rx_pin(rx_pin), 
+    .uart_busy(uart_busy)
+    );
+
+

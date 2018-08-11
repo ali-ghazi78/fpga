@@ -1,0 +1,6 @@
+vhdtdtfi -lang verilog -prj core1 -o D:/fpga_project/cpu_ise/cpu_wi/core1/core1/SPLITER.tfi -lib work D:/fpga_project/cpu_ise/cpu_wi/core1/core1//SPLITER.v -module SPLITER -template F:/xilinx/embeded_development_kit/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+vhdtdtfi -lib work D:/fpga_project/cpu_ise/cpu_wi/core1/core1/SPLITER.v -lang verilog -prj core1 -o SPLITER.spl -module SPLITER -template F:/xilinx/embeded_development_kit/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 SPLITER.spl D:/fpga_project/cpu_ise/cpu_wi/core1/core1/SPLITER.sym 
+vhdtdtfi -lang verilog -prj core1 -o D:/fpga_project/cpu_ise/cpu_wi/core1/core1/SPLITER.tfi -lib work D:/fpga_project/cpu_ise/cpu_wi/core1/core1//SPLITER.v -module SPLITER -template F:/xilinx/embeded_development_kit/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+vhdtdtfi -lib work D:/fpga_project/cpu_ise/cpu_wi/core1/core1/SPLITER.v -lang verilog -prj core1 -o SPLITER.spl -module SPLITER -template F:/xilinx/embeded_development_kit/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 SPLITER.spl D:/fpga_project/cpu_ise/cpu_wi/core1/core1/SPLITER.sym 

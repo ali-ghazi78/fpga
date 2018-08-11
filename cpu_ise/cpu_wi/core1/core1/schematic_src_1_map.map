@@ -1,0 +1,632 @@
+Release 14.7 Map P.20131013 (nt64)
+Xilinx Map Application Log File for Design 'schematic_src_1'
+
+Design Information
+------------------
+Command Line   : map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol
+high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off
+-pr off -lc off -power off -o schematic_src_1_map.ncd schematic_src_1.ngd
+schematic_src_1.pcf 
+Target Device  : xc6slx9
+Target Package : tqg144
+Target Speed   : -2
+Mapper Version : spartan6 -- $Revision: 1.55 $
+Mapped Date    : Sat Jul 21 05:37:54 2018
+
+Mapping design into LUTs...
+ERROR:MapLib:979 - LUT6 symbol "XLXI_4/U0/dlmb/DBus_Oring.Res<0>" (output
+   signal=XLXI_4/U0/dlmb_LMB_ReadDBus<0>) has input signal "XLXI_4/N78" which
+   will be trimmed. See Section 5 of the Map Report File for details about why
+   the input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol "XLXI_4/U0/dlmb/DBus_Oring.Res<10>" (output
+   signal=XLXI_4/U0/dlmb_LMB_ReadDBus<10>) has input signal "XLXI_4/N58" which
+   will be trimmed. See Section 5 of the Map Report File for details about why
+   the input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol "XLXI_4/U0/dlmb/DBus_Oring.Res<11>" (output
+   signal=XLXI_4/U0/dlmb_LMB_ReadDBus<11>) has input signal "XLXI_4/N56" which
+   will be trimmed. See Section 5 of the Map Report File for details about why
+   the input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol "XLXI_4/U0/dlmb/DBus_Oring.Res<12>" (output
+   signal=XLXI_4/U0/dlmb_LMB_ReadDBus<12>) has input signal "XLXI_4/N54" which
+   will be trimmed. See Section 5 of the Map Report File for details about why
+   the input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol "XLXI_4/U0/dlmb/DBus_Oring.Res<13>" (output
+   signal=XLXI_4/U0/dlmb_LMB_ReadDBus<13>) has input signal "XLXI_4/N52" which
+   will be trimmed. See Section 5 of the Map Report File for details about why
+   the input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol "XLXI_4/U0/dlmb/DBus_Oring.Res<14>" (output
+   signal=XLXI_4/U0/dlmb_LMB_ReadDBus<14>) has input signal "XLXI_4/N50" which
+   will be trimmed. See Section 5 of the Map Report File for details about why
+   the input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol "XLXI_4/U0/dlmb/DBus_Oring.Res<15>" (output
+   signal=XLXI_4/U0/dlmb_LMB_ReadDBus<15>) has input signal "XLXI_4/N48" which
+   will be trimmed. See Section 5 of the Map Report File for details about why
+   the input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol "XLXI_4/U0/dlmb/DBus_Oring.Res<16>" (output
+   signal=XLXI_4/U0/dlmb_LMB_ReadDBus<16>) has input signal
+   "XLXI_4/U0/iomodule_0/IOModule_Core_I1/GPI_I2/GPI_In<15>" which will be
+   trimmed. See Section 5 of the Map Report File for details about why the input
+   signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol "XLXI_4/U0/dlmb/DBus_Oring.Res<16>" (output
+   signal=XLXI_4/U0/dlmb_LMB_ReadDBus<16>) has input signal "XLXI_4/N46" which
+   will be trimmed. See Section 5 of the Map Report File for details about why
+   the input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol "XLXI_4/U0/dlmb/DBus_Oring.Res<17>" (output
+   signal=XLXI_4/U0/dlmb_LMB_ReadDBus<17>) has input signal
+   "XLXI_4/U0/iomodule_0/IOModule_Core_I1/GPI_I2/GPI_In<14>" which will be
+   trimmed. See Section 5 of the Map Report File for details about why the input
+   signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol "XLXI_4/U0/dlmb/DBus_Oring.Res<17>" (output
+   signal=XLXI_4/U0/dlmb_LMB_ReadDBus<17>) has input signal "XLXI_4/N44" which
+   will be trimmed. See Section 5 of the Map Report File for details about why
+   the input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol "XLXI_4/U0/dlmb/DBus_Oring.Res<18>" (output
+   signal=XLXI_4/U0/dlmb_LMB_ReadDBus<18>) has input signal
+   "XLXI_4/U0/iomodule_0/IOModule_Core_I1/GPI_I2/GPI_In<13>" which will be
+   trimmed. See Section 5 of the Map Report File for details about why the input
+   signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol "XLXI_4/U0/dlmb/DBus_Oring.Res<18>" (output
+   signal=XLXI_4/U0/dlmb_LMB_ReadDBus<18>) has input signal "XLXI_4/N42" which
+   will be trimmed. See Section 5 of the Map Report File for details about why
+   the input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol "XLXI_4/U0/dlmb/DBus_Oring.Res<19>" (output
+   signal=XLXI_4/U0/dlmb_LMB_ReadDBus<19>) has input signal
+   "XLXI_4/U0/iomodule_0/IOModule_Core_I1/GPI_I2/GPI_In<12>" which will be
+   trimmed. See Section 5 of the Map Report File for details about why the input
+   signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol "XLXI_4/U0/dlmb/DBus_Oring.Res<19>" (output
+   signal=XLXI_4/U0/dlmb_LMB_ReadDBus<19>) has input signal "XLXI_4/N40" which
+   will be trimmed. See Section 5 of the Map Report File for details about why
+   the input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol "XLXI_4/U0/dlmb/DBus_Oring.Res<1>" (output
+   signal=XLXI_4/U0/dlmb_LMB_ReadDBus<1>) has input signal "XLXI_4/N76" which
+   will be trimmed. See Section 5 of the Map Report File for details about why
+   the input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol "XLXI_4/U0/dlmb/DBus_Oring.Res<20>" (output
+   signal=XLXI_4/U0/dlmb_LMB_ReadDBus<20>) has input signal
+   "XLXI_4/U0/iomodule_0/IOModule_Core_I1/GPI_I2/GPI_In<11>" which will be
+   trimmed. See Section 5 of the Map Report File for details about why the input
+   signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol "XLXI_4/U0/dlmb/DBus_Oring.Res<20>" (output
+   signal=XLXI_4/U0/dlmb_LMB_ReadDBus<20>) has input signal "XLXI_4/N38" which
+   will be trimmed. See Section 5 of the Map Report File for details about why
+   the input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol "XLXI_4/U0/dlmb/DBus_Oring.Res<21>" (output
+   signal=XLXI_4/U0/dlmb_LMB_ReadDBus<21>) has input signal
+   "XLXI_4/U0/iomodule_0/IOModule_Core_I1/GPI_I2/GPI_In<10>" which will be
+   trimmed. See Section 5 of the Map Report File for details about why the input
+   signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol "XLXI_4/U0/dlmb/DBus_Oring.Res<21>" (output
+   signal=XLXI_4/U0/dlmb_LMB_ReadDBus<21>) has input signal "XLXI_4/N36" which
+   will be trimmed. See Section 5 of the Map Report File for details about why
+   the input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol "XLXI_4/U0/dlmb/DBus_Oring.Res<22>" (output
+   signal=XLXI_4/U0/dlmb_LMB_ReadDBus<22>) has input signal
+   "XLXI_4/U0/iomodule_0/IOModule_Core_I1/GPI_I2/GPI_In<9>" which will be
+   trimmed. See Section 5 of the Map Report File for details about why the input
+   signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol "XLXI_4/U0/dlmb/DBus_Oring.Res<22>" (output
+   signal=XLXI_4/U0/dlmb_LMB_ReadDBus<22>) has input signal "XLXI_4/N34" which
+   will be trimmed. See Section 5 of the Map Report File for details about why
+   the input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol "XLXI_4/U0/dlmb/DBus_Oring.Res<23>" (output
+   signal=XLXI_4/U0/dlmb_LMB_ReadDBus<23>) has input signal
+   "XLXI_4/U0/iomodule_0/IOModule_Core_I1/GPI_I2/GPI_In<8>" which will be
+   trimmed. See Section 5 of the Map Report File for details about why the input
+   signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol "XLXI_4/U0/dlmb/DBus_Oring.Res<23>" (output
+   signal=XLXI_4/U0/dlmb_LMB_ReadDBus<23>) has input signal "XLXI_4/N32" which
+   will be trimmed. See Section 5 of the Map Report File for details about why
+   the input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol "XLXI_4/U0/dlmb/DBus_Oring.Res<24>" (output
+   signal=XLXI_4/U0/dlmb_LMB_ReadDBus<24>) has input signal "XLXI_4/N30" which
+   will be trimmed. See Section 5 of the Map Report File for details about why
+   the input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol "XLXI_4/U0/dlmb/DBus_Oring.Res<25>" (output
+   signal=XLXI_4/U0/dlmb_LMB_ReadDBus<25>) has input signal "XLXI_4/N28" which
+   will be trimmed. See Section 5 of the Map Report File for details about why
+   the input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol "XLXI_4/U0/dlmb/DBus_Oring.Res<26>" (output
+   signal=XLXI_4/U0/dlmb_LMB_ReadDBus<26>) has input signal "XLXI_4/N26" which
+   will be trimmed. See Section 5 of the Map Report File for details about why
+   the input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol "XLXI_4/U0/dlmb/DBus_Oring.Res<27>" (output
+   signal=XLXI_4/U0/dlmb_LMB_ReadDBus<27>) has input signal "XLXI_4/N24" which
+   will be trimmed. See Section 5 of the Map Report File for details about why
+   the input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol "XLXI_4/U0/dlmb/DBus_Oring.Res<28>" (output
+   signal=XLXI_4/U0/dlmb_LMB_ReadDBus<28>) has input signal "XLXI_4/N22" which
+   will be trimmed. See Section 5 of the Map Report File for details about why
+   the input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol "XLXI_4/U0/dlmb/DBus_Oring.Res<29>" (output
+   signal=XLXI_4/U0/dlmb_LMB_ReadDBus<29>) has input signal "XLXI_4/N20" which
+   will be trimmed. See Section 5 of the Map Report File for details about why
+   the input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol "XLXI_4/U0/dlmb/DBus_Oring.Res<2>" (output
+   signal=XLXI_4/U0/dlmb_LMB_ReadDBus<2>) has input signal "XLXI_4/N74" which
+   will be trimmed. See Section 5 of the Map Report File for details about why
+   the input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol "XLXI_4/U0/dlmb/DBus_Oring.Res<30>" (output
+   signal=XLXI_4/U0/dlmb_LMB_ReadDBus<30>) has input signal "XLXI_4/N18" which
+   will be trimmed. See Section 5 of the Map Report File for details about why
+   the input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol "XLXI_4/U0/dlmb/DBus_Oring.Res<3>" (output
+   signal=XLXI_4/U0/dlmb_LMB_ReadDBus<3>) has input signal "XLXI_4/N72" which
+   will be trimmed. See Section 5 of the Map Report File for details about why
+   the input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol "XLXI_4/U0/dlmb/DBus_Oring.Res<4>" (output
+   signal=XLXI_4/U0/dlmb_LMB_ReadDBus<4>) has input signal "XLXI_4/N70" which
+   will be trimmed. See Section 5 of the Map Report File for details about why
+   the input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol "XLXI_4/U0/dlmb/DBus_Oring.Res<5>" (output
+   signal=XLXI_4/U0/dlmb_LMB_ReadDBus<5>) has input signal "XLXI_4/N68" which
+   will be trimmed. See Section 5 of the Map Report File for details about why
+   the input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol "XLXI_4/U0/dlmb/DBus_Oring.Res<6>" (output
+   signal=XLXI_4/U0/dlmb_LMB_ReadDBus<6>) has input signal "XLXI_4/N66" which
+   will be trimmed. See Section 5 of the Map Report File for details about why
+   the input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol "XLXI_4/U0/dlmb/DBus_Oring.Res<7>" (output
+   signal=XLXI_4/U0/dlmb_LMB_ReadDBus<7>) has input signal "XLXI_4/N64" which
+   will be trimmed. See Section 5 of the Map Report File for details about why
+   the input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol "XLXI_4/U0/dlmb/DBus_Oring.Res<8>" (output
+   signal=XLXI_4/U0/dlmb_LMB_ReadDBus<8>) has input signal "XLXI_4/N62" which
+   will be trimmed. See Section 5 of the Map Report File for details about why
+   the input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol "XLXI_4/U0/dlmb/DBus_Oring.Res<9>" (output
+   signal=XLXI_4/U0/dlmb_LMB_ReadDBus<9>) has input signal "XLXI_4/N60" which
+   will be trimmed. See Section 5 of the Map Report File for details about why
+   the input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol "XLXI_4/U0/dlmb/DBus_Oring.tmp_or" (output
+   signal=XLXI_4/U0/dlmb_LMB_ReadDBus<31>) has input signal "XLXI_4/N16" which
+   will be trimmed. See Section 5 of the Map Report File for details about why
+   the input signal will become undriven.
+ERROR:MapLib:979 - LUT2 symbol
+   "XLXI_4/U0/iomodule_0/IOModule_Core_I1/Using_UART_RX.UART_RX_I1/Mmux_RX_PWR_8
+   6_o_MUX_4561_o11" (output
+   signal=XLXI_4/U0/iomodule_0/IOModule_Core_I1/Using_UART_RX.UART_RX_I1/RX_PWR_
+   86_o_MUX_4561_o) has input signal "XLXI_4/UART_Rx" which will be trimmed. See
+   Section 5 of the Map Report File for details about why the input signal will
+   become undriven.
+ERROR:MapLib:979 - LUT3 symbol
+   "XLXI_4/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_16_glue_set" (output
+   signal=XLXI_4/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_16_glue_set)
+   has input signal
+   "XLXI_4/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/interrupt_16" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT3 symbol
+   "XLXI_4/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_17_glue_set" (output
+   signal=XLXI_4/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_17_glue_set)
+   has input signal
+   "XLXI_4/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/interrupt_17" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT3 symbol
+   "XLXI_4/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_18_glue_set" (output
+   signal=XLXI_4/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_18_glue_set)
+   has input signal
+   "XLXI_4/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/interrupt_18" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT3 symbol
+   "XLXI_4/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_19_glue_set" (output
+   signal=XLXI_4/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_19_glue_set)
+   has input signal
+   "XLXI_4/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/interrupt_19" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT3 symbol
+   "XLXI_4/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_20_glue_set" (output
+   signal=XLXI_4/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_20_glue_set)
+   has input signal
+   "XLXI_4/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/interrupt_20" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT3 symbol
+   "XLXI_4/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_21_glue_set" (output
+   signal=XLXI_4/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_21_glue_set)
+   has input signal
+   "XLXI_4/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/interrupt_21" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT3 symbol
+   "XLXI_4/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_22_glue_set" (output
+   signal=XLXI_4/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_22_glue_set)
+   has input signal
+   "XLXI_4/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/interrupt_22" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT3 symbol
+   "XLXI_4/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_23_glue_set" (output
+   signal=XLXI_4/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_23_glue_set)
+   has input signal
+   "XLXI_4/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/interrupt_23" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT3 symbol
+   "XLXI_4/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_24_glue_set" (output
+   signal=XLXI_4/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_24_glue_set)
+   has input signal
+   "XLXI_4/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/interrupt_24" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT3 symbol
+   "XLXI_4/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_25_glue_set" (output
+   signal=XLXI_4/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_25_glue_set)
+   has input signal
+   "XLXI_4/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/interrupt_25" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT3 symbol
+   "XLXI_4/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_26_glue_set" (output
+   signal=XLXI_4/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_26_glue_set)
+   has input signal
+   "XLXI_4/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/interrupt_26" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT3 symbol
+   "XLXI_4/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_27_glue_set" (output
+   signal=XLXI_4/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_27_glue_set)
+   has input signal
+   "XLXI_4/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/interrupt_27" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT3 symbol
+   "XLXI_4/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_28_glue_set" (output
+   signal=XLXI_4/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_28_glue_set)
+   has input signal
+   "XLXI_4/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/interrupt_28" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT3 symbol
+   "XLXI_4/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_29_glue_set" (output
+   signal=XLXI_4/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_29_glue_set)
+   has input signal
+   "XLXI_4/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/interrupt_29" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT3 symbol
+   "XLXI_4/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_30_glue_set" (output
+   signal=XLXI_4/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_30_glue_set)
+   has input signal
+   "XLXI_4/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/interrupt_30" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:979 - LUT3 symbol
+   "XLXI_4/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_31_glue_set" (output
+   signal=XLXI_4/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_31_glue_set)
+   has input signal
+   "XLXI_4/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/interrupt_31" which will
+   be trimmed. See Section 5 of the Map Report File for details about why the
+   input signal will become undriven.
+ERROR:MapLib:978 - LUT6 symbol "XLXI_4/U0/dlmb/DBus_Oring.Res<0>" (output
+   signal=XLXI_4/U0/dlmb_LMB_ReadDBus<0>) has an equation that uses input pin
+   I2, which no longer has a connected signal. Please ensure that all the pins
+   used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol "XLXI_4/U0/dlmb/DBus_Oring.Res<10>" (output
+   signal=XLXI_4/U0/dlmb_LMB_ReadDBus<10>) has an equation that uses input pin
+   I2, which no longer has a connected signal. Please ensure that all the pins
+   used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol "XLXI_4/U0/dlmb/DBus_Oring.Res<11>" (output
+   signal=XLXI_4/U0/dlmb_LMB_ReadDBus<11>) has an equation that uses input pin
+   I2, which no longer has a connected signal. Please ensure that all the pins
+   used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol "XLXI_4/U0/dlmb/DBus_Oring.Res<12>" (output
+   signal=XLXI_4/U0/dlmb_LMB_ReadDBus<12>) has an equation that uses input pin
+   I2, which no longer has a connected signal. Please ensure that all the pins
+   used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol "XLXI_4/U0/dlmb/DBus_Oring.Res<13>" (output
+   signal=XLXI_4/U0/dlmb_LMB_ReadDBus<13>) has an equation that uses input pin
+   I2, which no longer has a connected signal. Please ensure that all the pins
+   used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol "XLXI_4/U0/dlmb/DBus_Oring.Res<14>" (output
+   signal=XLXI_4/U0/dlmb_LMB_ReadDBus<14>) has an equation that uses input pin
+   I2, which no longer has a connected signal. Please ensure that all the pins
+   used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol "XLXI_4/U0/dlmb/DBus_Oring.Res<15>" (output
+   signal=XLXI_4/U0/dlmb_LMB_ReadDBus<15>) has an equation that uses input pin
+   I2, which no longer has a connected signal. Please ensure that all the pins
+   used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol "XLXI_4/U0/dlmb/DBus_Oring.Res<16>" (output
+   signal=XLXI_4/U0/dlmb_LMB_ReadDBus<16>) has an equation that uses input pin
+   I0, which no longer has a connected signal. Please ensure that all the pins
+   used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol "XLXI_4/U0/dlmb/DBus_Oring.Res<16>" (output
+   signal=XLXI_4/U0/dlmb_LMB_ReadDBus<16>) has an equation that uses input pin
+   I1, which no longer has a connected signal. Please ensure that all the pins
+   used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol "XLXI_4/U0/dlmb/DBus_Oring.Res<17>" (output
+   signal=XLXI_4/U0/dlmb_LMB_ReadDBus<17>) has an equation that uses input pin
+   I0, which no longer has a connected signal. Please ensure that all the pins
+   used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol "XLXI_4/U0/dlmb/DBus_Oring.Res<17>" (output
+   signal=XLXI_4/U0/dlmb_LMB_ReadDBus<17>) has an equation that uses input pin
+   I1, which no longer has a connected signal. Please ensure that all the pins
+   used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol "XLXI_4/U0/dlmb/DBus_Oring.Res<18>" (output
+   signal=XLXI_4/U0/dlmb_LMB_ReadDBus<18>) has an equation that uses input pin
+   I0, which no longer has a connected signal. Please ensure that all the pins
+   used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol "XLXI_4/U0/dlmb/DBus_Oring.Res<18>" (output
+   signal=XLXI_4/U0/dlmb_LMB_ReadDBus<18>) has an equation that uses input pin
+   I1, which no longer has a connected signal. Please ensure that all the pins
+   used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol "XLXI_4/U0/dlmb/DBus_Oring.Res<19>" (output
+   signal=XLXI_4/U0/dlmb_LMB_ReadDBus<19>) has an equation that uses input pin
+   I0, which no longer has a connected signal. Please ensure that all the pins
+   used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol "XLXI_4/U0/dlmb/DBus_Oring.Res<19>" (output
+   signal=XLXI_4/U0/dlmb_LMB_ReadDBus<19>) has an equation that uses input pin
+   I1, which no longer has a connected signal. Please ensure that all the pins
+   used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol "XLXI_4/U0/dlmb/DBus_Oring.Res<1>" (output
+   signal=XLXI_4/U0/dlmb_LMB_ReadDBus<1>) has an equation that uses input pin
+   I2, which no longer has a connected signal. Please ensure that all the pins
+   used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol "XLXI_4/U0/dlmb/DBus_Oring.Res<20>" (output
+   signal=XLXI_4/U0/dlmb_LMB_ReadDBus<20>) has an equation that uses input pin
+   I0, which no longer has a connected signal. Please ensure that all the pins
+   used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol "XLXI_4/U0/dlmb/DBus_Oring.Res<20>" (output
+   signal=XLXI_4/U0/dlmb_LMB_ReadDBus<20>) has an equation that uses input pin
+   I1, which no longer has a connected signal. Please ensure that all the pins
+   used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol "XLXI_4/U0/dlmb/DBus_Oring.Res<21>" (output
+   signal=XLXI_4/U0/dlmb_LMB_ReadDBus<21>) has an equation that uses input pin
+   I0, which no longer has a connected signal. Please ensure that all the pins
+   used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol "XLXI_4/U0/dlmb/DBus_Oring.Res<21>" (output
+   signal=XLXI_4/U0/dlmb_LMB_ReadDBus<21>) has an equation that uses input pin
+   I1, which no longer has a connected signal. Please ensure that all the pins
+   used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol "XLXI_4/U0/dlmb/DBus_Oring.Res<22>" (output
+   signal=XLXI_4/U0/dlmb_LMB_ReadDBus<22>) has an equation that uses input pin
+   I0, which no longer has a connected signal. Please ensure that all the pins
+   used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol "XLXI_4/U0/dlmb/DBus_Oring.Res<22>" (output
+   signal=XLXI_4/U0/dlmb_LMB_ReadDBus<22>) has an equation that uses input pin
+   I1, which no longer has a connected signal. Please ensure that all the pins
+   used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol "XLXI_4/U0/dlmb/DBus_Oring.Res<23>" (output
+   signal=XLXI_4/U0/dlmb_LMB_ReadDBus<23>) has an equation that uses input pin
+   I0, which no longer has a connected signal. Please ensure that all the pins
+   used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol "XLXI_4/U0/dlmb/DBus_Oring.Res<23>" (output
+   signal=XLXI_4/U0/dlmb_LMB_ReadDBus<23>) has an equation that uses input pin
+   I1, which no longer has a connected signal. Please ensure that all the pins
+   used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol "XLXI_4/U0/dlmb/DBus_Oring.Res<24>" (output
+   signal=XLXI_4/U0/dlmb_LMB_ReadDBus<24>) has an equation that uses input pin
+   I1, which no longer has a connected signal. Please ensure that all the pins
+   used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol "XLXI_4/U0/dlmb/DBus_Oring.Res<25>" (output
+   signal=XLXI_4/U0/dlmb_LMB_ReadDBus<25>) has an equation that uses input pin
+   I2, which no longer has a connected signal. Please ensure that all the pins
+   used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol "XLXI_4/U0/dlmb/DBus_Oring.Res<26>" (output
+   signal=XLXI_4/U0/dlmb_LMB_ReadDBus<26>) has an equation that uses input pin
+   I2, which no longer has a connected signal. Please ensure that all the pins
+   used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol "XLXI_4/U0/dlmb/DBus_Oring.Res<27>" (output
+   signal=XLXI_4/U0/dlmb_LMB_ReadDBus<27>) has an equation that uses input pin
+   I1, which no longer has a connected signal. Please ensure that all the pins
+   used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol "XLXI_4/U0/dlmb/DBus_Oring.Res<28>" (output
+   signal=XLXI_4/U0/dlmb_LMB_ReadDBus<28>) has an equation that uses input pin
+   I2, which no longer has a connected signal. Please ensure that all the pins
+   used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol "XLXI_4/U0/dlmb/DBus_Oring.Res<29>" (output
+   signal=XLXI_4/U0/dlmb_LMB_ReadDBus<29>) has an equation that uses input pin
+   I1, which no longer has a connected signal. Please ensure that all the pins
+   used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol "XLXI_4/U0/dlmb/DBus_Oring.Res<2>" (output
+   signal=XLXI_4/U0/dlmb_LMB_ReadDBus<2>) has an equation that uses input pin
+   I2, which no longer has a connected signal. Please ensure that all the pins
+   used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol "XLXI_4/U0/dlmb/DBus_Oring.Res<30>" (output
+   signal=XLXI_4/U0/dlmb_LMB_ReadDBus<30>) has an equation that uses input pin
+   I1, which no longer has a connected signal. Please ensure that all the pins
+   used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol "XLXI_4/U0/dlmb/DBus_Oring.Res<3>" (output
+   signal=XLXI_4/U0/dlmb_LMB_ReadDBus<3>) has an equation that uses input pin
+   I2, which no longer has a connected signal. Please ensure that all the pins
+   used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol "XLXI_4/U0/dlmb/DBus_Oring.Res<4>" (output
+   signal=XLXI_4/U0/dlmb_LMB_ReadDBus<4>) has an equation that uses input pin
+   I2, which no longer has a connected signal. Please ensure that all the pins
+   used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol "XLXI_4/U0/dlmb/DBus_Oring.Res<5>" (output
+   signal=XLXI_4/U0/dlmb_LMB_ReadDBus<5>) has an equation that uses input pin
+   I2, which no longer has a connected signal. Please ensure that all the pins
+   used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol "XLXI_4/U0/dlmb/DBus_Oring.Res<6>" (output
+   signal=XLXI_4/U0/dlmb_LMB_ReadDBus<6>) has an equation that uses input pin
+   I2, which no longer has a connected signal. Please ensure that all the pins
+   used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol "XLXI_4/U0/dlmb/DBus_Oring.Res<7>" (output
+   signal=XLXI_4/U0/dlmb_LMB_ReadDBus<7>) has an equation that uses input pin
+   I2, which no longer has a connected signal. Please ensure that all the pins
+   used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol "XLXI_4/U0/dlmb/DBus_Oring.Res<8>" (output
+   signal=XLXI_4/U0/dlmb_LMB_ReadDBus<8>) has an equation that uses input pin
+   I2, which no longer has a connected signal. Please ensure that all the pins
+   used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol "XLXI_4/U0/dlmb/DBus_Oring.Res<9>" (output
+   signal=XLXI_4/U0/dlmb_LMB_ReadDBus<9>) has an equation that uses input pin
+   I2, which no longer has a connected signal. Please ensure that all the pins
+   used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol "XLXI_4/U0/dlmb/DBus_Oring.tmp_or" (output
+   signal=XLXI_4/U0/dlmb_LMB_ReadDBus<31>) has an equation that uses input pin
+   I2, which no longer has a connected signal. Please ensure that all the pins
+   used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT2 symbol
+   "XLXI_4/U0/iomodule_0/IOModule_Core_I1/Using_UART_RX.UART_RX_I1/Mmux_RX_PWR_8
+   6_o_MUX_4561_o11" (output
+   signal=XLXI_4/U0/iomodule_0/IOModule_Core_I1/Using_UART_RX.UART_RX_I1/RX_PWR_
+   86_o_MUX_4561_o) has an equation that uses input pin I1, which no longer has
+   a connected signal. Please ensure that all the pins used in the equation for
+   this LUT have signals that are not trimmed (see Section 5 of the Map Report
+   File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT3 symbol
+   "XLXI_4/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_16_glue_set" (output
+   signal=XLXI_4/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_16_glue_set)
+   has an equation that uses input pin I2, which no longer has a connected
+   signal. Please ensure that all the pins used in the equation for this LUT
+   have signals that are not trimmed (see Section 5 of the Map Report File for
+   details on which signals were trimmed).
+ERROR:MapLib:978 - LUT3 symbol
+   "XLXI_4/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_17_glue_set" (output
+   signal=XLXI_4/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_17_glue_set)
+   has an equation that uses input pin I2, which no longer has a connected
+   signal. Please ensure that all the pins used in the equation for this LUT
+   have signals that are not trimmed (see Section 5 of the Map Report File for
+   details on which signals were trimmed).
+ERROR:MapLib:978 - LUT3 symbol
+   "XLXI_4/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_18_glue_set" (output
+   signal=XLXI_4/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_18_glue_set)
+   has an equation that uses input pin I2, which no longer has a connected
+   signal. Please ensure that all the pins used in the equation for this LUT
+   have signals that are not trimmed (see Section 5 of the Map Report File for
+   details on which signals were trimmed).
+ERROR:MapLib:978 - LUT3 symbol
+   "XLXI_4/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_19_glue_set" (output
+   signal=XLXI_4/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_19_glue_set)
+   has an equation that uses input pin I2, which no longer has a connected
+   signal. Please ensure that all the pins used in the equation for this LUT
+   have signals that are not trimmed (see Section 5 of the Map Report File for
+   details on which signals were trimmed).
+ERROR:MapLib:978 - LUT3 symbol
+   "XLXI_4/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_20_glue_set" (output
+   signal=XLXI_4/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_20_glue_set)
+   has an equation that uses input pin I2, which no longer has a connected
+   signal. Please ensure that all the pins used in the equation for this LUT
+   have signals that are not trimmed (see Section 5 of the Map Report File for
+   details on which signals were trimmed).
+ERROR:MapLib:978 - LUT3 symbol
+   "XLXI_4/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_21_glue_set" (output
+   signal=XLXI_4/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_21_glue_set)
+   has an equation that uses input pin I2, which no longer has a connected
+   signal. Please ensure that all the pins used in the equation for this LUT
+   have signals that are not trimmed (see Section 5 of the Map Report File for
+   details on which signals were trimmed).
+ERROR:MapLib:978 - LUT3 symbol
+   "XLXI_4/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_22_glue_set" (output
+   signal=XLXI_4/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_22_glue_set)
+   has an equation that uses input pin I2, which no longer has a connected
+   signal. Please ensure that all the pins used in the equation for this LUT
+   have signals that are not trimmed (see Section 5 of the Map Report File for
+   details on which signals were trimmed).
+ERROR:MapLib:978 - LUT3 symbol
+   "XLXI_4/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_23_glue_set" (output
+   signal=XLXI_4/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_23_glue_set)
+   has an equation that uses input pin I2, which no longer has a connected
+   signal. Please ensure that all the pins used in the equation for this LUT
+   have signals that are not trimmed (see Section 5 of the Map Report File for
+   details on which signals were trimmed).
+ERROR:MapLib:978 - LUT3 symbol
+   "XLXI_4/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_24_glue_set" (output
+   signal=XLXI_4/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_24_glue_set)
+   has an equation that uses input pin I2, which no longer has a connected
+   signal. Please ensure that all the pins used in the equation for this LUT
+   have signals that are not trimmed (see Section 5 of the Map Report File for
+   details on which signals were trimmed).
+ERROR:MapLib:978 - LUT3 symbol
+   "XLXI_4/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_25_glue_set" (output
+   signal=XLXI_4/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_25_glue_set)
+   has an equation that uses input pin I2, which no longer has a connected
+   signal. Please ensure that all the pins used in the equation for this LUT
+   have signals that are not trimmed (see Section 5 of the Map Report File for
+   details on which signals were trimmed).
+ERROR:MapLib:978 - LUT3 symbol
+   "XLXI_4/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_26_glue_set" (output
+   signal=XLXI_4/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_26_glue_set)
+   has an equation that uses input pin I2, which no longer has a connected
+   signal. Please ensure that all the pins used in the equation for this LUT
+   have signals that are not trimmed (see Section 5 of the Map Report File for
+   details on which signals were trimmed).
+ERROR:MapLib:978 - LUT3 symbol
+   "XLXI_4/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_27_glue_set" (output
+   signal=XLXI_4/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_27_glue_set)
+   has an equation that uses input pin I2, which no longer has a connected
+   signal. Please ensure that all the pins used in the equation for this LUT
+   have signals that are not trimmed (see Section 5 of the Map Report File for
+   details on which signals were trimmed).
+ERROR:MapLib:978 - LUT3 symbol
+   "XLXI_4/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_28_glue_set" (output
+   signal=XLXI_4/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_28_glue_set)
+   has an equation that uses input pin I2, which no longer has a connected
+   signal. Please ensure that all the pins used in the equation for this LUT
+   have signals that are not trimmed (see Section 5 of the Map Report File for
+   details on which signals were trimmed).
+ERROR:MapLib:978 - LUT3 symbol
+   "XLXI_4/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_29_glue_set" (output
+   signal=XLXI_4/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_29_glue_set)
+   has an equation that uses input pin I2, which no longer has a connected
+   signal. Please ensure that all the pins used in the equation for this LUT
+   have signals that are not trimmed (see Section 5 of the Map Report File for
+   details on which signals were trimmed).
+ERROR:MapLib:978 - LUT3 symbol
+   "XLXI_4/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_30_glue_set" (output
+   signal=XLXI_4/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_30_glue_set)
+   has an equation that uses input pin I2, which no longer has a connected
+   signal. Please ensure that all the pins used in the equation for this LUT
+   have signals that are not trimmed (see Section 5 of the Map Report File for
+   details on which signals were trimmed).
+ERROR:MapLib:978 - LUT3 symbol
+   "XLXI_4/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_31_glue_set" (output
+   signal=XLXI_4/U0/iomodule_0/IOModule_Core_I1/intr_ctrl_I1/cisr_31_glue_set)
+   has an equation that uses input pin I2, which no longer has a connected
+   signal. Please ensure that all the pins used in the equation for this LUT
+   have signals that are not trimmed (see Section 5 of the Map Report File for
+   details on which signals were trimmed).
+
+Error found in mapping process, exiting...
+Errors found during the mapping phase.  Please see map report file for more
+details.  Output files will not be written.
+
+Design Summary
+--------------
+Number of errors   : 114
+Number of warnings :   0

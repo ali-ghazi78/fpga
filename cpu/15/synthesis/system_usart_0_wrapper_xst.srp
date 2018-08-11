@@ -1,0 +1,82 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to D:\fpga_project\cpu\15\synthesis\xst_temp_dir\
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.05 secs
+ 
+--> 
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input Format                       : MIXED
+Input File Name                    : "system_usart_0_wrapper_xst.prj"
+Verilog Include Directory          : {"D:\fpga_project\cpu\15\pcores\" "F:\xilinx\embeded_development_kit\14.7\ISE_DS\edk_user_repository\MyProcessorIPLib\pcores\" "F:\xilinx\embeded_development_kit\14.7\ISE_DS\EDK\hw\XilinxBFMinterface\pcores\" "F:\xilinx\embeded_development_kit\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\" }
+
+---- Target Parameters
+Target Device                      : xc6slx4tqg144-3
+Output File Name                   : "../implementation/system_usart_0_wrapper.ngc"
+
+---- Source Options
+Top Module Name                    : system_usart_0_wrapper
+
+---- Target Options
+Add IO Buffers                     : NO
+
+---- General Options
+Optimization Goal                  : speed
+Netlist Hierarchy                  : as_optimized
+Optimization Effort                : 1
+Hierarchy Separator                : /
+
+---- Other Options
+Cores Search Directories           : {../implementation}
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "D:/fpga_project/cpu/15/pcores/usart_v1_00_a/hdl/verilog/usart_module.v" into library usart_v1_00_a
+Parsing module <my_usart>.
+Analyzing Verilog file "D:/fpga_project/cpu/15/pcores/usart_v1_00_a/hdl/verilog/user_logic.v" into library usart_v1_00_a
+Parsing module <user_logic>.
+ERROR:HDLCompiler:1660 - "D:/fpga_project/cpu/15/pcores/usart_v1_00_a/hdl/verilog/user_logic.v" Line 266: Procedural assignment to a non-register data is not permitted, left-hand side should be reg/integer/time/genvar
+ERROR:HDLCompiler:1660 - "D:/fpga_project/cpu/15/pcores/usart_v1_00_a/hdl/verilog/user_logic.v" Line 266: Procedural assignment to a non-register data is not permitted, left-hand side should be reg/integer/time/genvar
+ERROR:HDLCompiler:1660 - "D:/fpga_project/cpu/15/pcores/usart_v1_00_a/hdl/verilog/user_logic.v" Line 268: Procedural assignment to a non-register prescaler is not permitted, left-hand side should be reg/integer/time/genvar
+ERROR:HDLCompiler:1660 - "D:/fpga_project/cpu/15/pcores/usart_v1_00_a/hdl/verilog/user_logic.v" Line 268: Procedural assignment to a non-register prescaler is not permitted, left-hand side should be reg/integer/time/genvar
+ERROR:HDLCompiler:598 - "D:/fpga_project/cpu/15/pcores/usart_v1_00_a/hdl/verilog/user_logic.v" Line 51: Module <user_logic> ignored due to previous errors.
+Verilog file D:/fpga_project/cpu/15/pcores/usart_v1_00_a/hdl/verilog/user_logic.v ignored due to errors
+--> 
+
+Total memory usage is 262812 kilobytes
+
+Number of errors   :    5 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

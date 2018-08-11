@@ -1,0 +1,2 @@
+vhdtdtfi -lib work D:/fpga_project/cpu_ise/cpu_wi/core_2/core_2/usart_module.v -lang verilog -prj core_2 -o my_usart.spl -module my_usart -template F:/xilinx/embeded_development_kit/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 my_usart.spl D:/fpga_project/cpu_ise/cpu_wi/core_2/core_2/my_usart.sym 

@@ -1,0 +1,18 @@
+Assigned Driver cpu 1.15.a for instance microblaze_0
+microblaze_0 has been added to the project
+WARNING:EDK:2191 - Processor microblaze_0 has no memory mapped at its reset vector. 
+WARNING:EDK:2191 - Processor microblaze_0 has no memory mapped at its reset vector. 
+bram_block_0 has been added to the project
+WARNING:EDK:2191 - Processor microblaze_0 has no memory mapped at its reset vector. 
+WARNING:EDK:2191 - Processor microblaze_0 has no memory mapped at its reset vector. 
+Writing filter settings....
+Done writing filter settings to:
+	D:\fpga_project\cpu\8\etc\system.filters
+Done writing Tab View settings to:
+	D:\fpga_project\cpu\8\etc\system.gui
+WARNING:EDK:2191 - Processor microblaze_0 has no memory mapped at its reset vector. 
+Writing filter settings....
+Done writing filter settings to:
+	D:\fpga_project\cpu\8\etc\system.filters
+Done writing Tab View settings to:
+	D:\fpga_project\cpu\8\etc\system.gui

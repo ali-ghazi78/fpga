@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\fpga_project\usart_tx_rx\usart_tester_rx_tx.ncd
+OUTFILE=D:\fpga_project\usart_tx_rx\usart_tester_rx_tx.bit
+FAMILY=Spartan6
+PART=xc6slx9-2tqg144
+WORKINGDIR=D:\fpga_project\usart_tx_rx
+LICENSE=WebPack
+USER_INFO=_

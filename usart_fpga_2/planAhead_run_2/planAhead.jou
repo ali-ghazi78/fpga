@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Mon Jul 16 00:03:44 2018
+# Process ID: 12776
+# Log file: D:/fpga_project/usart_fpga_2/planAhead_run_2/planAhead.log
+# Journal file: D:/fpga_project/usart_fpga_2/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source D:/fpga_project/usart_fpga_2/pa.fromNcd.tcl

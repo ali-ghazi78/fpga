@@ -1,0 +1,11 @@
+##############################################################################
+## Filename:          D:\fpga_project\cpu\11\pcores/pwm_peipheral_v1_00_a/data/pwm_peipheral_v2_1_0.pao
+## Description:       Peripheral Analysis Order
+## Date:              Thu Jul 19 20:28:13 2018 (by Create and Import Peripheral Wizard)
+##############################################################################
+
+lib proc_common_v3_00_a all vhdl
+lib plbv46_slave_single_v1_01_a all vhdl
+lib pwm_peipheral_v1_00_a pwm verilog
+lib pwm_peipheral_v1_00_a user_logic verilog
+lib pwm_peipheral_v1_00_a pwm_peipheral vhdl

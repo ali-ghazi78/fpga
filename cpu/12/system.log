@@ -1,0 +1,20 @@
+WARNING:EDK:3605 - Use of the repository located at F:\xilinx\embeded_development_kit\14.7\ISE_DS\edk_user_repository\ 
+(equivalent of $XILINX_EDK/../edk_user_repository) is now deprecated. 
+It is recommended that you use Global SearchPath preference to specify search paths that apply to all the projects.
+WARNING:EDK:3605 - Use of the repository located at F:\xilinx\embeded_development_kit\14.7\ISE_DS\edk_user_repository\ 
+(equivalent of $XILINX_EDK/../edk_user_repository) is now deprecated. 
+It is recommended that you use Global SearchPath preference to specify search paths that apply to all the projects.
+Writing filter settings....
+Done writing filter settings to:
+	D:\fpga_project\cpu\12\etc\system.filters
+Done writing Tab View settings to:
+	D:\fpga_project\cpu\12\etc\system.gui
+Assigned Driver generic 1.00.a for instance pwm_peipheral_0
+pwm_peipheral_0 has been added to the project
+WARNING:EDK:2137 - Peripheral pwm_peipheral_0 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+WARNING:EDK:2137 - Peripheral pwm_peipheral_0 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+Writing filter settings....
+Done writing filter settings to:
+	D:\fpga_project\cpu\12\etc\system.filters
+Done writing Tab View settings to:
+	D:\fpga_project\cpu\12\etc\system.gui

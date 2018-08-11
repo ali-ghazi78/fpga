@@ -1,0 +1,11 @@
+-batch 
+-create pwm_peipheral 
+-ver 1.00.a 
+-dir "D:\fpga_project\cpu\10" 
+-lang verilog 
+-bus plbv46 s 
+-rst 
+-reg 4 
+-xps 
+-ise 
+-driver 

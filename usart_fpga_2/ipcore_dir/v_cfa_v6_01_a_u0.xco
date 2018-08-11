@@ -1,0 +1,56 @@
+##############################################################
+#
+# Xilinx Core Generator version 14.7
+# Date: Sat Jul 14 20:26:02 2018
+#
+##############################################################
+#
+#  This file contains the customisation parameters for a
+#  Xilinx CORE Generator IP GUI. It is strongly recommended
+#  that you do not manually alter this file as it may cause
+#  unexpected and unsupported behavior.
+#
+##############################################################
+#
+#  Generated from component: xilinx.com:ip:v_cfa:6.01.a
+#
+##############################################################
+#
+# BEGIN Project Options
+SET addpads = false
+SET asysymbol = true
+SET busformat = BusFormatAngleBracketNotRipped
+SET createndf = false
+SET designentry = Verilog
+SET device = xc6slx4
+SET devicefamily = spartan6
+SET flowvendor = Other
+SET formalverification = false
+SET foundationsym = false
+SET implementationfiletype = Ngc
+SET package = tqg144
+SET removerpms = false
+SET simulationfiles = Behavioral
+SET speedgrade = -3
+SET verilogsim = true
+SET vhdlsim = false
+# END Project Options
+# BEGIN Select
+SELECT Color_Filter_Array_Interpolation xilinx.com:ip:v_cfa:6.01.a
+# END Select
+# BEGIN Parameters
+CSET active_cols=1920
+CSET active_rows=1080
+CSET bayer_phase=3
+CSET component_name=v_cfa_v6_01_a_u0
+CSET data_width=8
+CSET has_axi4_lite=false
+CSET has_debug=false
+CSET has_intc_if=false
+CSET max_cols=1920
+# END Parameters
+# BEGIN Extra information
+MISC pkg_timestamp=2012-09-07T08:16:23Z
+# END Extra information
+GENERATE
+# CRC: 24146351

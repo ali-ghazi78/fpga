@@ -1,0 +1,12 @@
+run
+-opt_level 2
+-opt_mode speed
+-ifmt mixed
+-ifn "D:\fpga_project\cpu\4\pcores\my_u_v1_00_a\devl\synthesis\my_u_xst.prj"
+-top my_u
+-p virtex6
+-ofn "D:\fpga_project\cpu\4\pcores\my_u_v1_00_a\devl\synthesis\my_u_xst.ngc"
+-iobuf NO
+-rtlview YES
+-hierarchy_separator /
+-work_lib my_u_v1_00_a

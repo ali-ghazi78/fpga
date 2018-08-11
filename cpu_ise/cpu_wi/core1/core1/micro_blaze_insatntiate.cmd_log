@@ -1,0 +1,2 @@
+vhdtdtfi -lib work D:/fpga_project/cpu_ise/cpu_wi/core1/core1/micro_blaze_insatntiate.v -lang verilog -prj core1 -o micro_blaze_insatntiate.spl -module micro_blaze_insatntiate -template F:/xilinx/embeded_development_kit/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 micro_blaze_insatntiate.spl D:/fpga_project/cpu_ise/cpu_wi/core1/core1/micro_blaze_insatntiate.sym 

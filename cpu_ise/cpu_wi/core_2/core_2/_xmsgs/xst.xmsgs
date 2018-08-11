@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="25" delta="new" >"D:\fpga_project\cpu_ise\cpu_wi\core_2\core_2\schematic_src_1.vf" Line 46: Module &lt;<arg fmt="%s" index="1">microblaze_mcs_v1_4</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">clk</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="new" >"D:\fpga_project\cpu_ise\cpu_wi\core_2\core_2\schematic_src_1.vf" Line 47: Module &lt;<arg fmt="%s" index="1">microblaze_mcs_v1_4</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">gpi1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="new" >"D:\fpga_project\cpu_ise\cpu_wi\core_2\core_2\schematic_src_1.vf" Line 48: Module &lt;<arg fmt="%s" index="1">microblaze_mcs_v1_4</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">gpi2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="new" >"D:\fpga_project\cpu_ise\cpu_wi\core_2\core_2\schematic_src_1.vf" Line 49: Module &lt;<arg fmt="%s" index="1">microblaze_mcs_v1_4</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">gpi3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="new" >"D:\fpga_project\cpu_ise\cpu_wi\core_2\core_2\schematic_src_1.vf" Line 50: Module &lt;<arg fmt="%s" index="1">microblaze_mcs_v1_4</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">gpi4</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="new" >"D:\fpga_project\cpu_ise\cpu_wi\core_2\core_2\schematic_src_1.vf" Line 51: Module &lt;<arg fmt="%s" index="1">microblaze_mcs_v1_4</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">intc_interrupt</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="new" >"D:\fpga_project\cpu_ise\cpu_wi\core_2\core_2\schematic_src_1.vf" Line 52: Module &lt;<arg fmt="%s" index="1">microblaze_mcs_v1_4</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">reset</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="new" >"D:\fpga_project\cpu_ise\cpu_wi\core_2\core_2\schematic_src_1.vf" Line 53: Module &lt;<arg fmt="%s" index="1">microblaze_mcs_v1_4</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">uart_rx</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="new" >"D:\fpga_project\cpu_ise\cpu_wi\core_2\core_2\schematic_src_1.vf" Line 54: Module &lt;<arg fmt="%s" index="1">microblaze_mcs_v1_4</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">gpo1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="new" >"D:\fpga_project\cpu_ise\cpu_wi\core_2\core_2\schematic_src_1.vf" Line 55: Module &lt;<arg fmt="%s" index="1">microblaze_mcs_v1_4</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">gpo2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="new" >"D:\fpga_project\cpu_ise\cpu_wi\core_2\core_2\schematic_src_1.vf" Line 56: Module &lt;<arg fmt="%s" index="1">microblaze_mcs_v1_4</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">gpo3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="new" >"D:\fpga_project\cpu_ise\cpu_wi\core_2\core_2\schematic_src_1.vf" Line 57: Module &lt;<arg fmt="%s" index="1">microblaze_mcs_v1_4</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">gpo4</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="new" >"D:\fpga_project\cpu_ise\cpu_wi\core_2\core_2\schematic_src_1.vf" Line 58: Module &lt;<arg fmt="%s" index="1">microblaze_mcs_v1_4</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">intc_irq</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="25" delta="new" >"D:\fpga_project\cpu_ise\cpu_wi\core_2\core_2\schematic_src_1.vf" Line 59: Module &lt;<arg fmt="%s" index="1">microblaze_mcs_v1_4</arg>&gt; does not have a port named &lt;<arg fmt="%s" index="2">uart_tx</arg>&gt;.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="new" >"D:\fpga_project\cpu_ise\cpu_wi\core_2\core_2\schematic_src_1.vf" Line 46: Port <arg fmt="%s" index="1">Clk</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\fpga_project\cpu_ise\cpu_wi\core_2\core_2\usart_module.v" Line 61: Result of <arg fmt="%d" index="1">17</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">16</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\fpga_project\cpu_ise\cpu_wi\core_2\core_2\usart_module.v" Line 75: Result of <arg fmt="%d" index="1">9</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"D:\fpga_project\cpu_ise\cpu_wi\core_2\core_2\schematic_src_1.vf" Line 45: Assignment to <arg fmt="%s" index="1">gio</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="error" file="HDLCompiler" num="267" delta="new" >"D:\fpga_project\cpu_ise\cpu_wi\core_2\core_2\schematic_src_1.vf" Line 46: Cannot find port <arg fmt="%s" index="1">clk</arg> on this module
+</msg>
+
+<msg type="error" file="HDLCompiler" num="267" delta="new" >"D:\fpga_project\cpu_ise\cpu_wi\core_2\core_2\schematic_src_1.vf" Line 47: Cannot find port <arg fmt="%s" index="1">gpi1</arg> on this module
+</msg>
+
+<msg type="error" file="HDLCompiler" num="267" delta="new" >"D:\fpga_project\cpu_ise\cpu_wi\core_2\core_2\schematic_src_1.vf" Line 48: Cannot find port <arg fmt="%s" index="1">gpi2</arg> on this module
+</msg>
+
+<msg type="error" file="HDLCompiler" num="267" delta="new" >"D:\fpga_project\cpu_ise\cpu_wi\core_2\core_2\schematic_src_1.vf" Line 49: Cannot find port <arg fmt="%s" index="1">gpi3</arg> on this module
+</msg>
+
+<msg type="error" file="HDLCompiler" num="267" delta="new" >"D:\fpga_project\cpu_ise\cpu_wi\core_2\core_2\schematic_src_1.vf" Line 50: Cannot find port <arg fmt="%s" index="1">gpi4</arg> on this module
+</msg>
+
+<msg type="error" file="HDLCompiler" num="267" delta="new" >"D:\fpga_project\cpu_ise\cpu_wi\core_2\core_2\schematic_src_1.vf" Line 51: Cannot find port <arg fmt="%s" index="1">intc_interrupt</arg> on this module
+</msg>
+
+<msg type="error" file="HDLCompiler" num="267" delta="new" >"D:\fpga_project\cpu_ise\cpu_wi\core_2\core_2\schematic_src_1.vf" Line 52: Cannot find port <arg fmt="%s" index="1">reset</arg> on this module
+</msg>
+
+<msg type="error" file="HDLCompiler" num="267" delta="new" >"D:\fpga_project\cpu_ise\cpu_wi\core_2\core_2\schematic_src_1.vf" Line 53: Cannot find port <arg fmt="%s" index="1">uart_rx</arg> on this module
+</msg>
+
+<msg type="error" file="HDLCompiler" num="267" delta="new" >"D:\fpga_project\cpu_ise\cpu_wi\core_2\core_2\schematic_src_1.vf" Line 54: Cannot find port <arg fmt="%s" index="1">gpo1</arg> on this module
+</msg>
+
+<msg type="error" file="HDLCompiler" num="267" delta="new" >"D:\fpga_project\cpu_ise\cpu_wi\core_2\core_2\schematic_src_1.vf" Line 55: Cannot find port <arg fmt="%s" index="1">gpo2</arg> on this module
+</msg>
+
+<msg type="error" file="HDLCompiler" num="267" delta="new" >"D:\fpga_project\cpu_ise\cpu_wi\core_2\core_2\schematic_src_1.vf" Line 56: Cannot find port <arg fmt="%s" index="1">gpo3</arg> on this module
+</msg>
+
+<msg type="error" file="HDLCompiler" num="267" delta="new" >"D:\fpga_project\cpu_ise\cpu_wi\core_2\core_2\schematic_src_1.vf" Line 57: Cannot find port <arg fmt="%s" index="1">gpo4</arg> on this module
+</msg>
+
+<msg type="error" file="HDLCompiler" num="267" delta="new" >"D:\fpga_project\cpu_ise\cpu_wi\core_2\core_2\schematic_src_1.vf" Line 58: Cannot find port <arg fmt="%s" index="1">intc_irq</arg> on this module
+</msg>
+
+<msg type="error" file="HDLCompiler" num="267" delta="new" >"D:\fpga_project\cpu_ise\cpu_wi\core_2\core_2\schematic_src_1.vf" Line 59: Cannot find port <arg fmt="%s" index="1">uart_tx</arg> on this module
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1499" delta="old" >"D:\fpga_project\cpu_ise\cpu_wi\core_2\core_2\schematic_src_1.vf" Line 23: Empty module &lt;<arg fmt="%s" index="1">schematic_src_1</arg>&gt; remains a black box.
+</msg>
+
+</messages>
+

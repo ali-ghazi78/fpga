@@ -1,0 +1,16 @@
+WARNING:EDK:3605 - Use of the repository located at
+   F:\xilinx\embeded_development_kit\14.7\ISE_DS\edk_user_repository\ 
+   (equivalent of $XILINX_EDK/../edk_user_repository) is now deprecated. 
+   It is recommended that you use Global SearchPath preference to specify search
+   paths that apply to all the projects.
+
+Checking platform configuration ...
+IPNAME: plb_v46, INSTANCE: mb_plb - 2 master(s) : 2 slave(s) 
+IPNAME: lmb_v10, INSTANCE: ilmb - 1 master(s) : 1 slave(s) 
+IPNAME: lmb_v10, INSTANCE: dlmb - 1 master(s) : 1 slave(s) 
+IPNAME: plb_v46, INSTANCE: plb_v46_0 - 0 master(s) : 0 slave(s) 
+ERROR:EDK:4119 - IPNAME: plb_v46, INSTANCE: plb_v46_0 - must have atleast 1
+   master assigned - D:\fpga_project\cpu\13\system.mhs line 134 
+ERROR:EDK:4133 - IPNAME:plb_v46, INSTANCE:plb_v46_0 - must have atleast 1 slave
+   assigned - D:\fpga_project\cpu\13\system.mhs line 134 
+ERROR:EDK:3371 - Conversion to XML failed.

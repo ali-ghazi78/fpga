@@ -1,0 +1,3 @@
+verilog work "real_micro_blaze_1/microblaze_mcs_v1_4.v"
+verilog work "schematic_src_1.vf"
+verilog work "../../usart_module.v"

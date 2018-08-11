@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "D:/fpga_project/cpu/21/pcores/usart_v1_00_a/devl/projnav/usart.xst" -ofn "D:/fpga_project/cpu/21/pcores/usart_v1_00_a/devl/projnav/usart.syr" 

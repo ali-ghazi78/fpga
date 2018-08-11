@@ -1,0 +1,26 @@
+#:C0     
+#Xilinx FPGA Editor Command Log File
+#Editor Version:
+#:V   NT M2.1 P.20131013
+#Current Working Directory:
+#:D   D:\fpga_project\usart_fpga_2
+#Date/Time:
+#:T   Mon Jul 16 04:30:14 2018
+#------------------------------
+	#Reading usart_tester.ncd...
+	#Loading device for application Rf_Device from file '6slx9.nph' in environment F:\xilinx\14.7\ISE_DS\ISE\.
+	#   "usart_tester" is an NCD, version 3.2, device xc6slx9, package tqg144, speed -2
+	#Design creation date: 2018.07.14.21.59.05
+	#Building chip graphics...
+	#Loading speed info...
+	#1
+setattr main edit-mode no-logic-changes
+	#Crossprobing path begin ...
+	#Crossprobing - Hilite bell u1/Madd_clock_counter[15]_GND_2_o_add_1_OUT_xor<11>.
+	#Crossprobing - Hilite net u1/clock_counter[15]_GND_2_o_add_1_OUT<9>.
+	#Crossprobing - Hilite bell u1/n001021.
+	#Crossprobing path end ...
+	#2
+unselect -all
+	#Crossprobing - Hilite bell u1/clock_counter_0.
+	#Crossprobing - Hilite bell u1/clock_counter_0.

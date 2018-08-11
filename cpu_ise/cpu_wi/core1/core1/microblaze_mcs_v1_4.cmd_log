@@ -1,0 +1,2 @@
+vhdtdtfi -lib work D:/fpga_project/cpu_ise/cpu_wi/core1/core1/real_micro_blaze_1/microblaze_mcs_v1_4.v -lang verilog -prj core1 -o microblaze_mcs_v1_4.spl -module microblaze_mcs_v1_4 -template F:/xilinx/embeded_development_kit/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 microblaze_mcs_v1_4.spl D:/fpga_project/cpu_ise/cpu_wi/core1/core1/microblaze_mcs_v1_4.sym 

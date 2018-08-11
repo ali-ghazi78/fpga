@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<symbol version="7" name="SPLITER">
+    <symboltype>BLOCK</symboltype>
+    <timestamp>2018-7-20T22:38:26</timestamp>
+    <attr value="SPLITER" name="VeriModel" />
+    <pin polarity="Output" x="384" y="32" name="my_out_1" />
+    <pin polarity="Output" x="384" y="96" name="my_out_15(15:0)" />
+    <pin polarity="Output" x="384" y="160" name="my_out_7(7:0)" />
+    <pin polarity="Input" x="-16" y="32" name="my_in(31:0)" />
+    <graph>
+        <attrtext style="alignment:BCENTER;fontsize:56;fontname:Arial" attrname="SymbolName" x="192" y="-72" type="symbol" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="32" type="pin my_out_1" />
+        <line x2="384" y1="32" y2="32" x1="320" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="96" type="pin my_out_15(15:0)" />
+        <rect width="64" x="320" y="84" height="24" />
+        <line x2="384" y1="96" y2="96" x1="320" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="312" y="160" type="pin my_out_7(7:0)" />
+        <rect width="64" x="320" y="148" height="24" />
+        <line x2="384" y1="160" y2="160" x1="320" />
+        <rect width="264" x="56" y="-64" height="256" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="64" y="-20" type="pin my_in(31:0)" />
+        <rect width="64" x="-8" y="20" height="24" />
+        <line x2="52" y1="32" y2="32" x1="-12" />
+    </graph>
+</symbol>

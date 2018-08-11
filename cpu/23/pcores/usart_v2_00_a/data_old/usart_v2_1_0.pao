@@ -1,0 +1,11 @@
+##############################################################################
+## Filename:          D:\fpga_project\cpu\23\pcores/usart_v2_00_a/data/usart_v2_1_0.pao
+## Description:       Peripheral Analysis Order
+## Date:              Sat Aug 04 04:09:19 2018 (by Create and Import Peripheral Wizard)
+##############################################################################
+
+lib proc_common_v3_00_a all vhdl
+lib plbv46_slave_single_v1_01_a all vhdl
+lib usart_v1_00_a usart_module verilog
+lib usart_v2_00_a user_logic verilog
+lib usart_v2_00_a usart vhdl

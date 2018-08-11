@@ -1,0 +1,13 @@
+D:\fpga_project\cpu\14\implementation\system.ngc 1532969925
+D:/fpga_project/cpu/14/implementation/system_clock_generator_0_wrapper.ngc 1532969912
+D:/fpga_project/cpu/14/implementation/system_proc_sys_reset_0_wrapper.ngc 1532969896
+D:/fpga_project/cpu/14/implementation/system_microblaze_0_wrapper.ngc 1532969901
+D:/fpga_project/cpu/14/implementation/system_mb_plb_wrapper.ngc 1532969813
+D:/fpga_project/cpu/14/implementation/system_ilmb_wrapper.ngc 1532969904
+D:/fpga_project/cpu/14/implementation/system_dlmb_wrapper.ngc 1532969908
+D:/fpga_project/cpu/14/implementation/system_dlmb_cntlr_wrapper.ngc 1532969844
+D:/fpga_project/cpu/14/implementation/system_ilmb_cntlr_wrapper.ngc 1532969853
+D:/fpga_project/cpu/14/implementation/system_leds_1_wrapper.ngc 1532969871
+D:/fpga_project/cpu/14/implementation/system_mdm_0_wrapper.ngc 1532969889
+D:/fpga_project/cpu/14/implementation/system_lmb_bram_wrapper.ngc 1532969861
+OK

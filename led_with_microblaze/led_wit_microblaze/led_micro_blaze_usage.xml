@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<DeviceUsageSummary rev="41">
+<DesignStatistics TimeStamp="Sat Aug 04 15:23:52 2018"><group name="NetStatistics">
+<item name="NumNets_Active" rev="41">
+<attrib name="value" value="10"/></item>
+<item name="NumNets_Gnd" rev="41">
+<attrib name="value" value="1"/></item>
+<item name="NumNets_Vcc" rev="41">
+<attrib name="value" value="1"/></item>
+<item name="NumNodesOfType_Gnd_DOUBLE" rev="41">
+<attrib name="value" value="5"/></item>
+<item name="NumNodesOfType_Gnd_GENERIC" rev="41">
+<attrib name="value" value="7"/></item>
+<item name="NumNodesOfType_Gnd_IOBIN2OUT" rev="41">
+<attrib name="value" value="7"/></item>
+<item name="NumNodesOfType_Gnd_IOBOUTPUT" rev="41">
+<attrib name="value" value="7"/></item>
+<item name="NumNodesOfType_Gnd_OUTBOUND" rev="41">
+<attrib name="value" value="6"/></item>
+<item name="NumNodesOfType_Gnd_OUTPUT" rev="41">
+<attrib name="value" value="8"/></item>
+<item name="NumNodesOfType_Gnd_PADINPUT" rev="41">
+<attrib name="value" value="7"/></item>
+<item name="NumNodesOfType_Gnd_PINFEED" rev="41">
+<attrib name="value" value="7"/></item>
+<item name="NumNodesOfType_Gnd_QUAD" rev="41">
+<attrib name="value" value="1"/></item>
+<item name="NumNodesOfType_Gnd_SINGLE" rev="41">
+<attrib name="value" value="2"/></item>
+<item name="NumNodesOfType_Vcc_GENERIC" rev="41">
+<attrib name="value" value="1"/></item>
+<item name="NumNodesOfType_Vcc_HVCCOUT" rev="41">
+<attrib name="value" value="1"/></item>
+<item name="NumNodesOfType_Vcc_IOBIN2OUT" rev="41">
+<attrib name="value" value="1"/></item>
+<item name="NumNodesOfType_Vcc_IOBOUTPUT" rev="41">
+<attrib name="value" value="1"/></item>
+<item name="NumNodesOfType_Vcc_PADINPUT" rev="41">
+<attrib name="value" value="1"/></item>
+<item name="NumNodesOfType_Vcc_PINFEED" rev="41">
+<attrib name="value" value="1"/></item>
+</group>
+<group name="SiteStatistics">
+<item name="IOB-IOBM" rev="41">
+<attrib name="value" value="5"/></item>
+<item name="IOB-IOBS" rev="41">
+<attrib name="value" value="4"/></item>
+</group>
+<group name="MiscellaneousStatistics">
+<item name="AGG_BONDED_IO" rev="40">
+<attrib name="value" value="9"/></item>
+<item name="AGG_IO" rev="40">
+<attrib name="value" value="9"/></item>
+<item name="AGG_LOCED_IO" rev="40">
+<attrib name="value" value="9"/></item>
+<item name="NUM_BONDED_IOB" rev="40">
+<attrib name="value" value="9"/></item>
+<item name="NUM_LOCED_IOB" rev="40">
+<attrib name="value" value="9"/></item>
+</group>
+</DesignStatistics>
+<DeviceUsage TimeStamp="Sat Aug 04 15:23:52 2018"><group name="SiteSummary">
+<item name="IOB" rev="41">
+<attrib name="total" value="1000000"/><attrib name="used" value="9"/></item>
+<item name="IOB_IMUX" rev="41">
+<attrib name="total" value="1000000"/><attrib name="used" value="1"/></item>
+<item name="IOB_INBUF" rev="41">
+<attrib name="total" value="1000000"/><attrib name="used" value="1"/></item>
+<item name="IOB_OUTBUF" rev="41">
+<attrib name="total" value="1000000"/><attrib name="used" value="8"/></item>
+<item name="PAD" rev="41">
+<attrib name="total" value="1000000"/><attrib name="used" value="9"/></item>
+</group>
+</DeviceUsage>
+<ReportConfigData TimeStamp="Sat Aug 04 15:23:52 2018"><group name="IOB_OUTBUF">
+<item name="DRIVEATTRBOX" rev="41">
+<attrib name="12" value="8"/></item>
+<item name="SLEW" rev="41">
+<attrib name="SLOW" value="8"/></item>
+<item name="SUSPEND" rev="41">
+<attrib name="3STATE" value="8"/></item>
+</group>
+</ReportConfigData>
+<ReportPinData TimeStamp="Sat Aug 04 15:23:52 2018"><group name="IOB_OUTBUF">
+<item name="IN" rev="41">
+<attrib name="value" value="8"/></item>
+<item name="OUT" rev="41">
+<attrib name="value" value="8"/></item>
+</group>
+<group name="PAD">
+<item name="PAD" rev="41">
+<attrib name="value" value="9"/></item>
+</group>
+<group name="IOB_INBUF">
+<item name="OUT" rev="41">
+<attrib name="value" value="1"/></item>
+<item name="PAD" rev="41">
+<attrib name="value" value="1"/></item>
+</group>
+<group name="IOB_IMUX">
+<item name="I" rev="41">
+<attrib name="value" value="1"/></item>
+<item name="OUT" rev="41">
+<attrib name="value" value="1"/></item>
+</group>
+<group name="IOB">
+<item name="I" rev="41">
+<attrib name="value" value="1"/></item>
+<item name="O" rev="41">
+<attrib name="value" value="8"/></item>
+<item name="PAD" rev="41">
+<attrib name="value" value="9"/></item>
+</group>
+</ReportPinData>
+<CmdHistory>
+</CmdHistory>
+</DeviceUsageSummary>

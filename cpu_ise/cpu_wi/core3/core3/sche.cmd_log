@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "D:/fpga_project/cpu_ise/cpu_wi/core3/core3/sche.xst" -ofn "D:/fpga_project/cpu_ise/cpu_wi/core3/core3/sche.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-2 sche.ngc sche.ngd  

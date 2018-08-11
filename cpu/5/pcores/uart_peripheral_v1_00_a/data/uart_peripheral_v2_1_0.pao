@@ -1,0 +1,11 @@
+##############################################################################
+## Filename:          D:/fpga_project/cpu/5/pcores/uart_peripheral_v1_00_a/data/uart_peripheral_v2_1_0.pao
+## Description:       Peripheral Analysis Order
+## Date:              Wed Jul 18 21:30:45 2018 (by Create and Import Peripheral Wizard)
+##############################################################################
+
+lib proc_common_v3_00_a  all 
+lib plbv46_slave_burst_v1_01_a  all 
+lib uart_peripheral_v1_00_a pwm verilog
+lib uart_peripheral_v1_00_a user_logic verilog
+lib uart_peripheral_v1_00_a uart_peripheral vhdl

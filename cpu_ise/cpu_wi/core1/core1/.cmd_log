@@ -1,0 +1,2 @@
+vhdtdtfi -lib work ipcore_dir/microblaze_mcs_v1_4.vhd -prj core1 -o .spl -module {} -template F:/xilinx/embeded_development_kit/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+vhdtdtfi -lib work real_micro_blaze_1/microblaze_mcs_v1_4.vhd -prj core1 -o .spl -module {} -template F:/xilinx/embeded_development_kit/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 

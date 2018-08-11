@@ -1,0 +1,13 @@
+vhdtdtfi -lib work D:/fpga_project/cpu_ise/cpu_wi/core1/core1/bus_split_31_to_16_8_1.v -lang verilog -prj core1 -o bus_split_31_to_16_8_1.spl -module bus_split_31_to_16_8_1 -template F:/xilinx/embeded_development_kit/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 bus_split_31_to_16_8_1.spl D:/fpga_project/cpu_ise/cpu_wi/core1/core1/bus_split_31_to_16_8_1.sym 
+vhdtdtfi -lib work D:/fpga_project/cpu_ise/cpu_wi/core1/core1/bus_split_31_to_16_8_1.v -lang verilog -prj core1 -o bus_split_31_to_16_8_1.spl -module bus_split_31_to_16_8_1 -template F:/xilinx/embeded_development_kit/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 bus_split_31_to_16_8_1.spl D:/fpga_project/cpu_ise/cpu_wi/core1/core1/bus_split_31_to_16_8_1.sym 
+vhdtdtfi -lang verilog -prj core1 -o D:/fpga_project/cpu_ise/cpu_wi/core1/core1/bus_split_31_to_16_8_1.tfi -lib work D:/fpga_project/cpu_ise/cpu_wi/core1/core1//bus_split_31_to_16_8_1.v -module bus_split_31_to_16_8_1 -template F:/xilinx/embeded_development_kit/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+vhdtdtfi -lib work D:/fpga_project/cpu_ise/cpu_wi/core1/core1/bus_split_31_to_16_8_1.v -lang verilog -prj core1 -o bus_split_31_to_16_8_1.spl -module bus_split_31_to_16_8_1 -template F:/xilinx/embeded_development_kit/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 bus_split_31_to_16_8_1.spl D:/fpga_project/cpu_ise/cpu_wi/core1/core1/bus_split_31_to_16_8_1.sym 
+vhdtdtfi -lib work D:/fpga_project/cpu_ise/cpu_wi/core1/core1/bus_split_31_to_16_8_1.v -lang verilog -prj core1 -o bus_split_31_to_16_8_1.spl -module bus_split_31_to_16_8_1 -template F:/xilinx/embeded_development_kit/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 bus_split_31_to_16_8_1.spl D:/fpga_project/cpu_ise/cpu_wi/core1/core1/bus_split_31_to_16_8_1.sym 
+vhdtdtfi -lib work D:/fpga_project/cpu_ise/cpu_wi/core1/core1/bus_split_31_to_16_8_1.v -lang verilog -prj core1 -o bus_split_31_to_16_8_1.spl -module bus_split_31_to_16_8_1 -template F:/xilinx/embeded_development_kit/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 bus_split_31_to_16_8_1.spl D:/fpga_project/cpu_ise/cpu_wi/core1/core1/bus_split_31_to_16_8_1.sym 
+vhdtdtfi -lib work D:/fpga_project/cpu_ise/cpu_wi/core1/core1/bus_split_31_to_16_8_1.v -lang verilog -prj core1 -o bus_split_31_to_16_8_1.spl -module bus_split_31_to_16_8_1 -template F:/xilinx/embeded_development_kit/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 bus_split_31_to_16_8_1.spl D:/fpga_project/cpu_ise/cpu_wi/core1/core1/bus_split_31_to_16_8_1.sym 

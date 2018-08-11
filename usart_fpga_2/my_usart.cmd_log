@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj usart_fpga_2 -o D:/fpga_project/usart_fpga_2/my_usart.tfi -lib work D:/fpga_project/usart_fpga_2//usart_module.v -module my_usart -template F:/xilinx/embeded_development_kit/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

@@ -1,0 +1,36 @@
+xst -intstyle ise -ifn "D:/fpga_project/cpu_ise/cpu_wi/core1/core1/schematic_src_1.xst" -ofn "D:/fpga_project/cpu_ise/cpu_wi/core1/core1/schematic_src_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinning.ucf -p xc6slx9-tqg144-2 schematic_src_1.ngc schematic_src_1.ngd  
+ngdbuild -intstyle ise -dd _ngo -sd real_micro_blaze_1 -nt timestamp -uc pinning.ucf -p xc6slx9-tqg144-2 schematic_src_1.ngc schematic_src_1.ngd  
+ngdbuild -intstyle ise -dd _ngo -sd real_micro_blaze_1 -nt timestamp -uc pinning.ucf -p xc6slx9-tqg144-2 schematic_src_1.ngc schematic_src_1.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o schematic_src_1_map.ncd schematic_src_1.ngd schematic_src_1.pcf 
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o schematic_src_1_map.ncd schematic_src_1.ngd schematic_src_1.pcf 
+xst -intstyle ise -ifn "D:/fpga_project/cpu_ise/cpu_wi/core1/core1/schematic_src_1.xst" -ofn "D:/fpga_project/cpu_ise/cpu_wi/core1/core1/schematic_src_1.syr" 
+xst -intstyle ise -ifn "D:/fpga_project/cpu_ise/cpu_wi/core1/core1/schematic_src_1.xst" -ofn "D:/fpga_project/cpu_ise/cpu_wi/core1/core1/schematic_src_1.syr" 
+xst -intstyle ise -ifn "D:/fpga_project/cpu_ise/cpu_wi/core1/core1/schematic_src_1.xst" -ofn "D:/fpga_project/cpu_ise/cpu_wi/core1/core1/schematic_src_1.syr" 
+xst -intstyle ise -ifn "D:/fpga_project/cpu_ise/cpu_wi/core1/core1/schematic_src_1.xst" -ofn "D:/fpga_project/cpu_ise/cpu_wi/core1/core1/schematic_src_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd real_micro_blaze_1 -nt timestamp -uc pinning.ucf -p xc6slx9-tqg144-2 schematic_src_1.ngc schematic_src_1.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o schematic_src_1_map.ncd schematic_src_1.ngd schematic_src_1.pcf 
+xst -intstyle ise -ifn "D:/fpga_project/cpu_ise/cpu_wi/core1/core1/schematic_src_1.xst" -ofn "D:/fpga_project/cpu_ise/cpu_wi/core1/core1/schematic_src_1.syr" 
+xst -intstyle ise -ifn "D:/fpga_project/cpu_ise/cpu_wi/core1/core1/schematic_src_1.xst" -ofn "D:/fpga_project/cpu_ise/cpu_wi/core1/core1/schematic_src_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd real_micro_blaze_1 -nt timestamp -uc pinning.ucf -p xc6slx9-tqg144-2 schematic_src_1.ngc schematic_src_1.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o schematic_src_1_map.ncd schematic_src_1.ngd schematic_src_1.pcf 
+ngdbuild -intstyle ise -dd _ngo -sd real_micro_blaze_1 -nt timestamp -uc pinning.ucf -p xc6slx9-tqg144-2 schematic_src_1.ngc schematic_src_1.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o schematic_src_1_map.ncd schematic_src_1.ngd schematic_src_1.pcf 
+xst -intstyle ise -ifn "D:/fpga_project/cpu_ise/cpu_wi/core1/core1/schematic_src_1.xst" -ofn "D:/fpga_project/cpu_ise/cpu_wi/core1/core1/schematic_src_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd real_micro_blaze_1 -nt timestamp -uc pinning.ucf -p xc6slx9-tqg144-2 real_micro_blaze_1/microblaze_mcs_v1_4.ngc schematic_src_1.ngd  
+ngdbuild -intstyle ise -dd _ngo -sd real_micro_blaze_1 -nt timestamp -uc pinning.ucf -p xc6slx9-tqg144-2 real_micro_blaze_1/microblaze_mcs_v1_4.ngc schematic_src_1.ngd  
+ngdbuild -intstyle ise -dd _ngo -sd real_micro_blaze_1 -nt timestamp -uc pinning.ucf -p xc6slx9-tqg144-2 schematic_src_1.ngc schematic_src_1.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o schematic_src_1_map.ncd schematic_src_1.ngd schematic_src_1.pcf 
+ngdbuild -intstyle ise -dd _ngo -sd real_micro_blaze_1 -nt timestamp -uc pinning.ucf -p xc6slx9-tqg144-2 schematic_src_1.ngc schematic_src_1.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o schematic_src_1_map.ncd schematic_src_1.ngd schematic_src_1.pcf 
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -ignore_keep_hierarchy -pr off -lc off -power off -o schematic_src_1_map.ncd schematic_src_1.ngd schematic_src_1.pcf 
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc auto -power off -o schematic_src_1_map.ncd schematic_src_1.ngd schematic_src_1.pcf 
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o schematic_src_1_map.ncd schematic_src_1.ngd schematic_src_1.pcf 
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o schematic_src_1_map.ncd schematic_src_1.ngd schematic_src_1.pcf 
+xst -intstyle ise -ifn "D:/fpga_project/cpu_ise/cpu_wi/core1/core1/schematic_src_1.xst" -ofn "D:/fpga_project/cpu_ise/cpu_wi/core1/core1/schematic_src_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd real_micro_blaze_1 -nt timestamp -uc pinning.ucf -p xc6slx9-tqg144-2 schematic_src_1.ngc schematic_src_1.ngd  
+xst -intstyle ise -ifn "D:/fpga_project/cpu_ise/cpu_wi/core1/core1/schematic_src_1.xst" -ofn "D:/fpga_project/cpu_ise/cpu_wi/core1/core1/schematic_src_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd real_micro_blaze_1 -nt timestamp -uc pinning.ucf -p xc6slx9-tqg144-2 schematic_src_1.ngc schematic_src_1.ngd  
+ngdbuild -intstyle ise -dd _ngo -sd real_micro_blaze_1 -nt timestamp -uc pinning.ucf -p xc6slx9-tqg144-2 schematic_src_1.ngc schematic_src_1.ngd  
+xst -intstyle ise -ifn "D:/fpga_project/cpu_ise/cpu_wi/core1/core1/schematic_src_1.xst" -ofn "D:/fpga_project/cpu_ise/cpu_wi/core1/core1/schematic_src_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd real_micro_blaze_1 -nt timestamp -uc pinning.ucf -p xc6slx9-tqg144-2 schematic_src_1.ngc schematic_src_1.ngd  

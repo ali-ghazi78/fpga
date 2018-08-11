@@ -1,0 +1,13 @@
+D:\fpga_project\cpu\17\implementation\kkk.ngc 1533077325
+D:/fpga_project/cpu/17/implementation/kkk_clock_generator_0_wrapper.ngc 1533077310
+D:/fpga_project/cpu/17/implementation/kkk_proc_sys_reset_0_wrapper.ngc 1533077257
+D:/fpga_project/cpu/17/implementation/kkk_microblaze_0_wrapper.ngc 1533077257
+D:/fpga_project/cpu/17/implementation/kkk_mb_plb_wrapper.ngc 1533077268
+D:/fpga_project/cpu/17/implementation/kkk_ilmb_wrapper.ngc 1533077257
+D:/fpga_project/cpu/17/implementation/kkk_dlmb_wrapper.ngc 1533077257
+D:/fpga_project/cpu/17/implementation/kkk_dlmb_cntlr_wrapper.ngc 1533077280
+D:/fpga_project/cpu/17/implementation/kkk_ilmb_cntlr_wrapper.ngc 1533077286
+D:/fpga_project/cpu/17/implementation/kkk_mdm_0_wrapper.ngc 1533077257
+D:/fpga_project/cpu/17/implementation/kkk_usart_0_wrapper.ngc 1533077306
+D:/fpga_project/cpu/17/implementation/kkk_lmb_bram_wrapper.ngc 1533077257
+OK

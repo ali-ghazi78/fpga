@@ -1,0 +1,36 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : sche.vf
+// /___/   /\     Timestamp : 07/21/2018 16:18:49
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan6 -verilog D:/fpga_project/cpu_ise/cpu_wi/core3/core3/sche.vf -w D:/fpga_project/cpu_ise/cpu_wi/core3/core3/sche.sch
+//Design Name: sche
+//Device: spartan6
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module sche();
+
+   
+   
+   my_usart  XLXI_1 (.clock(), 
+                    .data(), 
+                    .prescaler(), 
+                    .reset(), 
+                    .rx_pin(), 
+                    .transmit(), 
+                    .led(), 
+                    .tx_pin(), 
+                    .uart_busy());
+endmodule

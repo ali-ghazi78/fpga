@@ -1,0 +1,10 @@
+-batch 
+-create myrealusart 
+-ver 1.00.a 
+-dir "D:\fpga_project\cpu\16" 
+-lang verilog 
+-bus plbv46 s 
+-reg 2 
+-xps 
+-ise 
+-driver 

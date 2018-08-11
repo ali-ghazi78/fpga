@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\fpga_project\led_with_microblaze\led_wit_microblaze\led_micro_blaze.ncd
+OUTFILE=D:\fpga_project\led_with_microblaze\led_wit_microblaze\led_micro_blaze.bit
+FAMILY=Spartan6
+PART=xc6slx9-2tqg144
+WORKINGDIR=D:\fpga_project\led_with_microblaze\led_wit_microblaze
+LICENSE=WebPack
+USER_INFO=_

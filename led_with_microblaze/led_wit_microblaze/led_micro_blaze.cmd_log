@@ -1,0 +1,130 @@
+xst -intstyle ise -ifn "D:/fpga_project/led_with_microblaze/led_wit_microblaze/led_micro_blaze.xst" -ofn "D:/fpga_project/led_with_microblaze/led_wit_microblaze/led_micro_blaze.syr" 
+xst -intstyle ise -ifn "D:/fpga_project/led_with_microblaze/led_wit_microblaze/led_micro_blaze.xst" -ofn "D:/fpga_project/led_with_microblaze/led_wit_microblaze/led_micro_blaze.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinning.ucf -p xc6slx9-tqg144-2 led_micro_blaze.ngc led_micro_blaze.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o led_micro_blaze_map.ncd led_micro_blaze.ngd led_micro_blaze.pcf 
+par -w -intstyle ise -ol high -mt off led_micro_blaze_map.ncd led_micro_blaze.ncd led_micro_blaze.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml led_micro_blaze.twx led_micro_blaze.ncd -o led_micro_blaze.twr led_micro_blaze.pcf -ucf pinning.ucf 
+bitgen -intstyle ise -f led_micro_blaze.ut led_micro_blaze.ncd 
+xst -intstyle ise -ifn "D:/fpga_project/led_with_microblaze/led_wit_microblaze/led_micro_blaze.xst" -ofn "D:/fpga_project/led_with_microblaze/led_wit_microblaze/led_micro_blaze.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinning.ucf -p xc6slx9-tqg144-2 led_micro_blaze.ngc led_micro_blaze.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o led_micro_blaze_map.ncd led_micro_blaze.ngd led_micro_blaze.pcf 
+par -w -intstyle ise -ol high -mt off led_micro_blaze_map.ncd led_micro_blaze.ncd led_micro_blaze.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml led_micro_blaze.twx led_micro_blaze.ncd -o led_micro_blaze.twr led_micro_blaze.pcf -ucf pinning.ucf 
+bitgen -intstyle ise -f led_micro_blaze.ut led_micro_blaze.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinning.ucf -p xc6slx9-tqg144-2 led_micro_blaze.ngc led_micro_blaze.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o led_micro_blaze_map.ncd led_micro_blaze.ngd led_micro_blaze.pcf 
+par -w -intstyle ise -ol high -mt off led_micro_blaze_map.ncd led_micro_blaze.ncd led_micro_blaze.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml led_micro_blaze.twx led_micro_blaze.ncd -o led_micro_blaze.twr led_micro_blaze.pcf -ucf pinning.ucf 
+bitgen -intstyle ise -f led_micro_blaze.ut led_micro_blaze.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinning.ucf -p xc6slx9-tqg144-2 led_micro_blaze.ngc led_micro_blaze.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o led_micro_blaze_map.ncd led_micro_blaze.ngd led_micro_blaze.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinning.ucf -p xc6slx9-tqg144-2 led_micro_blaze.ngc led_micro_blaze.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o led_micro_blaze_map.ncd led_micro_blaze.ngd led_micro_blaze.pcf 
+par -w -intstyle ise -ol high -mt off led_micro_blaze_map.ncd led_micro_blaze.ncd led_micro_blaze.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml led_micro_blaze.twx led_micro_blaze.ncd -o led_micro_blaze.twr led_micro_blaze.pcf -ucf pinning.ucf 
+bitgen -intstyle ise -f led_micro_blaze.ut led_micro_blaze.ncd 
+xst -intstyle ise -ifn "D:/fpga_project/led_with_microblaze/led_wit_microblaze/led_micro_blaze.xst" -ofn "D:/fpga_project/led_with_microblaze/led_wit_microblaze/led_micro_blaze.syr" 
+xst -intstyle ise -ifn "D:/fpga_project/led_with_microblaze/led_wit_microblaze/led_micro_blaze.xst" -ofn "D:/fpga_project/led_with_microblaze/led_wit_microblaze/led_micro_blaze.syr" 
+xst -intstyle ise -ifn "D:/fpga_project/led_with_microblaze/led_wit_microblaze/led_micro_blaze.xst" -ofn "D:/fpga_project/led_with_microblaze/led_wit_microblaze/led_micro_blaze.syr" 
+xst -intstyle ise -ifn "D:/fpga_project/led_with_microblaze/led_wit_microblaze/led_micro_blaze.xst" -ofn "D:/fpga_project/led_with_microblaze/led_wit_microblaze/led_micro_blaze.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinning.ucf -p xc6slx9-tqg144-2 led_micro_blaze.ngc led_micro_blaze.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o led_micro_blaze_map.ncd led_micro_blaze.ngd led_micro_blaze.pcf 
+par -w -intstyle ise -ol high -mt off led_micro_blaze_map.ncd led_micro_blaze.ncd led_micro_blaze.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml led_micro_blaze.twx led_micro_blaze.ncd -o led_micro_blaze.twr led_micro_blaze.pcf -ucf pinning.ucf 
+bitgen -intstyle ise -f led_micro_blaze.ut led_micro_blaze.ncd 
+xst -intstyle ise -ifn "D:/fpga_project/led_with_microblaze/led_wit_microblaze/led_micro_blaze.xst" -ofn "D:/fpga_project/led_with_microblaze/led_wit_microblaze/led_micro_blaze.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinning.ucf -p xc6slx9-tqg144-2 led_micro_blaze.ngc led_micro_blaze.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o led_micro_blaze_map.ncd led_micro_blaze.ngd led_micro_blaze.pcf 
+par -w -intstyle ise -ol high -mt off led_micro_blaze_map.ncd led_micro_blaze.ncd led_micro_blaze.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml led_micro_blaze.twx led_micro_blaze.ncd -o led_micro_blaze.twr led_micro_blaze.pcf -ucf pinning.ucf 
+bitgen -intstyle ise -f led_micro_blaze.ut led_micro_blaze.ncd 
+xst -intstyle ise -ifn "D:/fpga_project/led_with_microblaze/led_wit_microblaze/led_micro_blaze.xst" -ofn "D:/fpga_project/led_with_microblaze/led_wit_microblaze/led_micro_blaze.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinning.ucf -p xc6slx9-tqg144-2 led_micro_blaze.ngc led_micro_blaze.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o led_micro_blaze_map.ncd led_micro_blaze.ngd led_micro_blaze.pcf 
+par -w -intstyle ise -ol high -mt off led_micro_blaze_map.ncd led_micro_blaze.ncd led_micro_blaze.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml led_micro_blaze.twx led_micro_blaze.ncd -o led_micro_blaze.twr led_micro_blaze.pcf -ucf pinning.ucf 
+bitgen -intstyle ise -f led_micro_blaze.ut led_micro_blaze.ncd 
+xst -intstyle ise -ifn "D:/fpga_project/led_with_microblaze/led_wit_microblaze/led_micro_blaze.xst" -ofn "D:/fpga_project/led_with_microblaze/led_wit_microblaze/led_micro_blaze.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinning.ucf -p xc6slx9-tqg144-2 led_micro_blaze.ngc led_micro_blaze.ngd  
+xst -intstyle ise -ifn "D:/fpga_project/led_with_microblaze/led_wit_microblaze/led_micro_blaze.xst" -ofn "D:/fpga_project/led_with_microblaze/led_wit_microblaze/led_micro_blaze.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinning.ucf -p xc6slx9-tqg144-2 led_micro_blaze.ngc led_micro_blaze.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o led_micro_blaze_map.ncd led_micro_blaze.ngd led_micro_blaze.pcf 
+par -w -intstyle ise -ol high -mt off led_micro_blaze_map.ncd led_micro_blaze.ncd led_micro_blaze.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml led_micro_blaze.twx led_micro_blaze.ncd -o led_micro_blaze.twr led_micro_blaze.pcf -ucf pinning.ucf 
+bitgen -intstyle ise -f led_micro_blaze.ut led_micro_blaze.ncd 
+xst -intstyle ise -ifn "D:/fpga_project/led_with_microblaze/led_wit_microblaze/led_micro_blaze.xst" -ofn "D:/fpga_project/led_with_microblaze/led_wit_microblaze/led_micro_blaze.syr" 
+xst -intstyle ise -ifn "D:/fpga_project/led_with_microblaze/led_wit_microblaze/led_micro_blaze.xst" -ofn "D:/fpga_project/led_with_microblaze/led_wit_microblaze/led_micro_blaze.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinning.ucf -p xc6slx9-tqg144-2 led_micro_blaze.ngc led_micro_blaze.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o led_micro_blaze_map.ncd led_micro_blaze.ngd led_micro_blaze.pcf 
+par -w -intstyle ise -ol high -mt off led_micro_blaze_map.ncd led_micro_blaze.ncd led_micro_blaze.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml led_micro_blaze.twx led_micro_blaze.ncd -o led_micro_blaze.twr led_micro_blaze.pcf -ucf pinning.ucf 
+bitgen -intstyle ise -f led_micro_blaze.ut led_micro_blaze.ncd 
+xst -intstyle ise -ifn "D:/fpga_project/led_with_microblaze/led_wit_microblaze/led_micro_blaze.xst" -ofn "D:/fpga_project/led_with_microblaze/led_wit_microblaze/led_micro_blaze.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinning.ucf -p xc6slx9-tqg144-2 led_micro_blaze.ngc led_micro_blaze.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o led_micro_blaze_map.ncd led_micro_blaze.ngd led_micro_blaze.pcf 
+par -w -intstyle ise -ol high -mt off led_micro_blaze_map.ncd led_micro_blaze.ncd led_micro_blaze.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml led_micro_blaze.twx led_micro_blaze.ncd -o led_micro_blaze.twr led_micro_blaze.pcf -ucf pinning.ucf 
+bitgen -intstyle ise -f led_micro_blaze.ut led_micro_blaze.ncd 
+xst -intstyle ise -ifn "D:/fpga_project/led_with_microblaze/led_wit_microblaze/led_micro_blaze.xst" -ofn "D:/fpga_project/led_with_microblaze/led_wit_microblaze/led_micro_blaze.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinning.ucf -p xc6slx9-tqg144-2 led_micro_blaze.ngc led_micro_blaze.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o led_micro_blaze_map.ncd led_micro_blaze.ngd led_micro_blaze.pcf 
+par -w -intstyle ise -ol high -mt off led_micro_blaze_map.ncd led_micro_blaze.ncd led_micro_blaze.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml led_micro_blaze.twx led_micro_blaze.ncd -o led_micro_blaze.twr led_micro_blaze.pcf -ucf pinning.ucf 
+bitgen -intstyle ise -f led_micro_blaze.ut led_micro_blaze.ncd 
+xst -intstyle ise -ifn "D:/fpga_project/led_with_microblaze/led_wit_microblaze/led_micro_blaze.xst" -ofn "D:/fpga_project/led_with_microblaze/led_wit_microblaze/led_micro_blaze.syr" 
+xst -intstyle ise -ifn "D:/fpga_project/led_with_microblaze/led_wit_microblaze/led_micro_blaze.xst" -ofn "D:/fpga_project/led_with_microblaze/led_wit_microblaze/led_micro_blaze.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinning.ucf -p xc6slx9-tqg144-2 led_micro_blaze.ngc led_micro_blaze.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o led_micro_blaze_map.ncd led_micro_blaze.ngd led_micro_blaze.pcf 
+par -w -intstyle ise -ol high -mt off led_micro_blaze_map.ncd led_micro_blaze.ncd led_micro_blaze.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml led_micro_blaze.twx led_micro_blaze.ncd -o led_micro_blaze.twr led_micro_blaze.pcf -ucf pinning.ucf 
+bitgen -intstyle ise -f led_micro_blaze.ut led_micro_blaze.ncd 
+xst -intstyle ise -ifn "D:/fpga_project/led_with_microblaze/led_wit_microblaze/led_micro_blaze.xst" -ofn "D:/fpga_project/led_with_microblaze/led_wit_microblaze/led_micro_blaze.syr" 
+xst -intstyle ise -ifn "D:/fpga_project/led_with_microblaze/led_wit_microblaze/led_micro_blaze.xst" -ofn "D:/fpga_project/led_with_microblaze/led_wit_microblaze/led_micro_blaze.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinning.ucf -p xc6slx9-tqg144-2 led_micro_blaze.ngc led_micro_blaze.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o led_micro_blaze_map.ncd led_micro_blaze.ngd led_micro_blaze.pcf 
+par -w -intstyle ise -ol high -mt off led_micro_blaze_map.ncd led_micro_blaze.ncd led_micro_blaze.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml led_micro_blaze.twx led_micro_blaze.ncd -o led_micro_blaze.twr led_micro_blaze.pcf -ucf pinning.ucf 
+bitgen -intstyle ise -f led_micro_blaze.ut led_micro_blaze.ncd 
+xst -intstyle ise -ifn "D:/fpga_project/led_with_microblaze/led_wit_microblaze/led_micro_blaze.xst" -ofn "D:/fpga_project/led_with_microblaze/led_wit_microblaze/led_micro_blaze.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinning.ucf -p xc6slx9-tqg144-2 led_micro_blaze.ngc led_micro_blaze.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o led_micro_blaze_map.ncd led_micro_blaze.ngd led_micro_blaze.pcf 
+par -w -intstyle ise -ol high -mt off led_micro_blaze_map.ncd led_micro_blaze.ncd led_micro_blaze.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml led_micro_blaze.twx led_micro_blaze.ncd -o led_micro_blaze.twr led_micro_blaze.pcf -ucf pinning.ucf 
+bitgen -intstyle ise -f led_micro_blaze.ut led_micro_blaze.ncd 
+xst -intstyle ise -ifn "D:/fpga_project/led_with_microblaze/led_wit_microblaze/led_micro_blaze.xst" -ofn "D:/fpga_project/led_with_microblaze/led_wit_microblaze/led_micro_blaze.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinning.ucf -p xc6slx9-tqg144-2 led_micro_blaze.ngc led_micro_blaze.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o led_micro_blaze_map.ncd led_micro_blaze.ngd led_micro_blaze.pcf 
+par -w -intstyle ise -ol high -mt off led_micro_blaze_map.ncd led_micro_blaze.ncd led_micro_blaze.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml led_micro_blaze.twx led_micro_blaze.ncd -o led_micro_blaze.twr led_micro_blaze.pcf -ucf pinning.ucf 
+bitgen -intstyle ise -f led_micro_blaze.ut led_micro_blaze.ncd 
+xst -intstyle ise -ifn "D:/fpga_project/led_with_microblaze/led_wit_microblaze/led_micro_blaze.xst" -ofn "D:/fpga_project/led_with_microblaze/led_wit_microblaze/led_micro_blaze.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinning.ucf -p xc6slx9-tqg144-2 led_micro_blaze.ngc led_micro_blaze.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o led_micro_blaze_map.ncd led_micro_blaze.ngd led_micro_blaze.pcf 
+par -w -intstyle ise -ol high -mt off led_micro_blaze_map.ncd led_micro_blaze.ncd led_micro_blaze.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml led_micro_blaze.twx led_micro_blaze.ncd -o led_micro_blaze.twr led_micro_blaze.pcf -ucf pinning.ucf 
+bitgen -intstyle ise -f led_micro_blaze.ut led_micro_blaze.ncd 
+xst -intstyle ise -ifn "D:/fpga_project/led_with_microblaze/led_wit_microblaze/led_micro_blaze.xst" -ofn "D:/fpga_project/led_with_microblaze/led_wit_microblaze/led_micro_blaze.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinning.ucf -p xc6slx9-tqg144-2 led_micro_blaze.ngc led_micro_blaze.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o led_micro_blaze_map.ncd led_micro_blaze.ngd led_micro_blaze.pcf 
+par -w -intstyle ise -ol high -mt off led_micro_blaze_map.ncd led_micro_blaze.ncd led_micro_blaze.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml led_micro_blaze.twx led_micro_blaze.ncd -o led_micro_blaze.twr led_micro_blaze.pcf -ucf pinning.ucf 
+bitgen -intstyle ise -f led_micro_blaze.ut led_micro_blaze.ncd 
+xst -intstyle ise -ifn "D:/fpga_project/led_with_microblaze/led_wit_microblaze/led_micro_blaze.xst" -ofn "D:/fpga_project/led_with_microblaze/led_wit_microblaze/led_micro_blaze.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinning.ucf -p xc6slx9-tqg144-2 led_micro_blaze.ngc led_micro_blaze.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o led_micro_blaze_map.ncd led_micro_blaze.ngd led_micro_blaze.pcf 
+par -w -intstyle ise -ol high -mt off led_micro_blaze_map.ncd led_micro_blaze.ncd led_micro_blaze.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml led_micro_blaze.twx led_micro_blaze.ncd -o led_micro_blaze.twr led_micro_blaze.pcf -ucf pinning.ucf 
+bitgen -intstyle ise -f led_micro_blaze.ut led_micro_blaze.ncd 
+xst -intstyle ise -ifn "D:/fpga_project/led_with_microblaze/led_wit_microblaze/led_micro_blaze.xst" -ofn "D:/fpga_project/led_with_microblaze/led_wit_microblaze/led_micro_blaze.syr" 
+xst -intstyle ise -ifn "D:/fpga_project/led_with_microblaze/led_wit_microblaze/led_micro_blaze.xst" -ofn "D:/fpga_project/led_with_microblaze/led_wit_microblaze/led_micro_blaze.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinning.ucf -p xc6slx9-tqg144-2 led_micro_blaze.ngc led_micro_blaze.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o led_micro_blaze_map.ncd led_micro_blaze.ngd led_micro_blaze.pcf 
+par -w -intstyle ise -ol high -mt off led_micro_blaze_map.ncd led_micro_blaze.ncd led_micro_blaze.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml led_micro_blaze.twx led_micro_blaze.ncd -o led_micro_blaze.twr led_micro_blaze.pcf -ucf pinning.ucf 
+bitgen -intstyle ise -f led_micro_blaze.ut led_micro_blaze.ncd 
+xst -intstyle ise -ifn "D:/fpga_project/led_with_microblaze/led_wit_microblaze/led_micro_blaze.xst" -ofn "D:/fpga_project/led_with_microblaze/led_wit_microblaze/led_micro_blaze.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinning.ucf -p xc6slx9-tqg144-2 led_micro_blaze.ngc led_micro_blaze.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o led_micro_blaze_map.ncd led_micro_blaze.ngd led_micro_blaze.pcf 
+par -w -intstyle ise -ol high -mt off led_micro_blaze_map.ncd led_micro_blaze.ncd led_micro_blaze.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml led_micro_blaze.twx led_micro_blaze.ncd -o led_micro_blaze.twr led_micro_blaze.pcf -ucf pinning.ucf 
+bitgen -intstyle ise -f led_micro_blaze.ut led_micro_blaze.ncd 

@@ -1,0 +1,3 @@
+verilog work "usart_rx.v"
+verilog work "../usart_fpga_2/usart_module.v"
+verilog work "usart_tester_rx_tx.v"

@@ -1,0 +1,86 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Mon Jul 16 00:03:44 2018
+# Process ID: 12776
+# Log file: D:/fpga_project/usart_fpga_2/planAhead_run_2/planAhead.log
+# Journal file: D:/fpga_project/usart_fpga_2/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from F:/xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [F:/xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [F:/xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+INFO: [Common 17-81] Feature available: PartialReconfiguration
+source D:/fpga_project/usart_fpga_2/pa.fromNcd.tcl
+# create_project -name usart_fpga_2 -dir "D:/fpga_project/usart_fpga_2/planAhead_run_3" -part xc6slx9tqg144-2
+# set srcset [get_property srcset [current_run -impl]]
+# set_property design_mode GateLvl $srcset
+# set_property edif_top_file "D:/fpga_project/usart_fpga_2/usart_tester.ngc" [ get_property srcset [ current_run ] ]
+# add_files -norecurse { {D:/fpga_project/usart_fpga_2} }
+# set_property target_constrs_file "pinning.ucf" [current_fileset -constrset]
+Adding file 'D:/fpga_project/usart_fpga_2/pinning.ucf' to fileset 'constrs_1'
+# add_files [list {pinning.ucf}] -fileset [get_property constrset [current_run]]
+# link_design
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+Design is defaulting to project part: xc6slx9tqg144-2
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design usart_tester.ngc ...
+WARNING:NetListWriters:298 - No output is written to usart_tester.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file usart_tester.edif ...
+ngc2edif: Total memory usage is 86212 kilobytes
+
+Parsing EDIF File [./planAhead_run_3/usart_fpga_2.data/cache/usart_tester_ngc_zx.edif]
+Finished Parsing EDIF File [./planAhead_run_3/usart_fpga_2.data/cache/usart_tester_ngc_zx.edif]
+INFO: [Netlist 29-17] Analyzing 1 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+Loading clock regions from F:/xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx9/ClockRegion.xml
+Loading clock buffers from F:/xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx9/ClockBuffers.xml
+Loading package pin functions from F:/xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/PinFunctions.xml...
+Loading package from F:/xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx9/tqg144/Package.xml
+Loading io standards from F:/xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan6/IOStandards.xml
+Loading device configuration modes from F:/xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/ConfigModes.xml
+Loading list of drcs for the architecture : F:/xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan6/drc.xml
+Parsing UCF File [D:/fpga_project/usart_fpga_2/pinning.ucf]
+Finished Parsing UCF File [D:/fpga_project/usart_fpga_2/pinning.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1 instances were transformed.
+  BUFGP => BUFGP (IBUF, BUFG): 1 instances
+
+Phase 0 | Netlist Checksum: 4151e444
+link_design: Time (s): elapsed = 00:00:16 . Memory (MB): peak = 662.813 ; gain = 178.281
+# read_xdl -file "D:/fpga_project/usart_fpga_2/usart_tester.ncd"
+Release 14.7 - xdl P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+WARNING:XDL:213 - The resulting xdl output will not have LUT equation strings or RAM INIT strings.
+Loading device for application Rf_Device from file '6slx9.nph' in environment F:\xilinx\14.7\ISE_DS\ISE\.
+   "usart_tester" is an NCD, version 3.2, device xc6slx9, package tqg144, speed -2
+Successfully converted design 'D:\fpga_project\usart_fpga_2\usart_tester.ncd' to 'D:\fpga_project\usart_fpga_2\usart_tester.xdl'.
+INFO: [Designutils 20-669] Parsing Placement File : D:/fpga_project/usart_fpga_2/usart_tester.ncd
+INFO: [Designutils 20-658] Finished Parsing Placement File : D:/fpga_project/usart_fpga_2/usart_tester.ncd
+INFO: [Designutils 20-671] Placed 140 instances
+read_xdl: Time (s): elapsed = 00:00:08 . Memory (MB): peak = 662.813 ; gain = 0.000
+# if {[catch {read_twx -name results_1 -file "D:/fpga_project/usart_fpga_2/usart_tester.twx"} eInfo]} {
+#    puts "WARNING: there was a problem importing \"D:/fpga_project/usart_fpga_2/usart_tester.twx\": $eInfo"
+# }
+INFO: [Timing 38-71] No path element with name u1/clock_counter<4>_rt found. It will be ignored.
+INFO: [Timing 38-71] No path element with name u1/clock_counter<4>_rt found. It will be ignored.
+INFO: [Timing 38-71] No path element with name u1/clock_counter<4>_rt found. It will be ignored.
+exit
+ERROR: [PlanAhead 12-106] *** Exception: ui.h.b: Found deleted key in HTclEventBroker. Verify if the classes listed here call cleanup()
+HTclEvent: SIGNAL_BUS_MODIFY   Classes: ui.views.aR 
+HTclEvent: DEBUG_CORE_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: DEBUG_PORT_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: SIGNAL_MODIFY   Classes: ui.views.aR 
+ (See D:/fpga_project/usart_fpga_2\planAhead_pid12776.debug)
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Mon Jul 16 00:04:49 2018...
+INFO: [Common 17-83] Releasing license: PlanAhead

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"F:/xilinx/embeded_development_kit/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/plbv46_slave_single_v1_01_a/hdl/vhdl/plb_address_decoder.vhd" Line 319: Assignment to <arg fmt="%s" index="1">cs_s_h_clr</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"F:/xilinx/embeded_development_kit/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/plbv46_slave_single_v1_01_a/hdl/vhdl/plb_address_decoder.vhd" Line 323: Assignment to <arg fmt="%s" index="1">addr_match_clr</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"F:/xilinx/embeded_development_kit/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/plbv46_slave_single_v1_01_a/hdl/vhdl/plb_slave_attachment.vhd" Line 1025: Assignment to <arg fmt="%s" index="1">start_data_phase</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1654" delta="new" >"D:\fpga_project\cpu\21\pcores\usart_v1_00_a\hdl\verilog\user_logic.v" Line 125: Instantiating &lt;<arg fmt="%s" index="1">mm</arg>&gt; from unknown module &lt;<arg fmt="%s" index="2">my_usart</arg>&gt;
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1499" delta="new" >"D:\fpga_project\cpu\21\pcores\usart_v1_00_a\hdl\verilog\user_logic.v" Line 51: Empty module &lt;<arg fmt="%s" index="1">user_logic(C_SLV_DWIDTH=32,C_NUM_REG=2)</arg>&gt; remains a black box.
+</msg>
+
+</messages>
+

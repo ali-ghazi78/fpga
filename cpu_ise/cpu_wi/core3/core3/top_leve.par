@@ -1,0 +1,671 @@
+Release 14.7 par P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+DESKTOP-2HEV61A::  Sat Jul 21 23:11:25 2018
+
+par -w -intstyle ise -ol high -mt off top_leve_map.ncd top_leve.ncd
+top_leve.pcf 
+
+
+Constraints file: top_leve.pcf.
+Loading device for application Rf_Device from file '6slx9.nph' in environment
+F:\xilinx\embeded_development_kit\14.7\ISE_DS\ISE\.
+   "top_leve" is an NCD, version 3.2, device xc6slx9, package tqg144, speed -2
+
+Initializing temperature to 85.000 Celsius. (default - Range: 0.000 to 85.000 Celsius)
+Initializing voltage to 1.140 Volts. (default - Range: 1.140 to 1.260 Volts)
+
+INFO:Par:282 - No user timing constraints were detected or you have set the option to ignore timing constraints ("par
+   -x"). Place and Route will run in "Performance Evaluation Mode" to automatically improve the performance of all
+   internal clocks in this design. Because there are not defined timing requirements, a timing score will not be
+   reported in the PAR report in this mode. The PAR timing summary will list the performance achieved for each clock.
+   Note: For the fastest runtime, set the effort level to "std".  For best performance, set the effort level to "high".
+
+Device speed data version:  "PRODUCTION 1.23 2013-10-13".
+
+
+
+Device Utilization Summary:
+
+Slice Logic Utilization:
+  Number of Slice Registers:                 1,171 out of  11,440   10%
+    Number used as Flip Flops:               1,169
+    Number used as Latches:                      0
+    Number used as Latch-thrus:                  0
+    Number used as AND/OR logics:                2
+  Number of Slice LUTs:                        911 out of   5,720   15%
+    Number used as logic:                      796 out of   5,720   13%
+      Number using O6 output only:             616
+      Number using O5 output only:              26
+      Number using O5 and O6:                  154
+      Number used as ROM:                        0
+    Number used as Memory:                     103 out of   1,440    7%
+      Number used as Dual Port RAM:             64
+        Number using O6 output only:             0
+        Number using O5 output only:             0
+        Number using O5 and O6:                 64
+      Number used as Single Port RAM:            0
+      Number used as Shift Register:            39
+        Number using O6 output only:            32
+        Number using O5 output only:             0
+        Number using O5 and O6:                  7
+    Number used exclusively as route-thrus:     12
+      Number with same-slice register load:     11
+      Number with same-slice carry load:         1
+      Number with other load:                    0
+
+Slice Logic Distribution:
+  Number of occupied Slices:                   534 out of   1,430   37%
+  Number of MUXCYs used:                       112 out of   2,860    3%
+  Number of LUT Flip Flop pairs used:        1,607
+    Number with an unused Flip Flop:           459 out of   1,607   28%
+    Number with an unused LUT:                 696 out of   1,607   43%
+    Number of fully used LUT-FF pairs:         452 out of   1,607   28%
+    Number of slice register sites lost
+      to control set restrictions:               0 out of  11,440    0%
+
+  A LUT Flip Flop pair for this architecture represents one LUT paired with
+  one Flip Flop within a slice.  A control set is a unique combination of
+  clock, reset, set, and enable signals for a registered element.
+  The Slice Logic Distribution report is not meaningful if the design is
+  over-mapped for a non-slice resource or if Placement fails.
+
+IO Utilization:
+  Number of bonded IOBs:                         4 out of     102    3%
+    Number of LOCed IOBs:                        4 out of       4  100%
+
+Specific Feature Utilization:
+  Number of RAMB16BWERs:                        32 out of      32  100%
+  Number of RAMB8BWERs:                          0 out of      64    0%
+  Number of BUFIO2/BUFIO2_2CLKs:                 0 out of      32    0%
+  Number of BUFIO2FB/BUFIO2FB_2CLKs:             0 out of      32    0%
+  Number of BUFG/BUFGMUXs:                       1 out of      16    6%
+    Number used as BUFGs:                        1
+    Number used as BUFGMUX:                      0
+  Number of DCM/DCM_CLKGENs:                     0 out of       4    0%
+  Number of ILOGIC2/ISERDES2s:                   0 out of     200    0%
+  Number of IODELAY2/IODRP2/IODRP2_MCBs:         0 out of     200    0%
+  Number of OLOGIC2/OSERDES2s:                   0 out of     200    0%
+  Number of BSCANs:                              0 out of       4    0%
+  Number of BUFHs:                               0 out of     128    0%
+  Number of BUFPLLs:                             0 out of       8    0%
+  Number of BUFPLL_MCBs:                         0 out of       4    0%
+  Number of DSP48A1s:                            0 out of      16    0%
+  Number of ICAPs:                               0 out of       1    0%
+  Number of MCBs:                                0 out of       2    0%
+  Number of PCILOGICSEs:                         0 out of       2    0%
+  Number of PLL_ADVs:                            0 out of       2    0%
+  Number of PMVs:                                0 out of       1    0%
+  Number of STARTUPs:                            0 out of       1    0%
+  Number of SUSPEND_SYNCs:                       0 out of       1    0%
+
+
+Overall effort level (-ol):   High 
+Router effort level (-rl):    High 
+
+Starting initial Timing Analysis.  REAL time: 3 secs 
+Finished initial Timing Analysis.  REAL time: 3 secs 
+
+WARNING:Par:289 - The signal my_micro/IO_Ready has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   my_micro/U0/microblaze_I/MicroBlaze_Core_I/Area.Decode_I/PreFetch_Buffer_I/Using_FPGA.Buffer_DFFs[1].buffer_Addr_MUXCY_L/LO has no load. 
+   PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal my_micro/U0/microblaze_I/MicroBlaze_Core_I/Area.Decode_I/Using_FPGA.iFetch_MuxCY_3/LO has no load.  PAR will
+   not attempt to route this signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IO_Address<8> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IO_Address<9> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IO_Address<10> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IO_Address<11> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IO_Address<12> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IO_Address<13> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IO_Address<14> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IO_Address<15> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IO_Address<16> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IO_Address<17> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IO_Address<18> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IO_Address<19> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IO_Address<20> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IO_Address<21> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IO_Address<22> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IO_Address<23> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IO_Address<24> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IO_Address<25> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IO_Address<26> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IO_Address<27> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IO_Address<28> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IO_Address<29> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal tx_IBUF has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I2/gpo_io_i<20> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I2/gpo_io_i<21> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I2/gpo_io_i<22> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I2/gpo_io_i<23> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:289 - The signal my_micro/INTC_Interrupt<12> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/INTC_Interrupt<13> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/INTC_Interrupt<14> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/INTC_Interrupt<15> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I3/gpo_io_i<20> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I3/gpo_io_i<21> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I3/gpo_io_i<22> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I3/gpo_io_i<23> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:289 - The signal my_micro/INTC_Interrupt<4> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/INTC_Interrupt<5> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/INTC_Interrupt<6> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/INTC_Interrupt<7> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I3/gpo_io_i<16> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I3/gpo_io_i<17> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I3/gpo_io_i<18> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I3/gpo_io_i<19> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I4/gpo_io_i<0> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I4/gpo_io_i<1> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I4/gpo_io_i<2> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I4/gpo_io_i<3> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I4/gpo_io_i<28> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I4/gpo_io_i<29> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I4/gpo_io_i<30> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I4/gpo_io_i<31> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I4/gpo_io_i<20> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I4/gpo_io_i<21> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I4/gpo_io_i<22> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I4/gpo_io_i<23> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I1/gpo_io_i<21> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I1/gpo_io_i<13> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I1/gpo_io_i<22> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I1/gpo_io_i<14> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I1/gpo_io_i<23> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I1/gpo_io_i<15> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I1/gpo_io_i<24> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I1/gpo_io_i<16> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I1/gpo_io_i<17> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I1/gpo_io_i<18> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I1/gpo_io_i<19> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I1/gpo_io_i<20> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I3/gpo_io_i<0> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I3/gpo_io_i<1> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I3/gpo_io_i<2> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I3/gpo_io_i<3> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I1/gpo_io_i<0> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I1/gpo_io_i<1> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I1/gpo_io_i<2> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I1/gpo_io_i<3> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I2/gpo_io_i<0> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I2/gpo_io_i<1> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I2/gpo_io_i<2> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I2/gpo_io_i<3> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I3/gpo_io_i<28> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I3/gpo_io_i<29> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I3/gpo_io_i<30> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I3/gpo_io_i<31> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:289 - The signal my_micro/INTC_Interrupt<8> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/INTC_Interrupt<9> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/INTC_Interrupt<10> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/INTC_Interrupt<11> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I2/gpo_io_i<28> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I2/gpo_io_i<29> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I2/gpo_io_i<30> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I2/gpo_io_i<31> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/uart_tx_write has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I2/gpo_io_i<16> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I2/gpo_io_i<17> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I2/gpo_io_i<18> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I2/gpo_io_i<19> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IO_Byte_Enable<2> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IO_Byte_Enable<3> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IO_Write_Data<20> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IO_Write_Data<21> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IO_Write_Data<22> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IO_Write_Data<23> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/INTC_Interrupt<0> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/INTC_Interrupt<1> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/INTC_Interrupt<2> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/INTC_Interrupt<3> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I4/gpo_io_i<16> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I4/gpo_io_i<17> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I4/gpo_io_i<18> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I4/gpo_io_i<19> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I1/gpo_io_i<29> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I1/gpo_io_i<30> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I1/gpo_io_i<31> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IO_Write_Data<29> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IO_Write_Data<30> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IO_Write_Strobe has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IO_Read_Strobe has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IO_Addr_Strobe has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I2/gpo_io_i<15> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I2/gpo_io_i<14> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I2/gpo_io_i<13> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I2/gpo_io_i<12> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal
+   my_micro/U0/microblaze_I/MicroBlaze_Core_I/Area.Data_Flow_I/PC_Module_I/Using_FPGA.Not_All_Bits.PC_GEN[16].PC_Bit_I/MUXCY_X/LO has no
+   load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IO_Write_Data<16> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IO_Write_Data<17> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IO_Write_Data<18> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IO_Write_Data<19> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/GPI2<25> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I4/gpo_io_i<24> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I4/gpo_io_i<25> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I4/gpo_io_i<26> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I4/gpo_io_i<27> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:289 - The signal my_micro/GPI2<28> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/GPI2<29> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/GPI2<30> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/GPI2<31> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IO_Write_Data<28> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IO_Write_Data<31> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IO_Address<0> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IO_Address<1> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IO_Address<2> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IO_Address<3> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IO_Write_Data<24> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IO_Write_Data<25> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IO_Write_Data<26> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IO_Write_Data<27> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/IO_Read_Data<25> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I1/gpo_io_i<25> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I1/gpo_io_i<26> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I1/gpo_io_i<27> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I1/gpo_io_i<28> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:289 - The signal my_micro/GPI4<28> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/GPI4<29> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/GPI4<30> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/GPI4<31> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/IO_Read_Data<28> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/IO_Read_Data<29> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/IO_Read_Data<30> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/IO_Read_Data<31> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I1/gpo_io_i<4> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I1/gpo_io_i<5> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I1/gpo_io_i<6> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I1/gpo_io_i<7> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:289 - The signal my_micro/GPI4<25> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/IO_Read_Data<24> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/IO_Read_Data<26> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/IO_Read_Data<27> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/GPI4<24> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/GPI4<26> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/GPI4<27> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I3/gpo_io_i<24> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I3/gpo_io_i<25> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I3/gpo_io_i<26> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I3/gpo_io_i<27> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:289 - The signal my_micro/GPI3<28> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/GPI3<29> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/GPI3<30> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/GPI3<31> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I2/gpo_io_i<4> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I2/gpo_io_i<5> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I2/gpo_io_i<6> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I2/gpo_io_i<7> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:289 - The signal my_micro/GPI2<24> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/GPI2<26> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/GPI2<27> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/GPI3<24> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/GPI3<25> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/GPI3<26> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/GPI3<27> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I2/gpo_io_i<24> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I2/gpo_io_i<25> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I2/gpo_io_i<26> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I2/gpo_io_i<27> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:289 - The signal my_micro/GPI4<20> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/GPI4<21> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/GPI4<22> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/GPI4<23> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/IO_Read_Data<13> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/IO_Read_Data<14> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/GPI3<16> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/GPI3<17> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/GPI3<18> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/GPI3<19> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/IO_Read_Data<16> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/IO_Read_Data<17> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/IO_Read_Data<18> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/IO_Read_Data<19> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/GPI3<20> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/GPI3<21> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/GPI3<22> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/GPI3<23> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/IO_Read_Data<20> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/IO_Read_Data<21> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/IO_Read_Data<22> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/IO_Read_Data<23> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I1/gpo_io_i<9> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I1/gpo_io_i<10> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I1/gpo_io_i<11> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I1/gpo_io_i<12> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:289 - The signal my_micro/GPI4<16> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/GPI4<17> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/GPI4<18> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/GPI4<19> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/GPI2<16> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/GPI2<17> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/GPI2<18> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/GPI2<19> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I4/gpo_io_i<4> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I4/gpo_io_i<5> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I4/gpo_io_i<6> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I4/gpo_io_i<7> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:289 - The signal my_micro/IO_Read_Data<4> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/IO_Read_Data<5> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/IO_Read_Data<6> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/IO_Read_Data<7> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/GPI3<12> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/GPI3<13> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/GPI3<14> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/GPI3<15> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/GPI2<12> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/GPI2<13> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/GPI2<14> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/GPI2<15> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I4/gpo_io_i<8> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I4/gpo_io_i<9> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I4/gpo_io_i<10> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I4/gpo_io_i<11> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:289 - The signal my_micro/GPI2<20> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/GPI2<21> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/GPI2<22> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/GPI2<23> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/GPI4<12> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/GPI4<13> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/GPI4<14> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/GPI4<15> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/IO_Read_Data<12> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IO_Byte_Enable<0> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IO_Byte_Enable<1> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/IO_Read_Data<9> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/IO_Read_Data<11> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IO_Address<31> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/IO_Read_Data<10> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/GPI3<4> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/GPI3<5> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/GPI3<6> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/GPI3<7> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/IO_Read_Data<8> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/GPI2<8> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/GPI2<9> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/GPI2<10> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/GPI2<11> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/IO_Read_Data<0> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/IO_Read_Data<1> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/IO_Read_Data<2> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/IO_Read_Data<3> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/GPI4<0> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/GPI4<1> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/GPI3<0> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/GPI3<1> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/GPI3<2> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/GPI3<3> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/GPI4<2> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/GPI4<3> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IO_Write_Data<0> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IO_Write_Data<1> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IO_Write_Data<2> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IO_Write_Data<3> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/GPI2<4> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/GPI2<5> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/GPI2<6> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/GPI2<7> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/IO_Read_Data<15> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I3/gpo_io_i<4> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I3/gpo_io_i<5> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I3/gpo_io_i<6> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I3/gpo_io_i<7> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I2/gpo_io_i<8> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I2/gpo_io_i<9> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I2/gpo_io_i<10> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I2/gpo_io_i<11> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:289 - The signal my_micro/GPI3<9> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/GPI3<10> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/GPI3<8> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/GPI3<11> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/GPI2<1> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/GPI2<0> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/GPI2<2> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/GPI2<3> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I3/gpo_io_i<8> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I3/gpo_io_i<9> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I3/gpo_io_i<10> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I3/gpo_io_i<11> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IO_Write_Data<4> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IO_Write_Data<5> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IO_Write_Data<6> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IO_Write_Data<7> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IO_Address<4> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IO_Address<5> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IO_Address<6> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IO_Address<7> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/GPI4<9> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/GPI4<10> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/GPI4<8> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/GPI4<11> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/GPI4<5> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/GPI4<6> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/GPI4<7> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal my_micro/GPI4<4> has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IO_Write_Data<12> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IO_Write_Data<14> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IO_Write_Data<11> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I3/gpo_io_i<12> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I3/gpo_io_i<13> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I3/gpo_io_i<14> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I3/gpo_io_i<15> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I4/gpo_io_i<12> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I4/gpo_io_i<13> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I4/gpo_io_i<14> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IOModule_Core_I1/GPO_I4/gpo_io_i<15> has no load.  PAR will not attempt to route this
+   signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IO_Write_Data<13> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IO_Write_Data<8> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IO_Write_Data<9> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IO_Write_Data<10> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal my_micro/U0/iomodule_0/IO_Write_Data<15> has no load.  PAR will not attempt to route this signal.
+Starting Router
+
+
+Phase  1  : 8032 unrouted;      REAL time: 5 secs 
+
+Phase  2  : 6923 unrouted;      REAL time: 5 secs 
+
+Phase  3  : 2598 unrouted;      REAL time: 9 secs 
+
+Phase  4  : 2598 unrouted; (Par is working to improve performance)     REAL time: 10 secs 
+
+Updating file: top_leve.ncd with current fully routed design.
+
+Phase  5  : 0 unrouted; (Par is working to improve performance)     REAL time: 14 secs 
+
+Phase  6  : 0 unrouted; (Par is working to improve performance)     REAL time: 14 secs 
+
+Phase  7  : 0 unrouted; (Par is working to improve performance)     REAL time: 14 secs 
+
+Phase  8  : 0 unrouted; (Par is working to improve performance)     REAL time: 14 secs 
+
+Phase  9  : 0 unrouted; (Par is working to improve performance)     REAL time: 14 secs 
+
+Phase 10  : 0 unrouted; (Par is working to improve performance)     REAL time: 14 secs 
+Total REAL time to Router completion: 14 secs 
+Total CPU time to Router completion: 13 secs 
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+Generating "PAR" statistics.
+INFO:Par:459 - The Clock Report is not displayed in the non timing-driven mode.
+Timing Score: 0 (Setup: 0, Hold: 0)
+
+Asterisk (*) preceding a constraint indicates it was not met.
+   This may be due to a setup or hold violation.
+
+----------------------------------------------------------------------------------------------------------
+  Constraint                                |    Check    | Worst Case |  Best Case | Timing |   Timing   
+                                            |             |    Slack   | Achievable | Errors |    Score   
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net clo | SETUP       |         N/A|     9.519ns|     N/A|           0
+  ck_BUFGP                                  | HOLD        |     0.330ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+
+
+All constraints were met.
+INFO:Timing:2761 - N/A entries in the Constraints List may indicate that the 
+   constraint is not analyzed due to the following: No paths covered by this 
+   constraint; Other constraints intersect with this constraint; or This 
+   constraint was disabled by a Path Tracing Control. Please run the Timespec 
+   Interaction Report (TSI) via command line (trce tsi) or Timing Analyzer GUI.
+
+
+Generating Pad Report.
+
+All signals are completely routed.
+
+WARNING:Par:283 - There are 202 loadless signals in this design. This design will cause Bitgen to issue DRC warnings.
+
+WARNING:Par:284 - There are 145 sourceless signals in this design. This design will not pass the DRC check run by
+   Bitgen.
+
+Total REAL time to PAR completion: 15 secs 
+Total CPU time to PAR completion: 14 secs 
+
+Peak Memory Usage:  454 MB
+
+Placer: Placement generated during map.
+Routing: Completed - No errors found.
+
+Number of error messages: 0
+Number of warning messages: 351
+Number of info messages: 2
+
+Writing design to file top_leve.ncd
+
+
+
+PAR done!

@@ -1,0 +1,4 @@
+verilog work "usart_module.v"
+verilog work "ipcore_dir/microblaze_mcs_v1_4.v"
+verilog work "top_leve.v"
+verilog work "sche.vf"

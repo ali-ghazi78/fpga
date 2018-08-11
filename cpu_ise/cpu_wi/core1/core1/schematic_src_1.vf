@@ -1,0 +1,64 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : schematic_src_1.vf
+// /___/   /\     Timestamp : 07/21/2018 05:27:03
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -sympath D:/fpga_project/cpu_ise/cpu_wi/core1/core1/real_micro_blaze_1 -intstyle ise -family spartan6 -verilog D:/fpga_project/cpu_ise/cpu_wi/core1/core1/schematic_src_1.vf -w D:/fpga_project/cpu_ise/cpu_wi/core1/core1/schematic_src_1.sch
+//Design Name: schematic_src_1
+//Device: spartan6
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module schematic_src_1(clock, 
+                       reset, 
+                       led, 
+                       tx);
+
+    input clock;
+    input reset;
+   output led;
+   output tx;
+   
+   wire [31:0] gio;
+   wire [31:0] gio1;
+   wire [31:0] gpo1;
+   
+   my_usart  XLXI_3 (.clock(clock), 
+                    .data(gpo1[7:0]), 
+                    .prescaler(gpo1[23:8]), 
+                    .reset(reset), 
+                    .rx_pin(), 
+                    .transmit(gpo1[24]), 
+                    .led(led), 
+                    .tx_pin(tx), 
+                    .uart_busy(gio[0]));
+   microblaze_mcs_v1_4  XLXI_4 (.Clk(clock), 
+                               .GPI1(gio1[31:0]), 
+                               .GPI2(), 
+                               .GPI3(), 
+                               .GPI4(), 
+                               .INTC_Interrupt(), 
+                               .Reset(reset), 
+                               .UART_Rx(), 
+                               .GPI1_Interrupt(), 
+                               .GPI2_Interrupt(), 
+                               .GPI3_Interrupt(), 
+                               .GPI4_Interrupt(), 
+                               .GPO1(gpo1[31:0]), 
+                               .GPO2(), 
+                               .GPO3(), 
+                               .GPO4(), 
+                               .INTC_IRQ(), 
+                               .UART_Tx());
+endmodule

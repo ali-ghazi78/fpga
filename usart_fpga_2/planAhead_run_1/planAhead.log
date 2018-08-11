@@ -1,0 +1,44 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Mon Jul 16 00:03:43 2018
+# Process ID: 4068
+# Log file: D:/fpga_project/usart_fpga_2/planAhead_run_1/planAhead.log
+# Journal file: D:/fpga_project/usart_fpga_2/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from F:/xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [F:/xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [F:/xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+INFO: [Common 17-81] Feature available: PartialReconfiguration
+source D:/fpga_project/usart_fpga_2/pa.fromNcd.tcl
+# create_project -name usart_fpga_2 -dir "D:/fpga_project/usart_fpga_2/planAhead_run_3" -part xc6slx9tqg144-2
+# set srcset [get_property srcset [current_run -impl]]
+# set_property design_mode GateLvl $srcset
+# set_property edif_top_file "D:/fpga_project/usart_fpga_2/usart_tester.ngc" [ get_property srcset [ current_run ] ]
+# add_files -norecurse { {D:/fpga_project/usart_fpga_2} }
+# set_property target_constrs_file "pinning.ucf" [current_fileset -constrset]
+Adding file 'D:/fpga_project/usart_fpga_2/pinning.ucf' to fileset 'constrs_1'
+# add_files [list {pinning.ucf}] -fileset [get_property constrset [current_run]]
+# link_design
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+Design is defaulting to project part: xc6slx9tqg144-2
+WARNING: [Common 17-175] Failed to make directory to contain cached edif files [D:/fpga_project/usart_fpga_2/planAhead_run_3/usart_fpga_2.data/cache]
+ERROR: [Designutils 20-396] Could not read top design file [D:/fpga_project/usart_fpga_2/usart_tester.ngc] because temporary work directory could not be created
+
+    while executing
+"link_design"
+    (file "D:/fpga_project/usart_fpga_2/pa.fromNcd.tcl" line 11)
+exit
+ERROR: [PlanAhead 12-106] *** Exception: ui.h.b: Found deleted key in HTclEventBroker. Verify if the classes listed here call cleanup()
+HTclEvent: SIGNAL_MODIFY   Classes: ui.views.aR 
+HTclEvent: DEBUG_PORT_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: SIGNAL_BUS_MODIFY   Classes: ui.views.aR 
+HTclEvent: DEBUG_CORE_CONFIG_CHANGE   Classes: ui.views.aR 
+ (See D:/fpga_project/usart_fpga_2\planAhead_pid4068.debug)
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Mon Jul 16 00:04:36 2018...
+INFO: [Common 17-83] Releasing license: PlanAhead

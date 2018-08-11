@@ -1,0 +1,24 @@
+[Inputs]
+Clk
+Reset
+UART_Rx
+=GPI1[31:0]=
+=GPI2[31:0]=
+=GPI3[31:0]=
+=GPI4[31:0]=
+=INTC_Interrupt[15:0]=
+[Outputs]
+UART_Tx
+GPI1_Interrupt
+GPI2_Interrupt
+GPI3_Interrupt
+GPI4_Interrupt
+INTC_IRQ
+=GPO1[31:0]=
+=GPO2[31:0]=
+=GPO3[31:0]=
+=GPO4[31:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel microblaze_mcs_v1_4
+

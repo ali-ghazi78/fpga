@@ -1,0 +1,1 @@
+sch2hdl,-sympath,D:/fpga_project/cpu_ise/cpu_wi/core1/core1/real_micro_blaze_1,-intstyle,ise,-family,spartan6,-verilog,D:/fpga_project/cpu_ise/cpu_wi/core1/core1/schematic_src_1.vf,-w,D:/fpga_project/cpu_ise/cpu_wi/core1/core1/schematic_src_1.sch

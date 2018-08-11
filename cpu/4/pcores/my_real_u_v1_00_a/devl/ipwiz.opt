@@ -1,0 +1,13 @@
+-batch 
+-create my_real_u 
+-ver 1.00.a 
+-dir "D:\fpga_project\cpu\4" 
+-lang vhdl 
+-bus plbv46 s 
+-burst s 32 
+-rst 
+-reg 4 
+-wrbuf 32 
+-xps 
+-ise 
+-driver 

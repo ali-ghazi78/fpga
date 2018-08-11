@@ -1,0 +1,15 @@
+##############################################################################
+## Filename:          D:\fpga_project\cpu\4/drivers/my_u_v1_00_a/data/my_u_v2_1_0.mdd
+## Description:       Microprocessor Driver Definition
+## Date:              Wed Jul 18 19:29:23 2018 (by Create and Import Peripheral Wizard)
+##############################################################################
+
+OPTION psf_version = 2.1.0;
+
+BEGIN DRIVER my_u
+
+  OPTION supported_peripherals = (my_u);
+  OPTION depends = (common_v1_00_a);
+  OPTION copyfiles = all;
+
+END DRIVER
