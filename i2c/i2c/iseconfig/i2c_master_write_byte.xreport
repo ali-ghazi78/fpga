@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2018-08-12T00:28:33</DateModified>
+  <DateModified>2018-08-12T01:00:17</DateModified>
   <ModuleName>i2c_master_write_tester</ModuleName>
-  <SummaryTimeStamp>2018-08-12T00:09:11</SummaryTimeStamp>
+  <SummaryTimeStamp>2018-08-12T00:53:11</SummaryTimeStamp>
   <SavedFilePath>D:/fpga_project/i2c/i2c/iseconfig/i2c_master_write_byte.xreport</SavedFilePath>
   <ImplementationReportsDirectory>D:/fpga_project/i2c/i2c\</ImplementationReportsDirectory>
   <DateInitialized>2018-08-12T00:28:33</DateInitialized>

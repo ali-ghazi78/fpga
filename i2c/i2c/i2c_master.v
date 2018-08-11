@@ -41,7 +41,7 @@ module i2c_master_write_byte(clock,reset,led,sda,scl,slave_address,slave_registe
 	output reg [0:7]i2c_status;
 	output reg led;
 	output reg i2c_busy;
-	output  reg sda;
+	output reg sda;
 	output reg  scl;
 	wire delay_ms;
 	wire delay_ns;
@@ -59,7 +59,7 @@ module i2c_master_write_byte(clock,reset,led,sda,scl,slave_address,slave_registe
 		counter_i2c=0;
 	end
 	
-	freq_maker freq_i2c(.freq_2_make(100),.freq_output(clock_i2c),.clock(clock),.reset(reset),.freq_in_mhz(50));
+	freq_maker freq_i2c(.freq_2_make(100_000),.freq_output(clock_i2c),.clock(clock),.reset(reset),.freq_in_mhz(50));
 		
 	always@(posedge clock_i2c) begin
 		if(!reset)begin
@@ -79,7 +79,7 @@ module i2c_master_write_byte(clock,reset,led,sda,scl,slave_address,slave_registe
 				sda=1'bz;
 				i2c_status=0;
 				counter_i2c=counter_i2c+1;
-				flag_finished=not_finished;
+				flag_finished=`not_finished;
 			end
 			else if(counter_i2c==1)begin						//-----------------------------start_condition---------------
 				sda=0;
@@ -180,12 +180,12 @@ endmodule
 
 
 //for example if u have 50mh1'bz just pass 50 for freq_in_mh1'bz 
-//for example if u have 50kh1'bz  kilooo not mega just pass 50 for freq_2_make  
+//for example if u have 50 hertz not mega just pass 50 for freq_2_make  
 
 
 //*2 be khater ine ke vati modul mikoni freq khoroji nesf mishe
 module freq_maker(freq_2_make,freq_output,clock,reset,freq_in_mhz,led);
-	input [0:15] freq_2_make;
+	input [0:31] freq_2_make;
 	input [0:7] freq_in_mhz;
 	input clock;
 	input reset;
@@ -203,17 +203,16 @@ module freq_maker(freq_2_make,freq_output,clock,reset,freq_in_mhz,led);
 		if(!reset)begin
 			counter_clock=0;
 			freq_output=0;		
-			led=0;
+			led=1;
 		end
 		else begin	
-			if((counter_clock*2)<((freq_in_mhz*1000)/(freq_2_make)))begin
+			if((counter_clock*2)>((freq_in_mhz*1_000_000)/(freq_2_make)))begin
 				freq_output=~freq_output;
 				counter_clock=0;
-				led=1;
+				led=~led;
 			end
 			else begin
 				counter_clock=counter_clock+1;
-				led=0;
 			end
 		end
 		
