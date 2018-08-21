@@ -72,7 +72,8 @@ implementation/system_microblaze_0_wrapper.ngc \
 implementation/system_debug_module_wrapper.ngc \
 implementation/system_clock_generator_0_wrapper.ngc \
 implementation/system_axi4lite_0_wrapper.ngc \
-implementation/system_led_0_wrapper.ngc
+implementation/system_led_0_wrapper.ngc \
+implementation/system_usart_tx1_0_wrapper.ngc
 
 POSTSYN_NETLIST = implementation/$(SYSTEM).ngc
 

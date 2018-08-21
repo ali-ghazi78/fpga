@@ -23,6 +23,8 @@
 
   <RENDERIMG RASNAME="D:\fpga_project\cpu\29_axi\SDK\SDK_Export\hw\imgs\led_0.jpg" SVGNAME="D:\fpga_project\cpu\29_axi\SDK\SDK_Export\hw\imgs\led_0.svg" TMPSVGFN="D:\fpga_project\cpu\29_axi\__xps\.dswkshop\led_0.svg"/>
 
+  <RENDERIMG RASNAME="D:\fpga_project\cpu\29_axi\SDK\SDK_Export\hw\imgs\usart_tx1_0.jpg" SVGNAME="D:\fpga_project\cpu\29_axi\SDK\SDK_Export\hw\imgs\usart_tx1_0.svg" TMPSVGFN="D:\fpga_project\cpu\29_axi\__xps\.dswkshop\usart_tx1_0.svg"/>
+
   <RENDERIMG RASNAME="D:\fpga_project\cpu\29_axi\SDK\SDK_Export\hw\imgs\system_blkd.jpg" SVGNAME="D:\fpga_project\cpu\29_axi\SDK\SDK_Export\hw\imgs\system_blkd.svg" TMPSVGFN="D:\fpga_project\cpu\29_axi\__xps\.dswkshop\system_blkd.svg"/>
 
 </RENDERBATCH>

@@ -4,7 +4,7 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.05 secs
+Total CPU time to Xst completion: 0.06 secs
  
 --> 
 TABLE OF CONTENTS
@@ -129,7 +129,7 @@ Synthesizing Unit <lmb_bram_if_cntlr>.
         C_FAMILY = "spartan6"
         C_HIGHADDR = "00000000000000000011111111111111"
         C_BASEADDR = "00000000000000000000000000000000"
-        C_MASK = "00000000010000000000000000000000"
+        C_MASK = "01000000000000000000000000000000"
         C_MASK1 = "00000000100000000000000000000000"
         C_MASK2 = "00000000100000000000000000000000"
         C_MASK3 = "00000000100000000000000000000000"
@@ -204,7 +204,7 @@ Unit <lmb_bram_if_cntlr> synthesized.
 Synthesizing Unit <lmb_mux>.
     Related source file is "F:/xilinx/embeded_development_kit/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/lmb_bram_if_cntlr_v3_10_c/hdl/vhdl/lmb_mux.vhd".
         C_BASEADDR = "00000000000000000000000000000000"
-        C_MASK = "00000000010000000000000000000000"
+        C_MASK = "01000000000000000000000000000000"
         C_MASK1 = "00000000100000000000000000000000"
         C_MASK2 = "00000000100000000000000000000000"
         C_MASK3 = "00000000100000000000000000000000"
@@ -239,9 +239,9 @@ Synthesizing Unit <pselect_mask>.
     Related source file is "F:/xilinx/embeded_development_kit/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/lmb_bram_if_cntlr_v3_10_c/hdl/vhdl/pselect_mask.vhd".
         C_AW = 32
         C_BAR = "00000000000000000000000000000000"
-        C_MASK = "00000000010000000000000000000000"
-WARNING:Xst:647 - Input <A<0:8>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
-WARNING:Xst:647 - Input <A<10:31>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+        C_MASK = "01000000000000000000000000000000"
+WARNING:Xst:647 - Input <A<0:0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <A<2:31>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
     Summary:
 	no macro.
 Unit <pselect_mask> synthesized.
@@ -390,15 +390,15 @@ Timing constraint: Default OFFSET IN BEFORE for Clock 'BRAM_Clk_A'
   Total number of paths / destination ports: 4 / 4
 -------------------------------------------------------------------------
 Offset:              1.010ns (Levels of Logic = 1)
-  Source:            LMB_ABus<9> (PAD)
+  Source:            LMB_ABus<1> (PAD)
   Destination:       microblaze_0_i_bram_ctrl/Sl_Rdy (FF)
   Destination Clock: BRAM_Clk_A rising
 
-  Data Path: LMB_ABus<9> to microblaze_0_i_bram_ctrl/Sl_Rdy
+  Data Path: LMB_ABus<1> to microblaze_0_i_bram_ctrl/Sl_Rdy
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     INV:I->O              1   0.255   0.681  microblaze_0_i_bram_ctrl/lmb_mux_I/one_lmb.pselect_mask_lmb/CS<9>1_INV_0 (microblaze_0_i_bram_ctrl/lmb_select)
+     INV:I->O              1   0.255   0.681  microblaze_0_i_bram_ctrl/lmb_mux_I/one_lmb.pselect_mask_lmb/CS<1>1_INV_0 (microblaze_0_i_bram_ctrl/lmb_select)
      FDR:D                     0.074          microblaze_0_i_bram_ctrl/Sl_Rdy
     ----------------------------------------
     Total                      1.010ns (0.329ns logic, 0.681ns route)
@@ -448,8 +448,8 @@ Cross Clock Domains Report:
 =========================================================================
 
 
-Total REAL time to Xst completion: 5.00 secs
-Total CPU time to Xst completion: 5.50 secs
+Total REAL time to Xst completion: 9.00 secs
+Total CPU time to Xst completion: 8.90 secs
  
 --> 
 

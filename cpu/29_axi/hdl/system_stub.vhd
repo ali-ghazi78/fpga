@@ -12,7 +12,10 @@ entity system_stub is
     RESET : in std_logic;
     led_0_ledd_pin : out std_logic_vector(7 downto 0);
     CLK : in std_logic;
-    MYCLK : in std_logic
+    MYCLK : in std_logic;
+    usart_tx1_0_tx_pin_pin : out std_logic;
+    usart_tx1_0_clock_pin : in std_logic;
+    usart_tx1_0_reset_pin : in std_logic
   );
 end system_stub;
 
@@ -23,7 +26,10 @@ architecture STRUCTURE of system_stub is
       RESET : in std_logic;
       led_0_ledd_pin : out std_logic_vector(7 downto 0);
       CLK : in std_logic;
-      MYCLK : in std_logic
+      MYCLK : in std_logic;
+      usart_tx1_0_tx_pin_pin : out std_logic;
+      usart_tx1_0_clock_pin : in std_logic;
+      usart_tx1_0_reset_pin : in std_logic
     );
   end component;
 
@@ -37,7 +43,10 @@ begin
       RESET => RESET,
       led_0_ledd_pin => led_0_ledd_pin,
       CLK => CLK,
-      MYCLK => MYCLK
+      MYCLK => MYCLK,
+      usart_tx1_0_tx_pin_pin => usart_tx1_0_tx_pin_pin,
+      usart_tx1_0_clock_pin => usart_tx1_0_clock_pin,
+      usart_tx1_0_reset_pin => usart_tx1_0_reset_pin
     );
 
 end architecture STRUCTURE;

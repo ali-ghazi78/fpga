@@ -15,6 +15,9 @@
  PORT led_0_ledd_pin = led_0_ledd, DIR = O, VEC = [7:0]
  PORT CLK = net_CLK, DIR = I, SIGIS = CLK
  PORT MYCLK = net_MYCLK, DIR = I, SIGIS = CLK
+ PORT usart_tx1_0_tx_pin_pin = usart_tx1_0_tx_pin, DIR = O
+ PORT usart_tx1_0_clock_pin = net_usart_tx1_0_clock_pin, DIR = I
+ PORT usart_tx1_0_reset_pin = net_usart_tx1_0_reset_pin, DIR = I
 
 
 BEGIN proc_sys_reset
@@ -134,5 +137,17 @@ BEGIN led
  BUS_INTERFACE S_AXI = axi4lite_0
  PORT S_AXI_ACLK = clk_50_0000MHz
  PORT ledd = led_0_ledd
+END
+
+BEGIN usart_tx1
+ PARAMETER INSTANCE = usart_tx1_0
+ PARAMETER HW_VER = 1.00.a
+ PARAMETER C_BASEADDR = 0x72000000
+ PARAMETER C_HIGHADDR = 0x7200ffff
+ BUS_INTERFACE S_AXI = axi4lite_0
+ PORT S_AXI_ACLK = clk_50_0000MHz
+ PORT tx_pin = usart_tx1_0_tx_pin
+ PORT clock = net_usart_tx1_0_clock_pin
+ PORT reset = net_vcc
 END
 

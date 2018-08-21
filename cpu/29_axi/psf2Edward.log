@@ -7,11 +7,14 @@ WARNING:EDK:3605 - Use of the repository located at
 Checking platform configuration ...
 IPNAME: lmb_v10, INSTANCE: microblaze_0_ilmb - 1 master(s) : 1 slave(s) 
 IPNAME: lmb_v10, INSTANCE: microblaze_0_dlmb - 1 master(s) : 1 slave(s) 
-IPNAME: axi_interconnect, INSTANCE: axi4lite_0 - 1 master(s) : 2 slave(s) 
+IPNAME: axi_interconnect, INSTANCE: axi4lite_0 - 1 master(s) : 3 slave(s) 
 
 Checking port drivers...
 WARNING:EDK:4181 - PORT: CLK, CONNECTOR: net_CLK - floating connection -
    D:\fpga_project\cpu\29_axi\system.mhs line 16 
+WARNING:EDK:4181 - PORT: usart_tx1_0_reset_pin, CONNECTOR:
+   net_usart_tx1_0_reset_pin - floating connection -
+   D:\fpga_project\cpu\29_axi\system.mhs line 20 
 
 Performing Clock DRCs...
 
@@ -19,11 +22,11 @@ Performing Reset DRCs...
 
 Overriding system level properties...
 INFO:EDK:4130 - IPNAME: lmb_bram_if_cntlr, INSTANCE:microblaze_0_i_bram_ctrl -
-   tcl is overriding PARAMETER C_MASK value to 0x00400000 -
+   tcl is overriding PARAMETER C_MASK value to 0x40000000 -
    F:\xilinx\embeded_development_kit\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pco
    res\lmb_bram_if_cntlr_v3_10_c\data\lmb_bram_if_cntlr_v2_1_0.mpd line 92 
 INFO:EDK:4130 - IPNAME: lmb_bram_if_cntlr, INSTANCE:microblaze_0_d_bram_ctrl -
-   tcl is overriding PARAMETER C_MASK value to 0x00400000 -
+   tcl is overriding PARAMETER C_MASK value to 0x40000000 -
    F:\xilinx\embeded_development_kit\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pco
    res\lmb_bram_if_cntlr_v3_10_c\data\lmb_bram_if_cntlr_v2_1_0.mpd line 92 
 INFO:EDK:4130 - IPNAME: microblaze, INSTANCE:microblaze_0 - tcl is overriding

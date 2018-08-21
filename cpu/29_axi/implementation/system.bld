@@ -14,6 +14,8 @@ Loading design module
 "D:/fpga_project/cpu/29_axi/implementation/system_clock_generator_0_wrapper.ngc"
 ...
 Loading design module
+"D:/fpga_project/cpu/29_axi/implementation/system_usart_tx1_0_wrapper.ngc"...
+Loading design module
 "D:/fpga_project/cpu/29_axi/implementation/system_microblaze_0_ilmb_wrapper.ngc"
 ...
 Loading design module
@@ -100,10 +102,10 @@ NGDBUILD Design Results Summary:
   Number of errors:     0
   Number of warnings:   4
 
-Total memory usage is 246316 kilobytes
+Total memory usage is 262548 kilobytes
 
 Writing NGD file "system.ngd" ...
-Total REAL time to NGDBUILD completion:  44 sec
+Total REAL time to NGDBUILD completion:  36 sec
 Total CPU time to NGDBUILD completion:   35 sec
 
 Writing NGDBUILD log file "system.bld"...

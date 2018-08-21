@@ -55,6 +55,7 @@ Address Map for Processor microblaze_0
   (0000000000-0x00003fff) microblaze_0_d_bram_ctrl	microblaze_0_dlmb
   (0000000000-0x00003fff) microblaze_0_i_bram_ctrl	microblaze_0_ilmb
   (0x41400000-0x4140ffff) debug_module	axi4lite_0
+  (0x72000000-0x7200ffff) usart_tx1_0	axi4lite_0
   (0x7b400000-0x7b40ffff) led_0	axi4lite_0
 INFO:EDK:4130 - IPNAME: lmb_v10, INSTANCE:microblaze_0_ilmb - tool is overriding
    PARAMETER C_LMB_NUM_SLAVES value to 1 -
@@ -74,11 +75,14 @@ Checking platform address map ...
 Checking platform configuration ...
 IPNAME: lmb_v10, INSTANCE: microblaze_0_ilmb - 1 master(s) : 1 slave(s) 
 IPNAME: lmb_v10, INSTANCE: microblaze_0_dlmb - 1 master(s) : 1 slave(s) 
-IPNAME: axi_interconnect, INSTANCE: axi4lite_0 - 1 master(s) : 2 slave(s) 
+IPNAME: axi_interconnect, INSTANCE: axi4lite_0 - 1 master(s) : 3 slave(s) 
 
 Checking port drivers...
 WARNING:EDK:4181 - PORT: CLK, CONNECTOR: net_CLK - floating connection -
    D:\fpga_project\cpu\29_axi\system.mhs line 16 
+WARNING:EDK:4181 - PORT: usart_tx1_0_reset_pin, CONNECTOR:
+   net_usart_tx1_0_reset_pin - floating connection -
+   D:\fpga_project\cpu\29_axi\system.mhs line 20 
 
 Performing Clock DRCs...
 
@@ -86,11 +90,11 @@ Performing Reset DRCs...
 
 Overriding system level properties...
 INFO:EDK:4130 - IPNAME: lmb_bram_if_cntlr, INSTANCE:microblaze_0_i_bram_ctrl -
-   tcl is overriding PARAMETER C_MASK value to 0x00400000 -
+   tcl is overriding PARAMETER C_MASK value to 0x40000000 -
    F:\xilinx\embeded_development_kit\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pco
    res\lmb_bram_if_cntlr_v3_10_c\data\lmb_bram_if_cntlr_v2_1_0.mpd line 92 
 INFO:EDK:4130 - IPNAME: lmb_bram_if_cntlr, INSTANCE:microblaze_0_d_bram_ctrl -
-   tcl is overriding PARAMETER C_MASK value to 0x00400000 -
+   tcl is overriding PARAMETER C_MASK value to 0x40000000 -
    F:\xilinx\embeded_development_kit\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pco
    res\lmb_bram_if_cntlr_v3_10_c\data\lmb_bram_if_cntlr_v2_1_0.mpd line 92 
 INFO:EDK:4130 - IPNAME: microblaze, INSTANCE:microblaze_0 - tcl is overriding
@@ -161,38 +165,40 @@ Managing hardware (BBD-specified) netlist files ...
 
 Managing cache ...
 IPNAME:proc_sys_reset INSTANCE:proc_sys_reset_0 -
-D:\fpga_project\cpu\29_axi\system.mhs line 20 - Copying cache implementation
+D:\fpga_project\cpu\29_axi\system.mhs line 23 - Copying cache implementation
 netlist
 IPNAME:lmb_v10 INSTANCE:microblaze_0_ilmb -
-D:\fpga_project\cpu\29_axi\system.mhs line 33 - Copying cache implementation
+D:\fpga_project\cpu\29_axi\system.mhs line 36 - Copying cache implementation
 netlist
 IPNAME:lmb_bram_if_cntlr INSTANCE:microblaze_0_i_bram_ctrl -
-D:\fpga_project\cpu\29_axi\system.mhs line 40 - Copying cache implementation
+D:\fpga_project\cpu\29_axi\system.mhs line 43 - Copying cache implementation
 netlist
 IPNAME:lmb_v10 INSTANCE:microblaze_0_dlmb -
-D:\fpga_project\cpu\29_axi\system.mhs line 49 - Copying cache implementation
+D:\fpga_project\cpu\29_axi\system.mhs line 52 - Copying cache implementation
 netlist
 IPNAME:lmb_bram_if_cntlr INSTANCE:microblaze_0_d_bram_ctrl -
-D:\fpga_project\cpu\29_axi\system.mhs line 56 - Copying cache implementation
+D:\fpga_project\cpu\29_axi\system.mhs line 59 - Copying cache implementation
 netlist
 IPNAME:bram_block INSTANCE:microblaze_0_bram_block -
-D:\fpga_project\cpu\29_axi\system.mhs line 65 - Copying cache implementation
+D:\fpga_project\cpu\29_axi\system.mhs line 68 - Copying cache implementation
 netlist
 IPNAME:microblaze INSTANCE:microblaze_0 - D:\fpga_project\cpu\29_axi\system.mhs
-line 72 - Copying cache implementation netlist
-IPNAME:mdm INSTANCE:debug_module - D:\fpga_project\cpu\29_axi\system.mhs line 95
+line 75 - Copying cache implementation netlist
+IPNAME:mdm INSTANCE:debug_module - D:\fpga_project\cpu\29_axi\system.mhs line 98
 - Copying cache implementation netlist
 IPNAME:axi_interconnect INSTANCE:axi4lite_0 -
-D:\fpga_project\cpu\29_axi\system.mhs line 121 - Copying cache implementation
+D:\fpga_project\cpu\29_axi\system.mhs line 124 - Copying cache implementation
 netlist
-IPNAME:led INSTANCE:led_0 - D:\fpga_project\cpu\29_axi\system.mhs line 129 -
+IPNAME:led INSTANCE:led_0 - D:\fpga_project\cpu\29_axi\system.mhs line 132 -
 Copying cache implementation netlist
+IPNAME:usart_tx1 INSTANCE:usart_tx1_0 - D:\fpga_project\cpu\29_axi\system.mhs
+line 142 - Copying cache implementation netlist
 
 Elaborating instances ...
 IPNAME:bram_block INSTANCE:microblaze_0_bram_block -
-D:\fpga_project\cpu\29_axi\system.mhs line 65 - elaborating IP
+D:\fpga_project\cpu\29_axi\system.mhs line 68 - elaborating IP
 IPNAME:clock_generator INSTANCE:clock_generator_0 -
-D:\fpga_project\cpu\29_axi\system.mhs line 108 - elaborating IP
+D:\fpga_project\cpu\29_axi\system.mhs line 111 - elaborating IP
 ClkGen elaborate status: PASSED
 ----------------------------------------
 ----------------------------------------
@@ -203,7 +209,7 @@ Inserting wrapper level ...
 Completion time: 0.00 seconds
 
 Constructing platform-level connectivity ...
-Completion time: 1.00 seconds
+Completion time: 0.00 seconds
 
 Writing (top-level) BMM ...
 
@@ -216,16 +222,16 @@ Running XST synthesis ...
 INFO:EDK:4211 - The following instances are synthesized with XST. The MPD option
    IMP_NETLIST=TRUE indicates that a NGC file is to be produced using XST
    synthesis. IMP_NETLIST=FALSE (default) instances are not synthesized. 
-INSTANCE:clock_generator_0 - D:\fpga_project\cpu\29_axi\system.mhs line 108 -
+INSTANCE:clock_generator_0 - D:\fpga_project\cpu\29_axi\system.mhs line 111 -
 Running XST synthesis
 
 Running NGCBUILD ...
 IPNAME:system_clock_generator_0_wrapper INSTANCE:clock_generator_0 -
-D:\fpga_project\cpu\29_axi\system.mhs line 108 - Running NGCBUILD
+D:\fpga_project\cpu\29_axi\system.mhs line 111 - Running NGCBUILD
 INFO:EDK:3509 - NCF files should not be modified as they will be regenerated.
    If any constraint needs to be overridden, this should be done by modifying
    the data/system.ucf file.
 
 Rebuilding cache ...
 
-Total run time: 18.00 seconds
+Total run time: 16.00 seconds
