@@ -1,0 +1,15 @@
+##############################################################################
+## Filename:          D:\fpga_project\cpu\23/drivers/timer_v1_00_a/data/timer_v2_1_0.mdd
+## Description:       Microprocessor Driver Definition
+## Date:              Tue Aug 14 02:29:18 2018 (by Create and Import Peripheral Wizard)
+##############################################################################
+
+OPTION psf_version = 2.1.0;
+
+BEGIN DRIVER timer
+
+  OPTION supported_peripherals = (timer);
+  OPTION depends = (common_v1_00_a);
+  OPTION copyfiles = all;
+
+END DRIVER

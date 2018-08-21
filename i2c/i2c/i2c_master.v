@@ -93,7 +93,7 @@ module i2c_master_write_byte(clock,reset,led,sda,scl,slave_address,slave_registe
 					sda=((slave_address&(1<<(counter_data-1)))&&1)?1'bz:0;
 					counter_data=counter_data-1;
 				end
-				else if(counter_data%2==1)begin
+				else if(counter_i2c%2==1)begin
 					scl=1'bz;		
 				end
 				counter_i2c=counter_i2c+1;
@@ -113,7 +113,7 @@ module i2c_master_write_byte(clock,reset,led,sda,scl,slave_address,slave_registe
 					sda=((slave_register&(1<<(counter_data-1)))&&1)?1'bz:0;
 					counter_data=counter_data-1;
 				end
-				else if(counter_data%2==0)begin
+				else if(counter_i2c%2==0)begin
 					scl=1'bz;		
 				end
 				counter_i2c=counter_i2c+1;
@@ -133,7 +133,7 @@ module i2c_master_write_byte(clock,reset,led,sda,scl,slave_address,slave_registe
 					sda=((slave_data&(1<<(counter_data-1)))&&1)?1'bz:0;
 					counter_data=counter_data-1;
 				end
-				else if(counter_data%2==1)begin
+				else if(counter_i2c%2==1)begin
 					scl=1'bz;		
 				end
 				counter_i2c=counter_i2c+1;

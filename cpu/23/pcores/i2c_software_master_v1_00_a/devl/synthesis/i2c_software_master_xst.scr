@@ -1,0 +1,12 @@
+run
+-opt_level 2
+-opt_mode speed
+-ifmt mixed
+-ifn "D:\fpga_project\cpu\23\pcores\i2c_software_master_v1_00_a\devl\synthesis\i2c_software_master_xst.prj"
+-top i2c_software_master
+-p virtex6
+-ofn "D:\fpga_project\cpu\23\pcores\i2c_software_master_v1_00_a\devl\synthesis\i2c_software_master_xst.ngc"
+-iobuf NO
+-rtlview YES
+-hierarchy_separator /
+-work_lib i2c_software_master_v1_00_a

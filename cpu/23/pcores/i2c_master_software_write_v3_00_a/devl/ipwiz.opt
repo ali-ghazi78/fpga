@@ -1,0 +1,10 @@
+-batch 
+-create i2c_master_software_write 
+-ver 3.00.a 
+-dir "D:\fpga_project\cpu\23" 
+-lang verilog 
+-bus plbv46 s 
+-reg 1 
+-xps 
+-ise 
+-driver 

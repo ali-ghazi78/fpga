@@ -1,5 +1,5 @@
 //! **************************************************************************
-// Written by: Map P.20131013 on Sat Aug 04 16:08:52 2018
+// Written by: Map P.20131013 on Tue Aug 14 03:12:59 2018
 //! **************************************************************************
 
 SCHEMATIC START;
@@ -12,7 +12,9 @@ COMP "led_k_0_ledd_pin<4>" LOCATE = SITE "P127" LEVEL 1;
 COMP "led_k_0_ledd_pin<5>" LOCATE = SITE "P126" LEVEL 1;
 COMP "led_k_0_ledd_pin<6>" LOCATE = SITE "P124" LEVEL 1;
 COMP "led_k_0_ledd_pin<7>" LOCATE = SITE "P123" LEVEL 1;
+COMP "i2c_software_master_0_sda_pin_pin" LOCATE = SITE "P95" LEVEL 1;
 COMP "fpga_0_clk_1_sys_clk_pin" LOCATE = SITE "P56" LEVEL 1;
+COMP "i2c_software_master_0_scl_pin_pin" LOCATE = SITE "P88" LEVEL 1;
 COMP "fpga_0_rst_1_sys_rst_pin" LOCATE = SITE "P38" LEVEL 1;
 COMP "usart_0_tx_pin_pin" LOCATE = SITE "P51" LEVEL 1;
 COMP "usart_0_clock_pin" LOCATE = SITE "P84" LEVEL 1;
@@ -257,8 +259,275 @@ TIMEGRP clock_generator_0_clock_generator_0_SIG_PLL0_CLKOUT0 = PIN
         "proc_sys_reset_0/proc_sys_reset_0/MB_Reset" BEL
         "proc_sys_reset_0/proc_sys_reset_0/Bus_Struct_Reset_0" BEL
         "proc_sys_reset_0/proc_sys_reset_0/EXT_LPF/POR_SRL_I/SRL16E" BEL
-        "usart_0/usart_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_busy" BEL
-        "usart_0/usart_0/USER_LOGIC_I/slv_reg0_2" BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/wrce_out_i_1_1"
+        BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/wrce_out_i_0_1"
+        BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/wrce_out_i_1"
+        BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/wrce_out_i_0"
+        BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/rdce_out_i_1_1"
+        BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/rdce_out_i_0_1"
+        BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_31"
+        BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_30"
+        BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_29"
+        BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_28"
+        BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_27"
+        BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_26"
+        BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_25"
+        BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_24"
+        BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_23"
+        BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_22"
+        BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_21"
+        BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_20"
+        BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_19"
+        BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_18"
+        BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_17"
+        BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_16"
+        BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_15"
+        BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_14"
+        BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_13"
+        BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_12"
+        BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_11"
+        BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_10"
+        BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_9"
+        BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_8"
+        BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_7"
+        BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_6"
+        BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_5"
+        BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_4"
+        BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_3"
+        BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_2"
+        BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_1"
+        BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_0"
+        BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/rdce_out_i_1"
+        BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/rdce_out_i_0"
+        BEL "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_busy"
+        BEL "timer_0/timer_0/USER_LOGIC_I/slv_reg0_31" BEL
+        "timer_0/timer_0/USER_LOGIC_I/slv_reg0_30" BEL
+        "timer_0/timer_0/USER_LOGIC_I/slv_reg0_29" BEL
+        "timer_0/timer_0/USER_LOGIC_I/slv_reg0_28" BEL
+        "timer_0/timer_0/USER_LOGIC_I/slv_reg0_27" BEL
+        "timer_0/timer_0/USER_LOGIC_I/slv_reg0_26" BEL
+        "timer_0/timer_0/USER_LOGIC_I/slv_reg0_25" BEL
+        "timer_0/timer_0/USER_LOGIC_I/slv_reg0_24" BEL
+        "timer_0/timer_0/USER_LOGIC_I/slv_reg0_23" BEL
+        "timer_0/timer_0/USER_LOGIC_I/slv_reg0_22" BEL
+        "timer_0/timer_0/USER_LOGIC_I/slv_reg0_21" BEL
+        "timer_0/timer_0/USER_LOGIC_I/slv_reg0_20" BEL
+        "timer_0/timer_0/USER_LOGIC_I/slv_reg0_19" BEL
+        "timer_0/timer_0/USER_LOGIC_I/slv_reg0_18" BEL
+        "timer_0/timer_0/USER_LOGIC_I/slv_reg0_17" BEL
+        "timer_0/timer_0/USER_LOGIC_I/slv_reg0_16" BEL
+        "timer_0/timer_0/USER_LOGIC_I/slv_reg0_15" BEL
+        "timer_0/timer_0/USER_LOGIC_I/slv_reg0_14" BEL
+        "timer_0/timer_0/USER_LOGIC_I/slv_reg0_13" BEL
+        "timer_0/timer_0/USER_LOGIC_I/slv_reg0_12" BEL
+        "timer_0/timer_0/USER_LOGIC_I/slv_reg0_11" BEL
+        "timer_0/timer_0/USER_LOGIC_I/slv_reg0_10" BEL
+        "timer_0/timer_0/USER_LOGIC_I/slv_reg0_9" BEL
+        "timer_0/timer_0/USER_LOGIC_I/slv_reg0_8" BEL
+        "timer_0/timer_0/USER_LOGIC_I/slv_reg0_7" BEL
+        "timer_0/timer_0/USER_LOGIC_I/slv_reg0_6" BEL
+        "timer_0/timer_0/USER_LOGIC_I/slv_reg0_5" BEL
+        "timer_0/timer_0/USER_LOGIC_I/slv_reg0_4" BEL
+        "timer_0/timer_0/USER_LOGIC_I/slv_reg0_3" BEL
+        "timer_0/timer_0/USER_LOGIC_I/slv_reg0_2" BEL
+        "timer_0/timer_0/USER_LOGIC_I/slv_reg0_1" BEL
+        "timer_0/timer_0/USER_LOGIC_I/slv_reg0_0" BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/INFERRED_GEN.icount_out_0"
+        BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/INFERRED_GEN.icount_out_1"
+        BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/INFERRED_GEN.icount_out_2"
+        BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/INFERRED_GEN.icount_out_3"
+        BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/INFERRED_GEN.icount_out_4"
+        BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/INFERRED_GEN.icount_out_5"
+        BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/INFERRED_GEN.icount_out_6"
+        BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/INFERRED_GEN.icount_out_7"
+        BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/INFERRED_GEN.icount_out_8"
+        BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/addr_out_s_h_0"
+        BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/rnw_s_h"
+        BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/decode_hit_reg"
+        BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_29"
+        BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_15"
+        BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_14"
+        BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_13"
+        BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_12"
+        BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_11"
+        BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_10"
+        BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_9"
+        BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_8"
+        BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_7"
+        BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_6"
+        BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_5"
+        BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_4"
+        BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_3"
+        BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_2"
+        BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_1"
+        BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_0"
+        BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_be_reg_3"
+        BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_be_reg_2"
+        BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_be_reg_1"
+        BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_be_reg_0"
+        BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_31"
+        BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_30"
+        BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_29"
+        BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_28"
+        BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_27"
+        BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_26"
+        BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_25"
+        BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_24"
+        BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_23"
+        BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_22"
+        BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_21"
+        BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_20"
+        BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_19"
+        BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_18"
+        BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_17"
+        BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_16"
+        BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_15"
+        BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_14"
+        BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_13"
+        BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_12"
+        BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_11"
+        BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_10"
+        BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_9"
+        BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_8"
+        BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_7"
+        BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_6"
+        BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_5"
+        BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_4"
+        BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_3"
+        BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_2"
+        BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_1"
+        BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_0"
+        BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_rnw_reg"
+        BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/rd_clear_sl_busy"
+        BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_wrdack_i"
+        BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_pavalid_reg"
+        BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/GEN_FOR_SHARED.addr_cntl_cs"
+        BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_addrack_i"
+        BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rearbitrate_i"
+        BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_rnw_i"
+        BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_be_i_3"
+        BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_be_i_2"
+        BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_be_i_1"
+        BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_be_i_0"
+        BEL
+        "timer_0/timer_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/data_timeout"
+        BEL "usart_0/usart_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_busy"
+        BEL "usart_0/usart_0/USER_LOGIC_I/slv_reg0_2" BEL
         "usart_0/usart_0/USER_LOGIC_I/slv_reg0_1" BEL
         "usart_0/usart_0/USER_LOGIC_I/slv_reg0_5" BEL
         "usart_0/usart_0/USER_LOGIC_I/slv_reg0_3" BEL
@@ -2445,9 +2714,9 @@ TIMEGRP clock_generator_0_clock_generator_0_SIG_PLL0_CLKOUT0 = PIN
         BEL
         "mb_plb/mb_plb/GEN_SHARED.I_PLB_ARBITER_LOGIC/I_ARBCONTROL_SM/arbctrl_sm_cs_FSM_FFd4_1"
         BEL
-        "mb_plb/mb_plb/GEN_SHARED.I_PLB_ARBITER_LOGIC/I_ARB_ENCODER/arbAddrSelReg_i_0_3"
-        BEL
         "mb_plb/mb_plb/GEN_SHARED.I_PLB_ARBITER_LOGIC/I_ARB_ENCODER/arbAddrSelReg_i_1_2"
+        BEL
+        "mb_plb/mb_plb/GEN_SHARED.I_PLB_ARBITER_LOGIC/I_ARB_ENCODER/arbAddrSelReg_i_0_3"
         BEL
         "mb_plb/mb_plb/GEN_SHARED.I_PLB_ARBITER_LOGIC/I_ARB_ENCODER/arbAddrSelReg_i_0_2"
         BEL
@@ -2541,7 +2810,9 @@ TIMEGRP clock_generator_0_clock_generator_0_SIG_PLL0_CLKOUT0 = PIN
         BEL "mb_plb/mb_plb/I_PLB_RST" BEL
         "mb_plb/mb_plb/GEN_SPLB_RST[0].I_SPLB_RST" BEL
         "mb_plb/mb_plb/GEN_SPLB_RST[1].I_SPLB_RST" BEL
-        "mb_plb/mb_plb/GEN_SPLB_RST[2].I_SPLB_RST" BEL "ilmb/ilmb/POR_FF_I"
+        "mb_plb/mb_plb/GEN_SPLB_RST[2].I_SPLB_RST" BEL
+        "mb_plb/mb_plb/GEN_SPLB_RST[3].I_SPLB_RST" BEL
+        "mb_plb/mb_plb/GEN_SPLB_RST[4].I_SPLB_RST" BEL "ilmb/ilmb/POR_FF_I"
         BEL "dlmb/dlmb/POR_FF_I" BEL "dlmb_cntlr/dlmb_cntlr/Sl_Rdy" BEL
         "dlmb_cntlr/dlmb_cntlr/lmb_as" BEL "ilmb_cntlr/ilmb_cntlr/Sl_Rdy" BEL
         "ilmb_cntlr/ilmb_cntlr/lmb_as" BEL
@@ -2889,6 +3160,98 @@ TIMEGRP clock_generator_0_clock_generator_0_SIG_PLL0_CLKOUT0 = PIN
         "led_k_0/led_k_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rearbitrate_i"
         BEL
         "led_k_0/led_k_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/data_timeout"
+        BEL
+        "i2c_software_master_0/i2c_software_master_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/INFERRED_GEN.icount_out_5"
+        BEL
+        "i2c_software_master_0/i2c_software_master_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/INFERRED_GEN.icount_out_4"
+        BEL
+        "i2c_software_master_0/i2c_software_master_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/INFERRED_GEN.icount_out_0"
+        BEL
+        "i2c_software_master_0/i2c_software_master_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/INFERRED_GEN.icount_out_1"
+        BEL
+        "i2c_software_master_0/i2c_software_master_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/INFERRED_GEN.icount_out_2"
+        BEL
+        "i2c_software_master_0/i2c_software_master_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/INFERRED_GEN.icount_out_3"
+        BEL
+        "i2c_software_master_0/i2c_software_master_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/rnw_s_h"
+        BEL
+        "i2c_software_master_0/i2c_software_master_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/rdce_out_i_0"
+        BEL
+        "i2c_software_master_0/i2c_software_master_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/I_DECODER/wrce_out_i_0"
+        BEL
+        "i2c_software_master_0/i2c_software_master_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_busy"
+        BEL
+        "i2c_software_master_0/i2c_software_master_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/INFERRED_GEN.icount_out_6"
+        BEL
+        "i2c_software_master_0/i2c_software_master_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/INFERRED_GEN.icount_out_7"
+        BEL
+        "i2c_software_master_0/i2c_software_master_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/INCLUDE_DATA_PHASE_WDT.I_DPTO_COUNTER/INFERRED_GEN.icount_out_8"
+        BEL
+        "i2c_software_master_0/i2c_software_master_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_15"
+        BEL
+        "i2c_software_master_0/i2c_software_master_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_14"
+        BEL
+        "i2c_software_master_0/i2c_software_master_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_13"
+        BEL
+        "i2c_software_master_0/i2c_software_master_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_12"
+        BEL
+        "i2c_software_master_0/i2c_software_master_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_11"
+        BEL
+        "i2c_software_master_0/i2c_software_master_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_10"
+        BEL
+        "i2c_software_master_0/i2c_software_master_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_9"
+        BEL
+        "i2c_software_master_0/i2c_software_master_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_8"
+        BEL
+        "i2c_software_master_0/i2c_software_master_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_7"
+        BEL
+        "i2c_software_master_0/i2c_software_master_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_6"
+        BEL
+        "i2c_software_master_0/i2c_software_master_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_5"
+        BEL
+        "i2c_software_master_0/i2c_software_master_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_4"
+        BEL
+        "i2c_software_master_0/i2c_software_master_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_3"
+        BEL
+        "i2c_software_master_0/i2c_software_master_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_2"
+        BEL
+        "i2c_software_master_0/i2c_software_master_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_1"
+        BEL
+        "i2c_software_master_0/i2c_software_master_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_abus_reg_0"
+        BEL
+        "i2c_software_master_0/i2c_software_master_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_be_reg_3"
+        BEL
+        "i2c_software_master_0/i2c_software_master_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_29"
+        BEL
+        "i2c_software_master_0/i2c_software_master_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rddbus_i_28"
+        BEL
+        "i2c_software_master_0/i2c_software_master_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_31"
+        BEL
+        "i2c_software_master_0/i2c_software_master_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_wrdbus_reg_30"
+        BEL
+        "i2c_software_master_0/i2c_software_master_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_rnw_reg"
+        BEL
+        "i2c_software_master_0/i2c_software_master_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/rd_clear_sl_busy"
+        BEL
+        "i2c_software_master_0/i2c_software_master_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_wrdack_i"
+        BEL
+        "i2c_software_master_0/i2c_software_master_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/plb_pavalid_reg"
+        BEL
+        "i2c_software_master_0/i2c_software_master_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/GEN_FOR_SHARED.addr_cntl_cs"
+        BEL
+        "i2c_software_master_0/i2c_software_master_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_addrack_i"
+        BEL
+        "i2c_software_master_0/i2c_software_master_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/sl_rearbitrate_i"
+        BEL
+        "i2c_software_master_0/i2c_software_master_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_rnw_i"
+        BEL
+        "i2c_software_master_0/i2c_software_master_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/bus2ip_be_i_3"
+        BEL
+        "i2c_software_master_0/i2c_software_master_0/PLBV46_SLAVE_SINGLE_I/I_SLAVE_ATTACHMENT/data_timeout"
+        BEL
+        "i2c_software_master_0/i2c_software_master_0/USER_LOGIC_I/slv_reg0_31"
+        BEL
+        "i2c_software_master_0/i2c_software_master_0/USER_LOGIC_I/slv_reg0_30"
         BEL
         "microblaze_0/microblaze_0/MicroBlaze_Core_I/Performance.Data_Flow_I/Register_File_I/Using_LUT6.All_RAM32M[0].ram32m_i_RAMA_D1"
         BEL

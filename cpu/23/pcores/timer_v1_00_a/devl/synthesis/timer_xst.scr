@@ -1,0 +1,12 @@
+run
+-opt_level 2
+-opt_mode speed
+-ifmt mixed
+-ifn "D:\fpga_project\cpu\23\pcores\timer_v1_00_a\devl\synthesis\timer_xst.prj"
+-top timer
+-p virtex6
+-ofn "D:\fpga_project\cpu\23\pcores\timer_v1_00_a\devl\synthesis\timer_xst.ngc"
+-iobuf NO
+-rtlview YES
+-hierarchy_separator /
+-work_lib timer_v1_00_a

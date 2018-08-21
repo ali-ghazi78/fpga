@@ -1,0 +1,759 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> Reading design: i2c_master_write_byte.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "i2c_master_write_byte.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "i2c_master_write_byte"
+Output Format                      : NGC
+Target Device                      : xc6slx9-2-tqg144
+
+---- Source Options
+Top Module Name                    : i2c_master_write_byte
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "D:\fpga_project\i2c\i2c\i2c_master.v" into library work
+Parsing module <i2c_master_write_byte>.
+Parsing module <freq_maker>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+WARNING:HDLCompiler:1016 - "D:\fpga_project\i2c\i2c\i2c_master.v" Line 62: Port led is not connected to this instance
+
+Elaborating module <i2c_master_write_byte>.
+
+Elaborating module <freq_maker>.
+WARNING:HDLCompiler:189 - "D:\fpga_project\i2c\i2c\i2c_master.v" Line 62: Size mismatch in connection of port <freq_in_mhz>. Formal port size is 8-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:413 - "D:\fpga_project\i2c\i2c\i2c_master.v" Line 81: Result of 9-bit expression is truncated to fit in 8-bit target.
+WARNING:HDLCompiler:413 - "D:\fpga_project\i2c\i2c\i2c_master.v" Line 88: Result of 9-bit expression is truncated to fit in 8-bit target.
+WARNING:HDLCompiler:413 - "D:\fpga_project\i2c\i2c\i2c_master.v" Line 93: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "D:\fpga_project\i2c\i2c\i2c_master.v" Line 94: Result of 32-bit expression is truncated to fit in 8-bit target.
+WARNING:HDLCompiler:413 - "D:\fpga_project\i2c\i2c\i2c_master.v" Line 99: Result of 9-bit expression is truncated to fit in 8-bit target.
+WARNING:HDLCompiler:413 - "D:\fpga_project\i2c\i2c\i2c_master.v" Line 103: Result of 32-bit expression is truncated to fit in 8-bit target.
+WARNING:HDLCompiler:413 - "D:\fpga_project\i2c\i2c\i2c_master.v" Line 105: Result of 32-bit expression is truncated to fit in 8-bit target.
+WARNING:HDLCompiler:413 - "D:\fpga_project\i2c\i2c\i2c_master.v" Line 108: Result of 9-bit expression is truncated to fit in 8-bit target.
+WARNING:HDLCompiler:413 - "D:\fpga_project\i2c\i2c\i2c_master.v" Line 113: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "D:\fpga_project\i2c\i2c\i2c_master.v" Line 114: Result of 32-bit expression is truncated to fit in 8-bit target.
+WARNING:HDLCompiler:413 - "D:\fpga_project\i2c\i2c\i2c_master.v" Line 119: Result of 9-bit expression is truncated to fit in 8-bit target.
+WARNING:HDLCompiler:413 - "D:\fpga_project\i2c\i2c\i2c_master.v" Line 123: Result of 32-bit expression is truncated to fit in 8-bit target.
+WARNING:HDLCompiler:413 - "D:\fpga_project\i2c\i2c\i2c_master.v" Line 125: Result of 32-bit expression is truncated to fit in 8-bit target.
+WARNING:HDLCompiler:413 - "D:\fpga_project\i2c\i2c\i2c_master.v" Line 127: Result of 9-bit expression is truncated to fit in 8-bit target.
+WARNING:HDLCompiler:413 - "D:\fpga_project\i2c\i2c\i2c_master.v" Line 133: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "D:\fpga_project\i2c\i2c\i2c_master.v" Line 134: Result of 32-bit expression is truncated to fit in 8-bit target.
+WARNING:HDLCompiler:413 - "D:\fpga_project\i2c\i2c\i2c_master.v" Line 139: Result of 9-bit expression is truncated to fit in 8-bit target.
+WARNING:HDLCompiler:413 - "D:\fpga_project\i2c\i2c\i2c_master.v" Line 143: Result of 32-bit expression is truncated to fit in 8-bit target.
+WARNING:HDLCompiler:413 - "D:\fpga_project\i2c\i2c\i2c_master.v" Line 145: Result of 32-bit expression is truncated to fit in 8-bit target.
+WARNING:HDLCompiler:413 - "D:\fpga_project\i2c\i2c\i2c_master.v" Line 147: Result of 9-bit expression is truncated to fit in 8-bit target.
+WARNING:HDLCompiler:413 - "D:\fpga_project\i2c\i2c\i2c_master.v" Line 151: Result of 9-bit expression is truncated to fit in 8-bit target.
+WARNING:HDLCompiler:413 - "D:\fpga_project\i2c\i2c\i2c_master.v" Line 155: Result of 9-bit expression is truncated to fit in 8-bit target.
+WARNING:HDLCompiler:413 - "D:\fpga_project\i2c\i2c\i2c_master.v" Line 160: Result of 9-bit expression is truncated to fit in 8-bit target.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <i2c_master_write_byte>.
+    Related source file is "D:\fpga_project\i2c\i2c\i2c_master.v".
+INFO:Xst:3210 - "D:\fpga_project\i2c\i2c\i2c_master.v" line 62: Output port <led> of the instance <freq_i2c> is unconnected or connected to loadless signal.
+    Found 1-bit register for signal <led>.
+    Found 8-bit register for signal <i2c_status>.
+    Found 1-bit register for signal <scl_clock_i2c_DFF_45_q>.
+    Found 1-bit register for signal <reset_clock_i2c_DFF_46>.
+    Found 1-bit register for signal <sda_clock_i2c_DFF_47_q>.
+    Found 1-bit register for signal <reset_clock_i2c_DFF_48>.
+    Found 8-bit register for signal <counter_i2c>.
+    Found 1-bit register for signal <flag_finished>.
+    Found 8-bit register for signal <counter_data>.
+    Found 1-bit register for signal <i2c_busy>.
+    Found 9-bit subtractor for signal <GND_1_o_GND_1_o_sub_49_OUT> created at line 133.
+    Found 8-bit adder for signal <counter_i2c[0]_GND_1_o_add_68_OUT> created at line 160.
+    Found 32-bit shifter logical left for signal <GND_1_o_GND_1_o_shift_left_49_OUT> created at line 133
+    Found 1-bit tristate buffer for signal <scl> created at line 64
+    Found 1-bit tristate buffer for signal <sda> created at line 64
+    Found 8-bit comparator lessequal for signal <n0006> created at line 90
+    Found 8-bit comparator lessequal for signal <n0008> created at line 90
+    Found 8-bit comparator lessequal for signal <n0017> created at line 110
+    Found 8-bit comparator lessequal for signal <n0019> created at line 110
+    Found 8-bit comparator lessequal for signal <n0032> created at line 130
+    Found 8-bit comparator lessequal for signal <n0034> created at line 130
+    Found 8-bit comparator lessequal for signal <n0037> created at line 131
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+	inferred  31 D-type flip-flop(s).
+	inferred   7 Comparator(s).
+	inferred  30 Multiplexer(s).
+	inferred   1 Combinational logic shifter(s).
+	inferred   2 Tristate(s).
+Unit <i2c_master_write_byte> synthesized.
+
+Synthesizing Unit <freq_maker>.
+    Related source file is "D:\fpga_project\i2c\i2c\i2c_master.v".
+    Found 1-bit register for signal <freq_output>.
+    Found 1-bit register for signal <led>.
+    Found 32-bit register for signal <counter_clock>.
+    Found 32-bit adder for signal <counter_clock[0]_GND_2_o_add_4_OUT> created at line 215.
+    Found 8x20-bit multiplier for signal <freq_in_mhz[0]_PWR_2_o_MuLt_1_OUT> created at line 209.
+    Found 32-bit comparator greater for signal <GND_2_o_counter_clock[1]_LessThan_4_o> created at line 209
+    Summary:
+	inferred   1 Multiplier(s).
+	inferred   1 Adder/Subtractor(s).
+	inferred  34 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+Unit <freq_maker> synthesized.
+
+Synthesizing Unit <div_28u_32u>.
+    Related source file is "".
+    Found 60-bit adder for signal <GND_4_o_b[31]_add_1_OUT> created at line 0.
+    Found 59-bit adder for signal <GND_4_o_b[31]_add_3_OUT> created at line 0.
+    Found 58-bit adder for signal <GND_4_o_b[31]_add_5_OUT> created at line 0.
+    Found 57-bit adder for signal <GND_4_o_b[31]_add_7_OUT> created at line 0.
+    Found 56-bit adder for signal <GND_4_o_b[31]_add_9_OUT> created at line 0.
+    Found 55-bit adder for signal <GND_4_o_b[31]_add_11_OUT> created at line 0.
+    Found 54-bit adder for signal <GND_4_o_b[31]_add_13_OUT> created at line 0.
+    Found 53-bit adder for signal <GND_4_o_b[31]_add_15_OUT> created at line 0.
+    Found 52-bit adder for signal <GND_4_o_b[31]_add_17_OUT> created at line 0.
+    Found 51-bit adder for signal <GND_4_o_b[31]_add_19_OUT> created at line 0.
+    Found 50-bit adder for signal <GND_4_o_b[31]_add_21_OUT> created at line 0.
+    Found 49-bit adder for signal <GND_4_o_b[31]_add_23_OUT> created at line 0.
+    Found 48-bit adder for signal <GND_4_o_b[31]_add_25_OUT> created at line 0.
+    Found 47-bit adder for signal <GND_4_o_b[31]_add_27_OUT> created at line 0.
+    Found 46-bit adder for signal <GND_4_o_b[31]_add_29_OUT> created at line 0.
+    Found 45-bit adder for signal <GND_4_o_b[31]_add_31_OUT> created at line 0.
+    Found 44-bit adder for signal <GND_4_o_b[31]_add_33_OUT> created at line 0.
+    Found 43-bit adder for signal <GND_4_o_b[31]_add_35_OUT> created at line 0.
+    Found 42-bit adder for signal <GND_4_o_b[31]_add_37_OUT> created at line 0.
+    Found 41-bit adder for signal <GND_4_o_b[31]_add_39_OUT> created at line 0.
+    Found 40-bit adder for signal <GND_4_o_b[31]_add_41_OUT> created at line 0.
+    Found 39-bit adder for signal <GND_4_o_b[31]_add_43_OUT> created at line 0.
+    Found 38-bit adder for signal <GND_4_o_b[31]_add_45_OUT> created at line 0.
+    Found 37-bit adder for signal <GND_4_o_b[31]_add_47_OUT> created at line 0.
+    Found 36-bit adder for signal <GND_4_o_b[31]_add_49_OUT> created at line 0.
+    Found 35-bit adder for signal <GND_4_o_b[31]_add_51_OUT> created at line 0.
+    Found 34-bit adder for signal <GND_4_o_b[31]_add_53_OUT> created at line 0.
+    Found 33-bit adder for signal <GND_4_o_b[31]_add_55_OUT> created at line 0.
+    Found 60-bit comparator lessequal for signal <BUS_0001> created at line 0
+    Found 59-bit comparator lessequal for signal <BUS_0002> created at line 0
+    Found 58-bit comparator lessequal for signal <BUS_0003> created at line 0
+    Found 57-bit comparator lessequal for signal <BUS_0004> created at line 0
+    Found 56-bit comparator lessequal for signal <BUS_0005> created at line 0
+    Found 55-bit comparator lessequal for signal <BUS_0006> created at line 0
+    Found 54-bit comparator lessequal for signal <BUS_0007> created at line 0
+    Found 53-bit comparator lessequal for signal <BUS_0008> created at line 0
+    Found 52-bit comparator lessequal for signal <BUS_0009> created at line 0
+    Found 51-bit comparator lessequal for signal <BUS_0010> created at line 0
+    Found 50-bit comparator lessequal for signal <BUS_0011> created at line 0
+    Found 49-bit comparator lessequal for signal <BUS_0012> created at line 0
+    Found 48-bit comparator lessequal for signal <BUS_0013> created at line 0
+    Found 47-bit comparator lessequal for signal <BUS_0014> created at line 0
+    Found 46-bit comparator lessequal for signal <BUS_0015> created at line 0
+    Found 45-bit comparator lessequal for signal <BUS_0016> created at line 0
+    Found 44-bit comparator lessequal for signal <BUS_0017> created at line 0
+    Found 43-bit comparator lessequal for signal <BUS_0018> created at line 0
+    Found 42-bit comparator lessequal for signal <BUS_0019> created at line 0
+    Found 41-bit comparator lessequal for signal <BUS_0020> created at line 0
+    Found 40-bit comparator lessequal for signal <BUS_0021> created at line 0
+    Found 39-bit comparator lessequal for signal <BUS_0022> created at line 0
+    Found 38-bit comparator lessequal for signal <BUS_0023> created at line 0
+    Found 37-bit comparator lessequal for signal <BUS_0024> created at line 0
+    Found 36-bit comparator lessequal for signal <BUS_0025> created at line 0
+    Found 35-bit comparator lessequal for signal <BUS_0026> created at line 0
+    Found 34-bit comparator lessequal for signal <BUS_0027> created at line 0
+    Found 33-bit comparator lessequal for signal <BUS_0028> created at line 0
+    Found 32-bit comparator lessequal for signal <BUS_0029> created at line 0
+    Summary:
+	inferred  28 Adder/Subtractor(s).
+	inferred  29 Comparator(s).
+	inferred 784 Multiplexer(s).
+Unit <div_28u_32u> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Multipliers                                          : 1
+ 20x8-bit multiplier                                   : 1
+# Adders/Subtractors                                   : 31
+ 32-bit adder                                          : 1
+ 33-bit adder                                          : 1
+ 34-bit adder                                          : 1
+ 35-bit adder                                          : 1
+ 36-bit adder                                          : 1
+ 37-bit adder                                          : 1
+ 38-bit adder                                          : 1
+ 39-bit adder                                          : 1
+ 40-bit adder                                          : 1
+ 41-bit adder                                          : 1
+ 42-bit adder                                          : 1
+ 43-bit adder                                          : 1
+ 44-bit adder                                          : 1
+ 45-bit adder                                          : 1
+ 46-bit adder                                          : 1
+ 47-bit adder                                          : 1
+ 48-bit adder                                          : 1
+ 49-bit adder                                          : 1
+ 50-bit adder                                          : 1
+ 51-bit adder                                          : 1
+ 52-bit adder                                          : 1
+ 53-bit adder                                          : 1
+ 54-bit adder                                          : 1
+ 55-bit adder                                          : 1
+ 56-bit adder                                          : 1
+ 57-bit adder                                          : 1
+ 58-bit adder                                          : 1
+ 59-bit adder                                          : 1
+ 60-bit adder                                          : 1
+ 8-bit adder                                           : 1
+ 9-bit subtractor                                      : 1
+# Registers                                            : 13
+ 1-bit register                                        : 9
+ 32-bit register                                       : 1
+ 8-bit register                                        : 3
+# Comparators                                          : 37
+ 32-bit comparator greater                             : 1
+ 32-bit comparator lessequal                           : 1
+ 33-bit comparator lessequal                           : 1
+ 34-bit comparator lessequal                           : 1
+ 35-bit comparator lessequal                           : 1
+ 36-bit comparator lessequal                           : 1
+ 37-bit comparator lessequal                           : 1
+ 38-bit comparator lessequal                           : 1
+ 39-bit comparator lessequal                           : 1
+ 40-bit comparator lessequal                           : 1
+ 41-bit comparator lessequal                           : 1
+ 42-bit comparator lessequal                           : 1
+ 43-bit comparator lessequal                           : 1
+ 44-bit comparator lessequal                           : 1
+ 45-bit comparator lessequal                           : 1
+ 46-bit comparator lessequal                           : 1
+ 47-bit comparator lessequal                           : 1
+ 48-bit comparator lessequal                           : 1
+ 49-bit comparator lessequal                           : 1
+ 50-bit comparator lessequal                           : 1
+ 51-bit comparator lessequal                           : 1
+ 52-bit comparator lessequal                           : 1
+ 53-bit comparator lessequal                           : 1
+ 54-bit comparator lessequal                           : 1
+ 55-bit comparator lessequal                           : 1
+ 56-bit comparator lessequal                           : 1
+ 57-bit comparator lessequal                           : 1
+ 58-bit comparator lessequal                           : 1
+ 59-bit comparator lessequal                           : 1
+ 60-bit comparator lessequal                           : 1
+ 8-bit comparator lessequal                            : 7
+# Multiplexers                                         : 814
+ 1-bit 2-to-1 multiplexer                              : 796
+ 32-bit 2-to-1 multiplexer                             : 1
+ 8-bit 2-to-1 multiplexer                              : 17
+# Logic shifters                                       : 1
+ 32-bit shifter logical left                           : 1
+# Tristates                                            : 2
+ 1-bit tristate buffer                                 : 2
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <freq_maker>.
+The following registers are absorbed into counter <counter_clock>: 1 register on signal <counter_clock>.
+Unit <freq_maker> synthesized (advanced).
+
+Synthesizing (advanced) Unit <i2c_master_write_byte>.
+The following registers are absorbed into counter <counter_i2c>: 1 register on signal <counter_i2c>.
+Unit <i2c_master_write_byte> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Multipliers                                          : 1
+ 20x7-bit multiplier                                   : 1
+# Adders/Subtractors                                   : 30
+ 28-bit adder                                          : 28
+ 8-bit adder                                           : 1
+ 9-bit subtractor                                      : 1
+# Counters                                             : 2
+ 32-bit up counter                                     : 1
+ 8-bit up counter                                      : 1
+# Registers                                            : 25
+ Flip-Flops                                            : 25
+# Comparators                                          : 37
+ 32-bit comparator greater                             : 1
+ 32-bit comparator lessequal                           : 1
+ 33-bit comparator lessequal                           : 1
+ 34-bit comparator lessequal                           : 1
+ 35-bit comparator lessequal                           : 1
+ 36-bit comparator lessequal                           : 1
+ 37-bit comparator lessequal                           : 1
+ 38-bit comparator lessequal                           : 1
+ 39-bit comparator lessequal                           : 1
+ 40-bit comparator lessequal                           : 1
+ 41-bit comparator lessequal                           : 1
+ 42-bit comparator lessequal                           : 1
+ 43-bit comparator lessequal                           : 1
+ 44-bit comparator lessequal                           : 1
+ 45-bit comparator lessequal                           : 1
+ 46-bit comparator lessequal                           : 1
+ 47-bit comparator lessequal                           : 1
+ 48-bit comparator lessequal                           : 1
+ 49-bit comparator lessequal                           : 1
+ 50-bit comparator lessequal                           : 1
+ 51-bit comparator lessequal                           : 1
+ 52-bit comparator lessequal                           : 1
+ 53-bit comparator lessequal                           : 1
+ 54-bit comparator lessequal                           : 1
+ 55-bit comparator lessequal                           : 1
+ 56-bit comparator lessequal                           : 1
+ 57-bit comparator lessequal                           : 1
+ 58-bit comparator lessequal                           : 1
+ 59-bit comparator lessequal                           : 1
+ 60-bit comparator lessequal                           : 1
+ 8-bit comparator lessequal                            : 7
+# Multiplexers                                         : 814
+ 1-bit 2-to-1 multiplexer                              : 796
+ 32-bit 2-to-1 multiplexer                             : 1
+ 8-bit 2-to-1 multiplexer                              : 17
+# Logic shifters                                       : 1
+ 32-bit shifter logical left                           : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:2677 - Node <counter_clock_31> of sequential type is unconnected in block <freq_maker>.
+WARNING:Xst:1293 - FF/Latch <i2c_status_1> has a constant value of 0 in block <i2c_master_write_byte>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <i2c_status_0> has a constant value of 0 in block <i2c_master_write_byte>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:2042 - Unit i2c_master_write_byte: 2 internal tristates are replaced by logic (pull-up yes): N4, N5.
+
+Optimizing unit <i2c_master_write_byte> ...
+
+Optimizing unit <freq_maker> ...
+
+Optimizing unit <div_28u_32u> ...
+WARNING:Xst:2677 - Node <freq_i2c/led> of sequential type is unconnected in block <i2c_master_write_byte>.
+WARNING:Xst:1710 - FF/Latch <counter_data_3> (without init value) has a constant value of 0 in block <i2c_master_write_byte>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <counter_data_2> (without init value) has a constant value of 0 in block <i2c_master_write_byte>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <counter_data_1> (without init value) has a constant value of 0 in block <i2c_master_write_byte>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <counter_data_0> (without init value) has a constant value of 0 in block <i2c_master_write_byte>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <counter_i2c_7> has a constant value of 0 in block <i2c_master_write_byte>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <counter_i2c_6> has a constant value of 0 in block <i2c_master_write_byte>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <freq_i2c/counter_clock_11> has a constant value of 0 in block <i2c_master_write_byte>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <freq_i2c/counter_clock_12> has a constant value of 0 in block <i2c_master_write_byte>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <freq_i2c/counter_clock_13> has a constant value of 0 in block <i2c_master_write_byte>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <freq_i2c/counter_clock_14> has a constant value of 0 in block <i2c_master_write_byte>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <freq_i2c/counter_clock_17> has a constant value of 0 in block <i2c_master_write_byte>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <freq_i2c/counter_clock_15> has a constant value of 0 in block <i2c_master_write_byte>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <freq_i2c/counter_clock_16> has a constant value of 0 in block <i2c_master_write_byte>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <freq_i2c/counter_clock_18> has a constant value of 0 in block <i2c_master_write_byte>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <freq_i2c/counter_clock_19> has a constant value of 0 in block <i2c_master_write_byte>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <freq_i2c/counter_clock_20> has a constant value of 0 in block <i2c_master_write_byte>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <freq_i2c/counter_clock_21> has a constant value of 0 in block <i2c_master_write_byte>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <freq_i2c/counter_clock_22> has a constant value of 0 in block <i2c_master_write_byte>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <freq_i2c/counter_clock_23> has a constant value of 0 in block <i2c_master_write_byte>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <freq_i2c/counter_clock_24> has a constant value of 0 in block <i2c_master_write_byte>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <freq_i2c/counter_clock_25> has a constant value of 0 in block <i2c_master_write_byte>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <freq_i2c/counter_clock_26> has a constant value of 0 in block <i2c_master_write_byte>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <freq_i2c/counter_clock_27> has a constant value of 0 in block <i2c_master_write_byte>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <freq_i2c/counter_clock_28> has a constant value of 0 in block <i2c_master_write_byte>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <freq_i2c/counter_clock_29> has a constant value of 0 in block <i2c_master_write_byte>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <freq_i2c/counter_clock_30> has a constant value of 0 in block <i2c_master_write_byte>. This FF/Latch will be trimmed during the optimization process.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block i2c_master_write_byte, actual ratio is 11.
+FlipFlop counter_data_6 has been replicated 1 time(s)
+FlipFlop counter_data_7 has been replicated 1 time(s)
+FlipFlop counter_i2c_0 has been replicated 2 time(s)
+FlipFlop counter_i2c_1 has been replicated 2 time(s)
+FlipFlop counter_i2c_2 has been replicated 2 time(s)
+FlipFlop counter_i2c_3 has been replicated 2 time(s)
+FlipFlop counter_i2c_4 has been replicated 2 time(s)
+FlipFlop counter_i2c_5 has been replicated 1 time(s)
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 48
+ Flip-Flops                                            : 48
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : i2c_master_write_byte.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 886
+#      GND                         : 1
+#      INV                         : 20
+#      LUT1                        : 16
+#      LUT2                        : 6
+#      LUT3                        : 108
+#      LUT4                        : 50
+#      LUT5                        : 156
+#      LUT6                        : 147
+#      MUXCY                       : 194
+#      MUXF7                       : 5
+#      VCC                         : 1
+#      XORCY                       : 182
+# FlipFlops/Latches                : 48
+#      FD                          : 3
+#      FDE                         : 2
+#      FDR                         : 14
+#      FDRE                        : 28
+#      FDSE                        : 1
+# Clock Buffers                    : 2
+#      BUFG                        : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 38
+#      IBUF                        : 26
+#      OBUF                        : 10
+#      OBUFT                       : 2
+# DSPs                             : 2
+#      DSP48A1                     : 2
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx9tqg144-2 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:              48  out of  11440     0%  
+ Number of Slice LUTs:                  503  out of   5720     8%  
+    Number used as Logic:               503  out of   5720     8%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:    513
+   Number with an unused Flip Flop:     465  out of    513    90%  
+   Number with an unused LUT:            10  out of    513     1%  
+   Number of fully used LUT-FF pairs:    38  out of    513     7%  
+   Number of unique control sets:        10
+
+IO Utilization: 
+ Number of IOs:                          39
+ Number of bonded IOBs:                  39  out of    102    38%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                2  out of     16    12%  
+ Number of DSP48A1s:                      2  out of     16    12%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+freq_i2c/freq_output               | BUFG                   | 36    |
+clock                              | BUFGP                  | 12    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -2
+
+   Minimum period: 5.813ns (Maximum Frequency: 172.028MHz)
+   Minimum input arrival time before clock: 6.648ns
+   Maximum output required time after clock: 5.316ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'freq_i2c/freq_output'
+  Clock period: 5.813ns (frequency: 172.028MHz)
+  Total number of paths / destination ports: 3659 / 97
+-------------------------------------------------------------------------
+Delay:               5.813ns (Levels of Logic = 4)
+  Source:            counter_i2c_0_1 (FF)
+  Destination:       reset_clock_i2c_DFF_48 (FF)
+  Source Clock:      freq_i2c/freq_output rising
+  Destination Clock: freq_i2c/freq_output rising
+
+  Data Path: counter_i2c_0_1 to reset_clock_i2c_DFF_48
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q             2   0.525   1.156  counter_i2c_0_1 (counter_i2c_0_1)
+     LUT6:I1->O           19   0.254   1.369  GND_1_o_counter_i2c[0]_AND_435_o1 (GND_1_o_counter_i2c[0]_AND_435_o)
+     LUT5:I3->O            1   0.250   0.910  reset_GND_1_o_AND_450_o7 (reset_GND_1_o_AND_450_o8)
+     LUT6:I3->O            1   0.235   0.790  reset_GND_1_o_AND_450_o8 (reset_GND_1_o_AND_450_o9)
+     LUT5:I3->O            1   0.250   0.000  reset_GND_1_o_AND_450_o9 (reset_GND_1_o_AND_450_o)
+     FDE:D                     0.074          reset_clock_i2c_DFF_48
+    ----------------------------------------
+    Total                      5.813ns (1.588ns logic, 4.225ns route)
+                                       (27.3% logic, 72.7% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clock'
+  Clock period: 4.121ns (frequency: 242.674MHz)
+  Total number of paths / destination ports: 331 / 23
+-------------------------------------------------------------------------
+Delay:               4.121ns (Levels of Logic = 17)
+  Source:            freq_i2c/counter_clock_0 (FF)
+  Destination:       freq_i2c/counter_clock_0 (FF)
+  Source Clock:      clock rising
+  Destination Clock: clock rising
+
+  Data Path: freq_i2c/counter_clock_0 to freq_i2c/counter_clock_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              3   0.525   1.042  freq_i2c/counter_clock_0 (freq_i2c/counter_clock_0)
+     LUT4:I0->O            1   0.254   0.000  freq_i2c/Mcompar_GND_2_o_counter_clock[1]_LessThan_4_o_lut<0> (freq_i2c/Mcompar_GND_2_o_counter_clock[1]_LessThan_4_o_lut<0>)
+     MUXCY:S->O            1   0.215   0.000  freq_i2c/Mcompar_GND_2_o_counter_clock[1]_LessThan_4_o_cy<0> (freq_i2c/Mcompar_GND_2_o_counter_clock[1]_LessThan_4_o_cy<0>)
+     MUXCY:CI->O           1   0.023   0.000  freq_i2c/Mcompar_GND_2_o_counter_clock[1]_LessThan_4_o_cy<1> (freq_i2c/Mcompar_GND_2_o_counter_clock[1]_LessThan_4_o_cy<1>)
+     MUXCY:CI->O           1   0.023   0.000  freq_i2c/Mcompar_GND_2_o_counter_clock[1]_LessThan_4_o_cy<2> (freq_i2c/Mcompar_GND_2_o_counter_clock[1]_LessThan_4_o_cy<2>)
+     MUXCY:CI->O           1   0.023   0.000  freq_i2c/Mcompar_GND_2_o_counter_clock[1]_LessThan_4_o_cy<3> (freq_i2c/Mcompar_GND_2_o_counter_clock[1]_LessThan_4_o_cy<3>)
+     MUXCY:CI->O           1   0.023   0.000  freq_i2c/Mcompar_GND_2_o_counter_clock[1]_LessThan_4_o_cy<4> (freq_i2c/Mcompar_GND_2_o_counter_clock[1]_LessThan_4_o_cy<4>)
+     MUXCY:CI->O           1   0.023   0.000  freq_i2c/Mcompar_GND_2_o_counter_clock[1]_LessThan_4_o_cy<5> (freq_i2c/Mcompar_GND_2_o_counter_clock[1]_LessThan_4_o_cy<5>)
+     MUXCY:CI->O           1   0.023   0.000  freq_i2c/Mcompar_GND_2_o_counter_clock[1]_LessThan_4_o_cy<6> (freq_i2c/Mcompar_GND_2_o_counter_clock[1]_LessThan_4_o_cy<6>)
+     MUXCY:CI->O           1   0.023   0.000  freq_i2c/Mcompar_GND_2_o_counter_clock[1]_LessThan_4_o_cy<7> (freq_i2c/Mcompar_GND_2_o_counter_clock[1]_LessThan_4_o_cy<7>)
+     MUXCY:CI->O           1   0.023   0.000  freq_i2c/Mcompar_GND_2_o_counter_clock[1]_LessThan_4_o_cy<8> (freq_i2c/Mcompar_GND_2_o_counter_clock[1]_LessThan_4_o_cy<8>)
+     MUXCY:CI->O           1   0.023   0.000  freq_i2c/Mcompar_GND_2_o_counter_clock[1]_LessThan_4_o_cy<9> (freq_i2c/Mcompar_GND_2_o_counter_clock[1]_LessThan_4_o_cy<9>)
+     MUXCY:CI->O           1   0.023   0.000  freq_i2c/Mcompar_GND_2_o_counter_clock[1]_LessThan_4_o_cy<10> (freq_i2c/Mcompar_GND_2_o_counter_clock[1]_LessThan_4_o_cy<10>)
+     MUXCY:CI->O           1   0.023   0.000  freq_i2c/Mcompar_GND_2_o_counter_clock[1]_LessThan_4_o_cy<11> (freq_i2c/Mcompar_GND_2_o_counter_clock[1]_LessThan_4_o_cy<11>)
+     MUXCY:CI->O           1   0.023   0.000  freq_i2c/Mcompar_GND_2_o_counter_clock[1]_LessThan_4_o_cy<12> (freq_i2c/Mcompar_GND_2_o_counter_clock[1]_LessThan_4_o_cy<12>)
+     MUXCY:CI->O           1   0.023   0.000  freq_i2c/Mcompar_GND_2_o_counter_clock[1]_LessThan_4_o_cy<13> (freq_i2c/Mcompar_GND_2_o_counter_clock[1]_LessThan_4_o_cy<13>)
+     MUXCY:CI->O           2   0.023   0.000  freq_i2c/Mcompar_GND_2_o_counter_clock[1]_LessThan_4_o_cy<14> (freq_i2c/Mcompar_GND_2_o_counter_clock[1]_LessThan_4_o_cy<14>)
+     MUXCY:CI->O          11   0.262   1.038  freq_i2c/Mcount_counter_clock_val321_cy (freq_i2c/Mcount_counter_clock_val)
+     FDR:R                     0.459          freq_i2c/counter_clock_0
+    ----------------------------------------
+    Total                      4.121ns (2.041ns logic, 2.080ns route)
+                                       (49.5% logic, 50.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'freq_i2c/freq_output'
+  Total number of paths / destination ports: 156 / 69
+-------------------------------------------------------------------------
+Offset:              6.648ns (Levels of Logic = 6)
+  Source:            slave_data<3> (PAD)
+  Destination:       reset_clock_i2c_DFF_48 (FF)
+  Destination Clock: freq_i2c/freq_output rising
+
+  Data Path: slave_data<3> to reset_clock_i2c_DFF_48
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   1.328   0.910  slave_data_3_IBUF (slave_data_3_IBUF)
+     LUT3:I0->O            1   0.235   0.682  reset_GND_1_o_AND_450_o2_SW0 (N6)
+     LUT6:I5->O            2   0.254   0.834  reset_GND_1_o_AND_450_o2 (reset_GND_1_o_AND_450_o2)
+     LUT6:I4->O            1   0.250   0.910  reset_GND_1_o_AND_450_o4 (reset_GND_1_o_AND_450_o4)
+     LUT6:I3->O            1   0.235   0.682  reset_GND_1_o_AND_450_o5 (reset_GND_1_o_AND_450_o6)
+     LUT5:I4->O            1   0.254   0.000  reset_GND_1_o_AND_450_o9 (reset_GND_1_o_AND_450_o)
+     FDE:D                     0.074          reset_clock_i2c_DFF_48
+    ----------------------------------------
+    Total                      6.648ns (2.630ns logic, 4.018ns route)
+                                       (39.6% logic, 60.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clock'
+  Total number of paths / destination ports: 12 / 12
+-------------------------------------------------------------------------
+Offset:              4.660ns (Levels of Logic = 3)
+  Source:            reset (PAD)
+  Destination:       freq_i2c/counter_clock_0 (FF)
+  Destination Clock: clock rising
+
+  Data Path: reset to freq_i2c/counter_clock_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            14   1.328   1.127  reset_IBUF (reset_IBUF)
+     LUT1:I0->O            1   0.254   0.000  freq_i2c/Mcount_counter_clock_val321_cy_rt (freq_i2c/Mcount_counter_clock_val321_cy_rt)
+     MUXCY:S->O           11   0.454   1.038  freq_i2c/Mcount_counter_clock_val321_cy (freq_i2c/Mcount_counter_clock_val)
+     FDR:R                     0.459          freq_i2c/counter_clock_0
+    ----------------------------------------
+    Total                      4.660ns (2.495ns logic, 2.165ns route)
+                                       (53.5% logic, 46.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'freq_i2c/freq_output'
+  Total number of paths / destination ports: 12 / 10
+-------------------------------------------------------------------------
+Offset:              5.316ns (Levels of Logic = 2)
+  Source:            reset_clock_i2c_DFF_48 (FF)
+  Destination:       sda (PAD)
+  Source Clock:      freq_i2c/freq_output rising
+
+  Data Path: reset_clock_i2c_DFF_48 to sda
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              8   0.525   0.943  reset_clock_i2c_DFF_48 (reset_clock_i2c_DFF_48)
+     INV:I->O              1   0.255   0.681  reset_clock_i2c_DFF_48_inv1_INV_0 (reset_clock_i2c_DFF_48_inv)
+     OBUFT:T->O                2.912          sda_OBUFT (sda)
+    ----------------------------------------
+    Total                      5.316ns (3.692ns logic, 1.624ns route)
+                                       (69.5% logic, 30.5% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock clock
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clock          |    4.121|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock freq_i2c/freq_output
+--------------------+---------+---------+---------+---------+
+                    | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock        |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+--------------------+---------+---------+---------+---------+
+freq_i2c/freq_output|    5.813|         |         |         |
+--------------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 9.00 secs
+Total CPU time to Xst completion: 9.04 secs
+ 
+--> 
+
+Total memory usage is 335272 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   56 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

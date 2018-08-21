@@ -1,0 +1,13 @@
+D:\fpga_project\cpu\29_axi\implementation\system.ngc 1534878449
+D:/fpga_project/cpu/29_axi/implementation/system_proc_sys_reset_0_wrapper.ngc 1534878422
+D:/fpga_project/cpu/29_axi/implementation/system_clock_generator_0_wrapper.ngc 1534878436
+D:/fpga_project/cpu/29_axi/implementation/system_microblaze_0_ilmb_wrapper.ngc 1534878422
+D:/fpga_project/cpu/29_axi/implementation/system_microblaze_0_dlmb_wrapper.ngc 1534878422
+D:/fpga_project/cpu/29_axi/implementation/system_axi4lite_0_wrapper.ngc 1534878422
+D:/fpga_project/cpu/29_axi/implementation/system_microblaze_0_wrapper.ngc 1534878422
+D:/fpga_project/cpu/29_axi/implementation/system_microblaze_0_i_bram_ctrl_wrapper.ngc 1534878422
+D:/fpga_project/cpu/29_axi/implementation/system_microblaze_0_d_bram_ctrl_wrapper.ngc 1534878422
+D:/fpga_project/cpu/29_axi/implementation/system_debug_module_wrapper.ngc 1534878422
+D:/fpga_project/cpu/29_axi/implementation/system_led_0_wrapper.ngc 1534878422
+D:/fpga_project/cpu/29_axi/implementation/system_microblaze_0_bram_block_wrapper.ngc 1534878422
+OK

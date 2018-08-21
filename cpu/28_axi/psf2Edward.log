@@ -1,0 +1,70 @@
+WARNING:EDK:3605 - Use of the repository located at
+   F:\xilinx\embeded_development_kit\14.7\ISE_DS\edk_user_repository\ 
+   (equivalent of $XILINX_EDK/../edk_user_repository) is now deprecated. 
+   It is recommended that you use Global SearchPath preference to specify search
+   paths that apply to all the projects.
+
+Checking platform configuration ...
+IPNAME: lmb_v10, INSTANCE: microblaze_0_ilmb - 1 master(s) : 1 slave(s) 
+IPNAME: lmb_v10, INSTANCE: microblaze_0_dlmb - 1 master(s) : 1 slave(s) 
+IPNAME: axi_interconnect, INSTANCE: axi4lite_0 - 1 master(s) : 1 slave(s) 
+
+Checking port drivers...
+WARNING:EDK:4180 - PORT: EXT_BRK, CONNECTOR: Ext_BRK - No driver found. Port
+   will be driven to GND -
+   F:\xilinx\embeded_development_kit\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pco
+   res\microblaze_v8_50_c\data\microblaze_v2_1_0.mpd line 415 
+WARNING:EDK:4180 - PORT: EXT_NM_BRK, CONNECTOR: Ext_NM_BRK - No driver found.
+   Port will be driven to GND -
+   F:\xilinx\embeded_development_kit\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pco
+   res\microblaze_v8_50_c\data\microblaze_v2_1_0.mpd line 416 
+
+Performing Clock DRCs...
+
+Performing Reset DRCs...
+
+Overriding system level properties...
+INFO:EDK:4130 - IPNAME: lmb_bram_if_cntlr, INSTANCE:microblaze_0_i_bram_ctrl -
+   tcl is overriding PARAMETER C_MASK value to 0x00400000 -
+   F:\xilinx\embeded_development_kit\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pco
+   res\lmb_bram_if_cntlr_v3_10_c\data\lmb_bram_if_cntlr_v2_1_0.mpd line 92 
+INFO:EDK:4130 - IPNAME: lmb_bram_if_cntlr, INSTANCE:microblaze_0_d_bram_ctrl -
+   tcl is overriding PARAMETER C_MASK value to 0x00400000 -
+   F:\xilinx\embeded_development_kit\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pco
+   res\lmb_bram_if_cntlr_v3_10_c\data\lmb_bram_if_cntlr_v2_1_0.mpd line 92 
+INFO:EDK:4130 - IPNAME: microblaze, INSTANCE:microblaze_0 - tcl is overriding
+   PARAMETER C_D_AXI value to 1 -
+   F:\xilinx\embeded_development_kit\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pco
+   res\microblaze_v8_50_c\data\microblaze_v2_1_0.mpd line 232 
+INFO:EDK:4130 - IPNAME: microblaze, INSTANCE:microblaze_0 - tcl is overriding
+   PARAMETER C_ADDR_TAG_BITS value to 0 -
+   F:\xilinx\embeded_development_kit\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pco
+   res\microblaze_v8_50_c\data\microblaze_v2_1_0.mpd line 337 
+INFO:EDK:4130 - IPNAME: microblaze, INSTANCE:microblaze_0 - tcl is overriding
+   PARAMETER C_DCACHE_ADDR_TAG value to 0 -
+   F:\xilinx\embeded_development_kit\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pco
+   res\microblaze_v8_50_c\data\microblaze_v2_1_0.mpd line 367 
+
+INFO: Setting C_RANGE_CHECK = OFF for axi_interconnect axi4lite_0; no DECERR
+checking will be performed.
+INFO:EDK:4130 - IPNAME: axi_interconnect, INSTANCE:axi4lite_0 - tcl is
+   overriding PARAMETER C_RANGE_CHECK value to 0 -
+   F:\xilinx\embeded_development_kit\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pco
+   res\axi_interconnect_v1_06_a\data\axi_interconnect_v2_1_0.mpd line 149 
+
+Running system level update procedures...
+
+Running UPDATE Tcl procedures for OPTION SYSLEVEL_UPDATE_PROC...
+
+Running system level DRCs...
+
+Performing System level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION SYSLEVEL_DRC_PROC...
+ERROR:EDK:3900 - issued from TCL procedure
+   "::hw_microblaze_v8_50_c::check_syslevel_settings" line 73
+   microblaze_0 (microblaze) - The Debug interface is not correctly connected.
+   The signals Dbg_Capture, Dbg_Clk, Dbg_Reg_En, Dbg_Shift, Dbg_TDI, Dbg_TDO,
+   Dbg_Update and Debug_Rst are not connected. To use the interface the bus or
+   all signals must be connected to an MDM. 
+ERROR:EDK:3371 - Conversion to XML failed.

@@ -15,7 +15,11 @@ entity system_stub is
     usart_0_reset_pin : in std_logic;
     usart_0_led_pin : out std_logic;
     usart_0_tx_pin_pin : out std_logic;
-    usart_0_clock_pin : in std_logic
+    usart_0_clock_pin : in std_logic;
+    i2c_software_master_0_sda_pin_pin : inout std_logic;
+    i2c_software_master_0_scl_pin_pin : inout std_logic;
+    timer_0_reset_pin : in std_logic;
+    timer_0_clock_pin : in std_logic
   );
 end system_stub;
 
@@ -29,7 +33,11 @@ architecture STRUCTURE of system_stub is
       usart_0_reset_pin : in std_logic;
       usart_0_led_pin : out std_logic;
       usart_0_tx_pin_pin : out std_logic;
-      usart_0_clock_pin : in std_logic
+      usart_0_clock_pin : in std_logic;
+      i2c_software_master_0_sda_pin_pin : inout std_logic;
+      i2c_software_master_0_scl_pin_pin : inout std_logic;
+      timer_0_reset_pin : in std_logic;
+      timer_0_clock_pin : in std_logic
     );
   end component;
 
@@ -46,7 +54,11 @@ begin
       usart_0_reset_pin => usart_0_reset_pin,
       usart_0_led_pin => usart_0_led_pin,
       usart_0_tx_pin_pin => usart_0_tx_pin_pin,
-      usart_0_clock_pin => usart_0_clock_pin
+      usart_0_clock_pin => usart_0_clock_pin,
+      i2c_software_master_0_sda_pin_pin => i2c_software_master_0_sda_pin_pin,
+      i2c_software_master_0_scl_pin_pin => i2c_software_master_0_scl_pin_pin,
+      timer_0_reset_pin => timer_0_reset_pin,
+      timer_0_clock_pin => timer_0_clock_pin
     );
 
 end architecture STRUCTURE;

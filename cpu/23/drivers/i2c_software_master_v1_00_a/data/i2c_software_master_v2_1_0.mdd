@@ -1,0 +1,15 @@
+##############################################################################
+## Filename:          D:\fpga_project\cpu\23/drivers/i2c_software_master_v1_00_a/data/i2c_software_master_v2_1_0.mdd
+## Description:       Microprocessor Driver Definition
+## Date:              Sun Aug 12 12:02:43 2018 (by Create and Import Peripheral Wizard)
+##############################################################################
+
+OPTION psf_version = 2.1.0;
+
+BEGIN DRIVER i2c_software_master
+
+  OPTION supported_peripherals = (i2c_software_master);
+  OPTION depends = (common_v1_00_a);
+  OPTION copyfiles = all;
+
+END DRIVER

@@ -1,0 +1,165 @@
+xst -intstyle ise -ifn "D:/fpga_project/i2c/test1/a.xst" -ofn "D:/fpga_project/i2c/test1/a.syr" 
+xst -intstyle ise -ifn "D:/fpga_project/i2c/test1/a.xst" -ofn "D:/fpga_project/i2c/test1/a.syr" 
+xst -intstyle ise -ifn "D:/fpga_project/i2c/test1/a.xst" -ofn "D:/fpga_project/i2c/test1/a.syr" 
+xst -intstyle ise -ifn "D:/fpga_project/i2c/test1/a.xst" -ofn "D:/fpga_project/i2c/test1/a.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc6slx9-tqg144-2 a.ngc a.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o a_map.ncd a.ngd a.pcf 
+par -w -intstyle ise -ol high -mt off a_map.ncd a.ncd a.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml a.twx a.ncd -o a.twr a.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f a.ut a.ncd 
+xst -intstyle ise -ifn "D:/fpga_project/i2c/test1/a.xst" -ofn "D:/fpga_project/i2c/test1/a.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc6slx9-tqg144-2 a.ngc a.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o a_map.ncd a.ngd a.pcf 
+par -w -intstyle ise -ol high -mt off a_map.ncd a.ncd a.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml a.twx a.ncd -o a.twr a.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f a.ut a.ncd 
+xst -intstyle ise -ifn "D:/fpga_project/i2c/test1/a.xst" -ofn "D:/fpga_project/i2c/test1/a.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc6slx9-tqg144-2 a.ngc a.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc6slx9-tqg144-2 a.ngc a.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o a_map.ncd a.ngd a.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc6slx9-tqg144-2 a.ngc a.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o a_map.ncd a.ngd a.pcf 
+par -w -intstyle ise -ol high -mt off a_map.ncd a.ncd a.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml a.twx a.ncd -o a.twr a.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f a.ut a.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc6slx9-tqg144-2 a.ngc a.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o a_map.ncd a.ngd a.pcf 
+par -w -intstyle ise -ol high -mt off a_map.ncd a.ncd a.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml a.twx a.ncd -o a.twr a.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f a.ut a.ncd 
+xst -intstyle ise -ifn "D:/fpga_project/i2c/test1/a.xst" -ofn "D:/fpga_project/i2c/test1/a.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc6slx9-tqg144-2 a.ngc a.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o a_map.ncd a.ngd a.pcf 
+par -w -intstyle ise -ol high -mt off a_map.ncd a.ncd a.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml a.twx a.ncd -o a.twr a.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f a.ut a.ncd 
+xst -intstyle ise -ifn "D:/fpga_project/i2c/test1/a.xst" -ofn "D:/fpga_project/i2c/test1/a.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc6slx9-tqg144-2 a.ngc a.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o a_map.ncd a.ngd a.pcf 
+par -w -intstyle ise -ol high -mt off a_map.ncd a.ncd a.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml a.twx a.ncd -o a.twr a.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f a.ut a.ncd 
+xst -intstyle ise -ifn "D:/fpga_project/i2c/test1/a.xst" -ofn "D:/fpga_project/i2c/test1/a.syr" 
+xst -intstyle ise -ifn "D:/fpga_project/i2c/test1/a.xst" -ofn "D:/fpga_project/i2c/test1/a.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc6slx9-tqg144-2 a.ngc a.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o a_map.ncd a.ngd a.pcf 
+par -w -intstyle ise -ol high -mt off a_map.ncd a.ncd a.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml a.twx a.ncd -o a.twr a.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f a.ut a.ncd 
+xst -intstyle ise -ifn "D:/fpga_project/i2c/test1/a.xst" -ofn "D:/fpga_project/i2c/test1/a.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc6slx9-tqg144-2 a.ngc a.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o a_map.ncd a.ngd a.pcf 
+par -w -intstyle ise -ol high -mt off a_map.ncd a.ncd a.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml a.twx a.ncd -o a.twr a.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f a.ut a.ncd 
+xst -intstyle ise -ifn "D:/fpga_project/i2c/test1/a.xst" -ofn "D:/fpga_project/i2c/test1/a.syr" 
+xst -intstyle ise -ifn "D:/fpga_project/i2c/test1/a.xst" -ofn "D:/fpga_project/i2c/test1/a.syr" 
+xst -intstyle ise -ifn "D:/fpga_project/i2c/test1/a.xst" -ofn "D:/fpga_project/i2c/test1/a.syr" 
+xst -intstyle ise -ifn "D:/fpga_project/i2c/test1/a.xst" -ofn "D:/fpga_project/i2c/test1/a.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc6slx9-tqg144-2 a.ngc a.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o a_map.ncd a.ngd a.pcf 
+par -w -intstyle ise -ol high -mt off a_map.ncd a.ncd a.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml a.twx a.ncd -o a.twr a.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f a.ut a.ncd 
+xst -intstyle ise -ifn "D:/fpga_project/i2c/test1/a.xst" -ofn "D:/fpga_project/i2c/test1/a.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc6slx9-tqg144-2 a.ngc a.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o a_map.ncd a.ngd a.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc6slx9-tqg144-2 a.ngc a.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o a_map.ncd a.ngd a.pcf 
+par -w -intstyle ise -ol high -mt off a_map.ncd a.ncd a.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml a.twx a.ncd -o a.twr a.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f a.ut a.ncd 
+xst -intstyle ise -ifn "D:/fpga_project/i2c/test1/a.xst" -ofn "D:/fpga_project/i2c/test1/a.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc6slx9-tqg144-2 a.ngc a.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o a_map.ncd a.ngd a.pcf 
+par -w -intstyle ise -ol high -mt off a_map.ncd a.ncd a.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml a.twx a.ncd -o a.twr a.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f a.ut a.ncd 
+xst -intstyle ise -ifn "D:/fpga_project/i2c/test1/a.xst" -ofn "D:/fpga_project/i2c/test1/a.syr" 
+xst -intstyle ise -ifn "D:/fpga_project/i2c/test1/a.xst" -ofn "D:/fpga_project/i2c/test1/a.syr" 
+xst -intstyle ise -ifn "D:/fpga_project/i2c/test1/a.xst" -ofn "D:/fpga_project/i2c/test1/a.syr" 
+xst -intstyle ise -ifn "D:/fpga_project/i2c/test1/a.xst" -ofn "D:/fpga_project/i2c/test1/a.syr" 
+xst -intstyle ise -ifn "D:/fpga_project/i2c/test1/a.xst" -ofn "D:/fpga_project/i2c/test1/a.syr" 
+xst -intstyle ise -ifn "D:/fpga_project/i2c/test1/a.xst" -ofn "D:/fpga_project/i2c/test1/a.syr" 
+xst -intstyle ise -ifn "D:/fpga_project/i2c/test1/a.xst" -ofn "D:/fpga_project/i2c/test1/a.syr" 
+xst -intstyle ise -ifn "D:/fpga_project/i2c/test1/a.xst" -ofn "D:/fpga_project/i2c/test1/a.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc6slx9-tqg144-2 a.ngc a.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o a_map.ncd a.ngd a.pcf 
+par -w -intstyle ise -ol high -mt off a_map.ncd a.ncd a.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml a.twx a.ncd -o a.twr a.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f a.ut a.ncd 
+xst -intstyle ise -ifn "D:/fpga_project/i2c/test1/a.xst" -ofn "D:/fpga_project/i2c/test1/a.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc6slx9-tqg144-2 a.ngc a.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o a_map.ncd a.ngd a.pcf 
+par -w -intstyle ise -ol high -mt off a_map.ncd a.ncd a.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml a.twx a.ncd -o a.twr a.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f a.ut a.ncd 
+xst -intstyle ise -ifn "D:/fpga_project/i2c/test1/a.xst" -ofn "D:/fpga_project/i2c/test1/a.syr" 
+xst -intstyle ise -ifn "D:/fpga_project/i2c/test1/a.xst" -ofn "D:/fpga_project/i2c/test1/a.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc6slx9-tqg144-2 a.ngc a.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o a_map.ncd a.ngd a.pcf 
+xst -intstyle ise -ifn "D:/fpga_project/i2c/test1/a.xst" -ofn "D:/fpga_project/i2c/test1/a.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc6slx9-tqg144-2 a.ngc a.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o a_map.ncd a.ngd a.pcf 
+par -w -intstyle ise -ol high -mt off a_map.ncd a.ncd a.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml a.twx a.ncd -o a.twr a.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f a.ut a.ncd 
+xst -intstyle ise -ifn "D:/fpga_project/i2c/test1/a.xst" -ofn "D:/fpga_project/i2c/test1/a.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc6slx9-tqg144-2 a.ngc a.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o a_map.ncd a.ngd a.pcf 
+par -w -intstyle ise -ol high -mt off a_map.ncd a.ncd a.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml a.twx a.ncd -o a.twr a.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f a.ut a.ncd 
+xst -intstyle ise -ifn "D:/fpga_project/i2c/test1/a.xst" -ofn "D:/fpga_project/i2c/test1/a.syr" 
+xst -intstyle ise -ifn "D:/fpga_project/i2c/test1/a.xst" -ofn "D:/fpga_project/i2c/test1/a.syr" 
+xst -intstyle ise -ifn "D:/fpga_project/i2c/test1/a.xst" -ofn "D:/fpga_project/i2c/test1/a.syr" 
+xst -intstyle ise -ifn "D:/fpga_project/i2c/test1/a.xst" -ofn "D:/fpga_project/i2c/test1/a.syr" 
+xst -intstyle ise -ifn "D:/fpga_project/i2c/test1/a.xst" -ofn "D:/fpga_project/i2c/test1/a.syr" 
+xst -intstyle ise -ifn "D:/fpga_project/i2c/test1/a.xst" -ofn "D:/fpga_project/i2c/test1/a.syr" 
+xst -intstyle ise -ifn "D:/fpga_project/i2c/test1/a.xst" -ofn "D:/fpga_project/i2c/test1/a.syr" 
+xst -intstyle ise -ifn "D:/fpga_project/i2c/test1/a.xst" -ofn "D:/fpga_project/i2c/test1/a.syr" 
+xst -intstyle ise -ifn "D:/fpga_project/i2c/test1/a.xst" -ofn "D:/fpga_project/i2c/test1/a.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc6slx9-tqg144-2 a.ngc a.ngd  
+xst -intstyle ise -ifn "D:/fpga_project/i2c/test1/a.xst" -ofn "D:/fpga_project/i2c/test1/a.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc6slx9-tqg144-2 a.ngc a.ngd  
+xst -intstyle ise -ifn "D:/fpga_project/i2c/test1/a.xst" -ofn "D:/fpga_project/i2c/test1/a.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc6slx9-tqg144-2 a.ngc a.ngd  
+xst -intstyle ise -ifn "D:/fpga_project/i2c/test1/a.xst" -ofn "D:/fpga_project/i2c/test1/a.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc6slx9-tqg144-2 a.ngc a.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o a_map.ncd a.ngd a.pcf 
+par -w -intstyle ise -ol high -mt off a_map.ncd a.ncd a.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml a.twx a.ncd -o a.twr a.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f a.ut a.ncd 
+xst -intstyle ise -ifn "D:/fpga_project/i2c/test1/a.xst" -ofn "D:/fpga_project/i2c/test1/a.syr" 
+xst -intstyle ise -ifn "D:/fpga_project/i2c/test1/a.xst" -ofn "D:/fpga_project/i2c/test1/a.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc6slx9-tqg144-2 a.ngc a.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o a_map.ncd a.ngd a.pcf 
+par -w -intstyle ise -ol high -mt off a_map.ncd a.ncd a.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml a.twx a.ncd -o a.twr a.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f a.ut a.ncd 
+xst -intstyle ise -ifn "D:/fpga_project/i2c/test1/a.xst" -ofn "D:/fpga_project/i2c/test1/a.syr" 
+xst -intstyle ise -ifn "D:/fpga_project/i2c/test1/a.xst" -ofn "D:/fpga_project/i2c/test1/a.syr" 
+xst -intstyle ise -ifn "D:/fpga_project/i2c/test1/a.xst" -ofn "D:/fpga_project/i2c/test1/a.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc6slx9-tqg144-2 a.ngc a.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o a_map.ncd a.ngd a.pcf 
+par -w -intstyle ise -ol high -mt off a_map.ncd a.ncd a.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml a.twx a.ncd -o a.twr a.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f a.ut a.ncd 
+xst -intstyle ise -ifn "D:/fpga_project/i2c/test1/a.xst" -ofn "D:/fpga_project/i2c/test1/a.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc6slx9-tqg144-2 a.ngc a.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o a_map.ncd a.ngd a.pcf 
+par -w -intstyle ise -ol high -mt off a_map.ncd a.ncd a.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml a.twx a.ncd -o a.twr a.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f a.ut a.ncd 
+xst -intstyle ise -ifn "D:/fpga_project/i2c/test1/a.xst" -ofn "D:/fpga_project/i2c/test1/a.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc6slx9-tqg144-2 a.ngc a.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o a_map.ncd a.ngd a.pcf 
+par -w -intstyle ise -ol high -mt off a_map.ncd a.ncd a.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml a.twx a.ncd -o a.twr a.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f a.ut a.ncd 
+xst -intstyle ise -ifn "D:/fpga_project/i2c/test1/a.xst" -ofn "D:/fpga_project/i2c/test1/a.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pin.ucf -p xc6slx9-tqg144-2 a.ngc a.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o a_map.ncd a.ngd a.pcf 
+par -w -intstyle ise -ol high -mt off a_map.ncd a.ncd a.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml a.twx a.ncd -o a.twr a.pcf -ucf pin.ucf 
+bitgen -intstyle ise -f a.ut a.ncd 

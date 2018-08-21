@@ -73,7 +73,11 @@ implementation/system_clock_generator_0_wrapper.ngc \
 implementation/system_mdm_0_wrapper.ngc \
 implementation/system_proc_sys_reset_0_wrapper.ngc \
 implementation/system_led_k_0_wrapper.ngc \
-implementation/system_usart_0_wrapper.ngc
+implementation/system_usart_0_wrapper.ngc \
+implementation/system_i2c_software_master_0_wrapper.ngc \
+implementation/system_timer_0_wrapper.ngc \
+implementation/system_xps_intc_0_wrapper.ngc \
+implementation/system_xps_intc_1_wrapper.ngc
 
 POSTSYN_NETLIST = implementation/$(SYSTEM).ngc
 

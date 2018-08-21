@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\fpga_project\i2c\test1\a.ncd
+OUTFILE=D:\fpga_project\i2c\test1\a.bit
+FAMILY=Spartan6
+PART=xc6slx9-2tqg144
+WORKINGDIR=D:\fpga_project\i2c\test1
+LICENSE=WebPack
+USER_INFO=_

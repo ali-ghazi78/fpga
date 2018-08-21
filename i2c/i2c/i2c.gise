@@ -135,41 +135,42 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1534024564" xil_pn:in_ck="-2890419372814449990" xil_pn:name="TRANEXT_xstsynthesize_spartan6" xil_pn:prop_ck="9126131031412716060" xil_pn:start_ts="1534024558">
-      <status xil_pn:value="FailedRun"/>
+    <transform xil_pn:end_ts="1534027949" xil_pn:in_ck="-2890419372814449990" xil_pn:name="TRANEXT_xstsynthesize_spartan6" xil_pn:prop_ck="9126131031412716060" xil_pn:start_ts="1534027936">
+      <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
       <outfile xil_pn:name="i2c_master_write_tester.lso"/>
       <outfile xil_pn:name="i2c_master_write_tester.ngc"/>
       <outfile xil_pn:name="i2c_master_write_tester.ngr"/>
       <outfile xil_pn:name="i2c_master_write_tester.prj"/>
+      <outfile xil_pn:name="i2c_master_write_tester.stx"/>
       <outfile xil_pn:name="i2c_master_write_tester.syr"/>
       <outfile xil_pn:name="i2c_master_write_tester.xst"/>
       <outfile xil_pn:name="i2c_master_write_tester_xst.xrpt"/>
       <outfile xil_pn:name="webtalk_pn.xml"/>
       <outfile xil_pn:name="xst"/>
     </transform>
-    <transform xil_pn:end_ts="1534022603" xil_pn:in_ck="176569585221521055" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="6298713057180639947" xil_pn:start_ts="1534022603">
+    <transform xil_pn:end_ts="1534027418" xil_pn:in_ck="176569585221521055" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="6298713057180639947" xil_pn:start_ts="1534027418">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1534023248" xil_pn:in_ck="1006445070596375866" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-6343863840989445714" xil_pn:start_ts="1534023242">
+    <transform xil_pn:end_ts="1534027955" xil_pn:in_ck="1006445070596375866" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-6343863840989445714" xil_pn:start_ts="1534027949">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="_ngo"/>
       <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
       <outfile xil_pn:name="i2c_master_write_tester.bld"/>
       <outfile xil_pn:name="i2c_master_write_tester.ngd"/>
       <outfile xil_pn:name="i2c_master_write_tester_ngdbuild.xrpt"/>
     </transform>
-    <transform xil_pn:end_ts="1534023261" xil_pn:in_ck="-2060794188995271844" xil_pn:name="TRANEXT_map_spartan6" xil_pn:prop_ck="1448924893915930207" xil_pn:start_ts="1534023248">
+    <transform xil_pn:end_ts="1534027967" xil_pn:in_ck="-2060794188995271844" xil_pn:name="TRANEXT_map_spartan6" xil_pn:prop_ck="1448924893915930207" xil_pn:start_ts="1534027955">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
       <outfile xil_pn:name="i2c_master_write_tester.pcf"/>
       <outfile xil_pn:name="i2c_master_write_tester_map.map"/>
@@ -180,10 +181,9 @@
       <outfile xil_pn:name="i2c_master_write_tester_summary.xml"/>
       <outfile xil_pn:name="i2c_master_write_tester_usage.xml"/>
     </transform>
-    <transform xil_pn:end_ts="1534023275" xil_pn:in_ck="6375482543513123886" xil_pn:name="TRANEXT_par_spartan6" xil_pn:prop_ck="93661965788626211" xil_pn:start_ts="1534023261">
+    <transform xil_pn:end_ts="1534027980" xil_pn:in_ck="6375482543513123886" xil_pn:name="TRANEXT_par_spartan6" xil_pn:prop_ck="93661965788626211" xil_pn:start_ts="1534027967">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
       <outfile xil_pn:name="i2c_master_write_tester.ncd"/>
       <outfile xil_pn:name="i2c_master_write_tester.pad"/>
@@ -195,10 +195,9 @@
       <outfile xil_pn:name="i2c_master_write_tester_pad.txt"/>
       <outfile xil_pn:name="i2c_master_write_tester_par.xrpt"/>
     </transform>
-    <transform xil_pn:end_ts="1534023288" xil_pn:in_ck="-1850124123356870059" xil_pn:name="TRANEXT_bitFile_spartan6" xil_pn:prop_ck="4970201210546912173" xil_pn:start_ts="1534023275">
-      <status xil_pn:value="AbortedRun"/>
+    <transform xil_pn:end_ts="1534027993" xil_pn:in_ck="-1850124123356870059" xil_pn:name="TRANEXT_bitFile_spartan6" xil_pn:prop_ck="4970201210546912173" xil_pn:start_ts="1534027980">
+      <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
       <outfile xil_pn:name="i2c_master_write_tester.bgn"/>
       <outfile xil_pn:name="i2c_master_write_tester.bin"/>
@@ -209,10 +208,9 @@
       <outfile xil_pn:name="webtalk.log"/>
       <outfile xil_pn:name="webtalk_pn.xml"/>
     </transform>
-    <transform xil_pn:end_ts="1534023275" xil_pn:in_ck="-3013581544507909676" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416184" xil_pn:start_ts="1534023270">
+    <transform xil_pn:end_ts="1534027980" xil_pn:in_ck="-3013581544507909676" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416184" xil_pn:start_ts="1534027976">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
       <outfile xil_pn:name="i2c_master_write_tester.twr"/>
       <outfile xil_pn:name="i2c_master_write_tester.twx"/>

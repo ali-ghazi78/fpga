@@ -1,0 +1,23 @@
+WARNING:EDK:3605 - Use of the repository located at
+   F:\xilinx\embeded_development_kit\14.7\ISE_DS\edk_user_repository\ 
+   (equivalent of $XILINX_EDK/../edk_user_repository) is now deprecated. 
+   It is recommended that you use Global SearchPath preference to specify search
+   paths that apply to all the projects.
+
+Checking platform configuration ...
+IPNAME: lmb_v10, INSTANCE: microblaze_0_ilmb - 1 master(s) : 1 slave(s) 
+IPNAME: lmb_v10, INSTANCE: microblaze_0_dlmb - 1 master(s) : 1 slave(s) 
+IPNAME: axi_interconnect, INSTANCE: axi4lite_0 - 1 master(s) : 2 slave(s) 
+
+Checking port drivers...
+
+Performing Clock DRCs...
+
+Performing Reset DRCs...
+ERROR:EDK:4067 - INSTANCE: proc_sys_reset_0, PORT: Ext_Reset_In - Parameter
+   C_EXT_RESET_HIGH is set to 1 while input reset port is connected to an
+   ACTIVE_LOW reset - D:\fpga_project\cpu\26_axi\system.mhs line 30
+ERROR:EDK:4067 - INSTANCE: clock_generator_0, PORT: RST - Parameter
+   C_EXT_RESET_HIGH is set to 1 while input reset port is connected to an
+   ACTIVE_LOW reset - D:\fpga_project\cpu\26_axi\system.mhs line 120
+ERROR:EDK:3371 - Conversion to XML failed.

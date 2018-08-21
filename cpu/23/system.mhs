@@ -22,6 +22,10 @@
  PORT usart_0_led_pin = usart_0_led, DIR = O
  PORT usart_0_tx_pin_pin = usart_0_tx_pin, DIR = O
  PORT usart_0_clock_pin = net_usart_0_clock_pin, DIR = I
+ PORT i2c_software_master_0_sda_pin_pin = i2c_software_master_0_sda_pin, DIR = IO
+ PORT i2c_software_master_0_scl_pin_pin = i2c_software_master_0_scl_pin, DIR = IO
+ PORT timer_0_reset_pin = net_timer_0_reset_pin, DIR = I
+ PORT timer_0_clock_pin = net_timer_0_clock_pin, DIR = I
 
 
 BEGIN microblaze
@@ -62,7 +66,7 @@ BEGIN lmb_bram_if_cntlr
  PARAMETER INSTANCE = dlmb_cntlr
  PARAMETER HW_VER = 3.10.c
  PARAMETER C_BASEADDR = 0x00000000
- PARAMETER C_HIGHADDR = 0x0000FFFF
+ PARAMETER C_HIGHADDR = 0x0000ffff
  BUS_INTERFACE SLMB = dlmb
  BUS_INTERFACE BRAM_PORT = dlmb_port
 END
@@ -71,7 +75,7 @@ BEGIN lmb_bram_if_cntlr
  PARAMETER INSTANCE = ilmb_cntlr
  PARAMETER HW_VER = 3.10.c
  PARAMETER C_BASEADDR = 0x00000000
- PARAMETER C_HIGHADDR = 0x0000FFFF
+ PARAMETER C_HIGHADDR = 0x0000ffff
  BUS_INTERFACE SLMB = ilmb
  BUS_INTERFACE BRAM_PORT = ilmb_port
 END
@@ -142,5 +146,35 @@ BEGIN usart
  PORT tx_pin = usart_0_tx_pin
  PORT clock = net_usart_0_clock_pin
  PORT reset = net_vcc
+END
+
+BEGIN i2c_software_master
+ PARAMETER INSTANCE = i2c_software_master_0
+ PARAMETER HW_VER = 4.00.a
+ PARAMETER C_BASEADDR = 0xc7c00000
+ PARAMETER C_HIGHADDR = 0xc7c0ffff
+ BUS_INTERFACE SPLB = mb_plb
+ PORT sda_pin = i2c_software_master_0_sda_pin
+ PORT scl_pin = i2c_software_master_0_scl_pin
+END
+
+BEGIN timer
+ PARAMETER INSTANCE = timer_0
+ PARAMETER HW_VER = 1.00.a
+ PARAMETER C_BASEADDR = 0xc2400000
+ PARAMETER C_HIGHADDR = 0xc240ffff
+ BUS_INTERFACE SPLB = mb_plb
+ PORT reset = net_usart_0_reset_pin
+ PORT clock = net_timer_0_clock_pin
+END
+
+BEGIN xps_intc
+ PARAMETER INSTANCE = xps_intc_0
+ PARAMETER HW_VER = 2.01.a
+END
+
+BEGIN xps_intc
+ PARAMETER INSTANCE = xps_intc_1
+ PARAMETER HW_VER = 2.01.a
 END
 

@@ -25,6 +25,10 @@
 
   <RENDERIMG RASNAME="D:\fpga_project\cpu\23\SDK\SDK_Export\hw\imgs\usart_0.jpg" SVGNAME="D:\fpga_project\cpu\23\SDK\SDK_Export\hw\imgs\usart_0.svg" TMPSVGFN="D:\fpga_project\cpu\23\__xps\.dswkshop\usart_0.svg"/>
 
+  <RENDERIMG RASNAME="D:\fpga_project\cpu\23\SDK\SDK_Export\hw\imgs\i2c_software_master_0.jpg" SVGNAME="D:\fpga_project\cpu\23\SDK\SDK_Export\hw\imgs\i2c_software_master_0.svg" TMPSVGFN="D:\fpga_project\cpu\23\__xps\.dswkshop\i2c_software_master_0.svg"/>
+
+  <RENDERIMG RASNAME="D:\fpga_project\cpu\23\SDK\SDK_Export\hw\imgs\timer_0.jpg" SVGNAME="D:\fpga_project\cpu\23\SDK\SDK_Export\hw\imgs\timer_0.svg" TMPSVGFN="D:\fpga_project\cpu\23\__xps\.dswkshop\timer_0.svg"/>
+
   <RENDERIMG RASNAME="D:\fpga_project\cpu\23\SDK\SDK_Export\hw\imgs\system_blkd.jpg" SVGNAME="D:\fpga_project\cpu\23\SDK\SDK_Export\hw\imgs\system_blkd.svg" TMPSVGFN="D:\fpga_project\cpu\23\__xps\.dswkshop\system_blkd.svg"/>
 
 </RENDERBATCH>

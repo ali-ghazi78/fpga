@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\fpga_project\i2c\i2c\i2c_master_write_tester.ncd
+OUTFILE=D:\fpga_project\i2c\i2c\i2c_master_write_tester.bit
+FAMILY=Spartan6
+PART=xc6slx9-2tqg144
+WORKINGDIR=D:\fpga_project\i2c\i2c
+LICENSE=WebPack
+USER_INFO=_

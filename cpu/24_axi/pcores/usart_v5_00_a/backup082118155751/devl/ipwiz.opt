@@ -1,0 +1,10 @@
+-batch 
+-create usart 
+-ver 5.00.a 
+-dir "D:\fpga_project\cpu\24_axi" 
+-lang verilog 
+-bus axi4lite s 
+-reg 2 
+-xps 
+-ise 
+-driver 

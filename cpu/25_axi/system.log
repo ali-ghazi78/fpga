@@ -1,0 +1,31 @@
+WARNING:EDK:3605 - Use of the repository located at F:\xilinx\embeded_development_kit\14.7\ISE_DS\edk_user_repository\ 
+(equivalent of $XILINX_EDK/../edk_user_repository) is now deprecated. 
+It is recommended that you use Global SearchPath preference to specify search paths that apply to all the projects.
+WARNING:EDK:3605 - Use of the repository located at F:\xilinx\embeded_development_kit\14.7\ISE_DS\edk_user_repository\ 
+(equivalent of $XILINX_EDK/../edk_user_repository) is now deprecated. 
+It is recommended that you use Global SearchPath preference to specify search paths that apply to all the projects.
+ERROR:EDK - D:\fpga_project\cpu\25_axi\pcores\led_v1_00_a\data\led_v2_1_0.mpd line 29	Invalid value virtex6 for address parameter C_FAMILY
+ERROR:EDK:1210 - Errors while parsing MPD file D:\fpga_project\cpu\25_axi\pcores\led_v1_00_a\data\led_v2_1_0.mpd
+Writing filter settings....
+Done writing filter settings to:
+	D:\fpga_project\cpu\25_axi\etc\system.filters
+Done writing Tab View settings to:
+	D:\fpga_project\cpu\25_axi\etc\system.gui
+Assigned Driver generic 1.00.a for instance led_0
+led_0 has been added to the project
+WARNING:EDK:2137 - Peripheral led_0 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+Assigned Driver generic 1.00.a for instance led_1
+led_1 has been added to the project
+WARNING:EDK:2137 - Peripheral led_1 is not accessible from any processor in the system. Check Bus Interface connections and address parameters. 
+WARNING:EDK:3605 - Use of the repository located at F:\xilinx\embeded_development_kit\14.7\ISE_DS\edk_user_repository\ 
+(equivalent of $XILINX_EDK/../edk_user_repository) is now deprecated. 
+It is recommended that you use Global SearchPath preference to specify search paths that apply to all the projects.
+WARNING:EDK:3605 - Use of the repository located at F:\xilinx\embeded_development_kit\14.7\ISE_DS\edk_user_repository\ 
+(equivalent of $XILINX_EDK/../edk_user_repository) is now deprecated. 
+It is recommended that you use Global SearchPath preference to specify search paths that apply to all the projects.
+WARNING:EDK:2053 - PAO file: D:\fpga_project\cpu\25_axi\pcores\led_v1_00_a\data\led_v2_1_0.pao not found
+Writing filter settings....
+Done writing filter settings to:
+	D:\fpga_project\cpu\25_axi\etc\system.filters
+Done writing Tab View settings to:
+	D:\fpga_project\cpu\25_axi\etc\system.gui

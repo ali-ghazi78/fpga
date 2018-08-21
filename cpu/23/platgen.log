@@ -31,14 +31,16 @@ Address Map for Processor microblaze_0
   (0000000000-0x0000ffff) dlmb_cntlr	dlmb
   (0000000000-0x0000ffff) ilmb_cntlr	ilmb
   (0x84400000-0x8440ffff) mdm_0	mb_plb
+  (0xc2400000-0xc240ffff) timer_0	mb_plb
   (0xc3400000-0xc340ffff) led_k_0	mb_plb
+  (0xc7c00000-0xc7c0ffff) i2c_software_master_0	mb_plb
   (0xce200000-0xce20ffff) usart_0	mb_plb
 INFO:EDK:4130 - IPNAME: plb_v46, INSTANCE:mb_plb - tool is overriding PARAMETER
    C_PLBV46_NUM_MASTERS value to 2 -
    F:\xilinx\embeded_development_kit\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pco
    res\plb_v46_v1_05_a\data\plb_v46_v2_1_0.mpd line 79 
 INFO:EDK:4130 - IPNAME: plb_v46, INSTANCE:mb_plb - tool is overriding PARAMETER
-   C_PLBV46_NUM_SLAVES value to 3 -
+   C_PLBV46_NUM_SLAVES value to 5 -
    F:\xilinx\embeded_development_kit\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pco
    res\plb_v46_v1_05_a\data\plb_v46_v2_1_0.mpd line 80 
 INFO:EDK:4130 - IPNAME: plb_v46, INSTANCE:mb_plb - tool is overriding PARAMETER
@@ -87,19 +89,40 @@ INFO:EDK:4130 - IPNAME: usart, INSTANCE:usart_0 - tool is overriding PARAMETER
 INFO:EDK:4130 - IPNAME: usart, INSTANCE:usart_0 - tool is overriding PARAMETER
    C_SPLB_MID_WIDTH value to 1 -
    D:\fpga_project\cpu\23\pcores\usart_v5_00_a\data\usart_v2_1_0.mpd line 27 
+INFO:EDK:4130 - IPNAME: i2c_software_master, INSTANCE:i2c_software_master_0 -
+   tool is overriding PARAMETER C_SPLB_DWIDTH value to 32 -
+   D:\fpga_project\cpu\23\pcores\i2c_software_master_v4_00_a\data\i2c_software_m
+   aster_v2_1_0.mpd line 25 
+INFO:EDK:4130 - IPNAME: i2c_software_master, INSTANCE:i2c_software_master_0 -
+   tool is overriding PARAMETER C_SPLB_NUM_MASTERS value to 2 -
+   D:\fpga_project\cpu\23\pcores\i2c_software_master_v4_00_a\data\i2c_software_m
+   aster_v2_1_0.mpd line 26 
+INFO:EDK:4130 - IPNAME: i2c_software_master, INSTANCE:i2c_software_master_0 -
+   tool is overriding PARAMETER C_SPLB_MID_WIDTH value to 1 -
+   D:\fpga_project\cpu\23\pcores\i2c_software_master_v4_00_a\data\i2c_software_m
+   aster_v2_1_0.mpd line 27 
+INFO:EDK:4130 - IPNAME: timer, INSTANCE:timer_0 - tool is overriding PARAMETER
+   C_SPLB_DWIDTH value to 32 -
+   D:\fpga_project\cpu\23\pcores\timer_v1_00_a\data\timer_v2_1_0.mpd line 25 
+INFO:EDK:4130 - IPNAME: timer, INSTANCE:timer_0 - tool is overriding PARAMETER
+   C_SPLB_NUM_MASTERS value to 2 -
+   D:\fpga_project\cpu\23\pcores\timer_v1_00_a\data\timer_v2_1_0.mpd line 26 
+INFO:EDK:4130 - IPNAME: timer, INSTANCE:timer_0 - tool is overriding PARAMETER
+   C_SPLB_MID_WIDTH value to 1 -
+   D:\fpga_project\cpu\23\pcores\timer_v1_00_a\data\timer_v2_1_0.mpd line 27 
 
 Checking platform address map ...
 
 Checking platform configuration ...
-IPNAME: plb_v46, INSTANCE: mb_plb - 2 master(s) : 3 slave(s) 
+IPNAME: plb_v46, INSTANCE: mb_plb - 2 master(s) : 5 slave(s) 
 IPNAME: lmb_v10, INSTANCE: ilmb - 1 master(s) : 1 slave(s) 
 IPNAME: lmb_v10, INSTANCE: dlmb - 1 master(s) : 1 slave(s) 
 
 Checking port drivers...
-WARNING:EDK:4181 - PORT: usart_0_reset_pin, CONNECTOR: net_usart_0_reset_pin -
-   floating connection - D:\fpga_project\cpu\23\system.mhs line 21 
+WARNING:EDK:4181 - PORT: timer_0_reset_pin, CONNECTOR: net_timer_0_reset_pin -
+   floating connection - D:\fpga_project\cpu\23\system.mhs line 27 
 WARNING:EDK:4181 - PORT: Peripheral_Reset, CONNECTOR: sys_periph_reset -
-   floating connection - D:\fpga_project\cpu\23\system.mhs line 123 
+   floating connection - D:\fpga_project\cpu\23\system.mhs line 127 
 
 Performing Clock DRCs...
 
@@ -176,28 +199,39 @@ Managing hardware (BBD-specified) netlist files ...
 
 Managing cache ...
 IPNAME:microblaze INSTANCE:microblaze_0 - D:\fpga_project\cpu\23\system.mhs line
-27 - Copying cache implementation netlist
-IPNAME:plb_v46 INSTANCE:mb_plb - D:\fpga_project\cpu\23\system.mhs line 40 -
+31 - Copying cache implementation netlist
+IPNAME:plb_v46 INSTANCE:mb_plb - D:\fpga_project\cpu\23\system.mhs line 44 -
 Copying cache implementation netlist
-IPNAME:lmb_v10 INSTANCE:ilmb - D:\fpga_project\cpu\23\system.mhs line 47 -
+IPNAME:lmb_v10 INSTANCE:ilmb - D:\fpga_project\cpu\23\system.mhs line 51 -
 Copying cache implementation netlist
-IPNAME:lmb_v10 INSTANCE:dlmb - D:\fpga_project\cpu\23\system.mhs line 54 -
+IPNAME:lmb_v10 INSTANCE:dlmb - D:\fpga_project\cpu\23\system.mhs line 58 -
 Copying cache implementation netlist
-IPNAME:mdm INSTANCE:mdm_0 - D:\fpga_project\cpu\23\system.mhs line 101 - Copying
+IPNAME:lmb_bram_if_cntlr INSTANCE:dlmb_cntlr - D:\fpga_project\cpu\23\system.mhs
+line 65 - Copying cache implementation netlist
+IPNAME:lmb_bram_if_cntlr INSTANCE:ilmb_cntlr - D:\fpga_project\cpu\23\system.mhs
+line 74 - Copying cache implementation netlist
+IPNAME:bram_block INSTANCE:lmb_bram - D:\fpga_project\cpu\23\system.mhs line 83
+- Copying cache implementation netlist
+IPNAME:mdm INSTANCE:mdm_0 - D:\fpga_project\cpu\23\system.mhs line 105 - Copying
 cache implementation netlist
 IPNAME:proc_sys_reset INSTANCE:proc_sys_reset_0 -
-D:\fpga_project\cpu\23\system.mhs line 113 - Copying cache implementation
+D:\fpga_project\cpu\23\system.mhs line 117 - Copying cache implementation
 netlist
-IPNAME:led_k INSTANCE:led_k_0 - D:\fpga_project\cpu\23\system.mhs line 126 -
+IPNAME:led_k INSTANCE:led_k_0 - D:\fpga_project\cpu\23\system.mhs line 130 -
 Copying cache implementation netlist
-IPNAME:usart INSTANCE:usart_0 - D:\fpga_project\cpu\23\system.mhs line 135 -
+IPNAME:usart INSTANCE:usart_0 - D:\fpga_project\cpu\23\system.mhs line 139 -
+Copying cache implementation netlist
+IPNAME:i2c_software_master INSTANCE:i2c_software_master_0 -
+D:\fpga_project\cpu\23\system.mhs line 151 - Copying cache implementation
+netlist
+IPNAME:timer INSTANCE:timer_0 - D:\fpga_project\cpu\23\system.mhs line 161 -
 Copying cache implementation netlist
 
 Elaborating instances ...
-IPNAME:bram_block INSTANCE:lmb_bram - D:\fpga_project\cpu\23\system.mhs line 79
+IPNAME:bram_block INSTANCE:lmb_bram - D:\fpga_project\cpu\23\system.mhs line 83
 - elaborating IP
 IPNAME:clock_generator INSTANCE:clock_generator_0 -
-D:\fpga_project\cpu\23\system.mhs line 86 - elaborating IP
+D:\fpga_project\cpu\23\system.mhs line 90 - elaborating IP
 ClkGen elaborate status: PASSED
 ----------------------------------------
 ----------------------------------------
@@ -221,22 +255,16 @@ Running XST synthesis ...
 INFO:EDK:4211 - The following instances are synthesized with XST. The MPD option
    IMP_NETLIST=TRUE indicates that a NGC file is to be produced using XST
    synthesis. IMP_NETLIST=FALSE (default) instances are not synthesized. 
-INSTANCE:dlmb_cntlr - D:\fpga_project\cpu\23\system.mhs line 61 - Running XST
-synthesis
-INSTANCE:ilmb_cntlr - D:\fpga_project\cpu\23\system.mhs line 70 - Running XST
-synthesis
-INSTANCE:lmb_bram - D:\fpga_project\cpu\23\system.mhs line 79 - Running XST
-synthesis
-INSTANCE:clock_generator_0 - D:\fpga_project\cpu\23\system.mhs line 86 - Running
+INSTANCE:clock_generator_0 - D:\fpga_project\cpu\23\system.mhs line 90 - Running
 XST synthesis
 
 Running NGCBUILD ...
 IPNAME:system_clock_generator_0_wrapper INSTANCE:clock_generator_0 -
-D:\fpga_project\cpu\23\system.mhs line 86 - Running NGCBUILD
+D:\fpga_project\cpu\23\system.mhs line 90 - Running NGCBUILD
 INFO:EDK:3509 - NCF files should not be modified as they will be regenerated.
    If any constraint needs to be overridden, this should be done by modifying
    the data/system.ucf file.
 
 Rebuilding cache ...
 
-Total run time: 37.00 seconds
+Total run time: 16.00 seconds

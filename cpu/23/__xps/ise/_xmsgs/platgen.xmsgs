@@ -19,7 +19,7 @@ It is recommended that you use Global SearchPath preference to specify search pa
 <msg type="info" file="EDK" num="4130" delta="old" >IPNAME: <arg fmt="%s" index="1">plb_v46</arg>, INSTANCE:<arg fmt="%s" index="2">mb_plb</arg> - <arg fmt="%s" index="3">tool</arg> is overriding <arg fmt="%s" index="4">PARAMETER</arg> <arg fmt="%s" index="5">C_PLBV46_NUM_MASTERS</arg> value to <arg fmt="%s" index="6">2</arg> - <arg fmt="%s" index="7">F:\xilinx\embeded_development_kit\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\plb_v46_v1_05_a\data\plb_v46_v2_1_0.mpd line 79</arg> 
 </msg>
 
-<msg type="info" file="EDK" num="4130" delta="old" >IPNAME: <arg fmt="%s" index="1">plb_v46</arg>, INSTANCE:<arg fmt="%s" index="2">mb_plb</arg> - <arg fmt="%s" index="3">tool</arg> is overriding <arg fmt="%s" index="4">PARAMETER</arg> <arg fmt="%s" index="5">C_PLBV46_NUM_SLAVES</arg> value to <arg fmt="%s" index="6">3</arg> - <arg fmt="%s" index="7">F:\xilinx\embeded_development_kit\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\plb_v46_v1_05_a\data\plb_v46_v2_1_0.mpd line 80</arg> 
+<msg type="info" file="EDK" num="4130" delta="old" >IPNAME: <arg fmt="%s" index="1">plb_v46</arg>, INSTANCE:<arg fmt="%s" index="2">mb_plb</arg> - <arg fmt="%s" index="3">tool</arg> is overriding <arg fmt="%s" index="4">PARAMETER</arg> <arg fmt="%s" index="5">C_PLBV46_NUM_SLAVES</arg> value to <arg fmt="%s" index="6">5</arg> - <arg fmt="%s" index="7">F:\xilinx\embeded_development_kit\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\plb_v46_v1_05_a\data\plb_v46_v2_1_0.mpd line 80</arg> 
 </msg>
 
 <msg type="info" file="EDK" num="4130" delta="old" >IPNAME: <arg fmt="%s" index="1">plb_v46</arg>, INSTANCE:<arg fmt="%s" index="2">mb_plb</arg> - <arg fmt="%s" index="3">tool</arg> is overriding <arg fmt="%s" index="4">PARAMETER</arg> <arg fmt="%s" index="5">C_PLBV46_MID_WIDTH</arg> value to <arg fmt="%s" index="6">1</arg> - <arg fmt="%s" index="7">F:\xilinx\embeded_development_kit\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\plb_v46_v1_05_a\data\plb_v46_v2_1_0.mpd line 81</arg> 
@@ -34,7 +34,7 @@ It is recommended that you use Global SearchPath preference to specify search pa
 <msg type="info" file="EDK" num="4130" delta="old" >IPNAME: <arg fmt="%s" index="1">lmb_v10</arg>, INSTANCE:<arg fmt="%s" index="2">dlmb</arg> - <arg fmt="%s" index="3">tool</arg> is overriding <arg fmt="%s" index="4">PARAMETER</arg> <arg fmt="%s" index="5">C_LMB_NUM_SLAVES</arg> value to <arg fmt="%s" index="6">1</arg> - <arg fmt="%s" index="7">F:\xilinx\embeded_development_kit\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\lmb_v10_v2_00_b\data\lmb_v10_v2_1_0.mpd line 82</arg> 
 </msg>
 
-<msg type="info" file="EDK" num="4130" delta="new" >IPNAME: <arg fmt="%s" index="1">bram_block</arg>, INSTANCE:<arg fmt="%s" index="2">lmb_bram</arg> - <arg fmt="%s" index="3">tool</arg> is overriding <arg fmt="%s" index="4">PARAMETER</arg> <arg fmt="%s" index="5">C_MEMSIZE</arg> value to <arg fmt="%s" index="6">0x10000</arg> - <arg fmt="%s" index="7">F:\xilinx\embeded_development_kit\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\bram_block_v1_00_a\data\bram_block_v2_1_0.mpd line 78</arg> 
+<msg type="info" file="EDK" num="4130" delta="old" >IPNAME: <arg fmt="%s" index="1">bram_block</arg>, INSTANCE:<arg fmt="%s" index="2">lmb_bram</arg> - <arg fmt="%s" index="3">tool</arg> is overriding <arg fmt="%s" index="4">PARAMETER</arg> <arg fmt="%s" index="5">C_MEMSIZE</arg> value to <arg fmt="%s" index="6">0x10000</arg> - <arg fmt="%s" index="7">F:\xilinx\embeded_development_kit\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\bram_block_v1_00_a\data\bram_block_v2_1_0.mpd line 78</arg> 
 </msg>
 
 <msg type="info" file="EDK" num="4130" delta="old" >IPNAME: <arg fmt="%s" index="1">mdm</arg>, INSTANCE:<arg fmt="%s" index="2">mdm_0</arg> - <arg fmt="%s" index="3">tool</arg> is overriding <arg fmt="%s" index="4">PARAMETER</arg> <arg fmt="%s" index="5">C_SPLB_MID_WIDTH</arg> value to <arg fmt="%s" index="6">1</arg> - <arg fmt="%s" index="7">F:\xilinx\embeded_development_kit\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\mdm_v2_10_a\data\mdm_v2_1_0.mpd line 118</arg> 
@@ -61,10 +61,28 @@ It is recommended that you use Global SearchPath preference to specify search pa
 <msg type="info" file="EDK" num="4130" delta="old" >IPNAME: <arg fmt="%s" index="1">usart</arg>, INSTANCE:<arg fmt="%s" index="2">usart_0</arg> - <arg fmt="%s" index="3">tool</arg> is overriding <arg fmt="%s" index="4">PARAMETER</arg> <arg fmt="%s" index="5">C_SPLB_MID_WIDTH</arg> value to <arg fmt="%s" index="6">1</arg> - <arg fmt="%s" index="7">D:\fpga_project\cpu\23\pcores\usart_v5_00_a\data\usart_v2_1_0.mpd line 27</arg> 
 </msg>
 
-<msg type="warning" file="EDK" num="4181" delta="old" >PORT: <arg fmt="%s" index="1">usart_0_reset_pin</arg>, CONNECTOR: <arg fmt="%s" index="2">net_usart_0_reset_pin</arg> - floating connection - <arg fmt="%s" index="3">D:\fpga_project\cpu\23\system.mhs line 21</arg> 
+<msg type="info" file="EDK" num="4130" delta="old" >IPNAME: <arg fmt="%s" index="1">i2c_software_master</arg>, INSTANCE:<arg fmt="%s" index="2">i2c_software_master_0</arg> - <arg fmt="%s" index="3">tool</arg> is overriding <arg fmt="%s" index="4">PARAMETER</arg> <arg fmt="%s" index="5">C_SPLB_DWIDTH</arg> value to <arg fmt="%s" index="6">32</arg> - <arg fmt="%s" index="7">D:\fpga_project\cpu\23\pcores\i2c_software_master_v4_00_a\data\i2c_software_master_v2_1_0.mpd line 25</arg> 
 </msg>
 
-<msg type="warning" file="EDK" num="4181" delta="old" >PORT: <arg fmt="%s" index="1">Peripheral_Reset</arg>, CONNECTOR: <arg fmt="%s" index="2">sys_periph_reset</arg> - floating connection - <arg fmt="%s" index="3">D:\fpga_project\cpu\23\system.mhs line 123</arg> 
+<msg type="info" file="EDK" num="4130" delta="old" >IPNAME: <arg fmt="%s" index="1">i2c_software_master</arg>, INSTANCE:<arg fmt="%s" index="2">i2c_software_master_0</arg> - <arg fmt="%s" index="3">tool</arg> is overriding <arg fmt="%s" index="4">PARAMETER</arg> <arg fmt="%s" index="5">C_SPLB_NUM_MASTERS</arg> value to <arg fmt="%s" index="6">2</arg> - <arg fmt="%s" index="7">D:\fpga_project\cpu\23\pcores\i2c_software_master_v4_00_a\data\i2c_software_master_v2_1_0.mpd line 26</arg> 
+</msg>
+
+<msg type="info" file="EDK" num="4130" delta="old" >IPNAME: <arg fmt="%s" index="1">i2c_software_master</arg>, INSTANCE:<arg fmt="%s" index="2">i2c_software_master_0</arg> - <arg fmt="%s" index="3">tool</arg> is overriding <arg fmt="%s" index="4">PARAMETER</arg> <arg fmt="%s" index="5">C_SPLB_MID_WIDTH</arg> value to <arg fmt="%s" index="6">1</arg> - <arg fmt="%s" index="7">D:\fpga_project\cpu\23\pcores\i2c_software_master_v4_00_a\data\i2c_software_master_v2_1_0.mpd line 27</arg> 
+</msg>
+
+<msg type="info" file="EDK" num="4130" delta="old" >IPNAME: <arg fmt="%s" index="1">timer</arg>, INSTANCE:<arg fmt="%s" index="2">timer_0</arg> - <arg fmt="%s" index="3">tool</arg> is overriding <arg fmt="%s" index="4">PARAMETER</arg> <arg fmt="%s" index="5">C_SPLB_DWIDTH</arg> value to <arg fmt="%s" index="6">32</arg> - <arg fmt="%s" index="7">D:\fpga_project\cpu\23\pcores\timer_v1_00_a\data\timer_v2_1_0.mpd line 25</arg> 
+</msg>
+
+<msg type="info" file="EDK" num="4130" delta="old" >IPNAME: <arg fmt="%s" index="1">timer</arg>, INSTANCE:<arg fmt="%s" index="2">timer_0</arg> - <arg fmt="%s" index="3">tool</arg> is overriding <arg fmt="%s" index="4">PARAMETER</arg> <arg fmt="%s" index="5">C_SPLB_NUM_MASTERS</arg> value to <arg fmt="%s" index="6">2</arg> - <arg fmt="%s" index="7">D:\fpga_project\cpu\23\pcores\timer_v1_00_a\data\timer_v2_1_0.mpd line 26</arg> 
+</msg>
+
+<msg type="info" file="EDK" num="4130" delta="old" >IPNAME: <arg fmt="%s" index="1">timer</arg>, INSTANCE:<arg fmt="%s" index="2">timer_0</arg> - <arg fmt="%s" index="3">tool</arg> is overriding <arg fmt="%s" index="4">PARAMETER</arg> <arg fmt="%s" index="5">C_SPLB_MID_WIDTH</arg> value to <arg fmt="%s" index="6">1</arg> - <arg fmt="%s" index="7">D:\fpga_project\cpu\23\pcores\timer_v1_00_a\data\timer_v2_1_0.mpd line 27</arg> 
+</msg>
+
+<msg type="warning" file="EDK" num="4181" delta="new" >PORT: <arg fmt="%s" index="1">timer_0_reset_pin</arg>, CONNECTOR: <arg fmt="%s" index="2">net_timer_0_reset_pin</arg> - floating connection - <arg fmt="%s" index="3">D:\fpga_project\cpu\23\system.mhs line 27</arg> 
+</msg>
+
+<msg type="warning" file="EDK" num="4181" delta="new" >PORT: <arg fmt="%s" index="1">Peripheral_Reset</arg>, CONNECTOR: <arg fmt="%s" index="2">sys_periph_reset</arg> - floating connection - <arg fmt="%s" index="3">D:\fpga_project\cpu\23\system.mhs line 127</arg> 
 </msg>
 
 <msg type="info" file="EDK" num="4130" delta="old" >IPNAME: <arg fmt="%s" index="1">microblaze</arg>, INSTANCE:<arg fmt="%s" index="2">microblaze_0</arg> - <arg fmt="%s" index="3">tcl</arg> is overriding <arg fmt="%s" index="4">PARAMETER</arg> <arg fmt="%s" index="5">C_D_PLB</arg> value to <arg fmt="%s" index="6">1</arg> - <arg fmt="%s" index="7">F:\xilinx\embeded_development_kit\14.7\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\microblaze_v8_50_c\data\microblaze_v2_1_0.mpd line 233</arg> 

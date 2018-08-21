@@ -1,0 +1,10 @@
+-batch 
+-create timer 
+-ver 1.00.a 
+-dir "D:\fpga_project\cpu\23" 
+-lang verilog 
+-bus plbv46 s 
+-reg 2 
+-xps 
+-ise 
+-driver 

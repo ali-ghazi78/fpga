@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<DeviceUsageSummary rev="42">
+<DesignStatistics TimeStamp="Mon Aug 13 13:57:04 2018"><group name="NetStatistics">
+<item name="NumNets_Active" rev="42">
+<attrib name="value" value="11"/></item>
+<item name="NumNets_Gnd" rev="42">
+<attrib name="value" value="1"/></item>
+<item name="NumNodesOfType_Gnd_DOUBLE" rev="42">
+<attrib name="value" value="6"/></item>
+<item name="NumNodesOfType_Gnd_GENERIC" rev="42">
+<attrib name="value" value="10"/></item>
+<item name="NumNodesOfType_Gnd_IOBIN2OUT" rev="42">
+<attrib name="value" value="10"/></item>
+<item name="NumNodesOfType_Gnd_IOBOUTPUT" rev="42">
+<attrib name="value" value="10"/></item>
+<item name="NumNodesOfType_Gnd_OUTBOUND" rev="42">
+<attrib name="value" value="8"/></item>
+<item name="NumNodesOfType_Gnd_OUTPUT" rev="42">
+<attrib name="value" value="10"/></item>
+<item name="NumNodesOfType_Gnd_PADINPUT" rev="42">
+<attrib name="value" value="10"/></item>
+<item name="NumNodesOfType_Gnd_PINFEED" rev="42">
+<attrib name="value" value="10"/></item>
+<item name="NumNodesOfType_Gnd_QUAD" rev="42">
+<attrib name="value" value="1"/></item>
+<item name="NumNodesOfType_Gnd_SINGLE" rev="42">
+<attrib name="value" value="4"/></item>
+</group>
+<group name="SiteStatistics">
+<item name="IOB-IOBM" rev="42">
+<attrib name="value" value="6"/></item>
+<item name="IOB-IOBS" rev="42">
+<attrib name="value" value="4"/></item>
+</group>
+<group name="MiscellaneousStatistics">
+<item name="AGG_BONDED_IO" rev="41">
+<attrib name="value" value="10"/></item>
+<item name="AGG_IO" rev="41">
+<attrib name="value" value="10"/></item>
+<item name="AGG_LOCED_IO" rev="41">
+<attrib name="value" value="10"/></item>
+<item name="NUM_BONDED_IOB" rev="41">
+<attrib name="value" value="10"/></item>
+<item name="NUM_LOCED_IOB" rev="41">
+<attrib name="value" value="10"/></item>
+</group>
+</DesignStatistics>
+<DeviceUsage TimeStamp="Mon Aug 13 13:57:04 2018"><group name="SiteSummary">
+<item name="IOB" rev="42">
+<attrib name="total" value="1000000"/><attrib name="used" value="10"/></item>
+<item name="IOB_IMUX" rev="42">
+<attrib name="total" value="1000000"/><attrib name="used" value="1"/></item>
+<item name="IOB_INBUF" rev="42">
+<attrib name="total" value="1000000"/><attrib name="used" value="1"/></item>
+<item name="IOB_OUTBUF" rev="42">
+<attrib name="total" value="1000000"/><attrib name="used" value="9"/></item>
+<item name="PAD" rev="42">
+<attrib name="total" value="1000000"/><attrib name="used" value="10"/></item>
+</group>
+</DeviceUsage>
+<ReportConfigData TimeStamp="Mon Aug 13 13:57:04 2018"><group name="IOB_OUTBUF">
+<item name="DRIVEATTRBOX" rev="42">
+<attrib name="12" value="9"/></item>
+<item name="SLEW" rev="42">
+<attrib name="SLOW" value="9"/></item>
+<item name="SUSPEND" rev="42">
+<attrib name="3STATE" value="9"/></item>
+</group>
+<group name="PULL_OR_KEEP1">
+<item name="PULLTYPE" rev="38">
+<attrib name="PULLUP" value="1"/></item>
+</group>
+<group name="OLOGIC2">
+<item name="CLK0" rev="12">
+<attrib name="CLK0_INV" value="0"/><attrib name="CLK0" value="1"/></item>
+</group>
+<group name="OLOGIC2_OUTFF">
+<item name="CK0" rev="12">
+<attrib name="CK0_INV" value="0"/><attrib name="CK0" value="1"/></item>
+<item name="OUTFFTYPE" rev="12">
+<attrib name="FF" value="1"/></item>
+<item name="SRINIT_OQ" rev="12">
+<attrib name="0" value="1"/></item>
+</group>
+</ReportConfigData>
+<ReportPinData TimeStamp="Mon Aug 13 13:57:04 2018"><group name="IOB_OUTBUF">
+<item name="IN" rev="42">
+<attrib name="value" value="9"/></item>
+<item name="OUT" rev="42">
+<attrib name="value" value="9"/></item>
+<item name="TRI" rev="42">
+<attrib name="value" value="1"/></item>
+</group>
+<group name="BUFG_BUFG">
+<item name="I0" rev="12">
+<attrib name="value" value="1"/></item>
+<item name="O" rev="12">
+<attrib name="value" value="1"/></item>
+</group>
+<group name="PULL_OR_KEEP1">
+<item name="PAD" rev="38">
+<attrib name="value" value="1"/></item>
+</group>
+<group name="PAD">
+<item name="PAD" rev="42">
+<attrib name="value" value="10"/></item>
+</group>
+<group name="IOB_INBUF">
+<item name="OUT" rev="42">
+<attrib name="value" value="1"/></item>
+<item name="PAD" rev="42">
+<attrib name="value" value="1"/></item>
+</group>
+<group name="OLOGIC2">
+<item name="CLK0" rev="12">
+<attrib name="value" value="1"/></item>
+<item name="D1" rev="12">
+<attrib name="value" value="1"/></item>
+<item name="OQ" rev="12">
+<attrib name="value" value="1"/></item>
+</group>
+<group name="OLOGIC2_OUTFF">
+<item name="CK0" rev="12">
+<attrib name="value" value="1"/></item>
+<item name="D1" rev="12">
+<attrib name="value" value="1"/></item>
+<item name="Q" rev="12">
+<attrib name="value" value="1"/></item>
+</group>
+<group name="IOB_IMUX">
+<item name="I" rev="42">
+<attrib name="value" value="1"/></item>
+<item name="OUT" rev="42">
+<attrib name="value" value="1"/></item>
+</group>
+<group name="IOB">
+<item name="I" rev="42">
+<attrib name="value" value="1"/></item>
+<item name="O" rev="42">
+<attrib name="value" value="9"/></item>
+<item name="PAD" rev="42">
+<attrib name="value" value="10"/></item>
+<item name="T" rev="42">
+<attrib name="value" value="1"/></item>
+</group>
+<group name="BUFG">
+<item name="I0" rev="12">
+<attrib name="value" value="1"/></item>
+<item name="O" rev="12">
+<attrib name="value" value="1"/></item>
+</group>
+</ReportPinData>
+<CmdHistory>
+</CmdHistory>
+</DeviceUsageSummary>

@@ -1,0 +1,10 @@
+-batch 
+-create led 
+-ver 1.00.a 
+-dir "D:\fpga_project\cpu\26_axi" 
+-lang verilog 
+-bus axi4lite s 
+-reg 1 
+-xps 
+-ise 
+-driver 

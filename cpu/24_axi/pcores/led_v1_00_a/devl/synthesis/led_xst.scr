@@ -1,0 +1,12 @@
+run
+-opt_level 2
+-opt_mode speed
+-ifmt mixed
+-ifn "D:\fpga_project\cpu\24_axi\pcores\led_v1_00_a\devl\synthesis\led_xst.prj"
+-top led
+-p virtex6
+-ofn "D:\fpga_project\cpu\24_axi\pcores\led_v1_00_a\devl\synthesis\led_xst.ngc"
+-iobuf NO
+-rtlview YES
+-hierarchy_separator /
+-work_lib led_v1_00_a
